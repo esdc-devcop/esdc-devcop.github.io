@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# ESDC's Developer's Community of Practice
 
-You can use the [editor on GitHub](https://github.com/esdc-devcop/strategy/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Help out
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Feel free to fork and submit a PR to any of our repos.  
+Join our conversation in Slack, we have a channel in the [GC DevOps League](https://gcdevopsleague.slack.com) [#esdc-devcop](https://gcdevopsleague.slack.com/messages/CKS45C1ST/).  
 
-### Markdown
+## Strategy
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Each month we will focus on one core [topic](https://github.com/esdc-devcop/strategy/issues?q=is%3Aopen+is%3Aissue+label%3Atopic) that could be actioned and implemented by a team with less than half a day's work. 
+Each month will build on the previous where it will lead teams to developing better and faster applications though increasing automation and reducing feed-back loops.
 
-```markdown
-Syntax highlighted code block
+There are four key parts to making this all work:
 
-# Header 1
-## Header 2
-### Header 3
+- [Info Sessions](#info-sessions)
+- [Hands on Sessions](#hands-on-sessions)
+- [Management Support](#management-support)
+- [Community Building & Engagement](#community-building-engagement)
 
-- Bulleted
-- List
+### Info Sessions
 
-1. Numbered
-2. List
+Holding monthly sessions that will introduce the montly topic and layout the plan of how to implement the topic.
+These sessions will be hosted simmilar to 'Ted Talks' or 'Coffee and Learn' with a short Q&A period.
+These sessions should also regularly be bringing in members from other areas of IITB to give a less than 5 min update on what they are working on. 
+(Areas to concider: Testing, Accessibility, Security, QA, DBA)
 
-**Bold** and _Italic_ and `Code` text
+### Hands on Sessions
 
-[Link](url) and ![Image](src)
-```
+Thoughout the month we will be planning 'Workshops' or 'Hackathos' that are targeting teams to help them implement that topic of the month.
+We will look at using experts and the community as a whole to help with these events.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Management Support
 
-### Jekyll Themes
+We will be providing support to teams that are keen on implementing these topics but are reciving resistance from managment.
+Working with managment on what the precive to be preventing them from acepting the implementation to demonstrate how they can do it now.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/esdc-devcop/strategy/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Community Building & Engagement
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We will keep a focus on keeping the community engaged and invlovled in the various ativities though social media and advertising methods.
