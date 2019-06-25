@@ -5,6 +5,8 @@
 Feel free to fork and submit a PR to any of our repos, or ask to join as a Member.  
 Join our conversation in Slack, we have a channel in the [GC DevOps League](https://gcdevopsleague.slack.com) [#esdc-devcop](https://gcdevopsleague.slack.com/messages/CKS45C1ST/).  
 
+Also, [vote on Issues](https://github.com/esdc-devcop/strategy/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc) (with a `+1` reaction) that you think we should put a focus on doing first!
+
 ## Strategy
 
 Each month we will focus on one core [topic](https://github.com/esdc-devcop/strategy/issues?q=is%3Aopen+is%3Aissue+label%3Atopic) that could be actioned and implemented by a team with less than half a day's work. 
