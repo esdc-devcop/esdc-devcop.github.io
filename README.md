@@ -2,7 +2,7 @@
 
 ## Help out
 
-Feel free to fork and submit a PR to any of our repos.  
+Feel free to fork and submit a PR to any of our repos, or ask to join as a Member.  
 Join our conversation in Slack, we have a channel in the [GC DevOps League](https://gcdevopsleague.slack.com) [#esdc-devcop](https://gcdevopsleague.slack.com/messages/CKS45C1ST/).  
 
 ## Strategy
