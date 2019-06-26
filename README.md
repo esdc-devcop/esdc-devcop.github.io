@@ -27,7 +27,7 @@ There are four key parts to making this all work:
 ### Info Sessions
 
 Holding monthly sessions that will introduce the monthly topic and layout the plan of how to implement the topic.
-These sessions will be hosted similar to 'Ted Talks' or 'Coffee and Learn' with a short Q&A period.
+These sessions will be hosted similar to 'TED Talks' or 'Coffee and Learn' with a short Q&A period.
 These sessions should also regularly be bringing in members from other areas of IITB to give a less than 5 min update on what they are working on. 
 (Areas to conceder: Testing, Accessibility, Security, QA, DBA)
 
