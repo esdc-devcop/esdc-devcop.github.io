@@ -43,4 +43,4 @@ Working with management on what they perceive to be preventing them from accepti
 
 ### Community Building & Engagement
 
-We will also focus on keeping the community engaged and involved in the various activities through social media and advertising methods. 
+We will also focus on keeping the community engaged and involved in the various activities through social media and advertising methods.
