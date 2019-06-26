@@ -12,7 +12,7 @@ Also, [vote on Issues](https://github.com/esdc-devcop/strategy/issues?q=is%3Aiss
 Each month we will focus on one core [topic](https://github.com/esdc-devcop/strategy/issues?q=is%3Aopen+is%3Aissue+label%3Atopic) that could be actioned and implemented by a team with less than half a day's work. 
 Each month will build on the previous where it will lead teams to developing applications better and faster though increasing automation and reducing feedback loops.
 
-Throughout all of this wee will need to keep in mind that their are many types of technology being used in applications that will need these implementation;
+Throughout all of this, we will need to keep in mind that their are many types of technology being used in applications that will need these implementations;
 so our solutions need to be non-tool dependant but offer suggestions and recommendations for tools.
 We also need to keep in consideration that there are ~140 development teams in IITB and we will not have the capacity to help them all one-by-one.
 So we will need to lay out plans that can be adopted without our intervention.
