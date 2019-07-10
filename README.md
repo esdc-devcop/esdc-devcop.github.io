@@ -7,6 +7,10 @@ Join our conversation in Slack, we have a channel in the [GC DevOps League](http
 
 Also, [vote on Issues](https://github.com/esdc-devcop/strategy/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc) (with a `+1` reaction) that you think we should put a focus on doing first!
 
+## Guides
+
+* [GitLab-Runner Installation and Maintenance](guides/gitlab-runner.md)
+
 ## Strategy
 
 Each month we will focus on one core [topic](https://github.com/esdc-devcop/strategy/issues?q=is%3Aopen+is%3Aissue+label%3Atopic) that could be actioned and implemented by a team with less than half a day's work. 
