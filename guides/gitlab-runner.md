@@ -49,7 +49,7 @@ Sometimes after rebooting your computer, the runner will turn off and you will n
 To do that:
 * Run _Services_ with elevated permissions
 * Go to the _Properties_ of _gitlab-runner_ service
-* Go to _Log On_ and re-ender your _Password_
+* Go to _Log On_ and re-enter your _Password_
 * Click _OK_
 * Click _Start_
 
