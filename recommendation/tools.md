@@ -49,8 +49,8 @@ and the scope may identify a particular streem of development that that tool is 
     </tr>
     <tr>
       <td rowspan=3>Frameworks</td>
-      <td>.NET</td>
-      <td>DotNetTemplates MVC</td>
+      <td>.NET Core</td>
+      <td>DotNetTemplates Core (in dev)</td>
       <td><a href="https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates" rel="nofollow">https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates</a></td>
     </tr>
     <tr>
