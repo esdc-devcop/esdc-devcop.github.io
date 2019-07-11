@@ -8,7 +8,7 @@ https://docs.gitlab.com/runner/
 
 ## Installing
 
-For installing on the ESDC cooperate image follow the walkthrough GitLab provides for [installing on Windows](https://docs.gitlab.com/runner/install/windows.html).
+For installing on the ESDC cooperate image follow the walk-through GitLab provides for [installing on Windows](https://docs.gitlab.com/runner/install/windows.html).
 _You should probably be downloading the `x86` binary_.
 
 ### Registering runners
