@@ -16,7 +16,7 @@ It is great for managing releases and parallel development in large applications
 This model has two _primary_ branches, `master` & `dev`, that always exist.
 All other branches only exist as long as they are active (until merged into a _primary_ or _secondary_ branch).
 The _secondary_ branches include _`release`_, _`feature`_ and _`hotfix`_.
-Both the _primary_ and _secondary_ branches should be protected to only acept changes via a pull or merge request.
+Both the _primary_ and _secondary_ branches should be protected to only accept changes via a pull or merge request.
 The last branch is a _`working`_ branch.
 This branch is the only place you should be committing code against.
 
