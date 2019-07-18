@@ -1,6 +1,6 @@
 # Working With Git - Best Practices
 
-## Commiting Code
+## Committing Code
 
 Follow 3 simple rules:
 
