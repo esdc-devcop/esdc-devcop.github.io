@@ -6,7 +6,7 @@
 
 ## Steps
 
-1. Decouple projects and services
+1. _(Optional)_ Decouple projects and services
 1. Scann & Remove secrets (encrypt where nessasary)
 1. Migrate TFS Tasks to Issues (manual, overtime, after a release)
 1. Migrate the Code
