@@ -15,4 +15,25 @@ _todo verify steps_
 
 ## FAQ
 
-todo, add questions... and answer them.
+### Question 1
+Q: I read on web that it's possible to migrate the code changset history from TFS(TFSV) to Git. Did you succeeded? And should we do that ? 
+
+A:
+>
+### Question 2
+Q: Should we try or is it possible to migrate all the Work Items (User Story, Bug, tasks, etc) to GitLab? (Even if it's look very different)
+
+A: 
+>
+
+### Question 3
+Q: I saw multiples interesting functionalities like the ReadMe.md (i.e.: for the file project configuration) and the Wiki section in markdown. Would you recommand to use the Wiki functionnaliy for replacing our current SPECS document using MS Word. Personally  , I see a lot of pros to use GitLab. Centralize everything, any docs at the same place.
+
+A: 
+>
+
+### Question 4
+Q: Before GitLab, did you use TFS and all the related stuff arround UserStory, WorkItem, Bugs, etc. It looks very similar in GitLab. Are you using it in GitLab ? 
+
+A: 
+>
