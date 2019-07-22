@@ -2,7 +2,7 @@
 
 **Refrences:**  
 
-- [TFVC to Git](guides/tfvc-to-git.md)
+- [TFVC to Git](tfvc-to-git.md)
 
 ## Steps
 
