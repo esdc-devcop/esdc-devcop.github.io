@@ -1,6 +1,6 @@
 # TFS to GCcode (or GitHub)
 
-**Refrences:**  
+**Simmilar Guides:**  
 
 - [TFVC to Git](tfvc-to-git.md)
 
@@ -14,4 +14,14 @@
 
 ## FAQ
 
-_ask and answer questions_
+### How do you manage TFS related items like UserStory, WorkItem, Bugs, etc, in GitLab?
+
+> It looks very similar in GitLab.
+
+A:
+
+### Is it possible to migrate all the Work Items (User Story, Bug, tasks, etc) to GitLab?
+
+> Even if it's look very different.
+
+A:
