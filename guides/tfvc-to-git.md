@@ -2,7 +2,7 @@
 
 **Refrences:**  
 
-* [TFS to GCcode](guides/tfs-to-gccode.md)
+* [TFS to GCcode](tfs-to-gccode.md)
 
 ## Steps
 
