@@ -6,10 +6,7 @@
 
 ## Steps
 
-_todo verify steps_
-
-1. Refrence [Microsoft Docs](https://docs.microsoft.com/en-us/azure/devops/learn/git/migrate-from-tfvc-to-git)
-1. Follow the [guide from Xebia](https://xebia.com/blog/migrate-tfs-to-git/)
+1. Use the [GitTFS tool](https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/migrate_tfs_to_git.md)
 1. Add Git [Templates files](https://github.com/esdc-edsc/template-gabarit) to Repo
 1. Add labels with the [ESDC Label Generator](https://github.com/esdc-edsc/label-generator). _*Currently only works with GitLab._
 
@@ -21,7 +18,7 @@ _todo verify steps_
 > Should we do that?
 
 It is possible, and we have successfully done it a few times.
-You can follow the [guide from Xebia](https://xebia.com/blog/migrate-tfs-to-git/) to help you do it.
+You can use the [GitTFS tool](https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/migrate_tfs_to_git.md).
 
 Whether you should do it or not, we are investigating further and can't provide an answer at this time.
 
