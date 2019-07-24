@@ -35,3 +35,7 @@ It might be technically possible by custom writing a script using TFS and GitLab
 The platforms are diffrent engought that it could take more time to write the script than doing it manually.
 The other benifit of doing it manually is forcing your team to remove redundant and outdated information.
 (Don't move closed items.)
+
+### With the implementation of GitLab, we have to make our code open with the gouvernement. It also mean that we need to remove every bad habits like hardcoding secrets in code. We also need to remove every secrets from the web.config file. What are the recommended approachs for that ? 
+
+> When a new developper join an application, he will fork a solution from the repository. What would be the best way to insert all the necessary information in the web.config in order to make the application works. (i.e. : inserting secrets, server name, username for WSED, etc)
