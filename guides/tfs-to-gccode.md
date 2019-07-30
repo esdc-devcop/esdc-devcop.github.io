@@ -36,7 +36,15 @@ The platforms are diffrent engought that it could take more time to write the sc
 The other benifit of doing it manually is forcing your team to remove redundant and outdated information.
 (Don't move closed items.)
 
-### What is the recommended approach for managing secrets in code? 
+### What is the recommended approach for managing secrets in code?
 
 > When migrating to an open source platform (like GitHub or GCcode) we can't keep hardcoding secrets, and they need to be removed.
 > How should a new developer get the necessary information to input into the web.config? (i.e. : inserting secrets, server name, username, etc)
+
+Whatever tool is used to building your solution for deployment is also responsible for injecting the secrets into the config.
+Depending on the language and framework you are developing with, they may have diffren't methods to managing the injection of those secrets.
+You may need to custom write a build script to search and replace secrets from your builds secret enviornment variables.
+GitLab, Jenkins, Azure DevOps & TFS 2015 all have ways of managing secret enviornment variables for your scripted build.
+
+A new developer should likely be creating their own development secrets.
+As for non-user specific secrets, it likely will depend on the secret itself as to how the developer will obtain that information.
