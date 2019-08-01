@@ -48,3 +48,9 @@ GitLab, Jenkins, Azure DevOps & TFS 2015 all have ways of managing secret enviro
 
 A new developer should likely be creating their own development secrets.
 As for non-user specific secrets, it likely will depend on the secret itself as to how the developer will obtain that information.
+
+
+### What is the recommanded approach for working with an external testing team service?
+> When migrating on GcCode, all the functionnalities arround the work items changes. In GcCode, everything is related arround  `issues` combined with differents `labels`. 
+
+> With TFS, we have some strict workflow where work items have strict state flow. Testing team are working with tools like 'Microsoft Test Manager' which is tightly coupled with TFS.
