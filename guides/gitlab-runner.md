@@ -13,7 +13,7 @@ _You should probably be downloading the `x86` binary_.
 
 ### Registering runners
 
-You should register you runner to any project or group that you work on.
+You should register your runner to any project or group that you work on.
 If you do not have access to the runners settings ask the Owner of the Group or Maintainer of the Project you want to add it to, for the gitlab-ci token.
 
 ### Environment variables
