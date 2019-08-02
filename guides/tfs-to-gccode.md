@@ -51,5 +51,14 @@ As for non-user specific secrets, it likely will depend on the secret itself as 
 
 ### What is the recommended approach for working with an external testing team service?
 
-> When migrating on GCcode, all the functionality around the work items changes. In GcCode, everything is related around  `issues` combined with different `labels`.
-> With TFS, we have some strict workflow where work items have strict state flow. Testing team are working with tools like 'Microsoft Test Manager' which is tightly coupled with TFS.
+> When migrating on GCcode, all the functionality around the work items changes.
+> In GcCode, everything is related around  `issues` combined with different `labels`.
+> With TFS, we have some strict workflow where work items have strict state flow.
+> Testing team are working with tools like 'Microsoft Test Manager' which is tightly coupled with TFS.
+
+Get them to work with you.
+Create workflows that work with your development cycle; there is nothing stopping a team from having strict workflows and following them in GCcode.
+
+As far as the tool usage goes, developers and testers need to pick the tools that are best for the project.
+GCcode does function differently than TFS, however GCcode is more mature and flexible as a platform for development.
+If GCcode is the development platform (which it has been recommended to be) the testing platform (or tools) need to work with it, not the other way around.
