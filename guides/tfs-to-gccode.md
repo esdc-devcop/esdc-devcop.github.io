@@ -19,8 +19,8 @@
 > It looks very similar in GitLab.
 
 **Labels & Issue Templates!!!**  
-_Labels_ are critical to organizing _Issues_ (or _WorkItems_). _Bugs_ are given a `bug` label. Things like _UserStory_ is given an `enhancement` or `feature request` label.  
-_Issue Templates_ helps users creating new _Issues_ fill out all the necessary details for a standard _Issue_.
+_Labels_ are critical to organizing _Issues_ (or _WorkItems_). _Bugs_ are given a `bug` label. Things like _UserStory_ are given an `enhancement` or `feature request` label.  
+_Issue Templates_ help users creating new _Issues_ to fill out all of the necessary details for a standard _Issue_.
 You can copy `bug` and `feature` _Issue templates_ from the [ESDC Template](https://github.com/esdc-edsc/template-gabarit/tree/master/.github/ISSUE_TEMPLATE) project.
 
 We recommend that you start with the _key_ labels from [ESDC Label Generator](https://github.com/esdc-edsc/label-generator) project to add default labels to your project or group and add more as it helps you organize your project.
@@ -43,7 +43,7 @@ The other benefit of doing it manually is forcing your team to remove redundant 
 
 Whatever tool is used to building your solution for deployment is also responsible for injecting the secrets into the config.
 Depending on the language and framework you are developing with, they may have different methods to managing the injection of those secrets.
-You may need to custom write a build script to search and replace secrets from your builds secret environment variables.
+You may need to custom write a build script to search and replace secrets from your build's secret environment variables.
 GitLab, Jenkins, Azure DevOps & TFS 2015 all have ways of managing secret environment variables for your scripted build.
 
 A new developer should likely be creating their own development secrets.
