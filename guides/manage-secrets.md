@@ -69,10 +69,6 @@ It will look like that.
 * Store your secrets configurations file on a secure repository that only your team have access. (Example : Private Sharepoint or Private Share drive)
 * Exclude the file from the source code inside the `.gitignore` file.
 
-
-
 ## Inject the environment's secrets at the deployment pipeline
 
 When you are using a deployment pipeline like `git-runner` or `TFS Build/Release`, you will have to implement a mechanism for injecting the secrets into your configuration files automatically.
-
-
