@@ -1,6 +1,6 @@
 # GitLab-Runner Installation and Maintenance
 
-https://docs.gitlab.com/runner/
+[https://docs.gitlab.com/runner/](https://docs.gitlab.com/runner/)
 
 ## Requirements
 
@@ -9,7 +9,7 @@ https://docs.gitlab.com/runner/
 ## Installing
 
 For installing on the ESDC cooperate image follow the walk-through GitLab provides for [installing on Windows](https://docs.gitlab.com/runner/install/windows.html).
-_You should probably be downloading the `x86` binary_.
+_You should probably be downloading the `amd64` binary_.
 
 ### Registering runners
 
@@ -58,4 +58,5 @@ To do that:
 ### Updates
 
 Check every few months for updates (put a reminder in your calendar) and follow the instructions.  
-https://docs.gitlab.com/runner/install/windows.html#update
+[https://docs.gitlab.com/runner/install/windows.html#update](https://docs.gitlab.com/runner/install/windows.html#update)
+
