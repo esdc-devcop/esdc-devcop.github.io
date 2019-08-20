@@ -8,7 +8,7 @@
 
 1. Use the [GitTFS tool](https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/migrate_tfs_to_git.md)
 1. Add Git [Templates files](https://github.com/esdc-edsc/template-gabarit) to Repo
-1. Add labels with the [ESDC Label Generator](https://github.com/esdc-edsc/label-generator). _*Currently only works with GitLab._
+1. Add labels with the [ESDC Label Generator](https://github.com/esdc-edsc/label-generator)
 
 ## FAQ
 
