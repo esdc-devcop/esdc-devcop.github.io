@@ -10,10 +10,12 @@ Also, [vote on Issues](https://github.com/esdc-devcop/strategy/issues?q=is%3Aiss
 ## Guides
 
 * [GitLab-Runner Installation and Maintenance](guides/gitlab-runner.md)
+* [Working With Git - Best Practices](guides/working-with-git.md)
+* Migrating [TFVC to Git](guides/tfvc-to-git.md) and [TFS to GCcode](guides/tfs-to-gccode.md)
 
 ## Strategy
 
-Each month we will focus on one core [topic](https://github.com/esdc-devcop/strategy/issues?q=is%3Aopen+is%3Aissue+label%3Atopic) that could be actioned and implemented by a team with less than half a day's work. 
+Each month we will focus on one core [topic](https://github.com/esdc-devcop/strategy/issues?q=is%3Aopen+is%3Aissue+label%3Atopic) that could be actioned and implemented by a team with less than half a day's work.
 Each month will build on the previous where it will lead teams to developing applications better and faster though increasing automation and reducing feedback loops.
 
 Throughout all of this, we will need to keep in mind that their are many types of technology being used in applications that will need these implementations;
@@ -23,16 +25,16 @@ So we will need to lay out plans that can be adopted without our intervention.
 
 There are four key parts to making this all work:
 
-- [Info Sessions](#info-sessions)
-- [Hands on Sessions](#hands-on-sessions)
-- [Management Support](#management-support)
-- [Community Building & Engagement](#community-building-engagement)
+* [Info Sessions](#info-sessions)
+* [Hands on Sessions](#hands-on-sessions)
+* [Management Support](#management-support)
+* [Community Building & Engagement](#community-building-engagement)
 
 ### Info Sessions
 
 Holding monthly sessions that will introduce the monthly topic and layout the plan of how to implement the topic.
 These sessions will be hosted similar to 'TED Talks' or 'Coffee and Learn' with a short Q&A period.
-These sessions should also regularly be bringing in members from other areas of IITB to give a less than 5 min update on what they are working on. 
+These sessions should also regularly be bringing in members from other areas of IITB to give a less than 5 min update on what they are working on.
 (Areas to conceder: Testing, Accessibility, Security, QA, DBA)
 
 ### Hands on Sessions

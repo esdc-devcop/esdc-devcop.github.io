@@ -1,6 +1,6 @@
 # GitLab-Runner Installation and Maintenance
 
-https://docs.gitlab.com/runner/
+[https://docs.gitlab.com/runner/](https://docs.gitlab.com/runner/)
 
 ## Requirements
 
@@ -9,16 +9,16 @@ https://docs.gitlab.com/runner/
 ## Installing
 
 For installing on the ESDC corperate image follow the walk-through GitLab provides for [installing on Windows](https://docs.gitlab.com/runner/install/windows.html).
-_You should probably be downloading the `x86` binary_.
+_You should probably be downloading the `amd64` binary_.
 
 ### Registering runners
 
-You should register you runner to any project or group that you work on. 
+You should register your runner to any project or group that you work on.
 If you do not have access to the runners settings ask the Owner of the Group or Maintainer of the Project you want to add it to, for the gitlab-ci token.
 
 ### Environment variables
 
-You will likely need to add environment variables for your runner. 
+You will likely need to add environment variables for your runner.
 The environment variables should point to things that might be different on different computers.
 
 In order to add environment variables, edit the `config.toml` file where you installed the `gitlab-runner.exe` and add something similar to the following line under `executor` for each runner you have registered.
@@ -31,13 +31,15 @@ You may need to ask the Owner of the Group or Maintainer of the Project to updat
 
 ### Running PowerShell scripts
 
-You may need your runner to be able to execute PowerShell scripts. 
-In order to do that you will have to adjust the settings of the user account you installed the runner with.
-To do so, open a command prompt with elevated permissions and execute the following line (where _currentuser_ is the user account you installed the runner with).
-```bash
+You may need your runner to be able to execute PowerShell scripts.
+In order to do that you will have to adjust the settings of the user account you run the runner with.
+To do so, open a powershell command line as the user you run the runner with, and execute the following line.
+
+```powershell
 set-executionpolicy remotesigned -scope currentuser
 ```
-> You can view the settings for all users by running `get-executionpolicy`
+
+> You can view the settings for all users by running `get-executionpolicy -list`
 
 ## Maintenance
 
@@ -56,4 +58,5 @@ To do that:
 ### Updates
 
 Check every few months for updates (put a reminder in your calendar) and follow the instructions.  
-https://docs.gitlab.com/runner/install/windows.html#update
+[https://docs.gitlab.com/runner/install/windows.html#update](https://docs.gitlab.com/runner/install/windows.html#update)
+
