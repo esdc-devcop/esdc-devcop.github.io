@@ -19,14 +19,16 @@ and the scope may identify a particular streem of development that that tool is 
       <td rowspan=2>Source control</td>
       <td>Technology</td>
       <td>Git</td>
-      <td><a href="https://git-scm.com/" rel="nofollow">https://git-scm.com/</a></td>
+      <td><a href="https://git-scm.com/" rel="nofollow">https://git-scm.com/</a><br />
+        <a href="https://esdc-devcop.github.io/strategy/guides/tfvc-to-git.html" rel="nofollow">https://esdc-devcop.github.io/strategy/guides/tfvc-to-git.html</a></td>
     </tr>
     <tr>
       <td>Management</td>
       <td>GCcode</td>
       <td><a href="https://gccode.ssc-spc.gc.ca/iitb-dgiit/" rel="nofollow">https://gccode.ssc-spc.gc.ca/iitb-dgiit/</a><br/>
         <a href="https://github.com/esdc-edsc/Welcome/blob/master/Recommendations/GCcode.md" rel="nofollow">https://github.com/esdc-edsc/Welcome/blob/master/Recommendations/GCcode.md</a><br/>
-        <a href="https://github.com/gcdevops/strategie-devops-strategy/blob/WorkInProgress/Content/OfficalGCCodeSupport.md">https://github.com/gcdevops/strategie-devops-strategy/blob/WorkInProgress/Content/OfficalGCCodeSupport.md</a></td>
+        <a href="https://github.com/gcdevops/strategie-devops-strategy/blob/WorkInProgress/Content/OfficalGCCodeSupport.md">https://github.com/gcdevops/strategie-devops-strategy/blob/WorkInProgress/Content/OfficalGCCodeSupport.md</a><br />
+        <a href="https://esdc-devcop.github.io/strategy/guides/tfs-to-gccode.html" rel="nofollow">https://esdc-devcop.github.io/strategy/guides/tfs-to-gccode.html</a></td>
     </tr>
     <tr>
       <td>Logging</td>
