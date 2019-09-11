@@ -2,7 +2,7 @@
 
 This is a list of tools that are recommended for use in ESDC. 
 
-The topic identifies the area of work that the tool is recommened for, 
+The topic identifies the area of work that the tool is recommended for, 
 and the scope may identify a particular streem of development that that tool is recommened for.
 
 <table>
