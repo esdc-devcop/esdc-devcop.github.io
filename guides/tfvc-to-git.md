@@ -12,7 +12,7 @@
 * [Git-TFS downloaded](http://git-tfs.com/)
 * Rights to create a new repository in your hosting platform for your team (TFS, GCcode, GitHub)
 
-### Converting
+### Migration Steps
 
 1. Clone existing TFS project
    ```bash
