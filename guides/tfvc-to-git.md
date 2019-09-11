@@ -6,9 +6,33 @@
 
 ## Steps
 
-1. Use the [GitTFS tool](https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/migrate_tfs_to_git.md)
-1. Add Git [Templates files](https://github.com/esdc-edsc/template-gabarit) to Repo
-1. Add labels with the [ESDC Label Generator](https://github.com/esdc-edsc/label-generator)
+### Prerequisites
+
+* [Git installed](https://git-scm.com/download/win)
+* [Git-TFS downloaded](http://git-tfs.com/)
+* Rights to create a new repository in your hosting platform for your team (TFS, GCcode, GitHub)
+
+### Converting
+
+1. Clone existing TFS project
+   ```bash
+   git tfs quick-clone "http://tfs.intra.dmz:8080/tfs/projectcollection" "$/EWS-SWE" .
+   ```
+1. Push to remote repository
+   ```bash
+   git remote add origin "http://tfs.intra.dmz:8080/tfs/projectcollection/EWS-SWE/_git/EWS-SWE-Git"
+   git push --all origin
+   ```
+
+### Looking forward - finishing up
+
+* Robust your repository
+  * Add Git [Templates files](https://github.com/esdc-edsc/template-gabarit) to the Repository
+  * Add labels with the [ESDC Label Generator](https://github.com/esdc-edsc/label-generator) (for GCcode & GitHub)
+* Learn about Git
+  * [Git documentation](https://git-scm.com/doc)
+  * [PluralSight training - Mastering Git](https://app.pluralsight.com/library/courses/mastering-git/)
+  * [Learn Git branching](https://learngitbranching.js.org/)
 
 ## FAQ
 
