@@ -12,7 +12,6 @@
 1. Migrate the Code
 1. Build your pipeline
 
-
 > ### Setting up a GCcode repository for your team
 >
 > 1. Create a personal account in [GCcode](https://gccode.ssc-spc.gc.ca/)
