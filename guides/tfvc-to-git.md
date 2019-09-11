@@ -29,6 +29,9 @@
 * Robust your repository
   * Add Git [Templates files](https://github.com/esdc-edsc/template-gabarit) to the Repository
   * Add labels with the [ESDC Label Generator](https://github.com/esdc-edsc/label-generator) (for GCcode & GitHub)
+
+### Further Reading
+
 * Learn about Git
   * [Git documentation](https://git-scm.com/doc)
   * [PluralSight training - Mastering Git](https://app.pluralsight.com/library/courses/mastering-git/)
