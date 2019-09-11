@@ -25,7 +25,7 @@
 
 > ### Setting up a GitHub repository for your team
 > 
-> 1. Create a personal account in [GCcode](https://gccode.ssc-spc.gc.ca/)
+> 1. Create a personal account in [GitHub](https://github.com/)
 > 1. Create a new Organization for your team
 > 1. Create an issue in the [ESDC Welcome](https://github.com/esdc-edsc/Welcome/issues/new?assignees=&labels=team&template=list-team-group.md&title=) project and fill out the `List Team Group` template
 > 1. Fork the [template-gabarit](https://github.com/esdc-edsc/template-gabarit) project into your new ogranization.
