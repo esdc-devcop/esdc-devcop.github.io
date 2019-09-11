@@ -24,7 +24,7 @@
    git push --all origin
    ```
 
-### Looking forward - finishing up
+### Looking forward & finishing up
 
 * Robust your repository
   * Add Git [Templates files](https://github.com/esdc-edsc/template-gabarit) to the Repository
