@@ -1,6 +1,6 @@
 # Recommended Tools
 
-This is a list of Tools that are recommended for use in ESDC. 
+This is a list of tools that are recommended for use in ESDC. 
 
 The topic identifies the area of work that the tool is recommened for, 
 and the scope may identify a particular streem of development that that tool is recommened for.
