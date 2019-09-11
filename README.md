@@ -9,7 +9,7 @@ Also, [vote on Issues](https://github.com/esdc-devcop/strategy/issues?q=is%3Aiss
 
 ## Recommendations
 
-* [Recommeneded tools](/recommendation/tools.md)
+* [Recommended tools](/recommendation/tools.md)
 
 ## Guides
 
