@@ -16,7 +16,7 @@ and the scope may identify a particular stream of development that that tool is 
   </thead>
   <tbody>
     <tr>
-      <td rowspan=2>Source control</td>
+      <td rowspan=2>Source Control</td>
       <td>Technology</td>
       <td>Git</td>
       <td><a href="https://git-scm.com/" rel="nofollow">https://git-scm.com/</a><br />
