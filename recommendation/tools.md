@@ -46,7 +46,7 @@ and the scope may identify a particular stream of development that that tool is 
     <tr>
       <td>Programming Language</td>
       <td>-</td>
-      <td>typeScript</td>
+      <td>TypeScript</td>
       <td><a href="https://www.typescriptlang.org/" rel="nofollow">https://www.typescriptlang.org/</a></td>
     </tr>
     <tr>
