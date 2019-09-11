@@ -12,6 +12,30 @@
 1. Migrate the Code
 1. Build your pipeline
 
+
+> ### Setting up a GCcode repository for your team
+>
+> 1. Create a personal account in [GCcode](https://gccode.ssc-spc.gc.ca/)
+> 1. Create an issue in the [ESDC Welcome](https://gccode.ssc-spc.gc.ca/iitb-dgiit/welcome/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) project and fill out the `New Team Group Request` template
+> 1. Wait for access to your new group
+> 1. Create a `New project`
+> 1. Clone and copy the files from the [template-gabarit](https://github.com/esdc-edsc/template-gabarit) project
+> 1. Use the [label-generator](https://github.com/esdc-edsc/label-generator) to add default starter labels to your project
+> 
+> _Note: You may need to run the commands in the [ESDC Development Setup - `proxy-yes.bat`](https://github.com/esdc-edsc/ESDC-Development-Setup/blob/master/proxy-scripts/proxy-yes.bat) to be able to clone from GitHub._
+
+> ### Setting up a GitHub repository for your team
+> 
+> 1. Create a personal account in [GCcode](https://gccode.ssc-spc.gc.ca/)
+> 1. Create a new Organization for your team
+> 1. Create an issue in the [ESDC Welcome](https://github.com/esdc-edsc/Welcome/issues/new?assignees=&labels=team&template=list-team-group.md&title=) project and fill out the `List Team Group` template
+> 1. Fork the [template-gabarit](https://github.com/esdc-edsc/template-gabarit) project into your new ogranization.
+> 1. Change the _Settings_ of that forked project to be a _Template repository_ (under _Repository name_)
+> 1. Create a new repository using the forked template project as the template
+> 1. Use the [label-generator](https://github.com/esdc-edsc/label-generator) to add default starter labels to your project
+> 
+> _Note: You may need to run the commands in the [ESDC Development Setup - `proxy-yes.bat`](https://github.com/esdc-edsc/ESDC-Development-Setup/blob/master/proxy-scripts/proxy-yes.bat) to be able to clone from GitHub._
+
 ## FAQ
 
 ### How do you manage TFS related items like UserStory, WorkItem, Bugs, etc, in GitLab?

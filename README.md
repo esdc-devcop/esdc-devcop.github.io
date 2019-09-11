@@ -11,7 +11,7 @@ Also, [vote on Issues](https://github.com/esdc-devcop/strategy/issues?q=is%3Aiss
 
 * [GitLab-Runner Installation and Maintenance](guides/gitlab-runner.md)
 * [Working With Git - Best Practices](guides/working-with-git.md)
-* Migrating [TFVC to Git](guides/tfvc-to-git.md) and [TFS to GCcode](guides/tfs-to-gccode.md)
+* Migrating [TFVC to Git](guides/tfvc-to-git.md), [TFS to GCcode](guides/tfs-to-gccode.md) and [Set Up GCcode](guides/setup-gccode.md)
 
 ## Strategy
 
