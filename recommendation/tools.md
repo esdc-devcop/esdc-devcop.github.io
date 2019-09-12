@@ -16,7 +16,7 @@ and the scope may identify a particular stream of development that that tool is 
   </thead>
   <tbody>
     <tr>
-      <td rowspan=2>Source Control</td>
+      <td rowspan="2">Source Control</td>
       <td>Technology</td>
       <td>Git</td>
       <td><a href="https://git-scm.com/" rel="nofollow">https://git-scm.com/</a><br />
@@ -50,7 +50,7 @@ and the scope may identify a particular stream of development that that tool is 
       <td><a href="https://www.typescriptlang.org/" rel="nofollow">https://www.typescriptlang.org/</a></td>
     </tr>
     <tr>
-      <td rowspan=3>Frameworks</td>
+      <td rowspan="3">Frameworks</td>
       <td>.NET Core</td>
       <td>DotNetTemplates Core (in dev)</td>
       <td><a href="https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates" rel="nofollow">https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates</a></td>
@@ -66,8 +66,8 @@ and the scope may identify a particular stream of development that that tool is 
       <td><a href="https://cli.vuejs.org/" rel="nofollow">https://cli.vuejs.org/</a></td>
     </tr>
     <tr>
-      <td rowspan=4>Unit Testing Framework</td>
-      <td rowspan=3>.NET</td>
+      <td rowspan="4">Unit Testing Framework</td>
+      <td rowspan="3">.NET</td>
       <td>NSubstitute</td>
       <td><a href="https://nsubstitute.github.io/" rel="nofollow">https://nsubstitute.github.io/</a></td>
     </tr>
