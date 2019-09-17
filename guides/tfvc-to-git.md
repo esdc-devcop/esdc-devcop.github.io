@@ -65,5 +65,7 @@ This allows you to version your documentation with the code it's documenting.
 Taking it a step further to change your documentation to markdown is even better.
 That will allow you to track changes through your documentation, and allow you to begin to automate the documentation.
 
-Wiki's should be used to document parts of your application that don't (are very unlikely to) change from version to version.
+Wikis should be used to document client or user information while documentation related to development or deployments should be kept with the source code itself.
 You should also feel free to not use the _Wiki_ itself at all, if all the documentation is in the source control.
+If you are not using a Wiki, any client or user documentation should be published to a website; 
+[GitLab Pages](https://about.gitlab.com/product/pages/) and [GitHub Pages](https://pages.github.com/) are both great services to host this type of documentation.
