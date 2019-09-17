@@ -10,9 +10,11 @@
 
 * [Git installed](https://git-scm.com/download/win)
 * [Git-TFS downloaded](http://git-tfs.com/)
-* Rights to create a new repository in your hosting platform for your team (TFS, GCcode, GitHub)
+* Rights to create a new repository in your hosting platform for your team ([TFS](tfs.intra.dmz:8080/tfs/ProjectCollection), [GCcode](https://gccode.ssc-spc.gc.ca/iitb-dgiit/welcome), [GitHub](https://github.com/esdc-edsc/Welcome))
 
 ### Migration Steps
+
+If moving to GCcode or GitHub, please follow [TFS to GCcode](tfs-to-gccode.md) first.
 
 1. Clone existing TFS project
    ```bash
