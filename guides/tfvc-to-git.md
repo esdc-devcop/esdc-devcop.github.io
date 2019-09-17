@@ -67,5 +67,5 @@ That will allow you to track changes through your documentation, and allow you t
 
 Wikis should be used to document client or user information while documentation related to development or deployments should be kept with the source code itself.
 You should also feel free to not use the _Wiki_ itself at all, if all the documentation is in the source control.
-In a case where you are not using a Wiki, the client and or user documenation should then be published to a website; 
+If you are not using a Wiki, any client or user documentation should be published to a website; 
 GitLab & GitHub Pages would be a great method to publish this documentation.
