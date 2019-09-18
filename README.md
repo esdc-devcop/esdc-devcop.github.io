@@ -10,7 +10,7 @@ Also, [vote on Issues](https://github.com/esdc-devcop/strategy/issues?q=is%3Aiss
 
 ## Our content
 
-To know what we are all about and what our goals are, read up on our **[strategy](strategy.md)**!
+To know what we are all about and what our goals are, read up on our **[strategy](./strategy.md)**!
 This is also a collection of recommendations and guides. Some of these documents are directly related to our topics presented at the monthly DevCoP sessions.
 
 ### Recommendations
