@@ -27,7 +27,7 @@ These sessions should also regularly be bringing in members from other areas of 
 Throughout the month, we will be planning 'Workshops' or 'Hackathons' that are targeting teams to help them implement that topic of the month.
 We will look at using experts and the community as a whole to help with these events.
 
-The dates for all info/hands-on session for 2019/20 can be found **[here](dates.md)**. 
+The dates for all info/hands-on sessions for 2019/20 can be found **[here](dates.md)**! 
 
 ## Management Support
 
