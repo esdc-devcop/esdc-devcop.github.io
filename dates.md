@@ -9,7 +9,7 @@ Session   1 | Presentation | Tuesday,   September 10th | 10am | Move Source Cont
 Session   2 | Presentation | Tuesday,   October 15th | 10am | Make use of the GitFlow branching model
   -| Workshop | Monday   October 21st | 12pm | Make use of the GitFlow branching model
 Session   3 | Presentation | Tuesday   November 12th | 10am | Establish code review #3
-  -| Workshop | Tuesday   November 19th | 12pm | TBD
+  -| Workshop | Tuesday   November 19th | 12pm | Establish code review #3
 Session   4 | Presentation | Tuesday   December 3rd  | 10am | TBD
   -| Workshop | Tuesday   December 10th | 12pm | TBD
 Session   5 | Presentation | Tuesday   January 14th | 10am | TBD
