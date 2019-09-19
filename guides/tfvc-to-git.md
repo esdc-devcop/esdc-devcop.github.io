@@ -17,10 +17,13 @@
 If moving to GCcode or GitHub, please follow [TFS to GCcode](tfs-to-gccode.md) first.
 
 1. Clone existing TFS project
+
    ```bash
    git tfs quick-clone "http://tfs.intra.dmz:8080/tfs/projectcollection" "$/EWS-SWE" .
    ```
+
 1. Push to remote repository
+
    ```bash
    git remote add origin "http://tfs.intra.dmz:8080/tfs/projectcollection/EWS-SWE/_git/EWS-SWE-Git"
    git push --all origin
@@ -69,5 +72,5 @@ That will allow you to track changes through your documentation, and allow you t
 
 Wikis should be used to document client or user information while documentation related to development or deployments should be kept with the source code itself.
 You should also feel free to not use the _Wiki_ itself at all, if all the documentation is in the source control.
-If you are not using a Wiki, any client or user documentation should be published to a website; 
+If you are not using a Wiki, any client or user documentation should be published to a website;
 [GitLab Pages](https://about.gitlab.com/product/pages/) and [GitHub Pages](https://pages.github.com/) are both great services to host this type of documentation.
