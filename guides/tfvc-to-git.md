@@ -74,3 +74,8 @@ Wikis should be used to document client or user information while documentation 
 You should also feel free to not use the _Wiki_ itself at all, if all the documentation is in the source control.
 If you are not using a Wiki, any client or user documentation should be published to a website;
 [GitLab Pages](https://about.gitlab.com/product/pages/) and [GitHub Pages](https://pages.github.com/) are both great services to host this type of documentation.
+
+### What are the real benefits of using Git into a long term perspective?
+
+> Actually, we are working with TFS and everything works fine. Why should we move to Git? What are the real benefit in short term and long term? 
+
