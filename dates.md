@@ -1,6 +1,6 @@
 # Session Dates
 
-Here are the dates for the Presentations and Workshops for 2019/20. 
+Here are the dates for the Presentations and Workshops for 2019/20.
 
 Session | Pres/Workshop | Date | Time | Topic  
 -- | -- | -- | -- | --
