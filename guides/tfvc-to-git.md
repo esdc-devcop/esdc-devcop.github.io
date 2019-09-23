@@ -77,5 +77,26 @@ If you are not using a Wiki, any client or user documentation should be publishe
 
 ### What are the real benefits of using Git into a long term perspective?
 
-> Actually, we are working with TFS and everything works fine. Why should we move to Git? What are the real benefit in short term and long term? 
+> Actually, we are working with TFS and everything works fine.
+> Why should we move to Git?
+> What are the real benefit in short term and long term?
 
+Even if Git is hard to start with at the begining, there is so much pro in short and long term.
+Here is a very interesting  [article](https://www.continuousimprover.com/2015/06/why-you-should-abandon-tfs-source.html) about that subject.
+
+#### The branching model
+
+* Creating/Switch branch in Git takes miliseconds/seconds rather than minutes/hours in TFSV
+* The complete repository is stored locally on your computer so you dont have any dependencies on the Network.
+* It's so easy to work with branch that you can literaly create much you want and isolate every code change or features.
+* The merge tool is a way more better in Git rather than TFSV. There is less merge conflict in Git due to a strong 3 ways merge mechanism.
+* Every Git platforms contains a Pull Request feature that allow every one to collaborate and share knowledge about an isolate code change or feature.
+* You don't have to check-out explicitly any changes. Everything is tracked by Git automatically.
+
+#### Communuties and third party tools
+
+* Git is the most used source version control tool in the world.
+* You have a large community.
+* All the new popular third party tools are designed based on Git.
+* Even **Microsoft** made the switch. Git is now the default source control system in TFS/Azure DevOps. They also maintain the entire .NET framework on [GitHub](https://github.com/dotnet) as an open source project.
+* Even if you are using TFS(or Azure DevOps), GitHub, GitLab, Jira, etc. You can use Git as official source code version control system.
