@@ -22,6 +22,7 @@ You will likely need to add environment variables for your runner.
 The environment variables should point to things that might be different on different computers.
 
 In order to add environment variables, edit the `config.toml` file where you installed the `gitlab-runner.exe` and add something similar to the following line under `executor` for each runner you have registered.
+
 ```toml
 environment = ["NUGET_PATH=C:\\Git\\NuGet\\NuGet.exe", "MSBUILD_PATH=C:\\Program Files (x86)\\MSBuild\\14.0\\Bin\\msbuild.exe"]
 ```
@@ -49,6 +50,7 @@ _We are looking into the option of writing a script that would do all this for y
 
 Sometimes after rebooting your computer, the runner will turn off and you will need to give the user permissions to "logon as a service".
 To do that:
+
 * Run _Services_ with elevated permissions
 * Go to the _Properties_ of _gitlab-runner_ service
 * Go to _Log On_ and re-enter your _Password_
@@ -59,4 +61,3 @@ To do that:
 
 Check every few months for updates (put a reminder in your calendar) and follow the instructions.  
 [https://docs.gitlab.com/runner/install/windows.html#update](https://docs.gitlab.com/runner/install/windows.html#update)
-
