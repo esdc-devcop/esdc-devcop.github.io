@@ -62,8 +62,8 @@ Documenting the post-mortem will contribute to the knowledge base and allow us t
 * Once reviewed the post-mortem can be published openly.
 * The goal is to share post-mortems to the widest possible audience that would benefit from the knowledge or lessons imparted
 
-## Post-mortem Template and Sample 
-https://landing.google.com/sre/sre-book/chapters/postmortem/
+## Postmortem Templates and Samples 
+[Google's Postmortem Example](https://landing.google.com/sre/sre-book/chapters/postmortem/)
 
 ## Do's 
 * Focus on identifying the contributing causes of the incident without indicting any individual or team for bad or inappropriate behavior
@@ -83,12 +83,17 @@ https://landing.google.com/sre/sre-book/chapters/postmortem/
 * Leave action items unresolved
 
 ## Templates & Tools 
-https://landing.google.com/sre/sre-book/chapters/postmortem/
-https://github.com/etsy/morgue
+[Google's Postmortem Example](https://landing.google.com/sre/sre-book/chapters/postmortem/)
+
+[Etsy Morgue](https://github.com/etsy/morgue)
+
 
 ## References 
-https://en.wikipedia.org/wiki/Postmortem_documentation
-https://landing.google.com/sre/sre-book/chapters/postmortem-culture/
-https://landing.google.com/sre/workbook/chapters/postmortem-analysis/
-https://www.infoq.com/articles/postmortems-etsy/
+[https://en.wikipedia.org/wiki/Postmortem_documentation](https://en.wikipedia.org/wiki/Postmortem_documentation)
+
+[https://landing.google.com/sre/sre-book/chapters/postmortem-culture/](https://landing.google.com/sre/sre-book/chapters/postmortem-culture/)
+
+[https://landing.google.com/sre/workbook/chapters/postmortem-analysis/](https://landing.google.com/sre/workbook/chapters/postmortem-analysis/)
+
+[https://www.infoq.com/articles/postmortems-etsy/](https://www.infoq.com/articles/postmortems-etsy/)
 
