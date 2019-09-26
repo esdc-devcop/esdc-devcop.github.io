@@ -4,7 +4,7 @@
 
 Follow these simple steps:
 
-1. Commit often. - As _often_ as you change a pice of code that is testable and compiles.
+1. Commit often. - _Whenever_ you change a piece of code that is testable and compiles.
 1. Push your _working_ branch at the end of each "development session" (before walking away from your computer for lunch).
 1. Request a PR/MR (with review) before having more than 100 lines changed
 1. Squash _working_ branch commits when merging into a primary or secondary branch.
