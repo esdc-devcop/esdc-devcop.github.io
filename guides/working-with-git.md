@@ -24,6 +24,44 @@ This branch is the only place you should be committing code against.
 GitFlow can be fairly simplistic but also get very complex.
 We recommend you try to keep it as simple as possible, but don't shy away from getting complex if that is what the project requires.
 
+### Alternative Flows
+
+#### GitFlow
+
+[https://datasift.github.io/gitflow/IntroducingGitFlow.html](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
+
+- **Main Benefit:** Advantageous given ESDC's development & release cycles; works really well with it.
+- **Main Issue:** Suggests a non-rebase/squashing method, causes messy history.
+
+#### OneFlow
+
+[https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow)
+
+- **Main Benefit:** Has only one single long-lived branch with most benefits from GitFlow
+- **Main Issue:** Requires a lot more knowledge of how Git works
+
+#### Microsoft Release Flow
+
+[https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow)
+
+- **Main Benefit:** TBD
+- **Main Issue:** Drops production/release branches, higher potential for code loss
+
+#### GitHub Flow
+
+[https://githubflow.github.io/](https://githubflow.github.io/)
+
+- **Main Benefit:** Works well with GitHub and Continuos Deployment
+- **Main Issue:** Deploys code to production before being merged to the "Main/Master/Default" branch.
+
+#### GitLab Flow
+
+[https://docs.gitlab.com/ee/workflow/gitlab_flow.html](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
+
+- **Main Benefit:** Works well with GitLab and Continuos Delivery
+- **Main Issue:** Uses cherry-picks for prod fixes.
+
+
 ## Code Review
 
 Follow a few simple ideas:
