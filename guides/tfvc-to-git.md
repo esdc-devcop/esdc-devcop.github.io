@@ -1,46 +1,84 @@
-# TFVC (Team Foundation Version Control) to Git
+# Migrate from TFVC to Git in TFS, GCcode or GitHub
 
-**Similar Guides:**  
+## Getting Started
+
+1. [Prerequisites](#prerequisites)
+1. [Create Remote Git Repository](#create-remote-git-repository)
+1. [Clone to Local Git Repository](#clone-to-local-git-repository)
+1. [Set Origin to Remote Git Repository](#connect-to-remote-git-repository)
+1. [Push to Remote Git Repository](#push-to-remote-repository)
+1. [Additional Improvement](#additional-improvement)
+1. [Further Reading](#further-reading)
+1. [FAQ](#faq)
+
+## Prerequisites
+
+The prerequisites stay the same regardless of where you choose to host your Git repositories (TFS, GCcode or GitHub).
+
+In order to migrate your TFVC repository into a Git repository you will need:
+
+- **Git for Windows**:
+    - If you don't have it installed, request it from the [Application Catalogue](http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/en) *(ESDC intranet only)* or download it directly from [Git for Windows](https://gitforwindows.org/).
+- **git-tfs**:
+    - If you don't have it installed, download it from their [GitHub repository](https://github.com/git-tfs/git-tfs). ([direct link](https://github.com/git-tfs/git-tfs/releases/download/v0.30/GitTfs-0.30.0.zip))
+- **Permissions to create repositories in target Git hosting service**:
+    - If you don't have the appropriate permissions, request the permissions from your team's source control administrator or request that a new Git repository to be created.
+
+## Create Remote Git Repository
+
+- Create remote Git repository.
+- Create remote Git repository on TFS.
+- Create remote Git repository on GCcode.
+- Create remote Git repository on GitHub.
+
+## Clone to Local Git Repository
+
+- Ignore files, folders or branches using `.gitignore`.
+- Clone TFVC repository from TFS to local Git repository.
+- Remove secrets or encrypt as necessary.
+
+```bash
+git tfs quick-clone "http://tfs.intra.dmz:8080/tfs/projectcollection" "$/EWS-SWE" .
+```
+
+## Set Origin to Remote Git Repository
+
+- Connect local Git repository to remote Git repository.
+- Connect local Git repository to remote Git repository on TFS.
+- Connect local Git repository to remote Git repository on GCcode.
+- Connect local Git repository to remote Git repository on GitHub.
+
+```bash
+git remote add origin "http://tfs.intra.dmz:8080/tfs/projectcollection/EWS-SWE/_git/EWS-SWE-Git"
+git remote set-url origin "http://tfs.intra.dmz:8080/tfs/projectcollection/EWS-SWE/_git/EWS-SWE-Git"
+```
+
+## Push to Remote Git Repository
+
+- Push local Git repository into remote Git repository.
+
+```bash
+git push --all origin
+```
+
+## Additional Improvement
+
+###  Productivity tips for your repository.
+
+* Add Git [Templates files](https://github.com/esdc-edsc/template-gabarit) to the Repository
+* Add labels with the [ESDC Label Generator](https://github.com/esdc-edsc/label-generator) (for GCcode & GitHub)
+
+## Further Reading
+
+### Learn about Git
+
+* [Git documentation](https://git-scm.com/doc)
+* [PluralSight training - Mastering Git](https://app.pluralsight.com/library/courses/mastering-git/)
+* [Learn Git branching](https://learngitbranching.js.org/)
+
+### Similar Guides
 
 * [TFS to GCcode](tfs-to-gccode.md)
-
-## Steps
-
-### Prerequisites
-
-* [Git installed](https://git-scm.com/download/win)
-* [Git-TFS downloaded](http://git-tfs.com/)
-* Rights to create a new repository in your hosting platform for your team ([TFS](tfs.intra.dmz:8080/tfs/ProjectCollection), [GCcode](https://gccode.ssc-spc.gc.ca/iitb-dgiit/welcome), [GitHub](https://github.com/esdc-edsc/Welcome))
-
-### Migration Steps
-
-If moving to GCcode or GitHub, please follow [TFS to GCcode](tfs-to-gccode.md) first.
-
-1. Clone existing TFS project
-
-   ```bash
-   git tfs quick-clone "http://tfs.intra.dmz:8080/tfs/projectcollection" "$/EWS-SWE" .
-   ```
-
-1. Push to remote repository
-
-   ```bash
-   git remote add origin "http://tfs.intra.dmz:8080/tfs/projectcollection/EWS-SWE/_git/EWS-SWE-Git"
-   git push --all origin
-   ```
-
-### Suggested Improvements
-
-* Robust your repository
-  * Add Git [Templates files](https://github.com/esdc-edsc/template-gabarit) to the Repository
-  * Add labels with the [ESDC Label Generator](https://github.com/esdc-edsc/label-generator) (for GCcode & GitHub)
-
-### Further Reading
-
-* Learn about Git
-  * [Git documentation](https://git-scm.com/doc)
-  * [PluralSight training - Mastering Git](https://app.pluralsight.com/library/courses/mastering-git/)
-  * [Learn Git branching](https://learngitbranching.js.org/)
 
 ## FAQ
 
