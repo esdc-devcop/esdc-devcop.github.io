@@ -1,10 +1,24 @@
 # Migrate from TFVC to Git in TFS, GCcode or GitHub
 
-## Getting Started
+## Background
+
+This guide outlines the steps required to migrate your repositories from 
+Microsoft's TFVC into Git-based repositories.
+
+> **IMPORTANT :** Since TFS 2015 and Azure DevOps both support Git-based
+> repositories, this doesn't force your teams to move away from them!
+
+Here are the available Git hosting services:
+
+* TFS 2015
+* GCcode
+* GitHub
+
+## In this article
 
 1. [Prerequisites](#prerequisites)
 1. [Create Remote Git Repository](#create-remote-git-repository)
-1. [Clone to Local Git Repository](#clone-to-local-git-repository)
+1. [Clone TFVC to Local Git Repository](#clone-tfvc-to-local-git-repository)
 1. [Set Origin to Remote Git Repository](#connect-to-remote-git-repository)
 1. [Push to Remote Git Repository](#push-to-remote-repository)
 1. [Additional Improvement](#additional-improvement)
@@ -18,39 +32,116 @@ The prerequisites stay the same regardless of where you choose to host your Git 
 In order to migrate your TFVC repository into a Git repository you will need:
 
 - **Git for Windows**:
-    - If you don't have it installed, request it from the [Application Catalogue](http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/en) *(ESDC intranet only)* or download it directly from [Git for Windows](https://gitforwindows.org/).
+    - If you don't have it installed, request it from the [Application Catalogue *(ESDC intranet only)*](http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/en) or download it directly 
+    from [Git for Windows](https://gitforwindows.org/).
+
 - **git-tfs**:
     - If you don't have it installed, download it from their [GitHub repository](https://github.com/git-tfs/git-tfs). ([direct link](https://github.com/git-tfs/git-tfs/releases/download/v0.30/GitTfs-0.30.0.zip))
+    - To install `git-tfs`, extract the content of the ZIP file to a folder 
+    (i.e. `C:\git-tfs`) and add that folder's location to the `PATH` system 
+    environment variables.
+
 - **Permissions to create repositories in target Git hosting service**:
-    - If you don't have the appropriate permissions, request the permissions from your team's source control administrator or request that a new Git repository to be created.
+    - If you don't have the appropriate permissions, request them from your 
+    team's source control administrator or request that a new Git repository 
+    to be created.
 
 ## Create Remote Git Repository
 
-- Create remote Git repository.
-- Create remote Git repository on TFS.
-- Create remote Git repository on GCcode.
-- Create remote Git repository on GitHub.
+First up, you will need to create a new Git repository in your Git hosting 
+service (TFS 2015, GCcode or GitHub).
 
-## Clone to Local Git Repository
+The process will be different depending on the hosting service selected by your 
+team. However, it remains simple and effortless as long as you have the 
+appropriate permissions to create repositories.
 
-- Ignore files, folders or branches using `.gitignore`.
-- Clone TFVC repository from TFS to local Git repository.
-- Remove secrets or encrypt as necessary.
+### TFS
 
-```bash
-git tfs quick-clone "http://tfs.intra.dmz:8080/tfs/projectcollection" "$/EWS-SWE" .
+1. Open the web portal for your TFS team project in a browser.
+1. Navigate to the `CODE` section using the navbar.
+1. Open the list of repositories by clicking the small *down arrow* ↓ beside your TFVC repository.
+1. Click `+ New repository...`. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-create-repo-tfs1.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 75%; height: 75%" />
+1. By default, Git should already be selected as the `Type`. If not, pick `Git` from the list.
+1. Enter the name of your new Git repository. (i.e. `my-git-repo`) <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-create-repo-tfs2.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 75%; height: 75%" />
+1. Finally, click `Create`.
+
+### GCcode
+
+1. Open [GCcode](https://gccode.ssc-spc.gc.ca/) in a browser.
+1. On the right side of the navbar, click the `+ (New)` menu and select `New project`. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-create-repo-gccode1.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 75%; height: 75%" />
+1. Enter the name of your new project (i.e. `Git Playground`). This will automatically fill out the `Project slug`. The project slugs are *URL-friendly* versions of project names.
+1. Pick your team's GCcode project for the `Project URL` field.
+1. Select the appropriate level of visibility for the project.
+> **IMPORTANT :** Keep in mind that GCcode is only accessible on the Government of 
+> Canada network. Therefore, `Public` means available to other departments and 
+> agencies. For more information about visibility, see "[Public access - Visibility of projects](https://gccode.ssc-spc.gc.ca/help/public_access/public_access)".
+1. Finally, click `Create project`.
+
+### GitHub
+
+*Steps will be added shortly.*
+
+## Clone TFVC to Local Git Repository
+
+1. Open a `PowerShell` terminal.
+1. Create a folder for your local repositories (i.e. `C:\sources`) and navigate into that folder.
+```batch
+mkdir c:\sources
+cd c:\sources
 ```
+1. Download the `gitignore` template into this folder and rename it to 
+`.gitignore` (with a leading `.`). ([direct link]({{site.url}}/assets/tfvc-to-git/gitignore))
+1. Find the line with `# TODO: Add items here.` and replace it with items that 
+should be ignored during this migration. Good candidates for this include any 
+installers, archived release branches, etc. To read more about the patterns to 
+match items, see [Git ignore patterns](https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patterns)
+from Atlassian.
+```bash
+# Files, folders or branches to be ignored during TFVC migration. Use the Git 
+# ignore patterns to list items.
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patterns
+dev-tools-installers/
+releases/
+```
+1. Create a folder to clone your Git repository into (i.e. 
+`C:\sources\my-git-repo`) and navigate into that folder.
+```batch
+mkdir c:\sources\my-git-repo
+cd c:\sources\my-git-repo
+```
+1. Clone your TFVC repository from TFS to a local Git repository. Don't forget 
+to specify the `.gitignore` file that you copied earlier!
+```bash
+git tfs quick-clone "http://tfs.intra.dmz:8080/tfs/projectcollection" "$/DevCoP-CdpDev" . --gitignore="c:\sources\.gitignore"
+```
+> **IMPORTANT :** There is a bug with the latest version of the 
+> `libgit2/libgit2sharp` library being used by `git-tfs` which reports an 
+> unhandled `System.AccessViolationException` exception. However, this is thrown 
+> during the clean-up phase after the migration which doesn't affect the clone 
+> process. You can read more about this on the [issue page](https://github.com/git-tfs/git-tfs/issues/1281) 
+> for this bug.
+1. Add a `.gitignore` file at the root for your solution.
+1. Remove secrets or encrypt as necessary.
 
 ## Set Origin to Remote Git Repository
 
-- Connect local Git repository to remote Git repository.
-- Connect local Git repository to remote Git repository on TFS.
-- Connect local Git repository to remote Git repository on GCcode.
-- Connect local Git repository to remote Git repository on GitHub.
+### TFS
+
+<img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-tfs.jpg" style="display: block; margin: auto; width: 75%; height: 75%" />
+
+### GCcode
+
+<img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-gccode.jpg" style="display: block; margin: auto; width: 60%; height: 60%" />
+
+### GitHub
+
+*Steps will be added shortly.*
+
+### Connect local Git repository to remote Git repository.
 
 ```bash
-git remote add origin "http://tfs.intra.dmz:8080/tfs/projectcollection/EWS-SWE/_git/EWS-SWE-Git"
-git remote set-url origin "http://tfs.intra.dmz:8080/tfs/projectcollection/EWS-SWE/_git/EWS-SWE-Git"
+git remote add origin "http://tfs.intra.dmz:8080/tfs/ProjectCollection/DevCoP-CdpDev/_git/my-new-repo"
+git remote set-url origin "http://tfs.intra.dmz:8080/tfs/ProjectCollection/DevCoP-CdpDev/_git/my-new-repo"
 ```
 
 ## Push to Remote Git Repository
