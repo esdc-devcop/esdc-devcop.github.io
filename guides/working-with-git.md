@@ -34,10 +34,13 @@ At ESDC we have extracted a few requirements from our release process.
 
 - Can manage a long term production equivalent branch separated from the day-to-day development
   - Why? Our production release are sometimes 6 months or more apart.
-  - What Models don't meet this need? OneFlow, GitHub Flow, GitLab Flow
+  - What Models don't meet this need? GitHub Flow
 - Can manage a simi-long term staging branch separated from the day-to-day development and production code
   - Why? We have Testing and QA cycles that last about 2 months.
-  - What Models don't meet this need? Microsoft Release Flow, GitHub Flow, GitLab Flow
+  - What Models don't meet this need? Microsoft Release Flow, GitHub Flow
+- Can handel emergency releases in a way that doesn't alter from the regular branching
+  - Why? ERs can be high stress situations, we don't want to change the "regular" method for moving code from branch to branch.
+  - What Models don't meet this need? Microsoft Release Flow, GitLab Flow
 
 #### Popular Flows
 
@@ -46,14 +49,14 @@ At ESDC we have extracted a few requirements from our release process.
 [https://datasift.github.io/gitflow/IntroducingGitFlow.html](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 
 - **Main Benefit:** Advantageous given ESDC's development & release cycles; works really well with it.
-- **Main Issue:** Suggests a non-rebase/squashing method, causes messy history.
+- **Main Issue:** Suggests a non-rebase/squashing method, can causes messy history.
 
 ##### OneFlow
 
 [https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow)
 
-- **Main Benefit:** Has only one single long-lived branch with most benefits from GitFlow
-- **Main Issue:** Requires a lot more knowledge of how Git works
+- **Main Benefit:** TBD (Almost the same as GitFlow with a cleaner history)
+- **Main Issue:** Hard to learn when new to Git
 
 ##### Microsoft Release Flow
 
