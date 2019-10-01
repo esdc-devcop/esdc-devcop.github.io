@@ -39,35 +39,37 @@ At ESDC we have extracted a few requirements from our release process.
   - Why? We have Testing and QA cycles that last about 2 months.
   - What Models don't meet this need? Microsoft Release Flow, GitHub Flow, GitLab Flow
 
-#### GitFlow
+#### Popular Flows
+
+##### GitFlow
 
 [https://datasift.github.io/gitflow/IntroducingGitFlow.html](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 
 - **Main Benefit:** Advantageous given ESDC's development & release cycles; works really well with it.
 - **Main Issue:** Suggests a non-rebase/squashing method, causes messy history.
 
-#### OneFlow
+##### OneFlow
 
 [https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow)
 
 - **Main Benefit:** Has only one single long-lived branch with most benefits from GitFlow
 - **Main Issue:** Requires a lot more knowledge of how Git works
 
-#### Microsoft Release Flow
+##### Microsoft Release Flow
 
 [https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow)
 
 - **Main Benefit:** TBD
 - **Main Issue:** Drops production/release branches, higher potential for code loss
 
-#### GitHub Flow
+##### GitHub Flow
 
 [https://githubflow.github.io/](https://githubflow.github.io/)
 
 - **Main Benefit:** Works well with GitHub and Continuos Deployment
 - **Main Issue:** Deploys code to production before being merged to the "Main/Master/Default" branch.
 
-#### GitLab Flow
+##### GitLab Flow
 
 [https://docs.gitlab.com/ee/workflow/gitlab_flow.html](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
 
