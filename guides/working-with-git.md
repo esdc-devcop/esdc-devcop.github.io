@@ -24,7 +24,20 @@ This branch is the only place you should be committing code against.
 GitFlow can be fairly simplistic but also get very complex.
 We recommend you try to keep it as simple as possible, but don't shy away from getting complex if that is what the project requires.
 
-### Alternative Flows
+### Picking a Branching Model
+
+#### Projects Requirements
+
+Whatever project you are working on, it may have different requirements and needs from the branching model you choose.
+Mostly the branching model you choose depends on your release model.
+At ESDC we have extracted a few requirements from our release process.
+
+- Can manage a long term production equivalent branch separated from the day-to-day development
+  - Why? Our production release are sometimes 6 months or more apart.
+  - What Models don't meet this need? OneFlow, GitHub Flow, GitLab Flow
+- Can manage a simi-long term staging branch separated from the day-to-day development and production code
+  - Why? We have Testing and QA cycles that last about 2 months.
+  - What Models don't meet this need? Microsoft Release Flow, GitHub Flow, GitLab Flow
 
 #### GitFlow
 
