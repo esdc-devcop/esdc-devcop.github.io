@@ -34,50 +34,26 @@ At ESDC we have extracted a few requirements from our release process.
 
 - Can manage a long term production equivalent branch separated from the day-to-day development
   - Why? Our production release are sometimes 6 months or more apart.
-  - What Models don't meet this need? GitHub Flow
 - Can manage a simi-long term staging branch separated from the day-to-day development and production code
   - Why? We have Testing and QA cycles that last about 2 months.
-  - What Models don't meet this need? Microsoft Release Flow, GitHub Flow
 - Can handel emergency releases in a way that doesn't alter from the regular branching
   - Why? ERs can be high stress situations, we don't want to change the "regular" method for moving code from branch to branch.
-  - What Models don't meet this need? Microsoft Release Flow, GitLab Flow
 
-#### Popular Flows
+#### Popular Flows Comparison
 
-##### GitFlow
-
-[https://datasift.github.io/gitflow/IntroducingGitFlow.html](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
-
-- **Main Benefit:** Advantageous given ESDC's development & release cycles; works really well with it.
-- **Main Issue:** Suggests a non-rebase/squashing method, can causes messy history.
-
-##### OneFlow
-
-[https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow)
-
-- **Main Benefit:** TBD (Almost the same as GitFlow with a cleaner history)
-- **Main Issue:** Hard to learn when new to Git
-
-##### Microsoft Release Flow
-
-[https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow)
-
-- **Main Benefit:** TBD
-- **Main Issue:** Drops production/release branches, higher potential for code loss
-
-##### GitHub Flow
-
-[https://githubflow.github.io/](https://githubflow.github.io/)
-
-- **Main Benefit:** Works well with GitHub and Continuos Deployment
-- **Main Issue:** Deploys code to production before being merged to the "Main/Master/Default" branch.
-
-##### GitLab Flow
-
-[https://docs.gitlab.com/ee/workflow/gitlab_flow.html](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
-
-- **Main Benefit:** Works well with GitLab and Continuos Delivery
-- **Main Issue:** Uses cherry-picks for prod fixes.
+| Key Features | [GitFlow](https://datasift.github.io/gitflow/IntroducingGitFlow.html) | [OneFlow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow) | [Microsoft Release Flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow) | [GitHub Flow](https://githubflow.github.io/) | [GitLab Flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html) |
+| --- | --- | --- | --- | --- | --- |
+| Production and Development branches segragated | :heavy_check_mark: | :o: (Optional) | :heavy_check_mark: | :x: | :heavy_check_mark: |
+| Manages Staging/Release branches | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: |
+| ER branching simmilar to "regular" | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
+| Easy to follow history | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
+| Easy to learn when new to Git | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | :x: |
+| Maintains all main branches (reduced chances of code loss) | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| Designed for Continous Deployment | :x: | :x: | :x: | :heavy_check_mark: | :x: |
+| Designed for Continous Delivery | :x: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
+|  Can handel Continous Delivery | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|  Can handel Continous Integration | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Deploys to Production from "Main/Master/Default" branch | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 
 ## Code Review
 
