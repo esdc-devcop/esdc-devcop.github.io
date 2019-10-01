@@ -79,12 +79,11 @@ At ESDC we have extracted a few requirements from our release process.
 - **Main Benefit:** Works well with GitLab and Continuos Delivery
 - **Main Issue:** Uses cherry-picks for prod fixes.
 
-
 ## Code Review
 
 Follow a few simple ideas:
 
-* When approving a merge, you are just as responsible for the changes as the person who made them.
-* Only review changed lines.
-* Anyone on the project can raise concerns (blocking) on a PR/MR, even if they are not assigned to it.
-* Can be blocked for any reason, including empty line spaces or too many changes in one PR/MR.
+- When approving a merge, you are just as responsible for the changes as the person who made them.
+- Only review changed lines.
+- Anyone on the project can raise concerns (blocking) on a PR/MR, even if they are not assigned to it.
+- Can be blocked for any reason, including empty line spaces or too many changes in one PR/MR.
