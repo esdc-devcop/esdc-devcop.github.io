@@ -89,17 +89,18 @@ appropriate permissions to create repositories.
 mkdir c:\sources
 cd c:\sources
 ```
-1. Download the `gitignore` template into this folder and rename it to 
-`.gitignore` (with a leading `.`). ([direct link]({{site.url}}/assets/tfvc-to-git/gitignore))
-1. Find the line with `# TODO: Add items here.` and replace it with items that 
-should be ignored during this migration. Good candidates for this include any 
-installers, archived release branches, etc. To read more about the patterns to 
-match items, see [Git ignore patterns](https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patterns)
+1. Download the latest Visual Studio `.gitignore` template from GitHub into this folder. A `.gitignore` file specifies intentionally untracked files that Git should ignore. To read more about `.gitignore` files, see [Ignoring Files](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) of the [Pro Git](http://git-scm.com/book) book.
+<!-- [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -->
+```bash
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
+-UseBasicParsing -OutFile .gitignore
+```
+1. Add patterns to match files, folders or branches from your TFVC repository in TFS that should be ignored
+during this migration process. Good candidates for this include any installers, 
+archived release branches, etc. To read more about the patterns to match items, 
+see [Git ignore patterns](https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patterns)
 from Atlassian.
 ```bash
-# Files, folders or branches to be ignored during TFVC migration. Use the Git 
-# ignore patterns to list items.
-# https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patterns
 dev-tools-installers/
 releases/
 ```
@@ -121,6 +122,11 @@ git tfs quick-clone "http://tfs.intra.dmz:8080/tfs/projectcollection" "$/DevCoP-
 > process. You can read more about this on the [issue page](https://github.com/git-tfs/git-tfs/issues/1281) 
 > for this bug.
 1. Add a `.gitignore` file at the root for your solution.
+<!-- [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -->
+```bash
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
+-UseBasicParsing -OutFile .gitignore
+```
 1. Remove secrets or encrypt as necessary.
 
 ## Set Origin to Remote Git Repository
@@ -139,18 +145,22 @@ git tfs quick-clone "http://tfs.intra.dmz:8080/tfs/projectcollection" "$/DevCoP-
 
 ### Connect local Git repository to remote Git repository.
 
+1. Use the URL that you copied from the previous section to connect your local 
+repository to the remote one.
 ```bash
 git remote add origin "http://tfs.intra.dmz:8080/tfs/ProjectCollection/DevCoP-CdpDev/_git/my-new-repo"
-git remote set-url origin "http://tfs.intra.dmz:8080/tfs/ProjectCollection/DevCoP-CdpDev/_git/my-new-repo"
 ```
 
 ## Push to Remote Git Repository
 
-- Push local Git repository into remote Git repository.
-
+1. Push local Git repository into remote Git repository.
 ```bash
 git push --all origin
 ```
+1. Enter your Windows credentials as requested. If you make a typo, simply press 
+`CTRL + C` to cancel the command and try again.
+> **TIP :** Press the *up arrow* ↑ to bring back the last command from the 
+> terminal's history.
 
 ## Additional Improvement
 
