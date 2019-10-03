@@ -14,13 +14,13 @@ Here are the available Git hosting services:
 * GCcode
 * GitHub
 
-## In this article
+## In this guide
 
 1. [Prerequisites](#prerequisites)
 1. [Create Remote Git Repository](#create-remote-git-repository)
 1. [Clone TFVC to Local Git Repository](#clone-tfvc-to-local-git-repository)
-1. [Set Origin to Remote Git Repository](#connect-to-remote-git-repository)
-1. [Push to Remote Git Repository](#push-to-remote-repository)
+1. [Connect to Remote Git Repository](#connect-to-remote-git-repository)
+1. [Push to Remote Git Repository](#push-to-remote-git-repository)
 1. [Additional Improvement](#additional-improvement)
 1. [Further Reading](#further-reading)
 1. [FAQ](#faq)
@@ -129,15 +129,29 @@ Invoke-WebRequest -Uri https://raw.githubusercontent.com/github/gitignore/master
 ```
 1. Remove secrets or encrypt as necessary.
 
-## Set Origin to Remote Git Repository
+## Connect to Remote Git Repository
+
+In order to push your local repository to your selected Git hosting service, it
+needs to know *where* the remote repository is located. This is done by adding
+a `remote` in with a Git command. To read more about remotes, see [Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) from the [Pro Git](https://git-scm.com/book/en/v2) book.
+
+The following steps will help you find the URL to your remote Git repository.
 
 ### TFS
 
-<img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-tfs.jpg" style="display: block; margin: auto; width: 75%; height: 75%" />
+1. Open the web portal for your TFS team project in a browser.
+1. Navigate to the `CODE` section using the navbar.
+1. Open the list of repositories by clicking the small *down arrow* ↓ beside your TFVC repository.
+1. Navigate to your project's page by clicking on its name. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-tfs1.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 45%; height: 45%" />
+1. Click the `Copy to clipboard` button. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-tfs2.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 75%; height: 75%" />
 
 ### GCcode
 
-<img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-gccode.jpg" style="display: block; margin: auto; width: 60%; height: 60%" />
+1. Open [GCcode](https://gccode.ssc-spc.gc.ca/) in a browser.
+1. Filter the projects to find the one your are looking for.
+1. Navigate to your project's page by clicking on its name. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-gccode1.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 135%; height: 135%" />
+1. Click the `Clone` button on the right side of the screen.
+1. Click the `Copy URL to clipboard` button. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-gccode2.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 135%; height: 135%" />
 
 ### GitHub
 
@@ -158,7 +172,7 @@ git remote add origin "http://tfs.intra.dmz:8080/tfs/ProjectCollection/DevCoP-Cd
 git push --all origin
 ```
 1. Enter your Windows credentials as requested. If you make a typo, simply press 
-`CTRL + C` to cancel the command and try again.
+`CTRL + C` to cancel the command and try again. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-push-to-remote.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 75%; height: 75%" />
 > **TIP :** Press the *up arrow* ↑ to bring back the last command from the 
 > terminal's history.
 
