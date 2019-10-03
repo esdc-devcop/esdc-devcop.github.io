@@ -11,6 +11,16 @@
      numbered lists are broken when rendered by the Architect GitHub Pages 
      theme. -->
 
+<style type="text/css">
+    .images { 
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1px solid;
+    }
+</style>
+
 # Migrate from TFVC to Git
 
 ## Background
@@ -73,15 +83,18 @@ appropriate permissions to create repositories.
 1. Open the web portal for your TFS team project in a browser.
 1. Navigate to the `CODE` section using the navbar.
 1. Open the list of repositories by clicking the small *down arrow* ↓ beside your TFVC repository.
-1. Click `+ New repository...`. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-create-repo-tfs1.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 75%; height: 75%" />
+1. Click `+ New repository...`.
+![Create Repo in TFS - Step 4](/assets/tfvc-to-git/tfvc-to-git-create-repo-tfs1.jpg){: .images style="width: 60%;"}
 1. By default, Git should already be selected as the `Type`. If not, pick `Git` from the list.
-1. Enter the name of your new Git repository. (i.e. `my-git-repo`) <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-create-repo-tfs2.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 75%; height: 75%" />
+1. Enter the name of your new Git repository. (i.e. `my-git-repo`)
+![Create Repo in TFS - Step 5](/assets/tfvc-to-git/tfvc-to-git-create-repo-tfs2.jpg){: .images style="width: 75%;"}
 1. Finally, click `Create`.
 
 ### GCcode
 
 1. Open [GCcode](https://gccode.ssc-spc.gc.ca/) in a browser.
-1. On the right side of the navbar, click the `+ (New)` menu and select `New project`. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-create-repo-gccode1.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 75%; height: 75%" />
+1. On the right side of the navbar, click the `+ (New)` menu and select `New project`.
+![Create Repo in GCcode - Step 2](/assets/tfvc-to-git/tfvc-to-git-create-repo-gccode1.jpg){: .images style="width: 80%;"}
 1. Enter the name of your new project (i.e. `Git Playground`). This will
 automatically fill out the `Project slug`. The project slugs are *URL-friendly*
 versions of project names.
@@ -160,16 +173,20 @@ The following steps will help you find the URL to your remote Git repository.
 1. Navigate to the `CODE` section using the navbar.
 1. Open the list of repositories by clicking the small *down arrow* ↓ beside
 your TFVC repository.
-1. Navigate to your project's page by clicking on its name. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-tfs1.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 45%; height: 45%" />
-1. Click the `Copy to clipboard` button. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-tfs2.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 75%; height: 75%" />
+1. Navigate to your project's page by clicking on its name.
+![Find repo URL in TFS - Step 4](/assets/tfvc-to-git/tfvc-to-git-find-url-tfs1.jpg){: .images style="width: 35%;"}
+1. Click the `Copy to clipboard` button.
+![Find repo URL in TFS - Step 5](/assets/tfvc-to-git/tfvc-to-git-find-url-tfs2.jpg){: .images style="width: 80%;"}
 
 ### GCcode
 
 1. Open [GCcode](https://gccode.ssc-spc.gc.ca/) in a browser.
 1. Filter the projects to find the one your are looking for.
-1. Navigate to your project's page by clicking on its name. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-gccode1.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 135%; height: 135%" />
+1. Navigate to your project's page by clicking on its name.
+![Find repo URL in GCcode - Step 3](/assets/tfvc-to-git/tfvc-to-git-find-url-gccode1.jpg){: .images style="width: 100%;"}
 1. Click the `Clone` button on the right side of the screen.
-1. Click the `Copy URL to clipboard` button. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-find-url-gccode2.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 135%; height: 135%" />
+1. Click the `Copy URL to clipboard` button.
+![Find repo URL in GCcode - Step 5](/assets/tfvc-to-git/tfvc-to-git-find-url-gccode2.jpg){: .images style="width: 100%;"}
 
 ### GitHub
 
@@ -190,7 +207,8 @@ git remote add origin "http://tfs.intra.dmz:8080/tfs/ProjectCollection/DevCoP-Cd
 git push --all origin
 ```
 1. Enter your Windows credentials as requested. If you make a typo, simply press
-`CTRL + C` to cancel the command and try again. <img src="{{site.url}}/assets/tfvc-to-git/tfvc-to-git-push-to-remote.jpg" style="display: block; margin: auto; margin-top: 20px; margin-bottom: 20px; width: 75%; height: 75%" />
+`CTRL + C` to cancel the command and try again.
+![Push to Git Repo - Step 2](/assets/tfvc-to-git/tfvc-to-git-push-to-remote.jpg){: .images style="width: 75%;"}
 > **TIP :** Press the *up arrow* ↑ to bring back the last command from the
 > terminal's history.
 
