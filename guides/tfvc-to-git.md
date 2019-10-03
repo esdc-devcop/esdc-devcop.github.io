@@ -52,7 +52,6 @@ In order to migrate your TFVC repository into a Git repository you will need:
   * To install `git-tfs`, extract the content of the ZIP file to a folder
   (i.e. `C:\git-tfs`) and add that folder's location to the `PATH` system
   environment variables.
-
 * **Permissions to create repositories in target Git hosting service**:
   * If you don't have the appropriate permissions, request them from your
   team's source control administrator or request that a new Git repository
