@@ -1,8 +1,3 @@
-<!-- markdownlint-disable MD024 -->
-<!-- MD024 - Multiple headings with the same content
-     Disabled for the TFS, GCcode and GitHub sub-sections. No other headings
-     make sense.-->
-
 # Migrate from TFVC to Git
 
 ## Background
@@ -58,7 +53,7 @@ The process will be different depending on the hosting service selected by your
 team. However, it remains simple and effortless as long as you have the
 appropriate permissions to create repositories.
 
-### TFS
+### Create Remote Git Repository in TFS
 
 1. Open the web portal for your TFS team project in a browser.
 1. Navigate to the `CODE` section using the navbar.
@@ -74,7 +69,7 @@ appropriate permissions to create repositories.
 
 1. Finally, click `Create`.
 
-### GCcode
+### Create Project in GCcode
 
 1. Open [GCcode](https://gccode.ssc-spc.gc.ca/) in a browser.
 1. On the right side of the navbar, click the `+ (New)` menu and select `New project`.
@@ -93,7 +88,7 @@ versions of project names.
 
 1. Finally, click `Create project`.
 
-### GitHub
+### Create Project in GitHub
 
 *Steps will be added shortly.*
 
@@ -166,7 +161,7 @@ a `remote` in with a Git command. To read more about remotes, see [Working with 
 
 The following steps will help you find the URL to your remote Git repository.
 
-### TFS
+### Copy remote repository URL in TFS
 
 1. Open the web portal for your TFS team project in a browser.
 1. Navigate to the `CODE` section using the navbar.
@@ -180,7 +175,7 @@ your TFVC repository.
 
     ![Find repo URL in TFS - Step 5](/assets/tfvc-to-git/tfvc-to-git-find-url-tfs2.jpg)
 
-### GCcode
+### Copy remote repository URL in GCcode
 
 1. Open [GCcode](https://gccode.ssc-spc.gc.ca/) in a browser.
 1. Filter the projects to find the one your are looking for.
@@ -193,7 +188,7 @@ your TFVC repository.
 
     ![Find repo URL in GCcode - Step 5](/assets/tfvc-to-git/tfvc-to-git-find-url-gccode2.jpg)
 
-### GitHub
+### Copy remote repository URL in GitHub
 
 *Steps will be added shortly.*
 
