@@ -11,7 +11,7 @@
      numbered lists are broken when rendered by the Architect GitHub Pages 
      theme. -->
 
-# Migrate from TFVC to Git in TFS, GCcode or GitHub
+# Migrate from TFVC to Git
 
 ## Background
 
