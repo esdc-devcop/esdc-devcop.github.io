@@ -12,7 +12,7 @@
      theme. -->
 
 <style type="text/css">
-    .images { 
+    .images {
         display: block;
         margin: auto;
         margin-top: 20px;
