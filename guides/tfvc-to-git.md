@@ -1,15 +1,7 @@
-<!-- markdownlint-disable MD024 MD031 MD032 -->
+<!-- markdownlint-disable MD024 -->
 <!-- MD024 - Multiple headings with the same content
      Disabled for the TFS, GCcode and GitHub sub-sections. No other headings
      make sense.-->
-<!-- MD031 - Fenced code blocks should be surrounded by blank lines
-     Disabled for rendering and formatting purposes. With blank lines, the
-     numbered lists are broken when rendered by the Architect GitHub Pages 
-     theme. -->
-<!-- MD032 - Lists should be surrounded by blank lines
-     Disabled for rendering and formatting purposes. With blank lines, the
-     numbered lists are broken when rendered by the Architect GitHub Pages 
-     theme. -->
 
 <style type="text/css">
     .images {
@@ -82,25 +74,25 @@ appropriate permissions to create repositories.
 1. Navigate to the `CODE` section using the navbar.
 1. Open the list of repositories by clicking the small *down arrow* ↓ beside your TFVC repository.
 1. Click `+ New repository...`.
-![Create Repo in TFS - Step 4](/assets/tfvc-to-git/tfvc-to-git-create-repo-tfs1.jpg)
+    ![Create Repo in TFS - Step 4](/assets/tfvc-to-git/tfvc-to-git-create-repo-tfs1.jpg)
 1. By default, Git should already be selected as the `Type`. If not, pick `Git` from the list.
 1. Enter the name of your new Git repository. (i.e. `my-git-repo`)
-![Create Repo in TFS - Step 5](/assets/tfvc-to-git/tfvc-to-git-create-repo-tfs2.jpg){: .images style="width: 75%;"}
+    ![Create Repo in TFS - Step 5](/assets/tfvc-to-git/tfvc-to-git-create-repo-tfs2.jpg){: .images style="width: 75%;"}
 1. Finally, click `Create`.
 
 ### GCcode
 
 1. Open [GCcode](https://gccode.ssc-spc.gc.ca/) in a browser.
 1. On the right side of the navbar, click the `+ (New)` menu and select `New project`.
-![Create Repo in GCcode - Step 2](/assets/tfvc-to-git/tfvc-to-git-create-repo-gccode1.jpg){: .images style="width: 80%;"}
+    ![Create Repo in GCcode - Step 2](/assets/tfvc-to-git/tfvc-to-git-create-repo-gccode1.jpg){: .images style="width: 80%;"}
 1. Enter the name of your new project (i.e. `Git Playground`). This will
 automatically fill out the `Project slug`. The project slugs are *URL-friendly*
 versions of project names.
 1. Pick your team's GCcode project for the `Project URL` field.
 1. Select the appropriate level of visibility for the project.
-> **IMPORTANT :** Keep in mind that GCcode is only accessible on the Government of
-> Canada network. Therefore, `Public` means available to other departments and
-> agencies. For more information about visibility, see "[Public access - Visibility of projects](https://gccode.ssc-spc.gc.ca/help/public_access/public_access)".
+    > **IMPORTANT :** Keep in mind that GCcode is only accessible on the Government of
+    > Canada network. Therefore, `Public` means available to other departments and
+    > agencies. For more information about visibility, see "[Public access - Visibility of projects](https://gccode.ssc-spc.gc.ca/help/public_access/public_access)".
 1. Finally, click `Create project`.
 
 ### GitHub
@@ -109,52 +101,83 @@ versions of project names.
 
 ## Clone TFVC to Local Git Repository
 
+1. This is a numbered list.
+2. I'm going to include a fenced code block as part of this bullet:
+
+    ```shell
+    Code
+    More Code
+    ```
+
+3. We can put fenced code blocks inside nested bullets, too.
+   1. Like this:
+
+        ```c
+        printf("Hello, World!");
+        ```
+
+   2. The key is to indent your fenced block by **(4 * bullet_indent_level)** spaces.
+   3. Also need to put a separating newline above and below the fenced block.
+
+help
+
 1. Open a `PowerShell` terminal.
 1. Create a folder for your local repositories (i.e. `C:\sources`) and navigate
 into that folder.
-```batch
-mkdir c:\sources
-cd c:\sources
-```
+
+    ```batch
+    mkdir c:\sources
+    cd c:\sources
+    ```
+
 1. Download the latest Visual Studio `.gitignore` template from GitHub into this
 folder. A `.gitignore` file specifies intentionally untracked files that Git
 should ignore. To read more about `.gitignore` files, see [Ignoring Files](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) of the [Pro Git](http://git-scm.com/book) book.
-<!-- [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -->
-```bash
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
--UseBasicParsing -OutFile .gitignore
-```
+
+    ```bash
+    Invoke-WebRequest -Uri https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
+    -UseBasicParsing -OutFile .gitignore
+    ```
+
 1. Add patterns to match files, folders or branches from your TFVC repository in
 TFS that should be ignored during this migration process. Good candidates for
 this include any installers, archived release branches, etc. To read more about
 the patterns to match items, see [Git ignore patterns](https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patterns) from Atlassian.
-```bash
-dev-tools-installers/
-releases/
-```
+
+    ```bash
+    dev-tools-installers/
+    releases/
+    ```
+
 1. Create a folder to clone your Git repository into (i.e.
 `C:\sources\my-git-repo`) and navigate into that folder.
-```batch
-mkdir c:\sources\my-git-repo
-cd c:\sources\my-git-repo
-```
+
+    ```batch
+    mkdir c:\sources\my-git-repo
+    cd c:\sources\my-git-repo
+    ```
+
 1. Clone your TFVC repository from TFS to a local Git repository. Don't forget
 to specify the `.gitignore` file that you copied earlier!
-```bash
-git tfs quick-clone "http://tfs.intra.dmz:8080/tfs/projectcollection" "$/DevCoP-CdpDev" . --gitignore="c:\sources\.gitignore"
-```
-> **IMPORTANT :** There is a bug with the latest version of the
-> `libgit2/libgit2sharp` library being used by `git-tfs` which reports an
-> unhandled `System.AccessViolationException` exception. However, this is thrown
-> during the clean-up phase after the migration which doesn't affect the clone
-> process. You can read more about this on the [issue page](https://github.com/git-tfs/git-tfs/issues/1281)
-> for this bug.
+
+    ```bash
+    git tfs quick-clone "http://tfs.intra.dmz:8080/tfs/projectcollection" "$/DevCoP-CdpDev" . --gitignore="c:\sources\.gitignore"
+    ```
+
+    > **IMPORTANT :** There is a bug with the latest version of the
+    > `libgit2/libgit2sharp` library being used by `git-tfs` which reports an
+    > unhandled `System.AccessViolationException` exception. However, this is thrown
+    > during the clean-up phase after the migration which doesn't affect the clone
+    > process. You can read more about this on the [issue page](https://github.com/git-tfs/git-tfs/issues/1281)
+    > for this bug.
+
 1. Add a `.gitignore` file at the root for your solution.
-<!-- [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -->
-```bash
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
--UseBasicParsing -OutFile .gitignore
-```
+
+    ```bash
+    Invoke-WebRequest -Uri https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
+    -UseBasicParsing -OutFile .gitignore
+    ```
+
 1. Remove secrets or encrypt as necessary.
 
 ## Connect to Remote Git Repository
@@ -172,19 +195,19 @@ The following steps will help you find the URL to your remote Git repository.
 1. Open the list of repositories by clicking the small *down arrow* ↓ beside
 your TFVC repository.
 1. Navigate to your project's page by clicking on its name.
-![Find repo URL in TFS - Step 4](/assets/tfvc-to-git/tfvc-to-git-find-url-tfs1.jpg){: .images style="width: 35%;"}
+    ![Find repo URL in TFS - Step 4](/assets/tfvc-to-git/tfvc-to-git-find-url-tfs1.jpg){: .images style="width: 35%;"}
 1. Click the `Copy to clipboard` button.
-![Find repo URL in TFS - Step 5](/assets/tfvc-to-git/tfvc-to-git-find-url-tfs2.jpg){: .images style="width: 80%;"}
+    ![Find repo URL in TFS - Step 5](/assets/tfvc-to-git/tfvc-to-git-find-url-tfs2.jpg){: .images style="width: 80%;"}
 
 ### GCcode
 
 1. Open [GCcode](https://gccode.ssc-spc.gc.ca/) in a browser.
 1. Filter the projects to find the one your are looking for.
 1. Navigate to your project's page by clicking on its name.
-![Find repo URL in GCcode - Step 3](/assets/tfvc-to-git/tfvc-to-git-find-url-gccode1.jpg){: .images style="width: 100%;"}
+    ![Find repo URL in GCcode - Step 3](/assets/tfvc-to-git/tfvc-to-git-find-url-gccode1.jpg){: .images style="width: 100%;"}
 1. Click the `Clone` button on the right side of the screen.
 1. Click the `Copy URL to clipboard` button.
-![Find repo URL in GCcode - Step 5](/assets/tfvc-to-git/tfvc-to-git-find-url-gccode2.jpg){: .images style="width: 100%;"}
+    ![Find repo URL in GCcode - Step 5](/assets/tfvc-to-git/tfvc-to-git-find-url-gccode2.jpg){: .images style="width: 100%;"}
 
 ### GitHub
 
@@ -194,21 +217,24 @@ your TFVC repository.
 
 1. Use the URL that you copied from the previous section to connect your local
 repository to the remote one.
-```bash
-git remote add origin "http://tfs.intra.dmz:8080/tfs/ProjectCollection/DevCoP-CdpDev/_git/my-new-repo"
-```
+
+    ```bash
+    git remote add origin "http://tfs.intra.dmz:8080/tfs/ProjectCollection/DevCoP-CdpDev/_git/my-new-repo"
+    ```
 
 ## Push to Remote Git Repository
 
 1. Push local Git repository into remote Git repository.
-```bash
-git push --all origin
-```
+
+    ```bash
+    git push --all origin
+    ```
+
 1. Enter your Windows credentials as requested. If you make a typo, simply press
 `CTRL + C` to cancel the command and try again.
-![Push to Git Repo - Step 2](/assets/tfvc-to-git/tfvc-to-git-push-to-remote.jpg){: .images style="width: 75%;"}
-> **TIP :** Press the *up arrow* ↑ to bring back the last command from the
-> terminal's history.
+    ![Push to Git Repo - Step 2](/assets/tfvc-to-git/tfvc-to-git-push-to-remote.jpg){: .images style="width: 75%;"}
+    > **TIP :** Press the *up arrow* ↑ to bring back the last command from the
+    > terminal's history.
 
 ## Additional Improvement
 
