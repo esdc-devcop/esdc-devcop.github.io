@@ -1,9 +1,10 @@
 ---
 name: General
-about: This a general pull request template to be used for any reason
+about: This a general pull request template to be used as a default template
 title: ''
 labels: ''
 assignees: ''
+
 ---
 
 ### What does this MR do?
