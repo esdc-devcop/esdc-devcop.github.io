@@ -13,7 +13,7 @@ assignees: ''
 
 ### Community Expectations
 
-<!-- What are the exceptions you have of the community. Do they need some prior knowledge? -->
+<!-- What expectations do you have of the community. Do they need some prior knowledge? -->
 
 ### References
 
