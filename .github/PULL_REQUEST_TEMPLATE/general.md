@@ -1,6 +1,6 @@
 ---
 name: General
-about: This a general pull request template to be used as a default template
+about: This is a general pull request template to be used as a default template
 title: ''
 labels: ''
 assignees: ''
