@@ -49,7 +49,7 @@ At ESDC, we have extracted a few requirements from our release process.
 | Easy to follow history | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
 | Easy to learn when new to Git | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | :x: |
 | Maintains all main branches (reduced chances of code loss) | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
-| Designed for Continuos Deployment | :x: | :x: | :x: | :heavy_check_mark: | :x: |
+| Designed for Continuous Deployment | :x: | :x: | :x: | :heavy_check_mark: | :x: |
 | Designed for Continuos Delivery | :x: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 |  Can handel Continuos Delivery | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 |  Can handle Continuous Integration | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
