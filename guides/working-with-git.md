@@ -34,7 +34,7 @@ At ESDC, we have extracted a few requirements from our release process.
 
 - Can manage a long term production equivalent branch separated from the day-to-day development
   - Why? Our production release are sometimes 6 months or more apart.
-- Can manage a simi-long term staging branch separated from the day-to-day development and production code
+- Can manage a semi-long term staging branch separated from the day-to-day development and production code
   - Why? We have Testing and QA cycles that last about 2 months.
 - Can handel emergency releases in a way that doesn't alter from the regular branching
   - Why? ERs can be high stress situations, we don't want to change the "regular" method for moving code from branch to branch.
