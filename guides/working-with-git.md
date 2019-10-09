@@ -52,7 +52,7 @@ At ESDC, we have extracted a few requirements from our release process.
 | Designed for Continuos Deployment | :x: | :x: | :x: | :heavy_check_mark: | :x: |
 | Designed for Continuos Delivery | :x: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 |  Can handel Continuos Delivery | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-|  Can handel Continuos Integration | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|  Can handle Continuous Integration | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Deploys to Production from "Main/Master/Default" branch | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 
 ## Code Review
