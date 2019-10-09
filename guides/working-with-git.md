@@ -30,7 +30,7 @@ We recommend you try to keep it as simple as possible, but don't shy away from g
 
 Whatever project you are working on, it may have different requirements and needs from the branching model you choose.
 Mostly the branching model you choose depends on your release model.
-At ESDC we have extracted a few requirements from our release process.
+At ESDC, we have extracted a few requirements from our release process.
 
 - Can manage a long term production equivalent branch separated from the day-to-day development
   - Why? Our production release are sometimes 6 months or more apart.
