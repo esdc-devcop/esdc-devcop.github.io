@@ -24,11 +24,42 @@ This branch is the only place you should be committing code against.
 GitFlow can be fairly simplistic but also get very complex.
 We recommend you try to keep it as simple as possible, but don't shy away from getting complex if that is what the project requires.
 
+### Picking a Branching Model
+
+#### Projects Requirements
+
+Whatever project you are working on, it may have different requirements and needs from the branching model you choose.
+Mostly the branching model you choose depends on your release model.
+At ESDC, we have extracted a few requirements from our release process.
+
+- Can manage a long term production equivalent branch separated from the day-to-day development
+  - Why? Our production release are sometimes 6 months or more apart.
+- Can manage a semi-long term staging branch separated from the day-to-day development and production code
+  - Why? We have Testing and QA cycles that last about 2 months.
+- Can handle emergency releases in a way that doesn't alter from the regular branching
+  - Why? ERs can be high stress situations, we don't want to change the "regular" method for moving code from branch to branch.
+
+#### Popular Flows Comparison
+
+| Key Features | [GitFlow](https://datasift.github.io/gitflow/IntroducingGitFlow.html) | [OneFlow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow) | [Microsoft Release Flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow) | [GitHub Flow](https://githubflow.github.io/) | [GitLab Flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html) |
+| --- | --- | --- | --- | --- | --- |
+| Production and Development branches segregated | :heavy_check_mark: | :o: (Optional) | :heavy_check_mark: | :x: | :heavy_check_mark: |
+| Manages Staging/Release branches | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: |
+| ER branching similar to "regular" | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
+| Easy to follow history | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
+| Easy to learn when new to Git | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | :x: |
+| Maintains all main branches (reduced chances of code loss) | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| Designed for Continuous Deployment | :x: | :x: | :x: | :heavy_check_mark: | :x: |
+| Designed for Continuous Delivery | :x: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
+|  Can handle Continuous Delivery | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|  Can handle Continuous Integration | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Deploys to Production from "Main/Master/Default" branch | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: |
+
 ## Code Review
 
 Follow a few simple ideas:
 
-* When approving a merge, you are just as responsible for the changes as the person who made them.
-* Only review changed lines.
-* Anyone on the project can raise concerns (blocking) on a PR/MR, even if they are not assigned to it.
-* Can be blocked for any reason, including empty line spaces or too many changes in one PR/MR.
+- When approving a merge, you are just as responsible for the changes as the person who made them.
+- Only review changed lines.
+- Anyone on the project can raise concerns (blocking) on a PR/MR, even if they are not assigned to it.
+- Can be blocked for any reason, including empty line spaces or too many changes in one PR/MR.
