@@ -83,5 +83,11 @@ The topic identifies the area of work that the tool is recommended for, and the 
       <td>Jest</td>
       <td><a href="https://jestjs.io/" rel="nofollow">https://jestjs.io/</a></td>
     </tr>
+    <tr>
+      <td>Smoke testing</td>
+      <td>-</td>
+      <td>Selenium</td>
+      <td><a href="https://www.seleniumhq.org/" rel="nofollow">https://www.seleniumhq.org/</a></td>
+    </tr>
   </tbody>
 </table>
