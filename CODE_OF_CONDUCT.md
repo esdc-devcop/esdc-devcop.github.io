@@ -1,8 +1,8 @@
-# Contributor Covenant Code of Conduct for the `strategy` project
+# Contributor Covenant Code of Conduct for the `esdc-devcop.github.io` project
 
 ([Français](#Code-de-conduite-pour-le-projet-nom-du-projet))
 
-Contributors to repositories hosted in `strategy` are expected to follow the Contributor Covenant Code of Conduct, and those working within Government are also expected to follow the Values and Ethics Code for the Public Sector
+Contributors to repositories hosted in `esdc-devcop.github.io` are expected to follow the Contributor Covenant Code of Conduct, and those working within Government are also expected to follow the Values and Ethics Code for the Public Sector
 
 ## Values and Ethics Code for the Public Sector
 
@@ -63,12 +63,12 @@ This Code of Conduct is also inspired by GDS' `alphagov` [Code of conduct](https
 
 ---
 <!--markdownlint-disable MD025-->
-# Code de conduite pour le projet `strategy`
+# Code de conduite pour le projet `esdc-devcop.github.io`
 <!--markdownlint-enable MD025-->
 
 ([English](#Contributor-Covenant-Code-of-Conduct-for-the-projectname-project))
 
-Les contributeurs aux dépôts hébergés dans `strategy` sont tenus de respecter le Code de conduite du Pacte des contributeurs, et ceux qui travaillent au sein du gouvernement sont également tenus de respecter le Code de valeurs et d'éthique du secteur public.
+Les contributeurs aux dépôts hébergés dans `esdc-devcop.github.io` sont tenus de respecter le Code de conduite du Pacte des contributeurs, et ceux qui travaillent au sein du gouvernement sont également tenus de respecter le Code de valeurs et d'éthique du secteur public.
 
 ## Notre engagement
 

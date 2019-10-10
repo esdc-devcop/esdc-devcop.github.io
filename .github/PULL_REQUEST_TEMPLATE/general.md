@@ -21,7 +21,7 @@ important if they didn't participate in the discussion.
 Make sure to remove this comment when you are done.
 -->
 
-### General checklist
+### Checklist
 
 ### Related issues
 

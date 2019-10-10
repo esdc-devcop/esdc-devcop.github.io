@@ -1,6 +1,6 @@
 # Strategy
 
-Each month we will focus on one core [topic](https://github.com/esdc-devcop/strategy/issues?q=is%3Aopen+is%3Aissue+label%3Atopic) that could be actioned and implemented by a team with less than half a day's work.
+Each month we will focus on one core [topic](https://github.com/esdc-devcop/esdc-devcop.github.io/issues?q=is%3Aopen+is%3Aissue+label%3Atopic) that could be actioned and implemented by a team with less than half a day's work.
 Each month will build on the previous where it will lead teams to developing applications better and faster though increasing automation and reducing feedback loops.
 
 Throughout all of this, we will need to keep in mind that their are many types of technology being used in applications that will need these implementations;
@@ -27,7 +27,7 @@ These sessions should also regularly be bringing in members from other areas of 
 Throughout the month, we will be planning 'Workshops' or 'Hackathons' that are targeting teams to help them implement that topic of the month.
 We will look at using experts and the community as a whole to help with these events.
 
-The dates for all info/hands-on sessions for 2019/20 can be found **[here](dates.md)**!
+[**Get the dates** for all info/hands-on sessions for 2019/2020](dates.md)!
 
 ## Management Support
 
