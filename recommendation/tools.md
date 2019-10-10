@@ -65,7 +65,7 @@ The topic identifies the area of work that the tool is recommended for, and the 
       <td><a href="https://cli.vuejs.org/" rel="nofollow">https://cli.vuejs.org/</a></td>
     </tr>
     <tr>
-      <td rowspan="5">Unit Testing Framework</td>
+      <td rowspan="4">Unit Testing Framework</td>
       <td rowspan="3">.NET</td>
       <td>NSubstitute</td>
       <td><a href="https://nsubstitute.github.io/" rel="nofollow">https://nsubstitute.github.io/</a></td>
@@ -84,7 +84,8 @@ The topic identifies the area of work that the tool is recommended for, and the 
       <td><a href="https://jestjs.io/" rel="nofollow">https://jestjs.io/</a></td>
     </tr>
     <tr>
-      <td>E2E testing</td>
+      <td>Smoke testing</td>
+      <td>-</td>
       <td>Selenium</td>
       <td><a href="https://www.seleniumhq.org/" rel="nofollow">https://www.seleniumhq.org/</a></td>
     </tr>
