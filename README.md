@@ -15,20 +15,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 To know what we are all about and what our goals are, read up on our **[strategy](strategy.md)**!
 This is also a collection of recommendations and guides. Some of these documents are directly related to our topics presented at the monthly DevCoP sessions.
 
-### Recommendations
-
-* [Recommended tools](/recommendation/tools.md)
-
-### Guides
-
-* Migrating [TFVC to Git](guides/tfvc-to-git.md) - _Topic: [Move source control to Git (#1)](https://github.com/esdc-devcop/strategy/issues/1)_
-* [Working With Git - Best Practices](guides/working-with-git.md)
-* Migrating [TFS to GCcode (or GitHub)](guides/tfs-to-gccode.md)
-* [GitLab-Runner Installation and Maintenance](guides/gitlab-runner.md)
+- [Recommendations](https://esdc-devcop.github.io/recommendations/)
+- [Guides](https://esdc-devcop.github.io/guides)
+  - [Migrate TFVC to Git](https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.md) - _Topic: [Move source control to Git (#1)](https://github.com/esdc-devcop/strategy/issues/1)_
+  - [Working With Git - Best Practices](https://esdc-devcop.github.io/guides/source-control/working-with-git.html)
 
 ### License
 
-Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distributed under the [MIT License](LICENSE).
+Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distributed under the [Open Government Licence - Canada](LICENSE).
 
 The Canada wordmark and related graphics associated with this distribution are protected under trademark law and copyright law.
 No permission is granted to use them outside the parameters of the Government of Canada's corporate identity program.
