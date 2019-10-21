@@ -18,7 +18,7 @@ This is also a collection of recommendations and guides. Some of these documents
 - [Recommendations](https://esdc-devcop.github.io/recommendations/)
 - [Guides](https://esdc-devcop.github.io/guides)
   - [Migrate TFVC to Git](https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.html) - _Topic: [Move source control to Git (#1)](https://github.com/esdc-devcop/strategy/issues/1)_
-  - [Working With Git - Best Practices](https://esdc-devcop.github.io/guides/source-control/working-with-git.html)
+  - [Working With Git - Best Practices](https://esdc-devcop.github.io/guides/source-control/working-with-git.html) - _Topic: [Recommend a branching model (#10)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/10)_
 
 ### License
 
