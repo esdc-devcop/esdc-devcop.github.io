@@ -16,9 +16,10 @@ To know what we are all about and what our goals are, read up on our **[strategy
 This is also a collection of recommendations and guides. Some of these documents are directly related to our topics presented at the monthly DevCoP sessions.
 
 - [Recommendations](https://esdc-devcop.github.io/recommendations/)
+  - [Managing Merge Requests, Using Code Review](/source_management/merging-review.md) - _Topic: [Managing Merge Requests - Using Code Review (#3)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/3)_
+  - [Git Branching, Picking a Git Flow](https://esdc-devcop.github.io/recommendations/source_management/git-branching.md) - _Topic: [Recommend a branching model (#10)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/10)_
 - [Guides](https://esdc-devcop.github.io/guides)
   - [Migrate TFVC to Git](https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.html) - _Topic: [Move source control to Git (#1)](https://github.com/esdc-devcop/strategy/issues/1)_
-  - [Working With Git - Best Practices](https://esdc-devcop.github.io/guides/source-control/working-with-git.html) - _Topic: [Recommend a branching model (#10)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/10)_
 
 ### License
 
