@@ -20,6 +20,8 @@ This is also a collection of recommendations and guides. Some of these documents
   - [Git Branching, Picking a Git Flow](https://esdc-devcop.github.io/recommendations/source_management/git-branching.md) - _Topic: [Recommend a branching model (#10)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/10)_
 - [Guides](https://esdc-devcop.github.io/guides)
   - [Migrate TFVC to Git](https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.html) - _Topic: [Move source control to Git (#1)](https://github.com/esdc-devcop/strategy/issues/1)_
+- References
+  - [Suggested Training](references/suggested-training.md)
 
 ### License
 
