@@ -16,7 +16,7 @@ There are a few web services available. They are all supported and documented on
 
 ### Wet Templates
 
-The CDTS currently has an API to implement the WET 4.0 into any application. You can read more on that on the GCPedia page: [Centrally_Deployed_Templates_Solution_(CDTS)](https://www.gcpedia.gc.ca/wiki/Centrally_Deployed_Templates_Solution_(CDTS)).   
+The CDTS currently has an API to implement the WET 4.0 into any application. You can read more on that on the GCPedia page: [Centrally_Deployed_Templates_Solution_(CDTS)](https://www.gcpedia.gc.ca/wiki/Centrally_Deployed_Templates_Solution_(CDTS)).  
 SDS also offers a more integrated template for .NET MVC, .NET Web Forms and Java applications. The details on that can be found in GCCode page: [GoC Web Templates project](https://gccode.ssc-spc.gc.ca/GOCWebTemplates).
 
 ### Web Analytics
@@ -46,6 +46,6 @@ The department requires a lot of documentation for our applications, too much in
 
 ### General Technical Application Design
 
-This document is outdated but still required. If you would like to propose changes to it, please make your changes with "Track Changes" turned on and make your changes in both languages.   
-English: <http://dialogue/grp/BU6345229/DevelopmentCommunity/General%20Technical%20Application%20Design.dotx>   
+This document is outdated but still required. If you would like to propose changes to it, please make your changes with "Track Changes" turned on and make your changes in both languages.  
+English: <http://dialogue/grp/BU6345229/DevelopmentCommunity/General%20Technical%20Application%20Design.dotx>  
 French: <http://dialogue/grp/BU6345229/DevelopmentCommunity/Conception%20d'applications%20techniques%20g%C3%A9n%C3%A9rales.dotx>
