@@ -23,10 +23,6 @@ SDS also offers a more integrated template for .NET MVC, .NET Web Forms and Java
 
 The department has a site to view the website analytics on a number of different web sites and applications. <http://web-stats.prv/Index-e.asp> can be used to view the stats of the applications you develop.
 
-### Departmental Service Bus
-
-Details to come...
-
 ## 3rd Party Tools
 
 ### GC Code
@@ -39,13 +35,3 @@ There is a recommendation on GC Code for IITB found here: <http://www.gcpedia.gc
 
 The department has access to the NuGet repositories as well as hosting its own internal source for home brewed applications.
 Check out the [ESDC NuGet User Guide](https://www.gcpedia.gc.ca/wiki/EDC_NuGet_User_Guide)
-
-## Documentation Templates
-
-The department requires a lot of documentation for our applications, too much in fact. But we still have templates to help us out with how to document our applications.
-
-### General Technical Application Design
-
-This document is outdated but still required. If you would like to propose changes to it, please make your changes with "Track Changes" turned on and make your changes in both languages.  
-English: <http://dialogue/grp/BU6345229/DevelopmentCommunity/General%20Technical%20Application%20Design.dotx>  
-French: <http://dialogue/grp/BU6345229/DevelopmentCommunity/Conception%20d'applications%20techniques%20g%C3%A9n%C3%A9rales.dotx>
