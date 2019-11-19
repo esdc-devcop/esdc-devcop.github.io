@@ -29,7 +29,7 @@ The department has a site to view the website analytics on a number of different
 
 [GC Code](https://gccode.ssc-spc.gc.ca/)
 is using GitLab; you can store your code base here, manage branches and checkins, track bug and tasks, store all of your documentation, all in one tool! SDS is moving to it for all of the EWS and the WET .NET & Java Templates.
-There is a recommendation on GC Code for IITB found here: <http://www.gcpedia.gc.ca/wiki/ESDC_Development_Community_GC_Code_Recommendation>
+There is a recommendation on GC Code for IITB found here: <https://github.com/esdc-edsc/Welcome/blob/master/Recommendations/GCcode.md>
 
 ### NuGet
 
