@@ -15,12 +15,16 @@
     
     <!-- custom menu style -->
     <style>
+      #navigation {
+        background-color: #f3f3f3;
+      }
+      
       #nav ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #333;
+        background-color: #f3f3f3;
       }
 
       #nav li {
@@ -29,14 +33,14 @@
 
       #nav li a {
         display: block;
-        color: white;
+        color: #666;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
       }
 
       #nav li a:hover:not(.active) {
-        background-color: #111;
+        background-color: #ddd;
       }
 
       #nav .active {
@@ -60,16 +64,18 @@
         {% endif %}
       </div>
     </header>
-
+    <div id="navigation">
+      <section id="nav">
+        <ul>
+          {% for item in site.data.nav.menu %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
     <div id="content-wrapper">
       <div class="inner clearfix">
-        <section id="nav">
-          <ul>
-            {% for item in site.data.nav.menu %}
-              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </section>
+        
         <section id="main-content">
           {{ content }}
         </section>
