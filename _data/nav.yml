@@ -1,0 +1,11 @@
+docs_list_title: Pages
+docs:
+
+- title: Home
+  url: index.html
+
+- title: Recommendations
+  url: https://esdc-devcop.github.io/recommendations/
+
+- title: Guides
+  url: https://esdc-devcop.github.io/guides/
