@@ -1,11 +1,7 @@
-docs_list_title: Pages
-docs:
-
+sidebar:
 - title: Home
   url: index.html
-
 - title: Recommendations
   url: https://esdc-devcop.github.io/recommendations/
-
 - title: Guides
   url: https://esdc-devcop.github.io/guides/
