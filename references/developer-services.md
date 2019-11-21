@@ -34,4 +34,4 @@ There is a recommendation on GC Code for IITB found here: <https://github.com/es
 ### NuGet
 
 The department has access to the NuGet repositories as well as hosting its own internal source for home brewed applications.
-Check out the [ESDC NuGet User Guide](https://www.gcpedia.gc.ca/wiki/EDC_NuGet_User_Guide)
+Check out the [ESDC NuGet User Guide](https://github.com/esdc-devcop/ESDC-Development-Setup/blob/master/nugetuserguide.md)
