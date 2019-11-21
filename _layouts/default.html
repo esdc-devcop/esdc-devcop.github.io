@@ -32,8 +32,14 @@
 
     <div id="content-wrapper">
       <div class="inner clearfix">
+        <section id="nav">
+          <ul>
+            {% for item in site.data.nav.menu %}
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
         <section id="main-content">
-          <h1>Get Recked</h1>
           {{ content }}
         </section>
 
