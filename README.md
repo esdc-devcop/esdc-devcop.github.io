@@ -21,6 +21,7 @@ This is also a collection of recommendations and guides. Some of these documents
 - [Guides](https://esdc-devcop.github.io/guides)
   - [Migrate TFVC to Git](https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.html) - _Topic: [Move source control to Git (#1)](https://github.com/esdc-devcop/strategy/issues/1)_
 - References
+  - [Developer Services](references/developer-services.md)
   - [Suggested Training](references/suggested-training.md)
 
 ### License
