@@ -7,7 +7,7 @@
 ## Our content
 
 To know what we are all about and what our goals are, read up on our **[strategy](strategy/overview.md)**!
-This is also a collection of recommendations and guides. Some of these documents are directly related to our topics presented at the monthly DevCoP sessions.
+We publicize all our [recommendations](https://esdc-devcop.github.io/recommendations/) and [guides](https://esdc-devcop.github.io/guides/) on this site. Some of these documents are directly related to our topics presented at the monthly DevCoP sessions.
 
 ### Hot topics
 
