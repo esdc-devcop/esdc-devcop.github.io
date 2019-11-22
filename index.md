@@ -28,4 +28,4 @@ Join our conversation in Slack, we have a channel in the [GC DevOps League](http
 
 Also, [vote on Issues](https://github.com/esdc-devcop/esdc-devcop.github.io/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc) (with a :+1: reaction) that you think we should put a focus on doing first!
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+See [CONTRIBUTING.md](https://github.com/esdc-devcop/esdc-devcop.github.io/blob/master/CONTRIBUTING.md)
