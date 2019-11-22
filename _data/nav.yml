@@ -1,0 +1,9 @@
+menu:
+- title: Home
+  url: https://esdc-devcop.github.io/
+- title: Recommendations
+  url: https://esdc-devcop.github.io/recommendations/
+- title: Guides
+  url: https://esdc-devcop.github.io/guides/
+- title: Sessions
+  url: https://esdc-devcop.github.io/strategy/dates.html
