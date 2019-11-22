@@ -9,7 +9,7 @@ Here we keep information about [upcoming sessions](https://esdc-devcop.github.io
 ## Help Out
 
 We welcome contributions from anybody.
-Feel free to fork and submit a PR to any of our repos.
+Feel free to fork and submit a Pull Request (PR) to any of our repos.
 If you are from ESDC ask to join as a Member.
 
 Please [vote on Issues (topics)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc) (with a :+1: reaction) that you think we should put a focus on presenting first!
