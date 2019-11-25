@@ -10,7 +10,7 @@ Session   2 | Presentation | Tuesday,   October 15th | 10am | Objectives Map<br>
   -| Workshop | Monday   October 21st | 12pm | Open collaberation, Assement & Advisement
 Session   3 | Presentation | Tuesday   November 12th | 10am | [Recommend a branching model (#10)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/10)<br>[Git Branching, Picking a Git Flow](https://esdc-devcop.github.io/recommendations/source_management/git-branching.md)<br>[Presentation Recording](https://gts-ee.webex.com/recordingservice/sites/gts-ee/recording/9e28a4c3b4b1468385742163879d9122)<br>[View the presentation](https://esdc-devcop.github.io/presentations/gitflow.html#1)
   -| Workshop | Tuesday   November 19th | 12pm | Configuring your repo for optimized branching
-Session   4 | Presentation | Tuesday   December 3rd  | 10am | TBD
+Session   4 | Presentation | Tuesday   December 3rd  | 10am | [Managing Merge Requests - Using Code Review (#3)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/3)
   -| Workshop | Tuesday   December 10th | 12pm | TBD
 Session   5 | Presentation | Tuesday   January 14th | 10am | TBD
   -| Workshop | Tuesday   January 21st | 12pm | TBD
