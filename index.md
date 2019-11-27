@@ -11,8 +11,8 @@ We publicize all our [recommendations](https://esdc-devcop.github.io/recommendat
 
 ### Hot topics
 
-- [Managing Merge Requests, Using Code Review](https://esdc-devcop.github.io/recommendations/source_management/merging-review.md) - _Topic: [Managing Merge Requests - Using Code Review (#3)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/3)_
-- [Git Branching, Picking a Git Flow](https://esdc-devcop.github.io/recommendations/source_management/git-branching.md) - _Topic: [Recommend a branching model (#10)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/10)_
+- [Managing Merge Requests, Using Code Review](https://esdc-devcop.github.io/recommendations/source_management/merging-review.html) - _Topic: [Managing Merge Requests - Using Code Review (#3)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/3)_
+- [Git Branching, Picking a Git Flow](https://esdc-devcop.github.io/recommendations/source_management/git-branching.html) - _Topic: [Recommend a branching model (#10)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/10)_
 - [Migrate TFVC to Git](https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.html) - _Topic: [Move source control to Git (#1)](https://github.com/esdc-devcop/strategy/issues/1)_
 
 ### References
