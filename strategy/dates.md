@@ -13,7 +13,7 @@ It is planned for **Tueday January 14st @10am**
 **Presentation:** [Pull Requests](https://esdc-devcop.github.io/presentations/mergerequest.html)  
 **Recording:** _Comming soon!_
 
-#### Resources
+#### Resources - Dec 2019
 
 * [Managing Merge Requests, Using Code Reivew](https://esdc-devcop.github.io/recommendations/source_management/merging-review.html) - Reccommendation
 * [Continuous Integration / Continuous Delivery](https://esdc-devcop.github.io/guides/pipelines/cicd.html) - Guide
@@ -24,13 +24,13 @@ It is planned for **Tueday January 14st @10am**
 **Presentation:** [View the presentation](https://esdc-devcop.github.io/presentations/gitflow.html)  
 **Recording:** [Presentation Recording](https://gts-ee.webex.com/recordingservice/sites/gts-ee/recording/9e28a4c3b4b1468385742163879d9122)  
 
-#### Resources
+#### Resources - Nov 2019
 
 * [Git Branching, Picking a Git Flow](https://esdc-devcop.github.io/recommendations/source_management/git-branching.md) - Recommendation
 
-#### Workshop
+#### Workshop - Nov 2019
 
-A workshop was hosted on November 19th to assist with _Configuring your repo for optimized branching_. 
+A workshop was hosted on November 19th to assist with _Configuring your repo for optimized branching_.
 
 ### October 2019
 
@@ -38,11 +38,11 @@ A workshop was hosted on November 19th to assist with _Configuring your repo for
 **Presentation:** [View the presentation](http://dialogue/grp/PR6893344/OneNote/AppDevSA/03-Reference%20Material/Presentations/DevCop.one#SA%20and%20Outcomes%20Map%20-%20Oct%2015%202019&section-id={5EC98638-1A31-4AFE-941E-9AD50872138F}&page-id={66461AC0-9116-4364-B799-BD16D6C2CB70}&end)  
 **Recording:** [Presentation Recording](https://gts-ee.webex.com/webappng/sites/gts-ee/recording/aef400b220a94e82a08b1cf3346ad40b)  
 
-#### Resources
+#### Resources - Oct 2019
 
 * [Outcomes Map](http://dialogue/grp/PR6893344/OneNote/AppDevSA/02-Development%20(In%20Progress)/AppDev%20Roadmap.one#Outcomes%20and%20Dependencies%20Overview&section-id={5E16E60C-310B-49EF-8451-88E0CE4DA968}&page-id={67E8C1D8-F39B-498E-A809-EEAAB9BDAC88}&object-id={00AD0F45-6E68-0BA5-1DE4-4D2E8D11601E}&A9)
 
-#### Workshop
+#### Workshop - Oct 2019
 
 A workshop was hosted on October 21st to have a _Open collaberation, Assement & Advisement_.
 
@@ -52,11 +52,11 @@ A workshop was hosted on October 21st to have a _Open collaberation, Assement & 
 **Presentation:** [View the presentation](https://esdc-devcop.github.io/presentations/migrate-to-git.html)  
 **Recording:** n/a
 
-#### Resources
+#### Resources - Sept 2019
 
 * [Migrate from TFVC to Git](https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.html)
 
-#### Workshop
+#### Workshop - Sept 2019
 
 A workshop was hosted on September 17th to help those _Migrate from TFVC to Git_.
 
