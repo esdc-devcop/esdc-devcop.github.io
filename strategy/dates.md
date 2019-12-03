@@ -11,7 +11,7 @@ It is planned for **Tueday January 14st @10am**
 
 **Topic:** [Managing Merge Requests - Using Code Review (#3)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/3)  
 **Presentation:** [Pull Requests](https://esdc-devcop.github.io/presentations/mergerequest.html)  
-**Recording:** _Comming soon!_
+**Recording:** [Presentation Recording](https://gts-ee.webex.com/webappng/sites/gts-ee/recording/4e2e2458091c496a9ae3a98eb2ed75d1)  
 
 #### Resources - Dec 2019
 
