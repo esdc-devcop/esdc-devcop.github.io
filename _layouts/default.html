@@ -73,7 +73,12 @@
       <section class="inner" id="nav">
         <ul>
           {% for item in site.data.nav.menu %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% if item.right %}
+              <li style="float:right">
+            {% else %}
+              <li>
+            {% endif %}
+              <a href="{{ item.url }}">{{ item.title }}</a></li>
           {% endfor %}
         </ul>
       </section>
