@@ -6,7 +6,7 @@ Our next scheduled event is planned to be a two-part session on APIs ([Topic: Cr
 
 * Part _one_ will be on **Tueday January 14st @10am EST** giving an overview of the topic.  
   It will also contain an update on the DevCoP strategy changes, based of the recent survey that went out.
-* Part _two_ will be on **Tuesday January 21st @1pm EST** giving in-depth detail of how to use consume coplex API systems into our applications.
+* Part _two_ will be on **Tuesday January 21st @1pm EST** giving in-depth detail of how to consume complex API systems into our applications.
 
 ## Past Events
 
