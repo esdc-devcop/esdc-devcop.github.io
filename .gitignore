@@ -64,7 +64,6 @@ typings/
 
 # local bundler files
 .bundle
-Gemfile
 Gemfile.lock
 vendor
 
