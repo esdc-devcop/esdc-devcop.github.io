@@ -2,7 +2,7 @@
 
 ## Mission
 
-Equipping ESDC developers with skills, knowledge and tools to 
+Equipping ESDC developers with skills, knowledge and tools to...
 
 We want the developers at ESDC to be collaborating with each other and those from other departments, gaining skills to build into a greater diversity of knowledge, enabling them to develop stronger and more versatile software.
 
