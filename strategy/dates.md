@@ -2,8 +2,11 @@
 
 ## Our Next Event
 
-Our next scheduled event is planned to be a session on the DevCoP strategy changes, based of the recent survey that went out.
-It is planned for **Tueday January 14st @10am**
+Our next scheduled event is planned to be a two-part session on APIs ([Topic: Creating & Using APIs from the store (using REST)  #34](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/34).
+
+* Part _one_ will be on **Tueday January 14st @10am EST** giving an overview of the topic.  
+  It will also contain an update on the DevCoP strategy changes, based of the recent survey that went out.
+* Part _two_ will be on **Tuesday January 21st @1pm EST** giving in-depth detail of how to consume complex API systems into our applications.
 
 ## Past Events
 
