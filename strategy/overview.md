@@ -42,7 +42,7 @@ The second being an in-depth dive into the underlying workings of the [topic](ht
 
 ### Recommendations & Guides
 
-We are commited to being open to requests for new and updated recommendations and guides on anything the community wants more details on.
+We are committed to being open to requests for new and updated recommendations and guides on anything the community wants more details on.
 
 * [Make a Recommendation Request](https://github.com/esdc-devcop/recommendations/issues/new?assignees=&labels=request&template=recommendation-request.md&title=Request%3A+)
 * [Make a Guide (How to...) Request](https://github.com/esdc-devcop/guides/issues/new?assignees=&labels=request&template=guide-request.md&title=Request%3A+)
