@@ -31,7 +31,7 @@ With the ESDC Development Community we have picked three main tools to achieve o
 
 ### Sessions
 
-The sessions is currently our main point of contact with the Development Community where we bring updates on the available tooling and direction of development for the department.
+Sessions are currently our main point of contact with the Development Community where we bring updates on the available tooling and direction of development for the department.
 The main focus of the sessions is a form of training where we will highlight existing best practices used by other teams, and demonstrate examples of using tooling.
 
 We want to bring [topics](https://github.com/esdc-devcop/esdc-devcop.github.io/issues?q=is%3Aopen+is%3Aissue+label%3Atopic) the community wants to hear about, so we have an **[open submission](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/new?assignees=&labels=topic&template=potential-devcop-topic.md&title=Topic%3A+) and voting (:+1:) on suggested [topics](https://github.com/esdc-devcop/esdc-devcop.github.io/issues?q=is%3Aopen+is%3Aissue+label%3Atopic)**.
