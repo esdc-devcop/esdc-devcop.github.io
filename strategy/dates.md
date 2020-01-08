@@ -2,11 +2,11 @@
 
 ## Our Next Event
 
-Our next scheduled event is planned to be a two-part session on APIs ([Topic: Creating & Using APIs from the store (using REST)  #34](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/34).
+Our next scheduled event is planned to be a two-part session on APIs ([Topic: Creating & Using APIs from the store (using REST)  #34](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/34)).
 
-* Part _one_ will be on **Tueday January 14st @10am EST** giving an overview of the topic.  
+* Part _one_ will be on **Tueday January 14th @10am EST** giving an overview of the topic.  
   It will also contain an update on the DevCoP strategy changes, based of the recent survey that went out.
-* Part _two_ will be on **Tuesday January 21st @1pm EST** giving in-depth detail of how to consume complex API systems into our applications.
+* Part _two_ will be on **Wednesday January 15th @1pm EST** giving in-depth detail of how to consume complex API systems into our applications.
 
 ## Past Events
 
@@ -65,8 +65,6 @@ A workshop was hosted on September 17th to help those _Migrate from TFVC to Git_
 
 ## Potientail Future Dates
 
-* Tuesday December 10th @12pm
-* Tuesday January 14th @10am
 * Tuesday January 21st @12pm
 * Tuesday February 4th @10am
 * Tuesday February 11th @12pm
