@@ -10,6 +10,14 @@ Our next scheduled event is planned to be a two-part session on APIs ([Topic: Cr
 
 ## Past Events
 
+### January 2020
+
+**Topic:** [Creating & Using APIs from the store (using REST) (#34)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/34)  
+**Presentation (Part 1):** [View the presentation](https://github.com/esdc-devcop/presentations/blob/master/Managing%20APIs%20and%20Microservices.pptx)  
+**Recording:** [Presentation Recording](https://gts-ee.webex.com/gts-ee/ldr.php?RCID=5d5c2e2cddb3f97316bbfa6618b4d270)  
+
+#### Resources - Jan 2020
+
 ### December 2019
 
 **Topic:** [Managing Merge Requests - Using Code Review (#3)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/3)  
