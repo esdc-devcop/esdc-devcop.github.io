@@ -16,7 +16,7 @@ There are a few web services available. They are all supported and documented on
 
 ### Wet Templates
 
-The CDTS currently has an API to implement the WET 4.0 into any application. You can read more on that on the GCPedia page: [Centrally_Deployed_Templates_Solution_(CDTS)](https://www.gcpedia.gc.ca/wiki/Centrally_Deployed_Templates_Solution_(CDTS)).  
+The CDTS currently has an API to implement the WET 4.0 into any application. You can read more on that on the GCPedia page: [Centrally_Deployed_Templates_Solution_(CDTS)](https://cenw-wscoe.github.io/sgdc-cdts/index.html).  
 SDS also offers a more integrated template for .NET MVC, .NET Web Forms and Java applications. The details on that can be found in GCCode page: [GoC Web Templates project](https://gccode.ssc-spc.gc.ca/GOCWebTemplates).
 
 ### Web Analytics
