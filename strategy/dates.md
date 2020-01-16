@@ -2,11 +2,10 @@
 
 ## Our Next Event
 
-Our next scheduled event is planned to be a two-part session on APIs ([Topic: Creating & Using APIs from the store (using REST)  #34](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/34)).
+Our next scheduled event is planned to be a two-part session on Azure DevOps (ADO) 2019 ([Topic: Azure DevOps Server features overview  #87](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/87)).
 
-* Part _one_ will be on **Tueday January 14th @10am EST** giving an overview of the topic.  
-  It will also contain an update on the DevCoP strategy changes, based of the recent survey that went out.
-* Part _two_ will be on **Wednesday January 15th @1pm EST** giving in-depth detail of how to consume complex API systems into our applications.
+* Part _one_ is planned for **Tueday February 4th @10am EST** mapping out the “old way” (TFS 2015) to the “new way” (ADO) of doing all the common functions.
+* Part _two_ is planned for **Tuesday February 11th @1pm EST** show some of the new features particularly with pipelines and automation.
 
 ## Past Events
 
@@ -15,6 +14,8 @@ Our next scheduled event is planned to be a two-part session on APIs ([Topic: Cr
 **Topic:** [Creating & Using APIs from the store (using REST) (#34)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/34)  
 **Presentation (Part 1):** [View the presentation](https://github.com/esdc-devcop/presentations/blob/master/Managing%20APIs%20and%20Microservices.pptx)  
 **Recording:** [Presentation Recording](https://gts-ee.webex.com/gts-ee/ldr.php?RCID=5d5c2e2cddb3f97316bbfa6618b4d270)  
+**Presentation (Part 2):** [View the presentation](https://github.com/esdc-devcop/presentations/blob/master/REST%20Deep%20Dive.pptx)  
+**Recording:** [Presentation Recording](https://gts-ee.webex.com/gts-ee/ldr.php?RCID=de51c38e434b96c0504c76e9669c8510)
 
 #### Resources - Jan 2020
 
@@ -73,9 +74,6 @@ A workshop was hosted on September 17th to help those _Migrate from TFVC to Git_
 
 ## Potientail Future Dates
 
-* Tuesday January 21st @12pm
-* Tuesday February 4th @10am
-* Tuesday February 11th @12pm
 * Tuesday March 3rd @10am
 * Tuesday March 10th @12pm
 * Tuesday April 7th @10am
