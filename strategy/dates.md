@@ -4,7 +4,7 @@
 
 Our next scheduled event is planned to be a two-part session on Azure DevOps (ADO) 2019 ([Topic: Azure DevOps Server features overview  #87](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/87)).
 
-* Part _one_ is planned for **Tueday Feburary 4th @10am EST** mapping out the “old way” (TFS 2015) to the “new way” (ADO) of doing all the common functions.
+* Part _one_ is planned for **Tueday February 4th @10am EST** mapping out the “old way” (TFS 2015) to the “new way” (ADO) of doing all the common functions.
 * Part _two_ is planned for **Tuesday Feburary 11th @1pm EST** show some of the new features particularly with pipelines and automation.
 
 ## Past Events
