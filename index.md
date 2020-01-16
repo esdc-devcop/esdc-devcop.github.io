@@ -1,24 +1,75 @@
-# Home
+---
+layout: default
+title: Welcome to the DevCoP!
+---
 
-## Ask Your Questions
-
-**Join our conversation in Slack**, we have a channel in the [GC DevOps League](https://gcdevopsleague.slack.com) [#esdc-devcop](https://gcdevopsleague.slack.com/messages/CKS45C1ST/).
+<div class="well">
+<h2 id="ask-your-questions">Ask Your Questions</h2>
+<p class="lead"><strong>Join our conversation in Slack</strong>, we have a channel in the <a target="_blank" href="https://gcdevopsleague.slack.com/messages/CKS45C1ST/">GC DevOps League #esdc-devcop</a>.</p>
+</div>
 
 ## Our content
 
-To know what we are all about and what our goals are, read up on our **[strategy](strategy/overview.md)**!
-We publicize all our [recommendations](https://esdc-devcop.github.io/recommendations/) and [guides](https://esdc-devcop.github.io/guides/) on this site. Some of these documents are directly related to our topics presented at the monthly DevCoP sessions.
+To know what we are all about and what our goals are, read up on our **[strategy](strategy/)**!
+We publicize all our [recommendations]({{ '/' | absolute_url }}recommendations/) and [guides]({{ '/' | absolute_url }}guides/) on this site. Some of these documents are directly related to our topics presented at the monthly DevCoP sessions.
 
-### Hot topics
-
-- [Managing Merge Requests, Using Code Review](https://esdc-devcop.github.io/recommendations/source_management/merging-review.html) - _Topic: [Managing Merge Requests - Using Code Review (#3)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/3)_
-- [Git Branching, Picking a Git Flow](https://esdc-devcop.github.io/recommendations/source_management/git-branching.html) - _Topic: [Recommend a branching model (#10)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/10)_
-- [Migrate TFVC to Git](https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.html) - _Topic: [Move source control to Git (#1)](https://github.com/esdc-devcop/strategy/issues/1)_
-
-### References
-
-- [Developer Services](references/developer-services.md)
-- [Suggested Training](references/suggested-training.md)
+<section>
+    <div class="row wb-eqht">
+        <div class="col-md-6">
+            <section class="panel panel-default hght-inhrt">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="guides">Guides</h3>
+                </div>
+                <div class="panel-body">
+                    <p class="lead">The "How to..." docs</p>
+                    <ul>
+                    {% assign sorted-guides = (site.guides | sort: 'date') | reverse %}
+                    {% for guide in sorted-guides limit:3 %}
+                        <li><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    <p><a href="guides/">See More</a></p>
+                </div>
+            </section>
+        </div>
+        <div class="col-md-6">
+            <section class="panel panel-default hght-inhrt">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="recommendations">Recommendations</h3>
+                </div>
+                <div class="panel-body">  
+                    <p class="lead">Best Practices on...</p>
+                    <ul>
+                    {% assign sorted-recommendations = (site.recommendations | sort: 'date') | reverse %}
+                    {% for recommendation in sorted-recommendations limit:3 %}
+                        <li><a href="{{ recommendation.url | relative_url }}">{{ recommendation.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    <p><a href="recommendations/">See More</a></p>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+<section class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title" id="references">References</h3>
+    </div>
+    <div class="panel-body">
+        <p>Local</p>
+        <ul class="colcount-md-3">
+            {% for reference in site.references %}
+            <li><a href="{{ reference.url | relative_url }}">{{ reference.title }}</a></li>
+            {% endfor %}
+        </ul>
+        <p>More</p>
+        <ul class="colcount-md-2">
+            {% for link in site.data.referenceLinks.links %}
+            <li><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
 
 ## Get More Involved
 

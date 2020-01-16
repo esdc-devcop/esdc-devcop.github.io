@@ -1,0 +1,11 @@
+links:
+  - url: http://dialogue/grp/ITAM-GBTI-SD-DL/Site/Active%20Products.aspx
+    name: Definitive Media Library (DML)
+  - url: http://dialogue/proj/ITCD-RMTI/APM-GPA/Lists/CAD_Components/APM%20CompRepository.aspx
+    name: Cooperate Solutions Directory (CSD)
+  - url: http://dialogue/grp/ITAM-GBTI-SD-DL/Site/Proposals%20And%20Requests.aspx
+    name: Software Proposal Requests
+  - url: http://dialogue/grp/ITSecurity-SecuriteTI/Site/Exceptions.aspx
+    name: IT Security Exception Requests
+  - url: http://iservice.prv/eng/is/security/tools_and_resources/docs/privileged_desktop_access_directive.pdf
+    name: Request local administrator privileges (PDF)
