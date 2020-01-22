@@ -57,7 +57,9 @@ permalink: /events/
 
 ## Potential Future Dates
 
+<ul>
 {% for date in site.data.events.dates %}
-* {{ date }}
+    <li>{{ date }}</li>
 {% endfor %}
+</ul>
 {% endif %}
