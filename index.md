@@ -56,18 +56,19 @@ We publicize all our [recommendations]({{ '/' | absolute_url }}recommendations/)
         <h3 class="panel-title" id="references">References</h3>
     </div>
     <div class="panel-body">
-        <p>Local</p>
         <ul class="colcount-md-3">
             {% for reference in site.references %}
             <li><a href="{{ reference.url | relative_url }}">{{ reference.title }}</a></li>
             {% endfor %}
         </ul>
-        <p>More</p>
-        <ul class="colcount-md-2">
-            {% for link in site.data.referenceLinks.links %}
-            <li><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
-            {% endfor %}
-        </ul>
+        <details>
+            <summary>More</summary>
+            <ul class="colcount-md-2">
+                {% for link in site.data.referenceLinks.links %}
+                <li><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </details>
     </div>
 </section>
 
