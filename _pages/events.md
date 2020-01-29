@@ -1,5 +1,5 @@
 ---
-title: Event Dates
+title: Events
 layout: no-banner
 permalink: /events/
 ---
