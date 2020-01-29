@@ -1,5 +1,10 @@
 # Home
 
+<div style="background-color: rgba(106,13,173,0.1);background-image: linear-gradient(to right, rgba(106,13,173,0.1),rgba(225,69,0,0.1));padding: 19px;border: 1px solid #e3e3e3;border-radius: 4px;box-shadow: inset 0 1px 1px rgba(0,0,0,.05);font-family: &quot;Noto Sans&quot;, sans-serif;color: #333;">
+  <h2 style="font-size: 32px;font-weight: 600;font-family: Lato, sans-serif;color: #333;">A new look is comming...</h2>
+  <p style="font-size: 24px;font-weight: 300;"><strong><a href="https://s-laugh.github.io/esdc-devcop.github.io/">Check it out now!</a></strong></p>
+</div>
+
 ## Ask Your Questions
 
 **Join our conversation in Slack**, we have a channel in the [GC DevOps League](https://gcdevopsleague.slack.com) [#esdc-devcop](https://gcdevopsleague.slack.com/messages/CKS45C1ST/).
