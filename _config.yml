@@ -1,4 +1,18 @@
-theme: jekyll-theme-architect
 title: ESDC Development Community
+description: The Employment and Social Development Canada Development Community of Practice informational site on best practices and helpful resources.
+
 plugins:
   - jemoji
+
+include:
+  - _pages
+
+exclude: [node_modules, .gitignore, .markdown-link-check.json, .makrdownlink.json, .travis.yml, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, link-check.js, package-lock.json, package.json, README.md, SECURITY.md]
+
+collections:
+  references:
+    output: true
+  guides:
+    output: true
+  recommendations:
+    output: true

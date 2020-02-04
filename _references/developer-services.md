@@ -1,14 +1,11 @@
-# Developer Services
+---
+title: Developer Services
+layout: default
+---
 
 This page is designed to show you some common tools that you might not have been aware of that will improve your development practices and make the life of a developer at ESDC easier.
 
 ## Department Built Tools
-
-### Definitive Media Library (DML)
-
-The DML is a list managed by the ITAM Control Board Working Group and contains a list of COTS products that have been permitted to be used within in the department.
-
-[Link Internal to ESDC](http://dialogue/grp/ITAM-GBTI-SD-DL/Site/Active%20Products.aspx)
 
 ### Enterprise Web Services
 

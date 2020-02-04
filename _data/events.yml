@@ -1,0 +1,65 @@
+dates:
+  - Tuesday March 3rd @10am
+  - Tuesday March 10th @12pm
+  - Tuesday April 7th @10am
+  - Tuesday April 14th @12pm
+  - Tuesday May 5th @10am
+  - Tuesday May 12th @12pm
+  - Tuesday June 2nd @10am
+  - Tuesday June 9th @12pm
+
+next:
+  topic: Azure DevOps Server features overview - Part 1
+  id: 87
+  overview: The session will be looking at mapping out the “old way” of using Team Foundation Server 2015 to the “new way” with Azure DevOps server 2019 on all the common functions.  
+  date: Tuesday February 4th @10am EST
+  part2: The second part is planned for Tuesday February 11th @1pm EST showing some of the new features particularly with pipelines and automation.
+
+past:
+  - month: January 2020
+    topic: Creating & Using APIs from the store (using REST) - Part 2
+    id: 34
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/REST%20Deep%20Dive.pptx
+    recording: https://gts-ee.webex.com/gts-ee/ldr.php?RCID=de51c38e434b96c0504c76e9669c8510
+
+  - month: January 2020
+    topic: Creating & Using APIs from the store (using REST) - Part 1
+    id: 34
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/Managing%20APIs%20and%20Microservices.pptx
+    recording: https://gts-ee.webex.com/gts-ee/ldr.php?RCID=5d5c2e2cddb3f97316bbfa6618b4d270
+  
+  - month: December 2019
+    topic: Managing Merge Requests - Using Code Review
+    id: 3
+    presentation: https://esdc-devcop.github.io/presentations/mergerequest.html
+    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/4e2e2458091c496a9ae3a98eb2ed75d1
+    resources:
+      - title: Managing Merge Requests, Using Code Review
+        link: https://esdc-devcop.github.io/recommendations/source_management/merging-review.html
+      - title: Continuous Integration / Continuous Delivery
+        link: https://esdc-devcop.github.io/guides/pipelines/cicd.html
+
+  - month: November 2019
+    topic: Recommend a branching model
+    id: 10
+    presentation: https://esdc-devcop.github.io/presentations/gitflow.html
+    recording: https://gts-ee.webex.com/recordingservice/sites/gts-ee/recording/9e28a4c3b4b1468385742163879d9122
+    resources:
+      - title: Git Branching, Picking a Git Flow
+        link: https://esdc-devcop.github.io/recommendations/source_management/git-branching.md
+
+  - month: October 2019
+    topic: Application Development Outcomes Map
+    presentation: http://dialogue/grp/PR6893344/OneNote/AppDevSA/03-Reference%20Material/Presentations/DevCop.one#SA%20and%20Outcomes%20Map%20-%20Oct%2015%202019&section-id={5EC98638-1A31-4AFE-941E-9AD50872138F}&page-id={66461AC0-9116-4364-B799-BD16D6C2CB70}&end
+    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/aef400b220a94e82a08b1cf3346ad40b
+    resources:
+      - title: Outcomes Map
+        link: http://dialogue/grp/PR6893344/OneNote/AppDevSA/02-Development%20(In%20Progress)/AppDev%20Roadmap.one#Outcomes%20and%20Dependencies%20Overview&section-id={5E16E60C-310B-49EF-8451-88E0CE4DA968}&page-id={67E8C1D8-F39B-498E-A809-EEAAB9BDAC88}&object-id={00AD0F45-6E68-0BA5-1DE4-4D2E8D11601E}&A9
+          
+  - month: September 2019
+    topic: Move source control to Git
+    id: 1
+    presentation: https://esdc-devcop.github.io/presentations/migrate-to-git.html
+    resources:
+      - title: Migrate from TFVC to Git
+        link: https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.html

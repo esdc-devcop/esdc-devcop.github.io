@@ -1,4 +1,8 @@
-# Strategy
+---
+title: Strategy
+layout: default
+permalink: /strategy/
+---
 
 ## Mission
 

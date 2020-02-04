@@ -1,0 +1,24 @@
+<script>
+    document.write(wet.builder.appTop({
+      "appName": [{
+        "text": "{{ site.title }}",
+        "href": "{{ '/' | absolute_url }}"
+      }],
+      "search": false,
+      "siteMenu": false,
+      "topSecMenu": false,
+      "menuLinks": [{
+          "text": "Recommendations",
+          "href": "{{ '/' | absolute_url }}recommendations/"
+        },{
+          "text": "Guides",
+          "href": "{{ '/' | absolute_url }}guides/"
+        },{
+          "text": "Events",
+          "href": "{{ '/' | absolute_url }}events/"
+        },{
+          "text": "Questions / Collaborate",
+          "href": "https://gcdevopsleague.slack.com/messages/CKS45C1ST/"
+        }]
+    }));
+  </script>

@@ -1,29 +1,76 @@
-# Home
+---
+layout: default
+title: Welcome to the DevCoP!
+---
 
-<div style="background-color: rgba(106,13,173,0.1);background-image: linear-gradient(to right, rgba(106,13,173,0.1),rgba(225,69,0,0.1));padding: 19px;border: 1px solid #e3e3e3;border-radius: 4px;box-shadow: inset 0 1px 1px rgba(0,0,0,.05);font-family: &quot;Noto Sans&quot;, sans-serif;color: #333;">
-  <h2 style="font-size: 32px;font-weight: 600;font-family: Lato, sans-serif;color: #333;">A new look is comming...</h2>
-  <p style="font-size: 24px;font-weight: 300;"><strong><a href="https://s-laugh.github.io/esdc-devcop.github.io/">Check it out now!</a></strong></p>
+<div class="well">
+<h2 id="ask-your-questions">Ask Your Questions</h2>
+<p class="lead"><strong>Join our conversation in Slack</strong>, we have a channel in the <a target="_blank" href="https://gcdevopsleague.slack.com/messages/CKS45C1ST/">GC DevOps League #esdc-devcop</a>.</p>
 </div>
-
-## Ask Your Questions
-
-**Join our conversation in Slack**, we have a channel in the [GC DevOps League](https://gcdevopsleague.slack.com) [#esdc-devcop](https://gcdevopsleague.slack.com/messages/CKS45C1ST/).
 
 ## Our content
 
-To know what we are all about and what our goals are, read up on our **[strategy](strategy/overview.md)**!
-We publicize all our [recommendations](https://esdc-devcop.github.io/recommendations/) and [guides](https://esdc-devcop.github.io/guides/) on this site. Some of these documents are directly related to our topics presented at the monthly DevCoP sessions.
+To know what we are all about and what our goals are, read up on our **[strategy](strategy/)**!
+We publicize all our [recommendations]({{ '/' | absolute_url }}recommendations/) and [guides]({{ '/' | absolute_url }}guides/) on this site. Some of these documents are directly related to our topics presented at the monthly DevCoP sessions.
 
-### Hot topics
-
-- [Managing Merge Requests, Using Code Review](https://esdc-devcop.github.io/recommendations/source_management/merging-review.html) - _Topic: [Managing Merge Requests - Using Code Review (#3)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/3)_
-- [Git Branching, Picking a Git Flow](https://esdc-devcop.github.io/recommendations/source_management/git-branching.html) - _Topic: [Recommend a branching model (#10)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/10)_
-- [Migrate TFVC to Git](https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.html) - _Topic: [Move source control to Git (#1)](https://github.com/esdc-devcop/strategy/issues/1)_
-
-### References
-
-- [Developer Services](references/developer-services.md)
-- [Suggested Training](references/suggested-training.md)
+<section>
+    <div class="row wb-eqht">
+        <div class="col-md-6">
+            <section class="panel panel-default hght-inhrt">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="guides">Guides</h3>
+                </div>
+                <div class="panel-body">
+                    <p class="lead">The "How to..." docs</p>
+                    <ul>
+                    {% assign sorted-guides = (site.guides | sort: 'date') | reverse %}
+                    {% for guide in sorted-guides limit:3 %}
+                        <li><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    <p><a href="guides/">See More</a></p>
+                </div>
+            </section>
+        </div>
+        <div class="col-md-6">
+            <section class="panel panel-default hght-inhrt">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="recommendations">Recommendations</h3>
+                </div>
+                <div class="panel-body">  
+                    <p class="lead">Best Practices on...</p>
+                    <ul>
+                    {% assign sorted-recommendations = (site.recommendations | sort: 'date') | reverse %}
+                    {% for recommendation in sorted-recommendations limit:3 %}
+                        <li><a href="{{ recommendation.url | relative_url }}">{{ recommendation.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    <p><a href="recommendations/">See More</a></p>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+<section class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title" id="references">References</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="colcount-md-3">
+            {% for reference in site.references %}
+            <li><a href="{{ reference.url | relative_url }}">{{ reference.title }}</a></li>
+            {% endfor %}
+        </ul>
+        <details>
+            <summary>More</summary>
+            <ul class="colcount-md-2">
+                {% for link in site.data.referenceLinks.links %}
+                <li><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </details>
+    </div>
+</section>
 
 ## Get More Involved
 
