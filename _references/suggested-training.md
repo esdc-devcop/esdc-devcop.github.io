@@ -1,10 +1,11 @@
-# Suggested Training
-
-## Background
+---
+title: Suggested Training
+layout: default
+---
 
 If there is good training out there, we want to know about it; add it to this page. We can also use this for training on new technology the department is looking at moving to.
 
-## In this document
+In this document:
 
 1. [What to train on](#what-to-train-on)
    * [New development training](#new-development-training)
