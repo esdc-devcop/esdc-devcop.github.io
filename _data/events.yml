@@ -9,13 +9,18 @@ dates:
   - Tuesday June 9th @12pm
 
 next:
-  topic: Azure DevOps Server features overview - Part 1
+  topic: Azure DevOps Server new features - Part 2
   id: 87
-  overview: The session will be looking at mapping out the “old way” of using Team Foundation Server 2015 to the “new way” with Azure DevOps server 2019 on all the common functions.  
-  date: Tuesday February 4th @10am EST
-  part2: The second part is planned for Tuesday February 11th @1pm EST showing some of the new features particularly with pipelines and automation.
+  overview: The session will be showing some of the new features particularly with pipelines and automation.  
+  date: Tuesday February 11th @1pm EST
+#  part2: n/a
 
 past:
+  - month: February 2020
+    topic: Azure DevOps Server features overview - Part 1
+    id: 87
+    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/5785938168a44c509bc5dc4e74f116b7
+
   - month: January 2020
     topic: Creating & Using APIs from the store (using REST) - Part 2
     id: 34
