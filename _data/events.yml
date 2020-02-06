@@ -20,7 +20,7 @@ past:
     topic: Azure DevOps Server features overview - Part 1
     id: 87
     recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/5785938168a44c509bc5dc4e74f116b7
-    resouces:
+    resources:
       - title: Azure DevOps User Guide
         link: https://docs.microsoft.com/en-us/azure/devops/user-guide/
       - title: Permissions/Security Overview
