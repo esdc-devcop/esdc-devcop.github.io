@@ -9,3 +9,5 @@ links:
     name: IT Security Exception Requests
   - url: http://iservice.prv/eng/is/security/tools_and_resources/docs/privileged_desktop_access_directive.pdf
     name: Request local administrator privileges (PDF)
+  - url: https://docs.microsoft.com/en-ca/azure/devops/?view=azure-devops
+    name: Azure DevOps Documentation

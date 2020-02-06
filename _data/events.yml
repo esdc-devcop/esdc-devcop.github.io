@@ -20,6 +20,15 @@ past:
     topic: Azure DevOps Server features overview - Part 1
     id: 87
     recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/5785938168a44c509bc5dc4e74f116b7
+    resouces:
+      - title: Azure DevOps User Guide
+        link: https://docs.microsoft.com/en-us/azure/devops/user-guide/
+      - title: Permissions/Security Overview
+        link: https://docs.microsoft.com/en-us/azure/devops/organizations/security/permissions?view=azure-devops&amp;tabs=preview-page
+      - title: Area and iteration paths
+        link: https://docs.microsoft.com/en-us/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops
+      - title: Teams and Area Paths
+        link: https://docs.microsoft.com/en-us/azure/devops/organizations/settings/set-area-paths?view=azure-devops&amp%3Btabs=preview-page&tabs=preview-page
 
   - month: January 2020
     topic: Creating & Using APIs from the store (using REST) - Part 2
