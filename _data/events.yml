@@ -15,7 +15,7 @@ next:
 #  part2: n/a
 
 past:
-- month: February 2020
+  - month: February 2020
     topic: Azure DevOps Server features overview - Part 2
     id: 87
     recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/92cb463966ad4d30a0bde07f1977a002
