@@ -9,13 +9,18 @@ dates:
   - Tuesday June 9th @12pm
 
 next:
-  topic: Azure DevOps Server new features - Part 2
-  id: 87
-  overview: The session will be showing some of the new features particularly with pipelines and automation.  
-  date: Tuesday February 11th @1pm EST
+  topic: .NET & Java Web Templates Demo - Using CDTS
+  id: 84
+  overview: The session will be showing the CDTS features along with demos of its implementation in the SDS team's .NET and Java Web Templates. 
+  date: Tuesday March 3rd @10pm EST
 #  part2: n/a
 
 past:
+- month: February 2020
+    topic: Azure DevOps Server features overview - Part 2
+    id: 87
+    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/92cb463966ad4d30a0bde07f1977a002
+    
   - month: February 2020
     topic: Azure DevOps Server features overview - Part 1
     id: 87
