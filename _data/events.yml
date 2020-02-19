@@ -1,5 +1,4 @@
 dates:
-  - Tuesday March 3rd @10am
   - Tuesday March 10th @12pm
   - Tuesday April 7th @10am
   - Tuesday April 14th @12pm
@@ -9,13 +8,32 @@ dates:
   - Tuesday June 9th @12pm
 
 next:
-  topic: Azure DevOps Server features overview - Part 1
-  id: 87
-  overview: The session will be looking at mapping out the “old way” of using Team Foundation Server 2015 to the “new way” with Azure DevOps server 2019 on all the common functions.  
-  date: Tuesday February 4th @10am EST
-  part2: The second part is planned for Tuesday February 11th @1pm EST showing some of the new features particularly with pipelines and automation.
+  topic: .NET & Java Web Templates Demo - Using CDTS
+  id: 84
+  overview: The session will be showing the Centrally Deployed Templates Solution(CDTS) features along with demos of its implementation in the SDS team's .NET and Java Web Templates. 
+  date: Tuesday March 3rd @10am EST
+#  part2: n/a
 
 past:
+  - month: February 2020
+    topic: Azure DevOps Server features overview - Part 2
+    id: 87
+    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/92cb463966ad4d30a0bde07f1977a002
+    
+  - month: February 2020
+    topic: Azure DevOps Server features overview - Part 1
+    id: 87
+    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/5785938168a44c509bc5dc4e74f116b7
+    resources:
+      - title: Azure DevOps User Guide
+        link: https://docs.microsoft.com/en-us/azure/devops/user-guide/
+      - title: Permissions/Security Overview
+        link: https://docs.microsoft.com/en-us/azure/devops/organizations/security/permissions?view=azure-devops&amp;tabs=preview-page
+      - title: Area and iteration paths
+        link: https://docs.microsoft.com/en-us/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops
+      - title: Teams and Area Paths
+        link: https://docs.microsoft.com/en-us/azure/devops/organizations/settings/set-area-paths?view=azure-devops&amp%3Btabs=preview-page&tabs=preview-page
+
   - month: January 2020
     topic: Creating & Using APIs from the store (using REST) - Part 2
     id: 34
