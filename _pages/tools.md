@@ -63,6 +63,6 @@ permalink: /tools.html
           </li>
         {% endfor %}
       </ul>
-    {% endif %}    
+    {% endif %}
   </details>
 {% endfor %}
