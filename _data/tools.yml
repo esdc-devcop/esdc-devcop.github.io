@@ -1,0 +1,99 @@
+# - focus:                # Required; What is the focus of the tool recommendation on
+#   scope:                # Optional; Does the focus need scoping, if so add it.
+#   tools:                # 1 Required
+#     - name:             # Required; Name of the tool
+#       documentation:    # Optional; Link to the documentation
+#       recommendation:   # Optional; Link to a recommendation on the tool
+#       application:      # Optional; Link to the SaaS implementation of the tool
+#   alternatives:         # Optional; list same as Tools, plus
+#     - rational:         # Required; Plain text, condition of why the alternative could be considered
+#   description:          # Optional; Plain text describing the focus/scope of the recommendation as needed.
+#   tags:                 # Optional; List of tags related to the tools or focus.
+
+development:
+  - focus: Source Control
+    scope: Technology
+    tools:
+      - name: Git
+        documentation: https://git-scm.com/
+    tags:
+      - Branching
+
+  - focus: Source Control
+    scope: Management
+    tools:
+      - name: GCcode
+        application: https://gccode.ssc-spc.gc.ca/iitb-dgiit/
+        recommendation: https://github.com/esdc-edsc/Welcome/blob/master/Recommendations/GCcode.md
+    alternatives:
+      - name: Azure DevOps (on-prem)
+        rational: Legal requirement preventing the sharing of the project
+        application: http://ado.intra.dmz
+      - name: GitHub
+        rational: Project is under an open source licence (MIT)
+        application: https://github.com/
+    tags:
+      - ALM
+
+  - focus: Unit Testing Frameworks
+    scope: .NET
+    tools:
+      - name: NSubstitute
+        documentation: https://nsubstitute.github.io/
+      - name: xUnit
+        documentation: https://xunit.net/
+      - name: AutoFixture
+        documentation: https://github.com/AutoFixture/AutoFixture
+    tags:
+      - Testing
+
+  - focus: Unit Testing Frameworks
+    scope: JS / TypeScript
+    tools:
+      - name: Jest
+        documentation: https://jestjs.io/
+    tags:
+      - Testing
+
+  - focus: Logging
+    scope: .NET
+    tools:
+      - name: NLog
+        documentation: http://nlog-project.org/
+  
+  - focus: Asset Management
+    tools:
+      - name: Artifactory
+        application: https://jade-repos.intra.dev/artifactory/webapp/#/home
+        recommendation: https://esdc-devcop.github.io/recommendations/artifactory.html
+  
+  - focus: Programming Language
+    tools:
+      - name: TypeScript
+        documentation:  https://www.typescriptlang.org/
+  
+  - focus: Programming Frameworks
+    scope: .NET
+    tools:
+      - name: ASP.NET Core
+        documentation: https://docs.microsoft.com/en-ca/dotnet/
+      - name: DotNetTemplates - CoreMVC
+        documentation: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates
+  
+  - focus: Programming Frameworks
+    scope: Java
+    tools:
+      - name: JavaTemplates - Spring Boot
+        documentation: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/JavaTemplates
+  
+  - focus: Programming Frameworks
+    scope: JS / TypeScript
+    tools:
+      - name: Vue.js CLI
+        documentation: https://cli.vuejs.org/
+  
+  - focus: Smoke Testing
+    tools:
+      - name: Selenium
+        documentation: https://www.seleniumhq.org/
+    

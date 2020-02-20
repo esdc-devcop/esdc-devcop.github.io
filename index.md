@@ -45,7 +45,7 @@ We publicize all our [recommendations]({{ '/' | absolute_url }}recommendations/)
                         <li><a href="{{ recommendation.url | relative_url }}">{{ recommendation.title }}</a></li>
                     {% endfor %}
                     </ul>
-                    <p><a href="recommendations/">See More</a></p>
+                    <p><a href="recommendations/">See More</a> and <a href="tools.html">Recommended Tools Overview</a></p>
                 </div>
             </section>
         </div>
