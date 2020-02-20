@@ -1,10 +1,8 @@
 ---
 title: Recommended Tools Overview
 layout: default
-permalink: /tools/
+permalink: /tools.html
 ---
-
-## Development Tools
 
 {% for devTool in site.data.tools.development | sort: "focus" %}
   <details>
@@ -13,7 +11,7 @@ permalink: /tools/
       {% if devTool.scope %}
         {% assign title = title | append: ' - ' | append: devTool.scope %}
       {% endif %}
-      <h3 id="{{ title | slugify }}">{{ title }}</h3>
+      <h2 class="h3" id="{{ title | slugify }}">{{ title }}</h2>
     </summary>
     {% if devTool.tags %}
       <p>
@@ -29,7 +27,7 @@ permalink: /tools/
     <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
       {% for tool in devTool.tools %}
         <li class="list-group-item col-md-4 brdr-rds-0">
-          <h4 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h4>
+          <h3 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h3>
           <ul class="list-group-item-text list-inline">
             {% if tool.application %}
               <li><a href="{{ tool.application }}">Application</a></li>
@@ -49,7 +47,7 @@ permalink: /tools/
       <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
         {% for tool in devTool.alternatives %}
           <li class="list-group-item col-md-4 brdr-rds-0">
-            <h3 class="list-group-item-heading">{{ tool.name }}</h3>
+            <h3 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h3>
             <p>{{ tool.rational }}</p>
             <ul class="list-group-item-text list-inline">
               {% if tool.application %}
