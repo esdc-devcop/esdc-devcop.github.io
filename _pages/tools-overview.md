@@ -6,10 +6,7 @@ permalink: /tools/
 
 ## Development Tools
 
-<div class="row">
-
 {% for devTool in site.data.tools.development | sort: "focus" %}
-<div class="col-md-6">
   <details>
     <summary>
       {% assign title = devTool.focus %}
@@ -29,9 +26,9 @@ permalink: /tools/
       <p>{{ devTool.description %}}</p>
     {% endif %}
     <p class="lead">Recommended Tools:</p>
-    <ul class="list-group">
+    <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
       {% for tool in devTool.tools %}
-        <li class="list-group-item">
+        <li class="list-group-item col-md-4 brdr-rds-0">
           <h4 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h4>
           <ul class="list-group-item-text list-inline">
             {% if tool.application %}
@@ -49,9 +46,9 @@ permalink: /tools/
     </ul>
     {% if devTool.alternatives %}
       <p class="lead">Alternative Tools:</p>
-      <ul class="list-group">
+      <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
         {% for tool in devTool.alternatives %}
-          <li class="list-group-item">
+          <li class="list-group-item col-md-4 brdr-rds-0">
             <h3 class="list-group-item-heading">{{ tool.name }}</h3>
             <p>{{ tool.rational }}</p>
             <ul class="list-group-item-text list-inline">
@@ -68,9 +65,6 @@ permalink: /tools/
           </li>
         {% endfor %}
       </ul>
-    {% endif %}
+    {% endif %}    
   </details>
-</div>
 {% endfor %}
-
-</div>
