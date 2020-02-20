@@ -4,6 +4,8 @@ layout: default
 permalink: /tools/
 ---
 
+## Development Tools
+
 <div class="row">
 
 {% for devTool in site.data.tools.development | sort: "focus" %}
@@ -14,7 +16,7 @@ permalink: /tools/
       {% if devTool.scope %}
         {% assign title = title | append: ' - ' | append: devTool.scope %}
       {% endif %}
-      <h2 id="{{ title | slugify }}">{{ title }}</h2>
+      <h3 id="{{ title | slugify }}">{{ title }}</h3>
     </summary>
     {% if devTool.tags %}
       <p>
@@ -30,7 +32,7 @@ permalink: /tools/
     <ul class="list-group">
       {% for tool in devTool.tools %}
         <li class="list-group-item">
-          <h3 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h3>
+          <h4 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h4>
           <ul class="list-group-item-text list-inline">
             {% if tool.application %}
               <li><a href="{{ tool.application }}">Application</a></li>
