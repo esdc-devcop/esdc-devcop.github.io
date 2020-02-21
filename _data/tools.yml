@@ -44,6 +44,9 @@ development:
         documentation: https://xunit.net/
       - name: AutoFixture
         documentation: https://github.com/AutoFixture/AutoFixture
+      - name: FluentAssertions
+        documentation: https://fluentassertions.com/
+    description: All the recommended tools can be used in combination with eachother to create a very coheasive testing framework. NSubstitue works inside AutoFixture giveing you the ability to mock classes. xUnit is a cleaner way to execute tests over the default Microsoft framework while FluentAssertions makes your coded tests more human redable.
     tags:
       - Testing
 
