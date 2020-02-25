@@ -121,6 +121,8 @@ development:
     tools:
       - name: Denim Group Threadfix
         documentation: https://threadfix.it/
+
+  - focus: ESDC Standard Security Tools
     scope: Container Security (Cloud only)
     tools:
       - name: Aqua
