@@ -105,6 +105,8 @@ development:
     tools:
       - name: Microfocus Fortify Static Code Analyzer
         documentation: https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview
+
+  - focus: ESDC Standard Security Tools
     scope: DAST (Legacy & Cloud)
     tools:
       - name: Microfocus Fortify WebInspect
