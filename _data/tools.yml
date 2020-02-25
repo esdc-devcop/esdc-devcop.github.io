@@ -111,6 +111,8 @@ development:
     tools:
       - name: Microfocus Fortify WebInspect
         documentation: https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/overview
+
+  - focus: ESDC Standard Security Tools
     scope: SCA (Legacy & Cloud)
     tools:
       - name: Sonatype Nexus Lifecycle
