@@ -125,6 +125,8 @@ development:
         documentation: https://threadfix.it/
 
   - focus: ESDC Standard Security Tools
+
+  - focus: ESDC Standard Security Tools
     scope: Container Security (Cloud only)
     tools:
       - name: Aqua
