@@ -100,7 +100,7 @@ development:
       - name: Selenium
         documentation: https://www.seleniumhq.org/
     
-- focus: ESDC Standard Security Tools by Security Testing Type
+  - focus: ESDC Standard Security Tools
     scope: SAST (Legacy & Cloud)
     tools:
       - name: Microfocus Fortify Static Code Analyzer
