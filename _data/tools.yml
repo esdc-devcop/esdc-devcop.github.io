@@ -100,3 +100,35 @@ development:
       - name: Selenium
         documentation: https://www.seleniumhq.org/
     
+  - focus: ESDC Standard Security Tools
+    scope: SAST (Legacy & Cloud)
+    tools:
+      - name: Microfocus Fortify Static Code Analyzer
+        documentation: https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview
+
+  - focus: ESDC Standard Security Tools
+    scope: DAST (Legacy & Cloud)
+    tools:
+      - name: Microfocus Fortify WebInspect
+        documentation: https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/overview
+
+  - focus: ESDC Standard Security Tools
+    scope: SCA (Legacy & Cloud)
+    tools:
+      - name: Sonatype Nexus Lifecycle
+        documentation: https://www.sonatype.com/product-nexus-lifecycle
+
+  - focus: ESDC Standard Security Tools
+    scope: AVM (Cloud only)
+    tools:
+      - name: Denim Group Threadfix
+        documentation: https://threadfix.it/
+
+  - focus: ESDC Standard Security Tools
+
+  - focus: ESDC Standard Security Tools
+    scope: Container Security (Cloud only)
+    tools:
+      - name: Aqua
+        documentation: https://www.aquasec.com/          
+                
