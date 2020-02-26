@@ -122,9 +122,7 @@ development:
     scope: AVM (Cloud only)
     tools:
       - name: Denim Group Threadfix
-        documentation: https://threadfix.it/
-
-  - focus: ESDC Standard Security Tools
+        documentation: https://threadfix.it/  
 
   - focus: ESDC Standard Security Tools
     scope: Container Security (Cloud only)
