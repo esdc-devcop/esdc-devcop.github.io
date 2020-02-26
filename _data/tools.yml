@@ -113,7 +113,7 @@ development:
         documentation: https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/overview
 
   - focus: ESDC Standard Security Tools
-    scope: SCA (Legacy & Cloud)
+    scope: SCA (Cloud only)
     tools:
       - name: Sonatype Nexus Lifecycle
         documentation: https://www.sonatype.com/product-nexus-lifecycle
@@ -122,9 +122,7 @@ development:
     scope: AVM (Cloud only)
     tools:
       - name: Denim Group Threadfix
-        documentation: https://threadfix.it/
-
-  - focus: ESDC Standard Security Tools
+        documentation: https://threadfix.it/  
 
   - focus: ESDC Standard Security Tools
     scope: Container Security (Cloud only)
