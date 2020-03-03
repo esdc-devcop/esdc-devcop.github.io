@@ -4,7 +4,9 @@ layout: default
 permalink: /tools.html
 ---
 
+<ul class="list-unstyled">
 {% for devTool in site.data.tools.development | sort: "focus" %}
+  <li>
   <details>
     <summary>
       {% assign title = devTool.focus %}
@@ -65,4 +67,6 @@ permalink: /tools.html
       </ul>
     {% endif %}
   </details>
+  </li>
 {% endfor %}
+</ul>
