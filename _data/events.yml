@@ -7,14 +7,38 @@ dates:
   - Tuesday June 2nd @10am
   - Tuesday June 9th @12pm
 
-next:
-  topic: .NET & Java Web Templates Demo - Using CDTS
-  id: 84
-  overview: The session will be showing the Centrally Deployed Templates Solution(CDTS) features along with demos of its implementation in the SDS team's .NET and Java Web Templates. 
-  date: Tuesday March 3rd @10am EST
+#  next:
+#  topic: .NET & Java Web Templates Demo - Using CDTS
+#  id: 84
+#  overview: The session will be showing the Centrally Deployed Templates Solution(CDTS) features along with demos of its implementation in the SDS team's .NET and Java Web Templates. 
+#  date: Tuesday March 3rd @10am EST
 #  part2: n/a
 
 past:
+  - month: March 2020
+    topic: .NET & Java Web Templates Demo - Using CDTS
+    id: 84
+    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/df64b5668c7747b783c6ee013186d79d
+    resources:
+      - title: Centrally Deployed Templates Solution (CDTS) presentation
+        link: https://cenw-wscoe.github.io/sgdc-cdts-dev-cop/#/
+      - title: CDTS project on GitHub
+        link: https://github.com/wet-boew/cdts-sgdc
+      - title: CDTS Documentation
+        link: https://cenw-wscoe.github.io/sgdc-cdts/index.html
+      - title: CDTS, .NET & Java Templates presentation
+        link: https://esdc-devcop.github.io/templates-presentation/#/
+      - title: DotNet Templates project on GCcode
+        link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates
+      - title: DotNet Templates project on GCcode
+        link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates
+      - title: DotNet Templates Demo on GitHub
+        link: https://github.com/esdc-devcop/templates-netcore-example
+      - title: Java Templates project on GCcode
+        link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/JavaTemplates
+      - title: Java Templates Installation Instructions on GCcode
+        link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/JavaTemplates/-/wikis/Documentation/Installation
+    
   - month: February 2020
     topic: Azure DevOps Server features overview - Part 2
     id: 87
