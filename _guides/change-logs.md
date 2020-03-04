@@ -17,10 +17,7 @@ Notes should be easy to read and convey a clear message to the reader.
 
 ## General logs
 
-The change log should be a list of changes made for each release of a product.
-The log should be stored in the root of the products sourcecode and called `CHANGELOG.md`.
-
-All changes that are listed should indicate the _public_ property, function, or feature name that is changing in clear and to-the-point detail providing a link (issue number, documentation, commit) for more details on the change.
+All changes that are listed should indicate the _public_ property, function, or feature that is changing in clear and to-the-point detail providing a link (issue number, documentation, commit) for more details on the change.
 By _public_ it mean the name that the users of the solution would know or recognize.
 
 ## API logs
@@ -29,7 +26,7 @@ APIs should follow this logging template as they generally require strict versio
 [Semantic Versioning](https://semver.org/) is the most common and recommend approach to versioning, so this templates assumes that it is being used.
 
 >
-> ### 0.0.0 - Release Name
+> ### 0.0.0 - 2020
 >
 > #### Breaking changes
 >
@@ -45,7 +42,7 @@ APIs should follow this logging template as they generally require strict versio
 >
 
 **The Top Header `0.0.0`** indicate the version being released.
-It could optionally include the `- Release Name` indicating a release name.
+It could include the `- 2020` indicating a release name.
 
 **The First Section `Breaking changes`** lists all changes that require the implementer of your solution to make changes on their end to complete the update.
 If you are adding to this section you should be updating the major version number (**0**.0.0) in your version.
@@ -58,6 +55,7 @@ If there are no new features, that should still be indicated in this section.
 **The Third Section `Fixes`** lists any changes made to fix issues, improving back end operations, or patching other dependencies .
 Changes listed here should not cause the an implementer to make manual changes when updating; if they do it should be moved to _Breaking changes_.
 If you are adding to this section you should be updating the patch version number (0.0.**0**) in your version.
+
 
 ## Application Logs
 
