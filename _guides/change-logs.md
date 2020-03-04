@@ -3,7 +3,7 @@ title: Writing Good Change Logs
 layout: default
 category: Documentation
 summary: A layout for how to write consistent and informative change logs that are meaningful to those reading them.
-date: 2020-02-25
+date: 2020-03-04
 ---
 
 {{ page.summary }}
@@ -25,21 +25,21 @@ By _public_ it mean the name that the users of the solution would know or recogn
 APIs should follow this logging template as they generally require strict versioning schemes to identify _breaking_ changes.
 [Semantic Versioning](https://semver.org/) is the most common and recommend approach to versioning, so this templates assumes that it is being used.
 
->>>
-### 0.0.0 - 2020
-
-#### Breaking changes
-
-- `PropertyX` in `FunctionG` now returns alphanumerics - fixes #00
-
-#### New features and improvements
-
-- `FunctionT` added for making streamlined calls to DB - completes #00
-
-#### Fixes
-
-- `PropertyJ` in `FunctionB` parses properly - fixes #00
->>>
+>
+> ### 0.0.0 - 2020
+>
+> #### Breaking changes
+>
+> - `PropertyX` in `FunctionG` now returns alphanumerics - fixes #00
+>
+> #### New features and improvements
+>
+> - `FunctionT` added for making streamlined calls to DB - completes #00
+>
+> #### Fixes
+>
+> - `PropertyJ` in `FunctionB` parses properly - fixes #00
+>
 
 **The Top Header `0.0.0`** indicate the version being released.
 It could include the `- 2020` indicating a release name.
