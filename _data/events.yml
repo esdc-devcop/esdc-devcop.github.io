@@ -19,6 +19,7 @@ past:
     topic: .NET & Java Web Templates Demo - Using CDTS
     id: 84
     recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/df64b5668c7747b783c6ee013186d79d
+    presentation: https://esdc-devcop.github.io/templates-presentation/#/
     resources:
       - title: Centrally Deployed Templates Solution (CDTS) presentation
         link: https://cenw-wscoe.github.io/sgdc-cdts-dev-cop/#/
@@ -26,8 +27,6 @@ past:
         link: https://github.com/wet-boew/cdts-sgdc
       - title: CDTS Documentation
         link: https://cenw-wscoe.github.io/sgdc-cdts/index.html
-      - title: CDTS, .NET & Java Templates presentation
-        link: https://esdc-devcop.github.io/templates-presentation/#/
       - title: DotNet Templates project on GCcode
         link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates
       - title: DotNet Templates Demo on GitHub
