@@ -56,7 +56,6 @@ If there are no new features, that should still be indicated in this section.
 Changes listed here should not cause the an implementer to make manual changes when updating; if they do it should be moved to _Breaking changes_.
 If you are adding to this section you should be updating the patch version number (0.0.**0**) in your version.
 
-
 ## Application Logs
 
 Application Logs are diffren't from API logs because they speak to a diffrent audience, the users of the application (not developers).
@@ -64,7 +63,6 @@ They should avoid making refrences to details of code, like property names and i
 Each listed change should be a link to documentation about the change.
 What you are describing in the change should be tailored to help _sell_ the product.
 
->
 > ### Release Name - February 15, 2020
 >
 > #### New Features
