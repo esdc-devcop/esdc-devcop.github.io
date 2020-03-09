@@ -63,6 +63,8 @@ development:
     tools:
       - name: NLog
         documentation: http://nlog-project.org/
+    tags:
+      - Operations
   
   - focus: Asset Management
     tools:
@@ -99,34 +101,65 @@ development:
     tools:
       - name: Selenium
         documentation: https://www.seleniumhq.org/
+    alternatives:
+      - name: Puppeteer
+        rational: Need of a lighter weight testing tool, or JS integration.
+        documentation: https://github.com/puppeteer/puppeteer
+    tags:
+      - Testing
     
-  - focus: ESDC Standard Security Tools
+  - focus: Security Testing
     scope: SAST (Legacy & Cloud)
     tools:
       - name: Microfocus Fortify Static Code Analyzer
         documentation: https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview
+    description: SAST (Static Application Security Testing) designed to scan the code looking for vulnerabilities, helping enforce conformance to coding guidelines and standards. It is done without executing the code.
+    tags:
+      - Testing
+      - Security
 
-  - focus: ESDC Standard Security Tools
+  - focus: Security Testing
     scope: DAST (Legacy & Cloud)
     tools:
       - name: Microfocus Fortify WebInspect
         documentation: https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/overview
+    description: DAST (Dynamic Application Security Testing) executes against the running code attempting to inject malicious data against the software looking for vulnerabilities. This can help identify runtime problems.
+    tags:
+      - Testing
+      - Security
 
-  - focus: ESDC Standard Security Tools
+  - focus: Security Testing
     scope: SCA (Cloud only)
     tools:
       - name: Sonatype Nexus Lifecycle
         documentation: https://www.sonatype.com/product-nexus-lifecycle
+    tags:
+      - Testing
+      - Security
 
-  - focus: ESDC Standard Security Tools
+  - focus: Security Testing
     scope: AVM (Cloud only)
     tools:
       - name: Denim Group Threadfix
-        documentation: https://threadfix.it/  
+        documentation: https://threadfix.it/
+    tags:
+      - Testing
+      - Security 
 
-  - focus: ESDC Standard Security Tools
+  - focus: Security Testing
     scope: Container Security (Cloud only)
     tools:
       - name: Aqua
-        documentation: https://www.aquasec.com/          
-                
+        documentation: https://www.aquasec.com/
+    tags:
+      - Testing
+      - Security
+
+  - focus: A11y Testing
+    tools:
+      - name: Axe-Core
+        documentation: https://www.deque.com/axe/
+    description: Axe-Core is a great tool to quickly test for most of the common accessability issues.
+    tags:
+      - Testing
+      - Accessability
