@@ -30,7 +30,7 @@
         <div class="well well-sm text-center">
           <p class="lead mrgn-bttm-0">{{ site.data.alert.current }}</p>
         </div>
-      {% elseif site.data.events.next %}
+      {% elsif site.data.events.next %}
         <div class="well well-sm text-center">
           <p class="lead mrgn-bttm-0">Join us on <strong>{{ site.data.events.next.date }}</strong> for <a href="{{ '/' | absolute_url }}events/#next-event">{{ site.data.events.next.topic }}</a></p>
         </div>
