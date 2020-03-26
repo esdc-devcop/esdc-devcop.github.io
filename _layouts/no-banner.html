@@ -25,6 +25,11 @@
     {% include appTop.html %}
 
     <main role="main" property="mainContentOfPage" class="container" id="wb-cont">
+      {% if site.data.alert.current %}
+        <div class="well well-sm text-center">
+          <p class="lead mrgn-bttm-0">{{ site.data.alert.current }}</p>
+        </div>
+      {% endif %}
       <h1>{{ page.title }}</h1>
 
       {{ content }}
