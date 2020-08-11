@@ -1,7 +1,7 @@
 ---
 title: Recommended Tools Overview
 layout: default
-permalink: /tools/
+permalink: /tools.html
 ---
 
 <ul class="list-unstyled">
