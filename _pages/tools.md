@@ -25,7 +25,6 @@ permalink: /tools.html
     {% if devTool.description %}
       <p>{{ devTool.description %}}</p>
     {% endif %}
-    <p class="lead">Recommended Tools:</p>
     <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
       {% for tool in devTool.tools %}
         <li class="list-group-item col-md-4 brdr-rds-0">
@@ -44,28 +43,6 @@ permalink: /tools.html
         </li>
       {% endfor %}
     </ul>
-    {% if devTool.alternatives %}
-      <p class="lead">Alternative Tools:</p>
-      <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
-        {% for tool in devTool.alternatives %}
-          <li class="list-group-item col-md-4 brdr-rds-0">
-            <h3 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h3>
-            <p>{{ tool.rational }}</p>
-            <ul class="list-group-item-text list-inline">
-              {% if tool.application %}
-                <li><a href="{{ tool.application }}">Application</a></li>
-              {% endif %}
-              {% if tool.documentation %}
-                <li><a href="{{ tool.documentation }}">Documentation</a></li>
-              {% endif %}
-              {% if tool.recommendation %}
-                <li><a href="{{ tool.recommendation }}">Recommendation</a></li>
-              {% endif %}
-            </ul>
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
   </details>
   </li>
 {% endfor %}
