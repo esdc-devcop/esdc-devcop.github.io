@@ -12,13 +12,7 @@ We welcome contributions from anybody.
 Feel free to fork and submit a Pull Request (PR) to any of our repos.
 If you are from ESDC ask to join as a Member.
 
-Please [vote on Issues (topics)](https://github.com/esdc-devcop/esdc-devcop.github.io/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc) (with a :+1: reaction) that you think we should put a focus on presenting first!
-
 See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-## Ask Questions
-
-**Join our conversation in Slack**, we have a channel in the [GC DevOps League](https://gcdevopsleague.slack.com) [#esdc-devcop](https://gcdevopsleague.slack.com/messages/CKS45C1ST/).
 
 ## License
 
