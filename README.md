@@ -14,7 +14,6 @@ If you are from ESDC ask to join as a Member.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
-
 ## License
 
 Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distributed under the [Open Government Licence - Canada](LICENSE).
