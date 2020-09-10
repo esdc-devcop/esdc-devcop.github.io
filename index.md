@@ -3,81 +3,23 @@ layout: default
 title: Welcome to the DevCoP!
 ---
 
-<div class="well">
-<h2 id="ask-your-questions">Ask Your Questions</h2>
-<p class="lead"><strong>Join our conversation in Slack</strong>, we have a channel in the <a target="_blank" href="https://gcdevopsleague.slack.com/messages/CKS45C1ST/">GC DevOps League #esdc-devcop</a>.</p>
-</div>
+## Our Goal
 
-## Our content
+Equipping ESDC developers with skills, knowledge and tools to continuously modernize the software they develop.  
+We want the developers at ESDC to be collaborating with each other and those from other departments, gaining skills to build into a greater diversity of knowledge, enabling them to develop stronger and more versatile software.
 
-To know what we are all about and what our goals are, read up on our **[strategy](strategy/)**!
-We publicize all our [recommendations]({{ '/' | absolute_url }}recommendations/) and [guides]({{ '/' | absolute_url }}guides/) on this site. Some of these documents are directly related to our topics presented at the monthly DevCoP sessions.
+## How
 
-<section>
-    <div class="row wb-eqht">
-        <div class="col-md-6">
-            <section class="panel panel-default hght-inhrt">
-                <div class="panel-heading">
-                    <h3 class="panel-title" id="guides">Guides</h3>
-                </div>
-                <div class="panel-body">
-                    <p class="lead">The "How to..." docs</p>
-                    <ul>
-                    {% assign sorted-guides = (site.guides | sort: 'date') | reverse %}
-                    {% for guide in sorted-guides limit:3 %}
-                        <li><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
-                    {% endfor %}
-                    </ul>
-                    <p><a href="guides/">See More</a></p>
-                </div>
-            </section>
-        </div>
-        <div class="col-md-6">
-            <section class="panel panel-default hght-inhrt">
-                <div class="panel-heading">
-                    <h3 class="panel-title" id="recommendations">Recommendations</h3>
-                </div>
-                <div class="panel-body">  
-                    <p class="lead">Best Practices on...</p>
-                    <ul>
-                    {% assign sorted-recommendations = (site.recommendations | sort: 'date') | reverse %}
-                    {% for recommendation in sorted-recommendations limit:3 %}
-                        <li><a href="{{ recommendation.url | relative_url }}">{{ recommendation.title }}</a></li>
-                    {% endfor %}
-                    </ul>
-                    <p><a href="recommendations/">See More</a> and <a href="tools.html">Recommended Tools Overview</a></p>
-                </div>
-            </section>
-        </div>
-    </div>
-</section>
-<section class="panel panel-default">
-    <div class="panel-heading">
-        <h3 class="panel-title" id="references">References</h3>
-    </div>
-    <div class="panel-body">
-        <ul class="colcount-md-3">
-            {% for reference in site.references %}
-            <li><a href="{{ reference.url | relative_url }}">{{ reference.title }}</a></li>
-            {% endfor %}
-        </ul>
-        <details>
-            <summary>More</summary>
-            <ul class="colcount-md-2">
-                {% for link in site.data.referenceLinks.links %}
-                <li><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
-                {% endfor %}
-            </ul>
-        </details>
-    </div>
-</section>
+### DevCoP Presentations
 
-## Get More Involved
+DevCoP presentations are currently our main point of contact with the Development Community where we bring updates on the [available tooling]({{ '/' | absolute_url }}tools.html) and direction of development for the department. The main focus of the DevCoP presentations is a form of training where we will highlight existing [best practices]({{ '/' | absolute_url }}guides/) used by other teams, and demonstrate examples of using [tooling]({{ '/' | absolute_url }}tools.html).
+We have a DevCoP presentation every month (excluding July and August). You can view the [presentations]({{ '/' | absolute_url }}events/) that are planned for the year.  
 
-Feel free to fork and submit a PR to any of our repos.
-If you are from ESDC ask to join as a Member.  
-Join our conversation in Slack, we have a channel in the [GC DevOps League](https://gcdevopsleague.slack.com) [#esdc-devcop](https://gcdevopsleague.slack.com/messages/CKS45C1ST/).  
+## Get Involved
 
-Also, [vote on Issues](https://github.com/esdc-devcop/esdc-devcop.github.io/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc) (with a :+1: reaction) that you think we should put a focus on doing first!
+Feel free to create a [GitHub issue](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/new/choose) if you want to:
 
-See [CONTRIBUTING.md](https://github.com/esdc-devcop/esdc-devcop.github.io/blob/master/CONTRIBUTING.md)
+- Collaborate and add content to our pages.
+- Ask a question about one of our DevCoP presentations. Starting in 2020, a Milestone will be created for each monthly DevCoP presentation. When asking a question, please select the appropriate Milestone to indicate which DevCoP presentation requires an answer.
+
+For more info, see [CONTRIBUTING.md](https://github.com/esdc-devcop/esdc-devcop.github.io/blob/master/CONTRIBUTING.md)

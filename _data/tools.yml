@@ -25,12 +25,9 @@ development:
       - name: GCcode
         application: https://gccode.ssc-spc.gc.ca/iitb-dgiit/
         recommendation: https://github.com/esdc-edsc/Welcome/blob/master/Recommendations/GCcode.md
-    alternatives:
       - name: Azure DevOps (on-prem)
-        rational: Legal requirement preventing the sharing of the project
         application: http://ado.intra.dmz
       - name: GitHub
-        rational: Project is under an open source licence (MIT)
         application: https://github.com/
     tags:
       - ALM
@@ -101,9 +98,7 @@ development:
     tools:
       - name: Selenium
         documentation: https://www.seleniumhq.org/
-    alternatives:
       - name: Puppeteer
-        rational: Need of a lighter weight testing tool, or JS integration.
         documentation: https://github.com/puppeteer/puppeteer
     tags:
       - Testing
