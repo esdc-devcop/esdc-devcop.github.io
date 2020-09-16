@@ -1,5 +1,5 @@
 dates:
-  - September 16, 2020 at 10h00 AM EST.
+  - September 22, 2020 at 10h00 AM EST.
 
 #  next:
 #  topic: .NET & Java Web Templates Demo - Using CDTS
@@ -9,6 +9,11 @@ dates:
 #  part2: n/a
 
 past:
+  - month: September 2020
+    topic: Azure Dev Ops using the Agile Approach (Part 1)
+    recording: https://gts-ee.webex.com/recordingservice/sites/gts-ee/recording/playback/1a102b67db654fd382e0632cc8eab1f3
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/DevCop%20-%20ADO.pptx
+    
   - month: March 2020
     topic: .NET & Java Web Templates Demo - Using CDTS
     id: 84
