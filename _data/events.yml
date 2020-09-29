@@ -10,6 +10,11 @@ dates:
 
 past:
   - month: September 2020
+    topic: Azure Dev Ops using the Agile Approach (Part 3)
+    recording: https://gts-ee.webex.com/recordingservice/sites/gts-ee/recording/playback/57c2eb943b0140ffbf02ff7bedd59410
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/DevCop%20-%20ADO%20-%20Part%202.pptx
+    
+  - month: September 2020
     topic: Azure Dev Ops using the Agile Approach (Part 2)
     recording: https://gts-ee.webex.com/recordingservice/sites/gts-ee/recording/playback/32e6b889d8254d489c9bc681f89201e2
     presentation: https://github.com/esdc-devcop/presentations/blob/master/DevCop%20-%20ADO%20-%20Part%202.pptx
