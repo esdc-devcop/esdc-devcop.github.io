@@ -60,16 +60,16 @@ Here is the link to the [code snippets](https://gccode.ssc-spc.gc.ca/iitb-dgiit/
 
 To open a Ticket:
 
-1. Navigate to [NSD](http://srmis-sigdi-iagent.prv/ "NSD")
-2. Enter 'Windows Server" on the first textbox and select "I have a windows server issue for Shared Services" from the drop down list.
-3. In the "Service Request Details" field specify:
+* Navigate to [NSD](http://srmis-sigdi-iagent.prv/ "NSD")
+* Enter 'Windows Server" on the first textbox and select "I have a windows server issue for Shared Services" from the drop down list.
+* In the "Service Request Details" field specify:
 
 ![NSD](../assets/TLSExpiration/NSD.PNG)
 
-a) Please assign to SSC Resolver group name DC000152
-b) Your TLS certificate expirations date.
-c) Your production URL
-d) List of Producton web server names
+* Please assign to SSC Resolver group name DC000152
+* Your TLS certificate expirations date.
+* Your production URL
+* List of Producton web server names
 
 Here is a template you can use to submit your NSD ticket. Simply replace the %variables% with your own values.
 
