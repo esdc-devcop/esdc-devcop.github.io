@@ -70,8 +70,6 @@ To open a Ticket:
   * List of Producton web server names
 
 Here is a template you can use to submit your NSD ticket. Simply replace the %variables% with your own values.
-
-<div class="bg-gray">
  
 Hello,
 
@@ -83,4 +81,3 @@ Please renew our TLS certificates for the following web servers:
 
 %server_name_1%, %server_name_2%, %server_name_3%, %server_name_4%
 
-</div>
