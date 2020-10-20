@@ -15,23 +15,32 @@ TLS licences are renewed by SSC without the need for any client intervention. SS
 
 Open a NSD ticket if your TLS certificate is expiring in 14 days or less.
 
-### Get your TSL Expiration date
+### Get your TLS Expiration date
 
 Here are some methods to monitor your TLS certification expiry date.
 
-Using a web browser:
+#### Using a web browser:
 
-1. Open a web browser, navigate to your production hosted web site.
+For Edge and Chrome
+1. Open web browser, navigate to your production hosted web site.
 2. Click on the "padlock" icon and select "certificate"
 3. Note the Certificate expiration date
+
+
+
+For FireFox:
+A. Open web browser, navigate to your production hosted web site.
+B. Click on the "padlock" icon and select the arrow next to the certificate info (sercure)
+C. Note the Certificate expiration date
 
 In Outlook, create a reminder 14 days before the TLS expiry. Include Developers, Technical Advisors dn 24-7 support staff.
 NOTE: Always verify if a certificate has been renewed before submitting an NSD ticket.
 
-Using code: 
-If your team has a custom "monitor solution", you can implement TLS expiration verification using code.
+#### Using Source code: 
 
-SDS is offering 3 different flavors of code snippets you can implement in your monitoring solution(Java, C# & .Net).
+Uou can implement TLS expiration verification using code. Your team can include TLS verification in your custom monitor solution.
+
+SDS is offering  flavors of code snippets you can implement in your monitoring solution(Java, C# & .Net).
 The code snippets functions require the URL to be verified as a string parameter and returns the amount of days before TLS expiry.
 In your monitoring solution, you can implement the desired code snippet to display a message or send a notification when expiry is less than 14 days.
 
@@ -40,7 +49,7 @@ Here is the link to the [code snippets](https://gccode.ssc-spc.gc.ca/iitb-dgiit/
 
 ### NSD ticket for TLS certificate renewal
 
-*NOTE: Always verify if a certificate has been renewed before submitting an NSD ticket. Open a NSD ticket only if your TLS certificate is expiring in 14 days or less.*
+*NOTE: Open a NSD ticket only if your TLS certificate is expiring in 14 days or less. Always verify if a certificate has been renewed before submitting an NSD ticket. *
 
 To open a Ticket:
 1. Navigate to [NSD](http://srmis-sigdi-iagent.prv/ "NSD") 
