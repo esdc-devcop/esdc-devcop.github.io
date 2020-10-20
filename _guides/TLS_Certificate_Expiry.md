@@ -21,10 +21,10 @@ Here are some methods to monitor your TLS certification expiry date.
 
 #### Using a web browser:
 
-For Edge and Chrome
-1. Open web browser, navigate to your production hosted web site.
-2. Click on the "padlock" icon and select "certificate"
-3. Note the Certificate expiration date
+For Edge and Chrome:
+A. Open web browser, navigate to your production hosted web site.
+B. Click on the "padlock" icon and select "certificate"
+C. Note the Certificate expiration date
 
 For FireFox:
 A. Open web browser, navigate to your production hosted web site.
@@ -49,9 +49,11 @@ Here is the link to the [code snippets](https://gccode.ssc-spc.gc.ca/iitb-dgiit/
 *NOTE: Open a NSD ticket only if your TLS certificate is expiring in 14 days or less. Always verify if a certificate has been renewed before submitting an NSD ticket.*
 
 To open a Ticket:
+
 1. Navigate to [NSD](http://srmis-sigdi-iagent.prv/ "NSD")
 2. Enter 'Windows Server" on the first textbox and select "I have a windows server issue for Shared Services" from the drop down list.
 3. In the "Service Request Details" field specify:
+
 a) Please assign to SSC Resolver group name DC000152
 b) Your TLS certificate expirations date.
 c) Your production URL
@@ -66,6 +68,7 @@ Please assign to SSC Resolver group name DC000152
 Our TLS Certificates for the %production_url% will expire on %expiration_date%.
 
 Please renew our TLS certificates for the following web servers:
+
 - %server_name_1%
 - %server_name_2%
 - %server_name_3%
