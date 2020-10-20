@@ -34,7 +34,7 @@ C. Note the Certificate expiration date
 In Outlook, create a reminder 14 days before the TLS expiry. Include Developers, Technical Advisors dn 24-7 support staff.
 NOTE: Always verify if a certificate has been renewed before submitting an NSD ticket.
 
-#### Using Source code: 
+#### Using Source code:
 
 You can implement TLS expiration verification using code. Your team can include TLS verification in your custom monitor solution.
 
@@ -44,13 +44,12 @@ In your monitoring solution, you can implement the desired code snippet to displ
 
 Here is the link to the [code snippets](https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/devcop-code-snippets/-/snippets "code snippets").
 
-
 ### NSD ticket for TLS certificate renewal
 
 *NOTE: Open a NSD ticket only if your TLS certificate is expiring in 14 days or less. Always verify if a certificate has been renewed before submitting an NSD ticket.*
 
 To open a Ticket:
-1. Navigate to [NSD](http://srmis-sigdi-iagent.prv/ "NSD") 
+1. Navigate to [NSD](http://srmis-sigdi-iagent.prv/ "NSD")
 2. Enter 'Windows Server" on the first textbox and select "I have a windows server issue for Shared Services" from the drop down list.
 3. In the "Service Request Details" field specify:
 a) Please assign to SSC Resolver group name DC000152
