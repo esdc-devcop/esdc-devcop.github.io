@@ -22,17 +22,26 @@ Here are some methods to monitor your TLS certification expiry date.
 #### Using a web browser:
 
 For Edge and Chrome:
-A. Open web browser, navigate to your production hosted web site.
-B. Click on the "padlock" icon and select "certificate"
-C. Note the Certificate expiration date
+* Open web browser, navigate to your production hosted web site.
+* Click on the "padlock" icon and select "certificate"
+* Note the Certificate expiration date
+
+![Edge](../assets/TLSExpiration/MSEdge_Licence.jpg)
+
+![CertificateInfo](../assets/TLSExpiration/Browser_LicenceInfo.jpg)
 
 For FireFox:
-A. Open web browser, navigate to your production hosted web site.
-B. Click on the "padlock" icon and select the arrow next to the certificate info (sercure)
-C. Note the Certificate expiration date
+* Open web browser, navigate to your production hosted web site.
+* Click on the "padlock" icon and select the arrow next to the certificate info (secure)
+![FireFox1](../assets/TLSExpiration/Firefox_Licence.jpg)
 
-In Outlook, create a reminder 14 days before the TLS expiry. Include Developers, Technical Advisors dn 24-7 support staff.
-NOTE: Always verify if a certificate has been renewed before submitting an NSD ticket.
+![FireFox2](../assets/TLSExpiration/Firefox_Licence_2.jpg)
+
+* Note the Certificate expiration date
+
+![FireFox3](../assets/TLSExpiration/Firefox_Licence_3.jpg)
+
+###### Create a reminder 14 days before the TLS expiry using Outlook Calendar or your desired tool. Include Developers, Technical Advisors and 24-7 support staff.
 
 #### Using Source code:
 
@@ -53,6 +62,8 @@ To open a Ticket:
 1. Navigate to [NSD](http://srmis-sigdi-iagent.prv/ "NSD")
 2. Enter 'Windows Server" on the first textbox and select "I have a windows server issue for Shared Services" from the drop down list.
 3. In the "Service Request Details" field specify:
+
+![NSD](../assets/TLSExpiration/NSD.PNG)
 
 a) Please assign to SSC Resolver group name DC000152
 b) Your TLS certificate expirations date.
