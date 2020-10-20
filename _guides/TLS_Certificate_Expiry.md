@@ -24,9 +24,10 @@ Here are some methods to monitor your TLS certification expiry date.
 For Edge and Chrome:
 * Open web browser, navigate to your production hosted web site.
 * Click on the "padlock" icon and select "certificate"
-* Note the Certificate expiration date
 
 ![Edge](../assets/TLSExpiration/MSEdge_Licence.jpg)
+
+* Note the Certificate expiration date
 
 ![CertificateInfo](../assets/TLSExpiration/Browser_LicenceInfo.jpg)
 
