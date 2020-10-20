@@ -6,6 +6,9 @@ summary: Demonstrate how to monitor TLS Certificates expiration date.
 date: 2020-10-19
 ---
 
+
+## TLS Certificates expiry
+
 ### For solutions hosted in Shared Services Canada (SSC) the following practice should be implemented.
 
 TLS licences are renewed by SSC without the need for any client intervention. SSC has it's own internal process for renewing TLS licences. However, on rare occasions, SSC can forget to renew a TLS licence causing a server outage.
