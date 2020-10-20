@@ -71,7 +71,7 @@ To open a Ticket:
 
 Here is a template you can use to submit your NSD ticket. Simply replace the %variables% with your own values.
 
-```
+<div class="bg-gray">
 Hello,
 
 Please assign to SSC Resolver group name DC000152
@@ -81,4 +81,4 @@ Our TLS Certificates for the %production_url% will expire on %expiration_date%.
 Please renew our TLS certificates for the following web servers:
 
 %server_name_1%, %server_name_2%, %server_name_3%, %server_name_4%
-```
+</div>
