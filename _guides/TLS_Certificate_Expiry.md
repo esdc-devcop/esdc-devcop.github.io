@@ -44,7 +44,7 @@ For FireFox:
 
 ![FireFox3](../assets/TLSExpiration/Firefox_Licence_3.jpg)
 
-###### Create a reminder 14 days before the TLS expiry using Outlook Calendar or your desired tool. Include Developers, Technical Advisors and 24-7 support staff.
+*Once the TLS certification expiry date is known, create a reminder 14 days before the TLS expiry using Outlook Calendar or your desired tool. Include Developers, Technical Advisors and 24-7 support staff.*
 
 #### Using Source code:
 
