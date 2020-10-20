@@ -26,8 +26,6 @@ For Edge and Chrome
 2. Click on the "padlock" icon and select "certificate"
 3. Note the Certificate expiration date
 
-
-
 For FireFox:
 A. Open web browser, navigate to your production hosted web site.
 B. Click on the "padlock" icon and select the arrow next to the certificate info (sercure)
@@ -38,7 +36,7 @@ NOTE: Always verify if a certificate has been renewed before submitting an NSD t
 
 #### Using Source code: 
 
-Uou can implement TLS expiration verification using code. Your team can include TLS verification in your custom monitor solution.
+You can implement TLS expiration verification using code. Your team can include TLS verification in your custom monitor solution.
 
 SDS is offering  flavors of code snippets you can implement in your monitoring solution(Java, C# & .Net).
 The code snippets functions require the URL to be verified as a string parameter and returns the amount of days before TLS expiry.
@@ -49,7 +47,7 @@ Here is the link to the [code snippets](https://gccode.ssc-spc.gc.ca/iitb-dgiit/
 
 ### NSD ticket for TLS certificate renewal
 
-*NOTE: Open a NSD ticket only if your TLS certificate is expiring in 14 days or less. Always verify if a certificate has been renewed before submitting an NSD ticket. *
+*NOTE: Open a NSD ticket only if your TLS certificate is expiring in 14 days or less. Always verify if a certificate has been renewed before submitting an NSD ticket.*
 
 To open a Ticket:
 1. Navigate to [NSD](http://srmis-sigdi-iagent.prv/ "NSD") 
@@ -72,4 +70,4 @@ Please renew our TLS certificates for the following web servers:
 - %server_name_1%
 - %server_name_2%
 - %server_name_3%
-- %server_name_4% 
+- %server_name_4%
