@@ -55,7 +55,7 @@ Here is the link to the [code snippets](https://gccode.ssc-spc.gc.ca/iitb-dgiit/
 
 ### NSD ticket for TLS certificate renewal
 
-*NOTE: Open a NSD ticket only if your TLS certificate is expiring in 14 days or less. Always verify if a certificate has been renewed before submitting an NSD ticket.*
+**NOTE: Open a NSD ticket only if your TLS certificate is expiring in 14 days or less. Always verify if a certificate has been renewed before submitting an NSD ticket.**
 
 To open a Ticket:
 
