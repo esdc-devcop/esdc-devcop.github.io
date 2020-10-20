@@ -22,6 +22,7 @@ Here are some methods to monitor your TLS certification expiry date.
 #### Using a web browser:
 
 For Edge and Chrome:
+
 * Open web browser, navigate to your production hosted web site.
 * Click on the "padlock" icon and select "certificate"
 
@@ -32,6 +33,7 @@ For Edge and Chrome:
 ![CertificateInfo](../assets/TLSExpiration/Browser_LicenceInfo.jpg)
 
 For FireFox:
+
 * Open web browser, navigate to your production hosted web site.
 * Click on the "padlock" icon and select the arrow next to the certificate info (secure)
 ![FireFox1](../assets/TLSExpiration/Firefox_Licence.jpg)
@@ -81,7 +83,7 @@ Our TLS Certificates for the %production_url% will expire on %expiration_date%.
 
 Please renew our TLS certificates for the following web servers:
 
-- %server_name_1%
-- %server_name_2%
-- %server_name_3%
-- %server_name_4%
+%server_name_1%
+%server_name_2%
+%server_name_3%
+%server_name_4%
