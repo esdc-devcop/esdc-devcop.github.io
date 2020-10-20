@@ -64,10 +64,10 @@ To open a Ticket:
 ![NSD](../assets/TLSExpiration/NSD.PNG)
 
 * In the "Service Request Details" field specify:
-   * Please assign to SSC Resolver group name DC000152
-   * Your TLS certificate expirations date.
-   * Your production URL
-   * List of Producton web server names
+  * Please assign to SSC Resolver group name DC000152
+  * Your TLS certificate expirations date.
+  * Your production URL
+  * List of Producton web server names
 
 Here is a template you can use to submit your NSD ticket. Simply replace the %variables% with your own values.
 
