@@ -6,9 +6,6 @@ summary: Demonstrate how to monitor TLS Certificates expiration date.
 date: 2020-10-19
 ---
 
-
-## TLS Certificates expiry
-
 ### For solutions hosted in Shared Services Canada (SSC) the following practice should be implemented.
 
 TLS licences are renewed by SSC without the need for any client intervention. SSC has it's own internal process for renewing TLS licences. However, on rare occasions, SSC can forget to renew a TLS licence causing a server outage.
@@ -64,14 +61,13 @@ To open a Ticket:
 
 * Navigate to [NSD](http://srmis-sigdi-iagent.prv/ "NSD")
 * Enter 'Windows Server" on the first textbox and select "I have a windows server issue for Shared Services" from the drop down list.
-* In the "Service Request Details" field specify:
-
 ![NSD](../assets/TLSExpiration/NSD.PNG)
 
-* Please assign to SSC Resolver group name DC000152
-* Your TLS certificate expirations date.
-* Your production URL
-* List of Producton web server names
+* In the "Service Request Details" field specify:
+   * Please assign to SSC Resolver group name DC000152
+   * Your TLS certificate expirations date.
+   * Your production URL
+   * List of Producton web server names
 
 Here is a template you can use to submit your NSD ticket. Simply replace the %variables% with your own values.
 
@@ -83,7 +79,4 @@ Our TLS Certificates for the %production_url% will expire on %expiration_date%.
 
 Please renew our TLS certificates for the following web servers:
 
-%server_name_1%
-%server_name_2%
-%server_name_3%
-%server_name_4%
+%server_name_1%, %server_name_2%, %server_name_3%, %server_name_4%
