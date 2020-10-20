@@ -6,20 +6,17 @@ summary: Demonstrate how to monitor TLS Certificates expiration date.
 date: 2020-10-19
 ---
 
-
-## TLS Certificates expiry
-
-### For solutions hosted in Shared Services Canada (SSC) the following practice should be implemented.
+## For solutions hosted in Shared Services Canada (SSC) the following practice should be implemented.
 
 TLS licences are renewed by SSC without the need for any client intervention. SSC has it's own internal process for renewing TLS licences. However, on rare occasions, SSC can forget to renew a TLS licence causing a server outage.
 
 Open a NSD ticket if your TLS certificate is expiring in 14 days or less.
 
-### Get your TLS Expiration date
+## Get your TLS Expiration date
 
 Here are some methods to monitor your TLS certification expiry date.
 
-#### Using a web browser:
+### Using a web browser:
 
 For Edge and Chrome:
 
@@ -46,7 +43,7 @@ For FireFox:
 
 *Once the TLS certification expiry date is known, create a reminder 14 days before the TLS expiry using Outlook Calendar or your desired tool. Include Developers, Technical Advisors and 24-7 support staff.*
 
-#### Using Source code:
+### Using Source code:
 
 You can implement TLS expiration verification using code. Your team can include TLS verification in your custom monitor solution.
 
@@ -56,7 +53,7 @@ In your monitoring solution, you can implement the desired code snippet to displ
 
 Here is the link to the [code snippets](https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/devcop-code-snippets/-/snippets "code snippets").
 
-### NSD ticket for TLS certificate renewal
+## NSD ticket for TLS certificate renewal
 
 *NOTE: Open a NSD ticket only if your TLS certificate is expiring in 14 days or less. Always verify if a certificate has been renewed before submitting an NSD ticket.*
 
