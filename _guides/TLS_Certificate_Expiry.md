@@ -46,6 +46,7 @@ Pour FireFox:
 **Lorsque la date d’expiration du certificat TLS est connue, créer un rappel 14 jours avant cette date d’expiration dans le calendrier d’Outlook. Inclure les développeurs, les conseillers techniques et l’équipe de support 24-7.**
 
 ### À l’aide du code source:
+
 Vous pouvez implémenter une procédure de surveillance de la date d’expiration d’un certificat TLS avec quelques lignes de code. Votre équipe peut inclure cette vérification dans votre solution personnalisée effectuant la surveillance des certificats TLS.
 
 SDS propose plusieurs exemples de code que vous pouvez utiliser dans votre solution (Java, C# & .Net). La fonction utilisée dans ces exemples requiert l’URL qui doit être vérifiée, représentée par une chaîne, et retourne le nombre de jours restants avant l’expiration du certificat TLS. Dans votre solution de surveillance, vous pouvez notamment utiliser l’exemple que vous préférez pour afficher un message, ou encore envoyer une notification lorsque le nombre de jours avant expiration est inférieur à 14.
