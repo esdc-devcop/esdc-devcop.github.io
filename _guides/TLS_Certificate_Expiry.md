@@ -19,6 +19,7 @@ Voici quelques moyens vous permettant de vérifier la date d’expiration de vot
 ### À l’aide d’un navigateur Web:
 
 Pour Edge et Chrome:
+
 * Ouvrir le navigateur, afficher une page de votre site web.
 * Cliquer sur l’icône représentant un cadenas, et sélectionner “Certificat”.
 
@@ -29,6 +30,7 @@ Pour Edge et Chrome:
 ![CertificateInfo](../assets/TLSExpiration/Browser_LicenceInfo.jpg)
 
 Pour FireFox:
+
 * Ouvrir le navigateur, afficher une page de votre site web.
 * Cliquer sur l’icône représentant un cadenas, et sélectionner la flèche à droite de la fenêtre d’informations.
 
@@ -55,6 +57,7 @@ Voici le lien vers les [exemples de code.](https://gccode.ssc-spc.gc.ca/iitb-dgi
 **REMARQUE: Ouvrez un ticket NSD seulement si votre certificat TLS expire dans 14 jours ou moins. Vérifiez toujours que le certificat n’a pas déjà été renouvelé avant de soumettre un ticket NSD.**
 
 Pour soumettre un Ticket:
+
 * Aller dans [NSD](http://srmis-sigdi-iagent.prv/ "NSD")
 * Entrer ‘Windows Server” dans la première zone de texte, et sélectionner “I have a windows server issue for Shared Services” dans la liste déroulante.
 ![NSD](../assets/TLSExpiration/NSD.PNG)
