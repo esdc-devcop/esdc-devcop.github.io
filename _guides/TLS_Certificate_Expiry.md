@@ -30,7 +30,7 @@ Pour Edge et Chrome:
 
 Pour FireFox:
 * Ouvrir le navigateur, afficher une page de votre site web.
-* Cliquer sur l’icône représentant un cadenas, et sélectionner la flèche à droite de la fenêtre d’informations. 
+* Cliquer sur l’icône représentant un cadenas, et sélectionner la flèche à droite de la fenêtre d’informations.
 
 ![FireFox1](../assets/TLSExpiration/Firefox_Licence.jpg)
 
