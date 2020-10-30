@@ -9,8 +9,6 @@ dates:
 #  part2: n/a
 
 past:
-<<<<<<< HEAD
-=======
 - month: October 2020
     intro: Being pro active on TLS Certificates expirations
     topic: ADO Pipelines- Improving your current solution thru automation, Being pro active on TLS Certificates expirations
@@ -24,7 +22,6 @@ past:
       - title: MS Security Best Practices for Entity Framework 
         link: https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ef/security-considerations
     
->>>>>>> 19daddd... video recording available in office 365 MS stream
   - month: September 2020
     topic: Azure Dev Ops using the Agile Approach (Part 3)
     recording: https://gts-ee.webex.com/recordingservice/sites/gts-ee/recording/playback/57c2eb943b0140ffbf02ff7bedd59410
