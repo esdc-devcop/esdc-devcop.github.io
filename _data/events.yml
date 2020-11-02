@@ -9,6 +9,19 @@ dates:
 #  part2: n/a
 
 past:
+- month: October 2020
+    intro: Being pro active on TLS Certificates expirations
+    topic: ADO Pipelines- Improving your current solution thru automation, Being pro active on TLS Certificates expirations
+    recording: https://web.microsoftstream.com/video/52d0c18c-4567-479e-aa19-cd0a4a61b595  
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/DevCop%20Azure%20Pipeline%20with%20AERS-ROH.pptx
+    resources:
+      - title: Expiration des certificats TLS - TLS Certificates expiry
+        link: https://esdc-devcop.github.io/guides/TLS_Certificate_Expiry.html
+      - title: SADE Build Definition Setup Recommendations Azure DevOps
+        link: https://architecture/sade-edap/admin/Wiki/Build%20Definition%20Setup.aspx
+      - title: MS Security Best Practices for Entity Framework 
+        link: https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ef/security-considerations
+    
   - month: September 2020
     topic: Azure Dev Ops using the Agile Approach (Part 3)
     recording: https://gts-ee.webex.com/recordingservice/sites/gts-ee/recording/playback/57c2eb943b0140ffbf02ff7bedd59410
