@@ -9,7 +9,7 @@ dates:
 #  part2: n/a
 
 past:
-- month: October 2020
+  - month: October 2020
     intro: Being pro active on TLS Certificates expirations
     topic: ADO Pipelines- Improving your current solution thru automation, Being pro active on TLS Certificates expirations
     recording: https://web.microsoftstream.com/video/52d0c18c-4567-479e-aa19-cd0a4a61b595  
