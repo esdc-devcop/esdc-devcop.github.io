@@ -9,7 +9,7 @@ dates:
 #  part2: n/a
 
 past:
--   month: November 2020
+  - month: November 2020
     topic: Demo - How to Create a Release Pipeline in ADO
     recording: https://web.microsoftstream.com/video/b4c638e3-8bd9-46ea-98f1-0bdb43388b55
     
