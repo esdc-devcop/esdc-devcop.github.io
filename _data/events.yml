@@ -28,7 +28,7 @@ past:
     
   - month: September 2020
     topic: Azure Dev Ops using the Agile Approach (Part 3)
-    Unfortunately, this recording is no longer available
+    norecording: Unfortunately, this recording is no longer available
     presentation: https://github.com/esdc-devcop/presentations/blob/master/DevCop%20-%20ADO%20-%20Part%202.pptx
     
   - month: September 2020
@@ -44,7 +44,7 @@ past:
   - month: March 2020
     topic: .NET & Java Web Templates Demo - Using CDTS
     id: 84
-    Unfortunately, this recording is no longer available
+    norecording: Unfortunately, this recording is no longer available
     presentation: https://esdc-devcop.github.io/templates-presentation/#/
     resources:
       - title: Centrally Deployed Templates Solution (CDTS) presentation
@@ -65,12 +65,12 @@ past:
   - month: February 2020
     topic: Azure DevOps Server features overview - Part 2
     id: 87
-    Unfortunately, this recording is no longer available
+    norecording: Unfortunately, this recording is no longer available
     
   - month: February 2020
     topic: Azure DevOps Server features overview - Part 1
     id: 87
-    Unfortunately, this recording is no longer available
+    norecording: Unfortunately, this recording is no longer available
     resources:
       - title: Azure DevOps User Guide
         link: https://docs.microsoft.com/en-us/azure/devops/user-guide/
@@ -85,19 +85,19 @@ past:
     topic: Creating & Using APIs from the store (using REST) - Part 2
     id: 34
     presentation: https://github.com/esdc-devcop/presentations/blob/master/REST%20Deep%20Dive.pptx
-    Unfortunately, this recording is no longer available
+    norecording: Unfortunately, this recording is no longer available
 
   - month: January 2020
     topic: Creating & Using APIs from the store (using REST) - Part 1
     id: 34
     presentation: https://github.com/esdc-devcop/presentations/blob/master/Managing%20APIs%20and%20Microservices.pptx
-    Unfortunately, this recording is no longer available
+    norecording: Unfortunately, this recording is no longer available
   
   - month: December 2019
     topic: Managing Merge Requests - Using Code Review
     id: 3
     presentation: https://esdc-devcop.github.io/presentations/mergerequest.html
-    Unfortunately, this recording is no longer available
+    norecording: Unfortunately, this recording is no longer available
     resources:
       - title: Managing Merge Requests, Using Code Review
         link: https://esdc-devcop.github.io/recommendations/source_management/merging-review.html
@@ -108,7 +108,7 @@ past:
     topic: Recommend a branching model
     id: 10
     presentation: https://esdc-devcop.github.io/presentations/gitflow.html
-    Unfortunately, this recording is no longer available
+    norecording: Unfortunately, this recording is no longer available
     resources:
       - title: Git Branching, Picking a Git Flow
         link: https://esdc-devcop.github.io/recommendations/source_management/git-branching.md
@@ -116,7 +116,7 @@ past:
   - month: October 2019
     topic: Application Development Outcomes Map
     presentation: http://dialogue/grp/PR6893344/OneNote/AppDevSA/03-Reference%20Material/Presentations/DevCop.one#SA%20and%20Outcomes%20Map%20-%20Oct%2015%202019&section-id={5EC98638-1A31-4AFE-941E-9AD50872138F}&page-id={66461AC0-9116-4364-B799-BD16D6C2CB70}&end
-    Unfortunately, this recording is no longer available
+    norecording: Unfortunately, this recording is no longer available
     resources:
       - title: Outcomes Map
         link: http://dialogue/grp/PR6893344/OneNote/AppDevSA/02-Development%20(In%20Progress)/AppDev%20Roadmap.one#Outcomes%20and%20Dependencies%20Overview&section-id={5E16E60C-310B-49EF-8451-88E0CE4DA968}&page-id={67E8C1D8-F39B-498E-A809-EEAAB9BDAC88}&object-id={00AD0F45-6E68-0BA5-1DE4-4D2E8D11601E}&A9
