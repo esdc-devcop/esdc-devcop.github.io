@@ -37,6 +37,9 @@ permalink: /events/
     {% if event.recording %}
         <p><strong><a href="{{ event.recording }}"><span class="glyphicon glyphicon-facetime-video"></span> View the video recording</a></strong></p>
     {% endif %}
+    {% if event.norecording %}
+        <p>{{ event.norecording }}</p>
+    {% endif %}
     {% if event.presentation %}
         <p><a href="{{ event.presentation }}"><span class="glyphicon glyphicon-file"></span> View the presentation slides</a></p>
     {% endif %}
