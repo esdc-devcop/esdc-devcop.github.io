@@ -6,43 +6,18 @@ summary: Demonstrating rational for the use of Artifactory to improve security a
 date: 2019-01-01
 ---
 
-Shaun and I (Calvin Rodo) have come up with our first quick win in the security space, and something that should provide a bit of a benefit for the network as well.
-
-SADE has procured [Artifactory Pro](https://jfrog.com/artifactory/) with X-Ray as a binary management tool. Artifactory is a service will host our in house software libraries, as well as sit as a proxy in front of various software library repositories. [X-Ray](https://jfrog.com/xray/) is a tool that will scan components for known vulnerabilities.
+SADE has made available the community version of [Artifactory](https://jfrog.com/artifactory/) as a binary management tool for Java applications and libraries. Artifactory is a service that hosts our in house software libraries, as well as acts as a proxy in front of various software library (Maven) repositories.
 
 ## Recommendation
 
-The DX Team is recommending that we make use of Artifactory mandatory by leveraging it as a Proxy in front of official package repositories such as
-
-NuGet for .Net apps
-
-NPM/Bower for our JavaScript code
-
-Maven for Java apps
+It is recommended that Java/Maven development teams with on premise development and build environments make use of the SADE installation of Artifactory. Artifactory will also act as a proxy for official package repositories such as Oracle and Maven Central, keeping the maven configuration on each development environment relatively simple.
+Note that the current version of Artifactory currently does not support Nuget packages for .NET Framework/Core development. For .NET development, the recommendation is to use ADO's Nuget feed or, after properly making the binaries do not contain any sensitive information like encryption keys or passwords, can be hosted on nuget.org.  For more information: [ESDC nuget user Guide](https://github.com/esdc-devcop/ESDC-Development-Setup/blob/master/nugetuserguide.md)
 
 ## Benefits
 
-## Vulnerability Scanning and Asset Management
-
-This will allow us to have real time scanning for vulnerabilities in all of our application’s dependencies as well as handle asset management which will enable IITB to quickly identify which systems are affected when a high priority GC-CIRT is announced.
-
-## Increases ITSG33 Compliance Posture across the Board
-
-This would also help teams in raising their security compliance posture since this would satisfy ITSG33 control [RA-5 Vulnerability Scanning](https://www.cse-cst.gc.ca/en/node/265/html/24869#a314ra5) (1, 2, 6) and [CM-8 Information System Component Inventory](https://www.cse-cst.gc.ca/en/node/265/html/24869#a35cm8) (1, 2, 3, 5, 7).
-
-## Reduce Compliance Burden from Development Team and Security Assessors
-
-Ideally we would have IT-Sec agree that any system that leverages this system would not have to account for those security controls and so reduce the burden of compliance documentation on the development team. This could also be part of a bigger strategy to start putting in place tools and systems that can help us meet our security compliance objectives.
-
-## Provides Benefits for Future Technology Usage
-
-Artifactory can also be used as a container repository and so we would get this same benefit when we finally have access to those.
-
-It also interfaces with several well known Software License scanning tools and can provide us insight into the licenses for the various libraries that we are integrating into our systems.
-
 ## Reduce Network Traffic Outside of our Network
 
-Another big benefit of this is that since it acts as a proxy between these external binary repositories and our internal build and developer machines we should have less traffic going outside of our network. This will be crucial once we start using containers since windows containers can be several gigabytes in size and downloading these to the developer machine is a regular occurrence while debugging these apps.
+Another big benefit of this is that since it acts as a proxy between these external binary repositories and our internal build and developer machines we should have less traffic going outside of our network.
 
 ## Integrates into CI/CD Pipelines
 
