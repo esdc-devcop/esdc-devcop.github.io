@@ -68,7 +68,10 @@ development:
       - name: Artifactory
         application: https://jade-repos.intra.dev/artifactory/webapp/#/home
         recommendation: https://esdc-devcop.github.io/recommendations/artifactory.html
-  
+      - name: ADO Nuget Feed
+        application: http://ado.intra.dmz/ProjectCollection/
+        recommendation:  https://github.com/esdc-devcop/ESDC-Development-Setup/blob/master/nugetuserguide.md
+        
   - focus: Programming Language
     tools:
       - name: TypeScript
