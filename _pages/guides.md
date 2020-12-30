@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Guides
+title: Best Practices and Guides
 permalink: /guides/
 ---
 
