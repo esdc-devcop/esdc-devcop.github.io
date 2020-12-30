@@ -37,7 +37,7 @@ date: 2020-12-30
 
 *	Pick the Work Item to estimate from the “Pending Estimates” section
 *	Have your team members vote by selecting a card under “Your Vote” section
-*	Once all votes are in, click “Reveal” 
+*	Once all votes are in, click “Reveal”
 *	Reach consensus on the estimation, you can re-vote if necessary
 
 ![Poker06](../assets/PokerEstimation/Poker_Est_06_EN.jpg)
