@@ -54,20 +54,20 @@ date: 2020-12-30
 
 ### Créer un nouveau jeu d'estimation
 
-*	Option 1: À partir d'un tableau, cliquez sur «…» à côté de votre élément de travail, sélectionnez «Estimate work item(s)»
-*	Option 2: Dans le menu de gauche, sélectionnez «Boards / Estimation Poker», puis «+ Start your Game here»
+* Option 1: À partir d'un tableau, cliquez sur «…» à côté de votre élément de travail, sélectionnez «Estimate work item(s)»
+* Option 2: Dans le menu de gauche, sélectionnez «Boards / Estimation Poker», puis «+ Start your Game here»
 
 ![Poker01](../assets/PokerEstimation/Poker_Est_01_EN.jpg)
 ![Poker02](../assets/PokerEstimation/Poker_Est_02_EN.jpg)
 
 ### Configurez votre jeu
 
-*	Saisissez un «Title» pour votre jeu
-*	Sélectionnez «Online» pour afficher les estimations de votre équipe en temps réel
-*	Des éléments supplémentaires peuvent apparaître selon la façon dont vous avez commencé votre jeu. Ex: sélectionnez Équipe et sprint, sélectionnez requête…
-*	Sélectionnez le type d'estimation que vous souhaitez utiliser (T-shirts, Fibonacci…) via le champ «Cards»
-*	Cliquez sur «Create»
-*	Cela créera un nouveau jeu sur le hub «Estimation Poker»
+* Saisissez un «Title» pour votre jeu
+* Sélectionnez «Online» pour afficher les estimations de votre équipe en temps réel
+* Des éléments supplémentaires peuvent apparaître selon la façon dont vous avez commencé votre jeu. Ex: sélectionnez Équipe et sprint, sélectionnez requête…
+* Sélectionnez le type d'estimation que vous souhaitez utiliser (T-shirts, Fibonacci…) via le champ «Cards»
+* Cliquez sur «Create»
+* Cela créera un nouveau jeu sur le hub «Estimation Poker»
 
 ![Poker03](../assets/PokerEstimation/Poker_Est_03_EN.jpg)
 ![Poker04](../assets/PokerEstimation/Poker_Est_04_EN.jpg)
@@ -79,16 +79,16 @@ date: 2020-12-30
 
 ### Estimation
 
-*	Sélectionnez l'élément de travail à estimer dans la section «Pending Estimates»
-*	Demandez aux membres de votre équipe de voter en sélectionnant une carte dans la section «Your Vote»
-*	Une fois tous les votes enregistrés, cliquez sur «Reveal»
-*	Parvenez à un consensus sur l'estimation, vous pouvez voter à nouveau si nécessaire
+* Sélectionnez l'élément de travail à estimer dans la section «Pending Estimates»
+* Demandez aux membres de votre équipe de voter en sélectionnant une carte dans la section «Your Vote»
+* Une fois tous les votes enregistrés, cliquez sur «Reveal»
+* Parvenez à un consensus sur l'estimation, vous pouvez voter à nouveau si nécessaire
 
 ![Poker06](../assets/PokerEstimation/Poker_Est_06_EN.jpg)
 
 ### Sélectionnez l'estimation finale pour votre élément de travail à mettre à jour
 
-*	Une fois le consensus atteint, sélectionner la carte / estimation finale dans la section «Actions»
-*	cela mettra à jour le «Story Points | Points du récit:» champ de votre élément de travail
+* Une fois le consensus atteint, sélectionner la carte / estimation finale dans la section «Actions»
+* Cela mettra à jour le «Story Points | Points du récit:» champ de votre élément de travail
 
 ### Répétez avec vos prochains éléments de travail
