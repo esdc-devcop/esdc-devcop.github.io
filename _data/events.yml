@@ -11,7 +11,7 @@ dates:
 past:
   - month: January 2021
     topic: ADO Estimation Poker and Troubleshooting Best Practices
-    recording: Unfortunately, due to technical difficulties this recording is not available
+    norecording: Unfortunately, due to technical difficulties this recording is not available
     resources: 
       - title: Application Logging
         link:  https://esdc-devcop.github.io/recommendations/application-logging.html
