@@ -9,6 +9,13 @@ dates:
 #  part2: n/a
 
 past:
+  - month: January 2021
+    topic: ADO Estimation Poker and Troubleshooting Best Practices
+    recording: Unfortunately, due to technical difficulties this recording is not available
+    resources: 
+      - title: Application Logging
+        link:  https://esdc-devcop.github.io/recommendations/application-logging.html
+        
   - month: November 2020
     topic: Demo - How to Create a Release Pipeline in ADO
     recording: https://web.microsoftstream.com/video/b4c638e3-8bd9-46ea-98f1-0bdb43388b55
