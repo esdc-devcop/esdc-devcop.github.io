@@ -12,9 +12,11 @@ past:
   - month: January 2021
     topic: ADO Estimation Poker and Troubleshooting Best Practices
     norecording: Unfortunately, due to technical difficulties this recording is not available
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/EstimationPoker.pptx
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/Troubleshooting.pptx
-    resources: 
+    resources:
+      - title: Estimation Poker presentation slides
+        link:  https://github.com/esdc-devcop/presentations/blob/master/EstimationPoker.pptx
+      - title: Troubleshooting presentation slides
+        link:  https://github.com/esdc-devcop/presentations/blob/master/Troubleshooting.pptx
       - title: Application Logging
         link:  https://esdc-devcop.github.io/recommendations/application-logging.html
         
