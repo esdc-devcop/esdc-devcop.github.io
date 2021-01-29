@@ -41,9 +41,9 @@ Debug logs typically report application events that are useful when diagnosing a
 
 * **Fatal:** An unexpected error/exception that compromises the ability of the application to function properly for further requests. (for example: “An exception occurred loading application initialization data, application will not be available”)
 * **Error:** An error/exception in the execution that, while it may have been reported to the user and/or be benign, should be in the log for troubleshooting reasons. Also useful if the developer specifically wants an error to be logged to keep track of unusual situations. Validation/data entry errors would not normally be part of that. (for example: “Contacting backup server failed, saving transaction as pending.”)
-Warning: Not necessarily an error for the end user but an unusual situation/condition occurred (for example, “Contacting primary server failed, attempting to contact backup server”)
+* **Warning:** Not necessarily an error for the end user but an unusual situation/condition occurred (for example, “Contacting primary server failed, attempting to contact backup server”)
 * **Information:** A normal situation/condition that is useful to have reported in the log (for example: “Lookup data loaded in cache, expiring in 12 hours”)
-Debug: Details the great lines of whatever functions executes. As the name suggests, is useful for debugging purposes (for example “Lookup data found in cache, skipping loading from file”)
+* **Debug:** Details the great lines of whatever functions executes. As the name suggests, is useful for debugging purposes (for example “Lookup data found in cache, skipping loading from file”)
 * **Trace:** Like Debug, but at a much finer level of details. Messages at Trace level can often match the actually steps pseudo-code of the algorithm (for example: “Checking if user is of correct type”, “Setting up call to user service”)
 
 ## How to log
