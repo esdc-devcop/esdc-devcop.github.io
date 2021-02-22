@@ -3,16 +3,16 @@ past:
     topic: Cloud Training Opportunities and DevOps CoE
     recording: https://web.microsoftstream.com/video/0b8fa5db-c5ac-4302-9714-ffc4e0fb34e5
     resources:
-      -title: CCoE Update on Cloud and Cloud Training
-       link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation.pptx
-      -title: ESDC DevOps CoE
-       link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_DirkVieira_ESDC_DevOps_CoE.pptx
-      -title: List of Free AWS courses
-       link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_ListOfFreeCloudCourses.md
-      -title: Microsoft Learner Experience Portal
-       link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_Microsoft_LxP_How_To_AAD.pdf
-      -title: Azure Courses
-       link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_AzureCourses.pptx
+      - title: CCoE Update on Cloud and Cloud Training
+        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation.pptx
+      - title: ESDC DevOps CoE
+        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_DirkVieira_ESDC_DevOps_CoE.pptx
+      - title: List of Free AWS courses
+        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_ListOfFreeCloudCourses.md
+      - title: Microsoft Learner Experience Portal
+        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_Microsoft_LxP_How_To_AAD.pdf
+      - title: Azure Courses
+        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_AzureCourses.pptx
   - month: January 2021
     topic: ADO Estimation Poker and Troubleshooting Best Practices
     norecording: Unfortunately, due to technical difficulties this recording is not available
