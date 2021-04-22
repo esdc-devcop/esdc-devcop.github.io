@@ -1,4 +1,18 @@
 past:
+  - month: April 2021
+    topic: Cloud Operations
+    recording: https://web.microsoftstream.com/video/eecc87c0-2078-45c2-be1c-bb6aeeb8d16d
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/2021apr22_DevCOP%20deck1.pptx
+    resources:
+      - title: Cloud intake forms (CCoE Sharepoint)
+        link: https://dialogue/grp/BU6518687/SitePages/Request%20Cloud.aspx
+      - title: Cloud Operations SharePoint
+        link: https://014gc.sharepoint.com/sites/OI-CO/
+      - title: Azure Portal
+        link: https://portal.azure.com
+      - title: Azure DevOps
+        link: https://dev.azure.com
+  
   - month: February 2021
     topic: Cloud Training Opportunities and DevOps CoE
     recording: https://web.microsoftstream.com/video/0b8fa5db-c5ac-4302-9714-ffc4e0fb34e5
@@ -13,6 +27,7 @@ past:
         link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_Microsoft_LxP_How_To_AAD.pdf
       - title: Azure Courses
         link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_AzureCourses.pptx
+        
   - month: January 2021
     topic: ADO Estimation Poker and Troubleshooting Best Practices
     norecording: Unfortunately, due to technical difficulties this recording is not available
