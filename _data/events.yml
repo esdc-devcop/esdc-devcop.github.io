@@ -1,5 +1,15 @@
 past:
-  - month: April 2021
+  - month: May 2021
+    topic: Cloud Operations (Part 2)
+    recording: https://web.microsoftstream.com/video/e2718ff0-e46e-432b-80b3-c4de03b8c2f2
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/2021may27_DevCOP%20deck2.pptx
+    resources:
+      - title: SCED Connection SharePoint Page
+        link: https://014gc.sharepoint.com/sites/OI-CO/SitePages/Spoke-SCED-Connection-Steps.aspx
+      - title: BRD form
+        link: http://service.ssc-spc.gc.ca/sites/default/files/brd_v5_en_final_20190327.xlsm
+
+  - month: April 2021 (Part 1)
     topic: Cloud Operations
     recording: https://web.microsoftstream.com/video/eecc87c0-2078-45c2-be1c-bb6aeeb8d16d
     presentation: https://github.com/esdc-devcop/presentations/blob/master/2021apr22_DevCOP%20deck1.pptx
