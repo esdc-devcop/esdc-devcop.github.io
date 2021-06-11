@@ -44,7 +44,7 @@ permalink: /events/
         <p><a href="{{ event.presentation }}"><span class="glyphicon glyphicon-file"></span> View the presentation slides</a></p>
     {% endif %}
     {% if event.diapositives %}
-	<p><a href="{{ event.diapositives }}"><span class="glyphicon glyphicon-file"></span> Voir les diapositives de la présentation</a></p>
+        <p><a href="{{ event.diapositives }}"><span class="glyphicon glyphicon-file"></span> Voir les diapositives de la présentation</a></p>
     {% endif %}
     {% if event.resources %}
         <p>Resources:</p>
