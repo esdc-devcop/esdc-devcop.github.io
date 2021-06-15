@@ -8,7 +8,7 @@ date: 2019-09-01
 
 **Similar Guides:**  
 
-- [TFVC to Git](tfvc-to-git.md)
+- [TFVC to Git](https://esdc-devcop.github.io/guides/tfvc-to-git.html)
 
 ## Steps
 
