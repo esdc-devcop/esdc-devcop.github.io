@@ -3,6 +3,7 @@ past:
     topic: Visual Studio Code
     recording: https://web.microsoftstream.com/video/bc16d7c7-90f9-4a36-beed-4b926d9b8aab
     presentation: https://github.com/esdc-devcop/presentations/blob/master/2021jun30_Devcop_VsCode.pptx
+    diapositives: https://github.com/esdc-devcop/presentations/blob/master/2021jun30_Devcop_VsCode_FR.pptx
     resources:
       - title: keyboard shortcuts
         link: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
