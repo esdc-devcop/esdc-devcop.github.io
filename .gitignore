@@ -70,3 +70,9 @@ vendor
 # local Jekyll files
 _site
 .jekyll-metadata
+
+# Visual Studio Code
+.vscode
+
+# Visual Studio
+.vs/
