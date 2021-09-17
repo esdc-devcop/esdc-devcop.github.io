@@ -5,7 +5,7 @@ title: Welcome to the DevCoP!
 
 ## Our Goal
 
-Equipping ESDC developers with skills, knowledge and tools to continuously modernize the software they develop.  
+Equipping ESDC developers with skills, knowledge to continuously modernize the software they develop.  
 We want the developers at ESDC to be collaborating with each other and those from other departments, gaining skills to build into a greater diversity of knowledge, enabling them to develop stronger and more versatile software.
 
 ## How
