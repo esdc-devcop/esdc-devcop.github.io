@@ -26,7 +26,7 @@ development:
         application: https://gccode.ssc-spc.gc.ca/iitb-dgiit/
         recommendation: https://github.com/esdc-edsc/Welcome/blob/master/Recommendations/GCcode.md
       - name: Azure DevOps (on-prem)
-        application: http://ado.intra.dmz
+        application: https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops&viewFallbackFrom=azdevops
       - name: GitHub
         application: https://github.com/
     tags:
@@ -75,7 +75,15 @@ development:
   - focus: Programming Language
     tools:
       - name: TypeScript
-        documentation:  https://www.typescriptlang.org/
+        documentation: https://www.typescriptlang.org/
+      - name: C# (for .NET)
+        documentation: https://docs.microsoft.com/en-us/dotnet/csharp/
+      - name: Java
+        documentation: https://docs.oracle.com/en/java/index.html
+      - name: Python 3.x
+        documentation: https://docs.python.org/dev/
+      - name: VB (for .NET)
+        documentation: https://docs.microsoft.com/en-us/dotnet/visual-basic/
   
   - focus: Programming Frameworks
     scope: .NET
