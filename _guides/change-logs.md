@@ -103,4 +103,3 @@ These fixes may not be part of the latest deployment, as they were patched previ
 
 **`Operations`:** These are any changes made related to the service of the application.
 These changes wouldn't impact users directly.
-
