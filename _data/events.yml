@@ -2,12 +2,11 @@ past:
   - month: November 2021
     topic: Intro to The DevOps Dojo, Intro to Azure Pipelines
     recording: https://web.microsoftstream.com/video/01c039e9-8fb2-48f1-b3c7-01d69687baa2
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_AzurePipelines.pdf
     resources:
-      - title: Digital Dojo - DTS-STN
-        link: https://dts-stn.github.io/digital-dojo/
-      - title: Types of Azure Pipelines - Feature Availability 
-        link: https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/pipelines-get-started?view=azure-devops#feature-availability
+      - title: Azure DevOps Pipelines 
+        link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_AzurePipelines.pdf
+      - title: Digital Dojo - Digital Technology Solutions  
+        link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_Devcop_Digital_Dojo.pptx
 
   - month: September 2021
     topic: Introduction to Azure DevOps Boards
