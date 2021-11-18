@@ -3,7 +3,7 @@ past:
     topic: Intro to The DevOps Dojo, Intro to Azure Pipelines
     recording: https://web.microsoftstream.com/video/01c039e9-8fb2-48f1-b3c7-01d69687baa2
     resources:
-      - title: Azure DevOps Pipelines
+      - title: Azure DevOps Pipelines 
         link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_AzurePipelines.pdf
       - title: Digital Dojo - Digital Technology Solutions  
         link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_Devcop_Digital_Dojo.pptx
