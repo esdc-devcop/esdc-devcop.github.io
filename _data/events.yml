@@ -5,8 +5,14 @@ past:
     resources:
       - title: Azure DevOps Pipelines 
         link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_AzurePipelines.pdf
+      - title: Pipelines Azure DevOps
+        link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_AzurePipelines_FR.pdf  
       - title: Digital Dojo - Digital Technology Solutions  
         link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_Devcop_Digital_Dojo.pptx
+      - title: Dojo numérique
+        link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_Devcop_Digital_Dojo_FR.pptx
+      - title: Digital Dojo web site 
+        link: https://dts-stn.github.io/digital-dojo/home/    
 
   - month: September 2021
     topic: Introduction to Azure DevOps Boards
