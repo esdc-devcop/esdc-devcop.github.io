@@ -6,11 +6,8 @@ var markdownLinkCheck = require('markdown-link-check');
 var fs = require("fs");
 var glob = require("glob");
 var path = require("path");
-//build fails because build failed: Error [ERR_REQUIRE_ESM] require() of ES Module /home/travis/.../node_modules/chalk/source/index.js is not supported.
-//var chalk = require("chalk");
-//refactored to a dynamic import() which is available in all CommonJS modules.
-import chalk from "chalk"; 
-
+//refactored to a dynamic import() to fix build.
+import {chalk} from './source/index.js';
 
 var files = glob.sync("**/*.md", {ignore: ["node_modules/**/*.md"]})
 
