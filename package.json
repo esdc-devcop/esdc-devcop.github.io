@@ -1,4 +1,7 @@
 {
+  "name": "esdc-devcop",
+  "description": "This repository is used as the main home for ESDC's Developer's Community of Practice. https://esdc-devcop.github.io/ ",
+  "version": "1.0.0",
   "scripts": {
     "link-check": "node link-check.js",
     "lint": "markdownlint -i node_modules \"**/*.md\"",
@@ -10,10 +13,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "chalk": "^4.1.2",
     "cspell": "^5.13.3",
     "glob": "^7.2.0",
     "markdown-link-check": "^3.9.0",
     "markdownlint-cli": "^0.30.0"
-  }
+  } 
 }
