@@ -1,4 +1,13 @@
 past:
+  - month: January 2022
+    topic: From the Testing Automation Enabling Team, Canadian Digital Service (CDS) and the Launch of Covid Alert
+    recording: https://web.microsoftstream.com/video/b3b0366b-b11a-4b6f-ab7a-c48598cbcf7a
+    resources:
+      - title: Testing Services
+        link: https://github.com/esdc-devcop/presentations/blob/master/2022jan19_DevCoP_TestAutomationEnablingTeam.pptx
+      - title: DevSecOps at CDS
+        link: https://github.com/esdc-devcop/presentations/blob/master/2022jan19_DevcoP_Cadets.pdf
+        
   - month: November 2021
     topic: Intro to The DevOps Dojo, Intro to Azure Pipelines
     recording: https://web.microsoftstream.com/video/01c039e9-8fb2-48f1-b3c7-01d69687baa2
