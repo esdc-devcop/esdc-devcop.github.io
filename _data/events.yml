@@ -58,7 +58,7 @@ past:
       - title: SCED Connection SharePoint Page
         link: https://014gc.sharepoint.com/sites/OI-CO/SitePages/Spoke-SCED-Connection-Steps.aspx
       - title: BRD form
-        link: http://service.ssc-spc.gc.ca/sites/default/files/brd_v5_en_final_20190327.xlsm
+        link: https://service.ssc-spc.gc.ca/sites/default/files/brd_v5_en_final_20190327.xlsm
 
   - month: April 2021 (Part 1)
     topic: Cloud Operations
@@ -196,9 +196,9 @@ past:
     norecording: Unfortunately, this recording is no longer available
     resources:
       - title: Managing Merge Requests, Using Code Review
-        link: https://esdc-devcop.github.io/recommendations/source_management/merging-review.html
+        link: https://esdc-devcop.github.io/recommendations/merging-review.html
       - title: Continuous Integration / Continuous Delivery
-        link: https://esdc-devcop.github.io/guides/pipelines/cicd.html
+        link: https://esdc-devcop.github.io/guides/cicd.html
 
   - month: November 2019
     topic: Recommend a branching model
@@ -207,7 +207,7 @@ past:
     norecording: Unfortunately, this recording is no longer available
     resources:
       - title: Git Branching, Picking a Git Flow
-        link: https://esdc-devcop.github.io/recommendations/source_management/git-branching.md
+        link: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
   - month: October 2019
     topic: Application Development Outcomes Map
@@ -223,4 +223,4 @@ past:
     presentation: https://esdc-devcop.github.io/presentations/migrate-to-git.html
     resources:
       - title: Migrate from TFVC to Git
-        link: https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.html
+        link: https://esdc-devcop.github.io/guides/tfvc-to-git.html

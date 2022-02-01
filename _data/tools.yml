@@ -59,7 +59,7 @@ development:
     scope: .NET
     tools:
       - name: NLog
-        documentation: http://nlog-project.org/
+        documentation: https://nlog-project.org/
     tags:
       - Operations
   
@@ -69,7 +69,7 @@ development:
         application: https://jade-repos.intra.dev/artifactory/webapp/#/home
         recommendation: https://esdc-devcop.github.io/recommendations/artifactory.html
       - name: ADO Nuget Feed
-        application: http://ado.intra.dmz/ProjectCollection/
+        application: https://ado.intra.dmz/projectcollection/
         recommendation:  https://github.com/esdc-devcop/ESDC-Development-Setup/blob/master/nugetuserguide.md
         
   - focus: Programming Language
@@ -108,7 +108,7 @@ development:
   - focus: Smoke Testing
     tools:
       - name: Selenium
-        documentation: https://www.seleniumhq.org/
+        documentation: https://github.com/SeleniumHQ/selenium
       - name: Puppeteer
         documentation: https://github.com/puppeteer/puppeteer
     tags:
@@ -147,7 +147,7 @@ development:
     scope: AVM (Cloud only)
     tools:
       - name: Denim Group Threadfix
-        documentation: https://threadfix.it/
+        documentation: https://www.coalfire.com/solutions/threadfix
     tags:
       - Testing
       - Security 

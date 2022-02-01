@@ -157,8 +157,8 @@ If required, the notification is triggered by the successful deployment and exec
 
 ## References
 
-[Continuous Integration and Continuous Delivery Explained](https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html)
+[Continuous Integration and Continuous Delivery Explained](https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html )
 
 [Continuous Integration vs Delivery vs Deployment](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 
-[Introduction to GitLab Flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
+[Introduction to GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html#introduction-to-gitlab-flow)
