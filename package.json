@@ -22,9 +22,14 @@
     "cspell": "^5.18.3",
     "glob": "^7.2.0",
     "markdown-link-check": "^3.9.3",
+<<<<<<< HEAD
     "markdownlint-cli": "^0.31.0",
 >>>>>>> fixes commit errors in the last update
     "cdts": "git+https://github.com/wet-boew/cdts-sgdc#f9dbcf7",
+=======
+    "markdownlint-cli": "^0.30.0",
+    "cdts": "git+https://github.com/wet-boew/cdts-sgdc#f9dbcf7021aed78707abac2b064ac022aea5f0c3",
+>>>>>>> fixes cdts commit update issues
     "https-proxy-agent": "^5.0.0",
     "axios": "^0.24.0"
   } 
