@@ -73,7 +73,7 @@ Check every few months for updates (put a reminder in your calendar) and follow 
 ### Installing on a Server - trial mode
 
 We've installed a Runner on a server currently as a trial, this is here to document what changes were made to get it to work.  
-*Secrets can't be added to a runner on a server*
+_Secrets can't be added to a runner on a server_
 
 #### Software Installed
 
