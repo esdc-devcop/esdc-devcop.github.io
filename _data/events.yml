@@ -1,4 +1,17 @@
 past:
+  - month: February 2022
+    topic: An overview on the Accessibility Compliance Project (ACP) & Web Accessibility
+    recording: https://web.microsoftstream.com/video/57e14fd0-5b0a-4e08-ad11-149d997bf1d9
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/2022feb07_ACP_and_Web_Accessibility_Overview.pdf
+    diapositives: https://github.com/esdc-devcop/presentations/blob/master/2022feb07_ACP_and_Web_Accessibility_Overview_FR.pdf
+    resources:
+      - title: Coaching Guidance - select *Accessibility coaching / session*, then select *ACP - Application development coaching* 
+        link: https://a11yrmt.ca/openrequest-en.php
+      - title: IT Accessibility Office iService page
+        link: https://iservice.prv/eng/imit/A11Y/index.shtml
+      - title: ITAO GitHub page
+        link: https://bati-itao.github.io/index.html
+
   - month: January 2022
     topic: From the Testing Automation Enabling Team, Canadian Digital Service (CDS) and the Launch of Covid Alert
     recording: https://web.microsoftstream.com/video/b3b0366b-b11a-4b6f-ab7a-c48598cbcf7a
