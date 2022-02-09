@@ -25,7 +25,7 @@ Add courses for these topics if you know of any.
 * **Azure DevOps**
   * [Evolve your DevOps practices](https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices)
   * [Build applications with Azure DevOps](https://docs.microsoft.com/en-us/learn/paths/build-applications-with-azure-devops/)
-  * [Continuous Delivery and DevOps With Azure DevOps](https://www.pluralsight.com/paths/continuous-delivery-and-devops-with-azure-devops)
+  * [Continuous Delivery and DevOps With Azure DevOps](https://www.pluralsight.com/courses/continuous-delivery-azure-devops-big-picture)
 
 * **DevOps**
   * Developing Security and Scanning for it
