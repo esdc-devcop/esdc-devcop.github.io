@@ -17,7 +17,7 @@
     "glob": "^7.2.0",
     "markdown-link-check": "^3.9.3",
     "markdownlint-cli": "^0.31.1",
-    "cdts": "git+https://github.com/wet-boew/cdts-sgdc#f9dbcf7021aed78707abac2b064ac022aea5f0c3",
+    "cdts": "git+https://github.com/wet-boew/cdts-sgdc#85f6061bced0b6da896144a8216b181fad1044f7",
     "axios": "^0.24.0",
     "https-proxy-agent": "^5.0.0"
   }
