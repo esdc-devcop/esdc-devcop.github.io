@@ -26,7 +26,7 @@ By _public_ it mean the name that the users of the solution would know or recogn
 ## API logs
 
 APIs should follow this logging template as they generally require strict versioning schemes to identify _breaking_ changes.
-[Semantic Versioning](https://semver.org/) is the most common and recommend approach to versioning, so this templates assumes that it is being used.
+[Semantic Versioning](https://semver.org/ ) is the most common and recommend approach to versioning, so this templates assumes that it is being used.
 
 > ### 0.0.0 - Release Name
 >

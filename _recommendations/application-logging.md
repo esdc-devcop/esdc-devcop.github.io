@@ -51,7 +51,7 @@ Debug logs typically report application events that are useful when diagnosing a
 Avoid implementing any in-house logging mechanism. Existing library are very mature and offer a wide range of granularities and configuration options. We recommend the use of existing Logging libraries
 
 * [NLog](https://nlog-project.org/) for the .NET development environments
-* [SLF4J API](http://www.slf4j.org/) and [Log4j 2](https://logging.apache.org/log4j/2.x/) for the Java development environment
+* [SLF4J API](https://www.slf4j.org/) and [Log4j 2](https://logging.apache.org/log4j/2.x/) for the Java development environment
 * [Elmah](https://elmah.github.io/) (Error Logging Module and Handlers for ASP.NET) - Open source
 
 ## When to Log

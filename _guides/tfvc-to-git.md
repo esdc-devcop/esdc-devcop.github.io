@@ -111,7 +111,7 @@ into that folder.
 
 1. Download the latest Visual Studio `.gitignore` template from GitHub into this
 folder. A `.gitignore` file specifies intentionally untracked files that Git
-should ignore. To read more about `.gitignore` files, see [Ignoring Files](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) of the [Pro Git](http://git-scm.com/book) book.
+should ignore. To read more about `.gitignore` files, see [Ignoring Files](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) of the [Pro Git](https://git-scm.com/book/en/v2) book.
 
     ```bash
     Invoke-WebRequest -Uri https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
@@ -140,7 +140,7 @@ the patterns to match items, see [Git ignore patterns](https://www.atlassian.com
 to specify the `.gitignore` file that you copied earlier!
 
     ```bash
-    git tfs quick-clone "http://tfs.intra.dmz:8080/tfs/projectcollection" "$/DevCoP-CdpDev" . --gitignore="c:\sources\.gitignore"
+    git tfs quick-clone "https://ado.intra.dmz/ProjectCollection/" "$/DevCoP-CdpDev" . --gitignore="c:\sources\.gitignore"
     ```
 
     > **IMPORTANT :** There is a bug with the latest version of the
@@ -204,7 +204,7 @@ your TFVC repository.
 repository to the remote one.
 
     ```bash
-    git remote add origin "http://tfs.intra.dmz:8080/tfs/ProjectCollection/DevCoP-CdpDev/_git/my-new-repo"
+    git remote add origin "https://ado.intra.dmz/ProjectCollection/DevCoP-CdpDev/_versionControl"
     ```
 
 ## Push to Remote Git Repository

@@ -82,7 +82,7 @@ Documenting the post-mortem will contribute to the knowledge base and allow us t
 
 ## Postmortem Templates and Samples
 
-[Google's Postmortem Example](https://landing.google.com/sre/sre-book/chapters/postmortem/)
+[Google's Postmortem Example](https://landing.google.com/sre/sre-book/chapters/postmortem/ )
 
 ## Do's
 
@@ -113,8 +113,8 @@ Documenting the post-mortem will contribute to the knowledge base and allow us t
 
 [https://en.wikipedia.org/wiki/Postmortem_documentation](https://en.wikipedia.org/wiki/Postmortem_documentation)
 
-[https://landing.google.com/sre/sre-book/chapters/postmortem-culture/](https://landing.google.com/sre/sre-book/chapters/postmortem-culture/)
+[https://sre.google/sre-book/postmortem-culture/](https://sre.google/sre-book/postmortem-culture/)
 
-[https://landing.google.com/sre/workbook/chapters/postmortem-analysis/](https://landing.google.com/sre/workbook/chapters/postmortem-analysis/)
+[https://sre.google/workbook/postmortem-analysis/](https://sre.google/workbook/postmortem-analysis/)
 
 [https://www.infoq.com/articles/postmortems-etsy/](https://www.infoq.com/articles/postmortems-etsy/)

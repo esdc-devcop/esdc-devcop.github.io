@@ -93,8 +93,8 @@ We usually schedule a "dry-run meeting" with each presenter, 2-3 weeks before th
 
 No more than 30 slides. It's best to keep your slides as simple as possible (minimal amount of text per slide - use diagrams instead) and make sure your slides are readable from the back of the room.
 
-Please use the latest ESDC PowerPoint template - From PowerPoint 2010, click File-->New-->Custom Templates and double-click on the ESDC template. Check [this](http://esdc.prv/en/intersection/2012/09/i135_1346860957084.shtml)
+Please use the latest ESDC PowerPoint template - From PowerPoint 2010, click File-->New-->Custom Templates and double-click on the ESDC template. Check [this](https://esdc.prv/en/intersection/2012/09/i135_1346860957084.shtml)
 
 ### Should I give a demo of the Product?
 
-If you're presenting a new product/best practices/mandatory instructions for all developers, then ABSOLUTELY! Check out [The Art of Live Coding](https://medium.com/@azamsharp/the-art-of-live-coding-459f0c5910c1)
+If you're presenting a new product/best practices/mandatory instructions for all developers, then ABSOLUTELY! Check out [The Art of Live Coding](https://medium.com/@azamsharp/the-art-of-live-coding-459f0c5910c1 )
