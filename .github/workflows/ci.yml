@@ -32,5 +32,4 @@ jobs:
     - name: Test
     - run: npm test
       env: 
-         DISABLE_PROXY: true
-         
+         DISABLE_PROXY: true 
