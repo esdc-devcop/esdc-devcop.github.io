@@ -18,7 +18,7 @@
     "markdown-link-check": "^3.9.3",
     "markdownlint-cli": "^0.31.1",
     "cdts": "git+https://github.com/wet-boew/cdts-sgdc#85f6061bced0b6da896144a8216b181fad1044f7",
-    "axios": "^0.24.0",
+    "axios": "^0.26.0",
     "https-proxy-agent": "^5.0.0"
   }
 }
