@@ -5,7 +5,8 @@ permalink: /tools.html
 ---
 
 <ul class="list-unstyled">
-{% for devTool in site.data.tools.development | sort: "focus" %}
+{% assign devTools = site.data.tools.development | sort: "focus" %}
+{% for devTool in devTools %}
   <li>
   <details>
     <summary>
@@ -23,7 +24,7 @@ permalink: /tools.html
       </p>
     {% endif %}
     {% if devTool.description %}
-      <p>{{ devTool.description %}}</p>
+      <p>{{ devTool.description }}</p>
     {% endif %}
     <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
       {% for tool in devTool.tools %}

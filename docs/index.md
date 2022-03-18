@@ -8,8 +8,6 @@ title: Welcome to the DevCoP!
 Equipping ESDC developers with skills, knowledge to continuously modernize the software they develop.  
 We want the developers at ESDC to be collaborating with each other and those from other departments, gaining skills to build into a greater diversity of knowledge, enabling them to develop stronger and more versatile software.
 
-## How
-
 ### DevCoP Presentations
 
 DevCoP presentations are currently our main point of contact with the Development Community where we bring updates on the [available tools]({{ '/' | absolute_url }}tools.html) and direction of development for the department. The main focus of the DevCoP presentations is a form of training where we highlight existing [best practices and guides]({{ '/' | absolute_url }}guides/) used by other teams, and demonstrate examples of using [tools]({{ '/' | absolute_url }}tools.html).
