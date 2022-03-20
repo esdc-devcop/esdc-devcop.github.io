@@ -15,7 +15,7 @@
   "devDependencies": {
     "cspell": "^5.19.2",
     "glob": "^7.2.0",
-    "markdown-link-check": "^3.9.3",
+    "markdown-link-check": "^3.10.0",
     "markdownlint-cli": "^0.31.1",
     "cdts": "git+https://github.com/wet-boew/cdts-sgdc#85f6061bced0b6da896144a8216b181fad1044f7",
     "axios": "^0.26.1",
