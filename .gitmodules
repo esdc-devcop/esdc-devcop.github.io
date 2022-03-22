@@ -1,0 +1,3 @@
+[submodule "submodules/cdts-sgdc"]
+	path = submodules/cdts-sgdc
+	url = https://github.com/wet-boew/cdts-sgdc.git
