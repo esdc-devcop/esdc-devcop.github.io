@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "scripts": {
     "link-check": "node link-check.js",
-    "lint": "markdownlint -i node_modules \"**/*.md\"",
-    "test": "npm run lint && npm run link-check"
+    "lint": "markdownlint -i node_modules -i submodules \"**/*.md\"",
+    "test": "npm run lint && npm run link-check",
+    "serve": "bundle exec jekyll serve -s docs"
   },
   "repository": {
     "type": "git",
