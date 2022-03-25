@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 'use strict';
-const {testFileLinks} = require('./submodules/cdts-sgdc/TestLinks.js');
+const {testFileLinks} = require('./submodules/cdts-sgdc/TestLinks');
 //Validate Urls in these folders
 const directories = ["./_data", "./_guides", "./_includes", "./_layouts", "./_pages", "./_recommendations", "./_references"];
 //Exception lists: Urls listed are not validated
