@@ -5,7 +5,8 @@
   "scripts": {
     "link-check": "node link-check.js",
     "lint": "markdownlint -i node_modules -i submodules \"**/*.md\"",
-    "test": "npm run lint && npm run link-check"
+    "test": "npm run lint && npm run link-check",
+    "update-submodules": "git submodule update --init --recursive submodules/cdts-sgdc"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
     "markdown-link-check": "^3.10.0",
     "markdownlint-cli": "^0.31.1",
     "axios": "^0.26.1",
-    "https-proxy-agent": "^5.0.0"
+    "https-proxy-agent": "^5.0.0",
+    "submodules": "./submodules/cdts-sgdc/TestLinks"
   }
 }
