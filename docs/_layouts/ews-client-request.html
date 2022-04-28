@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="/styles/webForm.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>SolutionDesign Services- Web Service Client Request</title>
+  </head>
+  <body>
+    <p>
+      Please note that this request, if fulfilled, will provide the application
+      group with a domain service account. It then becomes the responsibility of
+      the application group to handle the service account in an appropriate
+      manner. Best practices dictate that network credentials stored in
+      configuration files should always be encrypted.
+    </p>
+
+    <form action="/client-request-form-page" method="post">
+      <h1>Request Form</h1>
+      <p>
+        Required fields are followed by
+        <strong><abbr title="required">*</abbr></strong
+        >.
+      </p>
+
+      <h2>Client Information</h2>
+      <section>
+        <fieldset>
+          <legend>Environment</legend>
+          <ul>
+            <li>
+              <label for="nonprod">
+                <input type="radio" id="nonprod" name="title" value="N" />
+                Non-Production
+              </label>
+            </li>
+            <li>
+              <label for="prod">
+                <input type="radio" id="prod" name="title" value="P" />
+                Production
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Application Information</legend>
+          <p>
+            <label for="appname">
+              <span
+                title="The full name listed in the Corporate Solutions Directory (CSD)"
+                >Application Name:
+              </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="text" id="appname" name="appname" />
+          </p>
+          <p>
+            <label for="acronymname">
+              <span title="The acronym listed in the CSD">Acronym: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="text" id="acronymname" name="acronymname" />
+          </p>
+          <p>
+            <label for="apptype">
+              <span>What type of application do you have?</span>
+            </label>
+            <select id="apptype" name="apptype">
+              <option value="windowsapp">Windows Application</option>
+              <option value="windowsservice">Windows Service</option>
+              <option value="windowssmartclient">Windows Smart Client</option>
+              <option value="webappliction">Web Application</option>
+              <option value="webservice">Web Service</option>
+              <option value="othertype">other</option>
+            </select>
+          </p>
+          <p>
+            <label for="appzone">
+              <span title="Add a comment to add specific details for the client"
+                >Which zone is your application located?</span
+              >
+            </label>
+            <select id="appzone" name="appzone">
+              <option value="intranet">Intranet</option>
+              <option value="internet">Internet (DMZ/OPS/Intranet)</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="csdname">
+              <span>CSD Name: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="text" id="csdname" name="csdname" />
+          </p>
+          <p>
+            <label for="appdesc">Application Description:</label>
+            <input type="textarea" id="appdesc" name="appdesc" />
+          </p>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Contact Information</legend>
+          <p>
+            <label for="mgrname">
+              <span>Manager Name: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="text" id="mgrname" name="mgrname" />
+          </p>
+          <p>
+            <label for="mgrmail">
+              <span>Manager's E-mail: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="email" id="mgrmail" name="mgrmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$"/>
+          </p>
+
+          <p>
+            <label for="tlname">
+              <span>Team Lead's Name: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="text" id="tlname" name="tlname" />
+          </p>
+          <p>
+            <label for="tlmail">
+              <span>Team Lead's E-mail: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="email" id="tlmail" name="tlmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" />
+          </p>
+
+          <p>
+            <label for="gdmail">
+              <span>Group E-mail: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="email" id="gdmail" name="gdmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$"/>
+          </p>
+        </fieldset>
+      
+        <fieldset>
+          <legend>EWS Information</legend>
+          <p>Which service do you need access to?</p>
+          <ul>
+            <li>
+              <label for="wsaddress">
+                <input
+                  type="checkbox"
+                  id="wsaddress"
+                  name="title"
+                  value="wsaddress"
+                />
+                WSAddress
+              </label>
+            </li>
+            <li>
+              <label for="wsemail">
+                <input
+                  type="checkbox"
+                  id="wsemail"
+                  name="title"
+                  value="wsemail"
+                />
+                WSEMail
+              </label>
+            </li>
+            <li>
+              <label for="wsed">
+                <input type="checkbox" id="wsed" name="title" value="wsed" />
+                WSED
+              </label>
+            </li>
+            <li>
+              <label for="wsdblink">
+                <input
+                  type="checkbox"
+                  id="wsdblink"
+                  name="title"
+                  value="wsdblink"
+                />
+                WSDBLink
+              </label>
+            </li>
+          </ul>
+
+          <p>
+            <label for="expireacct">
+              <span>Should the account expire?</span>
+            </label>
+            <select id="expireacct" name="expireacct">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </p>
+          <p>
+            <label for="expiredate">
+              <span>Expiration date:</span>
+            </label>
+            <input
+              type="text"
+              id="expiredate"
+              required="false"
+              placeholder="YYYY-MM-YY"
+              pattern="^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
+            />
+          </p>
+        </fieldset>
+      </section>
+
+      <section>
+        <p>
+          <button type="submit">Submit Request</button>
+        </p>
+      </section>
+    </form>
+  </body>
+</html>

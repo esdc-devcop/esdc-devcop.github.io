@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="/styles/responsiveForm.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>SolutionDesign Services- Web Service Client Request</title>
+  </head>
+  <body>
+    <p>
+      This form should be filled out by the Software Factory group-Groupe de
+      manufacture de logiciels (SF-ML). The SF-ML team will create the Service
+      Account Name and open a service ticket to the Directory Services group.
+      The Directory Services group are responsible for granting the client
+      account permission to our web services. 
+      <ul>
+      The service account must meet the following criteria:
+       <li>The client should NOT already have an existing prod account.</li>
+       <li>The client should create a non-prod account (dev) before requesting a prod account.</li>
+       <li>It should be created in the .NET domain.</li>
+       <li>The service account name must start with sv-sf.</li>
+       <li>The account name should match the one already created in development (ie, sv-sf-acctname-dev).</li>
+      </ul>
+    </p>
+    <form action="/directory-services-form-page" method="post">
+      <h1>SF-ML Tracking Form</h1>
+      <p>
+        Required fields are followed by
+        <strong><abbr title="required">*</abbr></strong
+        >.
+      </p>
+
+      <h2>Service Account Tracking Form</h2>
+      <section>
+        <fieldset>
+          <legend>Directory Services Group</legend>
+          <p>
+            <label for="serviceacctname">
+              <span>Service Account Name:</span>
+            </label>
+            <input
+              type="text"
+              id="serviceacctname"
+              required="true"
+              placeholder="SV-SF-ACCTNAME"
+              pattern="/(?i)sv-sf-(?i)[a-z]{0,10}$"
+            />
+          </p>
+          <p>
+            <label for="acctusercreated">
+              <span>Account User Created: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="text" id="acctusercreated" name="acctusercreated" />
+          </p>
+          <p>
+            <label for="acctdatecreated">
+              <span>Account Date Created:</span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input
+              type="text"
+              id="acctdatecreated"
+              required="true"
+              placeholder="YYYY-MM-YY"
+              pattern="^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
+            />
+          </p>
+          <p>
+              <p>Send the Account name and password to the manager and team lead.</p>
+            <label for="multiplecontactemails">
+              <span title="Separate multiple emails by a comma">Service Account and Password sent to: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="email" id="multiplecontactemails" name="multiplecontactemails" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" multiple/>
+          </p>
+          <p>
+            <label for="datereassigned">
+              <span>Date Service ticket reassigned to SF-ML:</span>
+            </label>
+            <input
+              type="text"
+              id="datereassigned"
+              required="false"
+              placeholder="YYYY-MM-YY"
+              pattern="^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
+            />
+          </p>
+        </fieldset>
+      </section>
+
+      <section>
+        <p>
+          <button type="submit">Submit Request</button>
+        </p>
+      </section>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>

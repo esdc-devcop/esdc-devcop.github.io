@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="/styles/responsiveForm.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>SolutionDesign Services- Web Service Client Request</title>
+  </head>
+  <body>
+    <p>
+      This form should be filled out by the Software Factory group-Groupe de
+      manufacture de logiciels (SF-ML). The SF-ML team will create the Service
+      Account Name and open a service ticket to the Directory Services group.
+      The Directory Services group are responsible for granting the client
+      account permission to our web services. 
+      <ul>
+      The service account must meet the following criteria:
+       <li>The client should NOT already have an existing prod account.</li>
+       <li>The client should create a non-prod account (dev) before requesting a prod account.</li>
+       <li>It should be created in the .NET domain.</li>
+       <li>The service account name must start with sv-sf.</li>
+       <li>The account name should match the one already created in development (ie, sv-sf-acctname-dev).</li>
+      </ul>
+    </p>
+    <form action="/sf-ml-tracking-form-page" method="post">
+      <h1>SF-ML Tracking Form</h1>
+      <p>
+        Required fields are followed by
+        <strong><abbr title="required">*</abbr></strong
+        >.
+      </p>
+
+      <h2>Service Account Tracking Form</h2>
+      <section>
+        <fieldset>
+          <legend>Software Factory Group</legend>
+          <p>
+            <label for="serviceacctname">
+              <span>Service Account Name:</span>
+            </label>
+            <input
+              type="text"
+              id="serviceacctname"
+              required="true"
+              placeholder="SV-SF-ACCTNAME"
+              pattern="/(?i)sv-sf-(?i)[a-z]{0,10}$"
+            />
+          </p>
+          <p>
+            <label for="usercreated">
+              <span>User Created: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="text" id="usercreated" name="usercreated" />
+          </p>
+          <p>
+            <label for="datecreated">
+              <span>Date Created:</span>
+            </label>
+            <input
+              type="text"
+              id="datecreated"
+              required="true"
+              placeholder="YYYY-MM-YY"
+              pattern="^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
+            />
+          </p>
+          <p>
+            <label for="userverified">
+              <span>User Verified: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="text" id="userverified" name="userverified" />
+          </p>
+          <p>
+            <label for="dateverified">
+              <span>Date Verified:</span>
+            </label>
+            <input
+              type="text"
+              id="dateverified"
+              required="true"
+              placeholder="YYYY-MM-YY"
+              pattern="^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
+            />
+          </p>
+        </fieldset>
+      </section>
+
+      <section>
+        <p>
+          <button type="submit">Submit Request</button>
+        </p>
+      </section>
+    </form>
+  </body>
+</html>
