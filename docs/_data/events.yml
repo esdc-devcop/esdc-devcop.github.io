@@ -1,5 +1,25 @@
 past:
-  - month: February 2022
+  - month: May 2022 
+    topic: An Introduction to end-to-end testing, using Selenium and Playwright
+    recording: https://web.microsoftstream.com/video/2698984b-0604-4fb2-b979-9afd34c48461
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/2022may04_DevCoP_Selenium%20and%20Playwright.pptx
+    resources:
+      - title: Selenium 
+        link: https://www.selenium.dev/
+      - title: Selenium - Introduction to Page Object Models
+        link: https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/
+      - title: Playwright
+        link: https://playwright.dev/dotnet/docs/intro
+      - title: EasyRepro with Selenium, for Microsoft Dynamics 365 applications
+        link: https://github.com/microsoft/EasyRepro
+      - title: Practical Test Pyramid
+        link: https://martinfowler.com/articles/practical-test-pyramid.html
+      - title: Test Framework
+        link: https://docs.nunit.org/articles/nunit/writing-tests/attributes.html 
+      - title: Testing Services SharePoint site
+        link: https://014gc.sharepoint.com/sites/QAInnovation
+  
+  - month: February 2022 
     topic: An overview on the Accessibility Compliance Project (ACP) & Web Accessibility
     recording: https://web.microsoftstream.com/video/57e14fd0-5b0a-4e08-ad11-149d997bf1d9
     presentation: https://github.com/esdc-devcop/presentations/blob/master/2022feb07_ACP_and_Web_Accessibility_Overview.pdf
@@ -10,8 +30,8 @@ past:
       - title: IT Accessibility Office iService page
         link: https://iservice.prv/eng/imit/A11Y/index.shtml
       - title: ITAO GitHub page
-        link: https://bati-itao.github.io/index.html
-
+        link: https://bati-itao.github.io/index.html   
+    
   - month: January 2022
     topic: From the Testing Automation Enabling Team, Canadian Digital Service (CDS) and the Launch of Covid Alert
     recording: https://web.microsoftstream.com/video/b3b0366b-b11a-4b6f-ab7a-c48598cbcf7a
