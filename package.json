@@ -16,7 +16,7 @@
   "devDependencies": {
     "cspell": "^5.19.7",
     "glob": "^8.0.1",
-    "markdown-link-check": "^3.10.0",
+    "markdown-link-check": "^3.10.2",
     "markdownlint-cli": "^0.31.1",
     "axios": "^0.27.2",
     "https-proxy-agent": "^5.0.1",
