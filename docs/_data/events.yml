@@ -3,6 +3,7 @@ past:
     topic: An Introduction to end-to-end testing, using Selenium and Playwright
     recording: https://web.microsoftstream.com/video/2698984b-0604-4fb2-b979-9afd34c48461
     presentation: https://github.com/esdc-devcop/presentations/blob/master/2022may04_DevCoP_Selenium%20and%20Playwright.pptx
+    diapositives: https://github.com/esdc-devcop/presentations/blob/master/2022may4_DevCoP_Selenium%20and%20Playwright_FR.pptx
     resources:
       - title: Selenium 
         link: https://www.selenium.dev/
