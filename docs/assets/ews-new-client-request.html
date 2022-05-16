@@ -1,220 +1,212 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <link href="docs/assets/css/web-form.css" rel="stylesheet" />
+    <link href="styles/responsive-form.css" rel="stylesheet" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width">
-    <title>SolutionDesign Services- Web Service Client Request</title>
-  </head>
-  <body>
-    <p>
-      Please note that this request, if fulfilled, will provide the application
-      group with a domain service account. It then becomes the responsibility of
-      the application group to handle the service account in an appropriate
-      manner. Best practices dictate that network credentials stored in
-      configuration files should always be encrypted.
-    </p>
+    <title>Solution Design Services (SDS) - New Client Request</title>
+</head>
+<body>
 
-    <form action="/client-request-form-page" method="post">
-      <h1>Request Form</h1>
-      <p>
-        Required fields are followed by
-        <strong><abbr title="required">*</abbr></strong
-        >.
-      </p>
-
-      <h2>Client Information</h2>
-      <section>
+    <h2>New Request Form</h2>
+    <p>Please note that this request, if fulfilled, will provide the application group with a domain service account. 
+        It then becomes the responsibility of the application group to handle the service account in an appropriate manner. 
+        Best practices dictate that network credentials stored in configuration files should always be encrypted.</p>
+    <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+    
+    <div class="container">
+      <form id="mainForm">
         <fieldset>
-          <legend>Environment</legend>
-          <ul>
-            <li>
-              <label for="nonprod">
-                <input type="radio" id="nonprod" name="title" value="N" />
-                Non-Production
-              </label>
-            </li>
-            <li>
-              <label for="prod">
-                <input type="radio" id="prod" name="title" value="P" />
-                Production
-              </label>
-            </li>
-          </ul>
-        </fieldset>
-      
-        <fieldset>
-          <legend>Application Information</legend>
-          <p>
-            <label for="appname">
-              <span
-                title="The full name listed in the Corporate Solutions Directory (CSD)"
-                >Application Name:
-              </span>
-              <strong><abbr title="required">*</abbr></strong>
-            </label>
-            <input type="text" id="appname" name="appname" />
-          </p>
-          <p>
-            <label for="acronymname">
-              <span title="The acronym listed in the CSD">Acronym: </span>
-              <strong><abbr title="required">*</abbr></strong>
-            </label>
-            <input type="text" id="acronymname" name="acronymname" />
-          </p>
-          <p>
-            <label for="apptype">
-              <span>What type of application do you have?</span>
-            </label>
-            <select id="apptype" name="apptype">
-              <option value="windowsapp">Windows Application</option>
-              <option value="windowsservice">Windows Service</option>
-              <option value="windowssmartclient">Windows Smart Client</option>
-              <option value="webappliction">Web Application</option>
-              <option value="webservice">Web Service</option>
-              <option value="othertype">other</option>
-            </select>
-          </p>
-          <p>
-            <label for="appzone">
-              <span title="Add a comment to add specific details for the client"
-                >Which zone is your application located?</span
-              >
-            </label>
-            <select id="appzone" name="appzone">
-              <option value="intranet">Intranet</option>
-              <option value="internet">Internet (DMZ/OPS/Intranet)</option>
-            </select>
-          </p>
-
-          <p>
-            <label for="csdname">
-              <span>CSD Name: </span>
-              <strong><abbr title="required">*</abbr></strong>
-            </label>
-            <input type="text" id="csdname" name="csdname" />
-          </p>
-          <p>
-            <label for="appdesc">Application Description:</label>
-            <input type="textarea" id="appdesc" name="appdesc" />
-          </p>
-        </fieldset>
-      
+            <legend>Application Information</legend>
+            <div class="row">
+                <div class="col-25">
+                  <label for="environment">Application Environment <strong><abbr title="required">*</abbr></strong></label>
+                </div>
+                <div class="col-75">
+                  <select id="environment" name="environment">
+                    <option value="nonProd">Non-Production</option>
+                    <option value="prod">Production</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+               <div class="col-25">
+                <label for="csdName">Application Name <strong><abbr title="required">*</abbr></strong></label>
+               </div>
+               <div class="col-75">
+                <input type="text" id="csdName" name="csdName" placeholder="The name listed in the Corporate Solutions Directory (CSD).." required>
+               </div>
+             </div>
+             <div class="row">
+              <div class="col-25">
+                <label for="csdAcronym">Acronym <strong><abbr title="required">*</abbr></strong></label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="csdAcronym" name="csdAcronym" placeholder="The acronym listed in the CSD.." required>
+              </div>
+             </div>
+             <div class="row">
+              <div class="col-25">
+                <label for="appType">What type of application do you have?</label>
+              </div>
+              <div class="col-75">
+                <select id="appType" name="appType">
+                  <option value="windowsApp">Windows Application</option>
+                  <option value="windowsService">Windows Service</option>
+                  <option value="windowsSmartClient">Windows Smart Client</option>
+                  <option value="webApplication">Web Application</option>
+                  <option value="webService">Web Service</option>
+                  <option value="otherType">other</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="appZone">Which zone is your application located?</label>
+              </div>
+              <div class="col-75">
+                <select id="appZone" name="appZone">
+                  <option value="intranet">Intranet</option>
+                  <option value="internet">Internet (DMZ/OPS/Intranet)</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="appDesc">Application Description</label>
+              </div>
+              <div class="col-75">
+                <textarea id="appDesc" name="appDesc" placeholder="Write the description listed in the CSD.." style="height:200px"></textarea>
+              </div>
+            </div>      
+        </fieldset> 
         <fieldset>
           <legend>Contact Information</legend>
-          <p>
-            <label for="mgrname">
-              <span>Manager Name: </span>
-              <strong><abbr title="required">*</abbr></strong>
-            </label>
-            <input type="text" id="mgrname" name="mgrname" />
-          </p>
-          <p>
-            <label for="mgrmail">
-              <span>Manager's E-mail: </span>
-              <strong><abbr title="required">*</abbr></strong>
-            </label>
-            <input type="email" id="mgrmail" name="mgrmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$"/>
-          </p>
-
-          <p>
-            <label for="tlname">
-              <span>Team Lead's Name: </span>
-              <strong><abbr title="required">*</abbr></strong>
-            </label>
-            <input type="text" id="tlname" name="tlname" />
-          </p>
-          <p>
-            <label for="tlmail">
-              <span>Team Lead's E-mail: </span>
-              <strong><abbr title="required">*</abbr></strong>
-            </label>
-            <input type="email" id="tlmail" name="tlmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" />
-          </p>
-
-          <p>
-            <label for="gdmail">
-              <span>Group E-mail: </span>
-              <strong><abbr title="required">*</abbr></strong>
-            </label>
-            <input type="email" id="gdmail" name="gdmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$"/>
-          </p>
+          <div class="row">
+            <div class="col-25">
+              <label for="dirName">Director's Name <strong><abbr title="required">*</abbr></strong></label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="dirName" name="dirName" placeholder="The name of the director listed in the CSD.." required>
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-25">
+              <label for="dirEmail">Director's Email <strong><abbr title="required">*</abbr></strong></label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="dirEmail" name="dirEmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="The director's email address.." required>
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-25">
+              <label for="mgrName">Manager's Name <strong><abbr title="required">*</abbr></strong></label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="mgrName" name="mgrName" placeholder="The name of the manager listed in the CSD.." required>
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-25">
+              <label for="mgrEmail">Manager's Email <strong><abbr title="required">*</abbr></strong></label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="mgrEmail" name="mgrEmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="The manager's email address.." required>
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-25">
+              <label for="tlName">Team Lead's Name <strong><abbr title="required">*</abbr></strong></label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="tlName" name="tlName" placeholder="The name of the team lead listed in the CSD.." required>
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-25">
+              <label for="tlEmail">Team Lead's Email <strong><abbr title="required">*</abbr></strong></label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="tlEmail" name="tlEmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="The team lead's email address.." required>
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-25">
+              <label for="addNames">Additional Contact Name(s)</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="addNames" name="addNames" placeholder="Any additional contact name(s) listed in the CSD..">
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-25">
+              <!--add functionality to check if id="addnames" has a value(s). If so, then the email address should be mandatory-->
+              <label for="addMails">Additional Contact Email(s) </label>
+            </div>
+            <div class="col-75">
+              <!--add functionality to process each email individually-->
+              <input type="email" id="addMails" name="addMails" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="Any additional contact names email address(es)..">
+            </div>
+           </div>    
         </fieldset>
-      
         <fieldset>
           <legend>EWS Information</legend>
-          <p>Which service do you need access to?</p>
-          <ul>
-            <li>
-              <label for="wsaddress">
-                <input
-                  type="checkbox"
-                  id="wsaddress"
-                  name="title"
-                  value="wsaddress"
-                />
-                WSAddress
-              </label>
-            </li>
-            <li>
-              <label for="wsemail">
-                <input
-                  type="checkbox"
-                  id="wsemail"
-                  name="title"
-                  value="wsemail"
-                />
-                WSEMail
-              </label>
-            </li>
-            <li>
-              <label for="wsed">
-                <input type="checkbox" id="wsed" name="title" value="wsed" />
-                WSED
-              </label>
-            </li>
-            <li>
-              <label for="wsdblink">
-                <input
-                  type="checkbox"
-                  id="wsdblink"
-                  name="title"
-                  value="wsdblink"
-                />
-                WSDBLink
-              </label>
-            </li>
-          </ul>
-
-          <p>
-            <label for="expireacct">
-              <span>Should the account expire?</span>
-            </label>
-            <select id="expireacct" name="expireacct">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </p>
-          <p>
-            <label for="expiredate">
-              <span>Expiration date:</span>
-            </label>
-            <input
-              type="text"
-              id="expiredate"
-              required="false"
-              placeholder="YYYY-MM-YY"
-              pattern="^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
-            />
-          </p>
-        </fieldset>
-      </section>
-
-      <section>
-        <p>
-          <button type="submit">Submit Request</button>
-        </p>
-      </section>
-    </form>
-  </body>
-</html>
+          <div class="row">
+            <div class="col-25">
+              <label for="ewsName">Which service(s) do you need access to? <strong><abbr title="required">*</abbr></strong></label>
+            </div>
+            <div class="col-75">
+              <div>
+                <!--Add functionality, if user checks WSAddress they need to add additional information: Expected number of calls/day (typical/busy/weekends)-->
+                <input type="checkbox" id="wsAddress" name="wsAddress">
+                <label for="wsAddress">WSAddress</label>
+              </div>
+              <div>
+                <!--Add functionality, if user checks WSEMail they need to add additional information: Internal email access/Internal & external email access/No-->
+                <!--Add functionality, if user checks WSEMail they need to add additional information: Expected number of calls/day (typical/busy/weekends)-->
+                <input type="checkbox" id="wsEmail" name="wsEmail">
+                <label for="wsEmail">WSEMail</label>
+              </div>
+              <div>
+                <!--Add functionality, if user checks WSED they need to add additional information: Expected number of calls/day (typical/busy/weekends)-->
+                <input type="checkbox" id="wsed" name="wsed">
+                <label for="wsed">WSED</label>
+              </div>
+              <div>
+                <!--Add functionality, if user checks WSDBLink they need to add additional information: Expected number of calls/day (typical/busy/weekends)-->
+                <input type="checkbox" id="wsDbLink" name="wsDbLink" onclick="onWsdblinkClick()">
+                <label for="wsDbLink">WSDBLink</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <!--Add functionality: If user clicks yes, then they need to provide the expiry date-->
+              <label for="expireAcct">Should the account expire?</label>
+            </div>
+            <div class="col-75">
+              <select id="expireAcct" name="expireAcct" onchange="hideExpiryDateOnChange(this);">
+                <option value="noChoice">Select one..</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+          </div>
+          <div id="hiddenField" class="row" hidden>
+            <div class="col-25">
+              <label for="expiryDate">If yes, please provide the expiry date</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="expiryDate" name="expiryDate" pattern="^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$" placeholder="YYYY-MM-YY">
+            </div>
+           </div>    
+        </fieldset> 
+      <br>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+      </form>
+    </div>
+    <script src="scripts/main.js"></script>
+    </body>
+    </html>
+    
