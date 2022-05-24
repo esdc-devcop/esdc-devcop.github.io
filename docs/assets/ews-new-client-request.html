@@ -41,7 +41,7 @@
                 <label for="csdAcronym">Acronym <strong><abbr title="required">*</abbr></strong></label>
               </div>
               <div class="col-75">
-                <input type="text" id="csdAcronym" name="csdAcronym" placeholder="The acronym listed in the CSD.." required>
+                <input type="text" id="csdAcronym" name="csdAcronym" placeholder="The acronym listed in the CSD..">
               </div>
              </div>
              <div class="row">
@@ -86,7 +86,7 @@
               <label for="dirName">Director's Name <strong><abbr title="required">*</abbr></strong></label>
             </div>
             <div class="col-75">
-              <input type="text" id="dirName" name="dirName" placeholder="The name of the director listed in the CSD.." required>
+              <input type="text" id="dirName" name="dirName" placeholder="The name of the director listed in the CSD..">
             </div>
            </div>
            <div class="row">
@@ -94,7 +94,7 @@
               <label for="dirEmail">Director's Email <strong><abbr title="required">*</abbr></strong></label>
             </div>
             <div class="col-75">
-              <input type="email" id="dirEmail" name="dirEmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="The director's email address.." required>
+              <input type="email" id="dirEmail" name="dirEmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="The director's email address..">
             </div>
            </div>
            <div class="row">
@@ -102,7 +102,7 @@
               <label for="mgrName">Manager's Name <strong><abbr title="required">*</abbr></strong></label>
             </div>
             <div class="col-75">
-              <input type="text" id="mgrName" name="mgrName" placeholder="The name of the manager listed in the CSD.." required>
+              <input type="text" id="mgrName" name="mgrName" placeholder="The name of the manager listed in the CSD..">
             </div>
            </div>
            <div class="row">
@@ -110,7 +110,7 @@
               <label for="mgrEmail">Manager's Email <strong><abbr title="required">*</abbr></strong></label>
             </div>
             <div class="col-75">
-              <input type="email" id="mgrEmail" name="mgrEmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="The manager's email address.." required>
+              <input type="email" id="mgrEmail" name="mgrEmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="The manager's email address..">
             </div>
            </div>
            <div class="row">
@@ -118,7 +118,7 @@
               <label for="tlName">Team Lead's Name <strong><abbr title="required">*</abbr></strong></label>
             </div>
             <div class="col-75">
-              <input type="text" id="tlName" name="tlName" placeholder="The name of the team lead listed in the CSD.." required>
+              <input type="text" id="tlName" name="tlName" placeholder="The name of the team lead listed in the CSD..">
             </div>
            </div>
            <div class="row">
@@ -126,7 +126,7 @@
               <label for="tlEmail">Team Lead's Email <strong><abbr title="required">*</abbr></strong></label>
             </div>
             <div class="col-75">
-              <input type="email" id="tlEmail" name="tlEmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="The team lead's email address.." required>
+              <input type="email" id="tlEmail" name="tlEmail" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="The team lead's email address..">
             </div>
            </div>
            <div class="row">
@@ -144,6 +144,7 @@
             </div>
             <div class="col-75">
               <!--add functionality to process each email individually-->
+              <!--TODO: change the input type=text to add additional emails??-->
               <input type="email" id="addMails" name="addMails" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" placeholder="Any additional contact names email address(es)..">
             </div>
            </div>    
@@ -157,23 +158,23 @@
             <div class="col-75">
               <div>
                 <!--Add functionality, if user checks WSAddress they need to add additional information: Expected number of calls/day (typical/busy/weekends)-->
-                <input type="checkbox" id="wsAddress" name="wsAddress">
+                <input type="checkbox" id="wsAddress" name="ewsServices" value="WSAddress">
                 <label for="wsAddress">WSAddress</label>
               </div>
               <div>
                 <!--Add functionality, if user checks WSEMail they need to add additional information: Internal email access/Internal & external email access/No-->
                 <!--Add functionality, if user checks WSEMail they need to add additional information: Expected number of calls/day (typical/busy/weekends)-->
-                <input type="checkbox" id="wsEmail" name="wsEmail">
+                <input type="checkbox" id="wsEmail" name="ewsServices" value="WSEMail">
                 <label for="wsEmail">WSEMail</label>
               </div>
               <div>
                 <!--Add functionality, if user checks WSED they need to add additional information: Expected number of calls/day (typical/busy/weekends)-->
-                <input type="checkbox" id="wsed" name="wsed">
+                <input type="checkbox" id="wsed" name="ewsServices" value="WSED">
                 <label for="wsed">WSED</label>
               </div>
               <div>
                 <!--Add functionality, if user checks WSDBLink they need to add additional information: Expected number of calls/day (typical/busy/weekends)-->
-                <input type="checkbox" id="wsDbLink" name="wsDbLink" onclick="onWsdblinkClick()">
+                <input type="checkbox" id="wsDbLink" name="ewsServices" value="WSDBLink">
                 <label for="wsDbLink">WSDBLink</label>
               </div>
             </div>
@@ -196,6 +197,7 @@
               <label for="expiryDate">If yes, please provide the expiry date</label>
             </div>
             <div class="col-75">
+              <!--TODO: change input type=date-->
               <input type="text" id="expiryDate" name="expiryDate" pattern="^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$" placeholder="YYYY-MM-YY">
             </div>
            </div>    
@@ -209,4 +211,3 @@
     <script src="/docs/assets/scripts/main.js"></script>
     </body>
     </html>
-    
