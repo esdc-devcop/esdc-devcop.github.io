@@ -26,6 +26,8 @@ past:
     presentation: https://github.com/esdc-devcop/presentations/blob/master/2022feb07_ACP_and_Web_Accessibility_Overview.pdf
     diapositives: https://github.com/esdc-devcop/presentations/blob/master/2022feb07_ACP_and_Web_Accessibility_Overview_FR.pdf
     resources:
+      - title: ESDC Self-Paced Web Accessibility Course
+        link: https://bati-itao.github.io/learning/esdc-self-paced-web-accessibility-course/index.html
       - title: Coaching Guidance - select *Accessibility coaching / session*, then select *ACP - Application development coaching* 
         link: https://a11yrmt.ca/openrequest-en.php
       - title: IT Accessibility Office iService page
