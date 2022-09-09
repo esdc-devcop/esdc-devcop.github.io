@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Best Practices and Guides
+title: Best Practices, ESDC Processes and Guides
 permalink: /guides/
 ---
 
