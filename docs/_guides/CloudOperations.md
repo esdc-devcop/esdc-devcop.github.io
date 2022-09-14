@@ -12,7 +12,7 @@ date: 2022-09-13
 
 The Cloud Operation team is responsible for administration of enterprise resources in ESDC’s cloud environments.
 
-Visit Cloud Operation's [Home Page](https://014gc.sharepoint.com/sites/OI-CO) for information about ESDC'S Cloud related services, intake forms, glossary, information, etc. 
+Visit Cloud Operation's [Home Page](https://014gc.sharepoint.com/sites/OI-CO) for information about ESDC'S Cloud related services, intake forms, glossary, information, etc.
 
 The [ESDC Intake Process](https://014gc.sharepoint.com/sites/OI-CO/SitePages/ESDC-Azure-Cloud-Intake-Process.aspx) tab can be used to request a Cloud Envrionemnt (Azure or AWS).
 
