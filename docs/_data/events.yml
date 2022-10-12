@@ -12,7 +12,7 @@ past:
         link: https://aws.amazon.com/vsts/
       - title: AWS Toolkit for Azure DevOps User Guide
         link: https://docs.aws.amazon.com/vsts/latest/userguide/welcome.html
-      - title: AWS Toolkit for Azure DevOps Github EasyRepro
+      - title: AWS Toolkit for Azure DevOps Github EasyRepo
         link: https://github.com/aws/aws-toolkit-azure-devops
         
   - month: May 2022 
