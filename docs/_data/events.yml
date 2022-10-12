@@ -2,12 +2,18 @@ past:
   - month: October 2022
     topic: An overview of Amazon Web Services
     recording: https://web.microsoftstream.com/video/51fc1ee5-4b08-489b-bbc6-4bee957f1e0c
-    nopresentation: presentation coming soon...
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/2022oct03_AWS_Toolkit_for_Azure_DevOps.pdf
     resources:
       - title: Cloud Hosting Request Form (IITB Cloud Center of Excellence)
         link: https://forms.office.com/Pages/ResponsePage.aspx?id=RljVnoGKRkKs2LGgGr_A0Zo6by_KdyFEncAI0YlGBIJUNUtTN0lSTjQ2TU40OFpLOVFKTElXUkhSNSQlQCN0PWcu
       - title: AWS Training and Certification
         link: https://explore.skillbuilder.aws/learn
+      - title: AWS Toolkit for Azure DevOps Home Page
+        link: https://aws.amazon.com/vsts/
+      - title: AWS Toolkit for Azure DevOps User Guide
+        link: https://docs.aws.amazon.com/vsts/latest/userguide/welcome.html
+      - title: AWS Toolkit for Azure DevOps Github EasyRepo
+        link: https://github.com/aws/aws-toolkit-azure-devops
         
   - month: May 2022 
     topic: An Introduction to end-to-end testing, using Selenium and Playwright
