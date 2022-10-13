@@ -6,7 +6,8 @@ const {testFileLinks} = require('./submodules/cdts-sgdc/TestLinks');
 const directories = ["./docs"];
 //Exception lists: Urls listed are not validated
 //Includes partial Urls that need credentials
-const exceptionSyntax = ["https://014gc.sharepoint.com", "https://dialogue/", "https://architecture/", "http://dialogue/", "http://srmis-sigdi-iagent.prv/", "https://jade-repos.intra.dev/", "https://ado.intra.dmz/", "http://web-stats.prv/"];
+//Included https://www.coalfire.com/ as an exception because axios 1.1.2 gives an error: incorrect header check
+const exceptionSyntax = ["https://014gc.sharepoint.com", "https://dialogue/", "https://architecture/", "http://dialogue/", "http://srmis-sigdi-iagent.prv/", "https://jade-repos.intra.dev/", "https://ado.intra.dmz/", "http://web-stats.prv/", "https://www.coalfire.com/"];
 //Includes non-HTTPS Urls internal to the dept 
 const exceptionHTTP = ["http://dialogue/", "http://srmis-sigdi-iagent.prv/", "http://web-stats.prv/"];
 //Includes Urls that need credentials
