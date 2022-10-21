@@ -3,11 +3,12 @@ description: The Employment and Social Development Canada Development Community 
 
 plugins:
   - jemoji
+  - jekyll-seo-tag
 
 include:
   - _pages
 
-exclude: [node_modules, .gitignore, .markdown-link-check.json, .markdownlink.json, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, link-check.js, package-lock.json, package.json, README.md, SECURITY.md]
+exclude: [node_modules, .gitignore, .markdown-link-check.json, .markdownlink.json, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, link-check.js, package-lock.json, package.json, README.md, SECURITY.md, submodules]
 
 collections:
   references:
