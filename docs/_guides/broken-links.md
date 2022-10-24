@@ -8,23 +8,46 @@ date: 2022-10-21
 
 ## Background
 
-Broken links on your website makes for a bad user experience and can also lower the ranking of your web site in search engine optimization (SEO). No one wants to click on a link only to get an HTTP 404 error page.
-Two ways to prevent this from happening is with prevention and detection.
+Broken links on your website can create a bad user experience and can also lower the ranking of your web site in search engine optimization (SEO). 
+You can prevent this from happening with prevention and detection.
 
-## Types of links:
+## What Is a Broken Link?
 
-Internal Links:
-These are links that point to another page on your site. As the owner of a website, you have full control over maintaining these links.
+Here are some examples of broken links:
 
-External Links:
-These are links that point to an external website. As the owner of a website, you should choose trustworthy and informative website links to help improve the quality and ranking of your website.
+* a website or page that no longer exists
+* a website or page where the Url has moved without a redirect
+* a website that has broken page elements
 
-Backlinks:
-These are external websites that link to your site. You may not have much control over these. However, by publishing useful content on your website, you can boost your ranking on search results.
+## How to Fix Them
 
-## Steps
+### Prevention
 
-Create a Custom 404 page for your website:
-Display a custom 404 page to handle broken internal and external links, that will be more helpful to the user on what to do next. Custom design is good, in moderation. You can make it funny, just don't make it confusing.
+You can improve the quality of your website by choosing references that are reputable and well established.
+
+#### External Links:
+
+These are links that point to an external website. As the owner, you should choose trustworthy and informative website links to help improve the quality and ranking of your website.
+
+#### Backlinks:
+
+These are external websites that link to your site. You may not have much control over how they link to your site. However, by publishing useful content on your website, you can boost your ranking on search results.
+
+#### Create a Custom 404 Page for Your Website:
+
+A good custom 404 error page can decrease the user frustration by *breaking it to them gently* and help them return to your home page, or easily report the problem to you. Adding a little creativity and humour to the page helps as well.
+
+* indicate clearly that the page is not available (**Error 404: Page Not Found**)
+* add clear instructions on how to redirect them back to your website (ie, your home page, contact us page)
+* if your site doesn't have a built in feature for 404 Error pages, you need to configure your web server to show the custom error page content
+
+### Detection
+
+You can validate your internal and external links manually by using an online link checker, such as [W3C link checker](https://dev.w3.org/perl/modules/W3C/LinkChecker/docs/checklink).
+
+You can add an existing library to your project to check for broken links on your site automatically, either from Nuget(.NET) or NPM(Javascript).
+
+You can also refactor your code to automatically check your website for broken links.
+
 
 [Some random site](https://github.com/esdc-devcop/esdc-devcop.github.io/nowebsite)
