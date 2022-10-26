@@ -8,7 +8,7 @@ date: 2022-10-21
 
 ## Background
 
-Broken links on your website can create a bad user experience and can also lower the ranking of your web site in search engine optimization (SEO). 
+Broken links on your website can create a bad user experience and can also lower the ranking of your web site in search engine optimization (SEO).  
 You can prevent this from happening with prevention and detection.
 
 ## What Is a Broken Link?
@@ -48,6 +48,3 @@ You can validate your internal and external links manually by using an online li
 You can add an existing library to your project to check for broken links on your site automatically, either from Nuget(.NET) or NPM(Javascript).
 
 You can also refactor your code to automatically check your website for broken links.
-
-
-[Some random site](https://github.com/esdc-devcop/esdc-devcop.github.io/nowebsite)

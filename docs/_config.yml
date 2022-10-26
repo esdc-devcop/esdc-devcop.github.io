@@ -8,7 +8,9 @@ plugins:
 include:
   - _pages
 
-exclude: [node_modules, .gitignore, .markdown-link-check.json, .markdownlink.json, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, link-check.js, package-lock.json, package.json, README.md, SECURITY.md, submodules]
+exclude: [node_modules, .gitignore, .markdown-link-check.json, .markdownlink.json, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, link-check.js, package-lock.json, package.json, README.md, SECURITY.md, submodules, _site]
+
+disable_disk_cache: true
 
 collections:
   references:
