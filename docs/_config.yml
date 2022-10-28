@@ -3,11 +3,16 @@ description: The Employment and Social Development Canada Development Community 
 
 plugins:
   - jemoji
+  - jekyll-seo-tag
 
 include:
   - _pages
 
-exclude: [node_modules, .gitignore, .markdown-link-check.json, .markdownlink.json, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, link-check.js, package-lock.json, package.json, README.md, SECURITY.md]
+exclude: [node_modules, .gitignore, .markdown-link-check.json, .markdownlink.json, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, link-check.js, package-lock.json, package.json, README.md, SECURITY.md, submodules, _site]
+
+disable_disk_cache: true
+# To make sure that _site is created in the root, and not included in the build and npm test
+destination: ../_site
 
 collections:
   references:
