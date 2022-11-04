@@ -18,13 +18,13 @@ Where in the past we needed to rely on external tools (like travis-ci or circle-
 Like Gitlab and Azure DevOps, you can have GitHub perform [Continuous Integration](cicd.html) pipelines to build your application and run tests on every push/Pull Request/merge to catch problems early. Github Actions can also be used for Continuous Delivery to deploy your applicationto cloud services or binary repositories (such as Nuget or Maven central), either triggered manually or automatically when a release is created.  GitHub action runners support most commonly used programming languages on either Windows or Linux infrastructure.
 
 To get started, you can simply go to the "Actions" tab in your GitHub repository.
-GitHub has good documentation on [GitHub Actions](https://docs.github.com/en/actions), its [workflows](https://docs.github.com/en/actions/using-workflows/about-workflows) and their [syntax](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions). 
+GitHub has good documentation on [GitHub Actions](https://docs.github.com/en/actions), its [workflows](https://docs.github.com/en/actions/using-workflows/about-workflows) and their [syntax](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions).
 
 A few additional notes:
 
-* If your pipeline needs secrets (API keys, passwords, etc) it is important that they not be present directly in your workflow script or anywhere else in your Git source repository. 
-    * If needed for deployment, you can create new "environments" for your project in Github and use them to store secrets.  Environments can also be used to add an approval step for deployment.  
-    * If secrets are needed for your CI or other generic builds, they can be stored as "repository secrets".
+* If your pipeline needs secrets (API keys, passwords, etc) it is important that they not be present directly in your workflow script or anywhere else in your Git source repository.
+  * If needed for deployment, you can create new "environments" for your project in Github and use them to store secrets.  Environments can also be used to add an approval step for deployment.
+  * If secrets are needed for your CI or other generic builds, they can be stored as "repository secrets".
 * Hosting your own Github action runner is **not** recommended.  Pipeline scripts run on branches before PR approval, which means anyone with the ability to create a Pull Request in your main repository can modify the pipeline script to run arbritrary code on the runner, which obviously is a security risk.  If absolutely necessary, self-hosted runners should run in a security-hardened and/or throw-away environment (like a docker container that gets recycled on every run)
 
 ## Dependabot and Code Scanning
