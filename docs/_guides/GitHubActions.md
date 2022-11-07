@@ -15,7 +15,7 @@ Where in the past we needed to rely on external tools (like travis-ci or circle-
 
 ## GitHub Actions/Pipelines
 
-Like Gitlab and Azure DevOps, you can have GitHub perform [Continuous Integration](cicd.html) pipelines to build your application and run tests on every push/Pull Request/merge to catch problems early. Github Actions can also be used for Continuous Delivery to deploy your applicationto cloud services or binary repositories (such as Nuget or Maven central), either triggered manually or automatically when a release is created.  GitHub has action runners available supporting most commonly used programming languages on either Windows or Linux infrastructure.
+Like Gitlab and Azure DevOps, you can have GitHub perform [Continuous Integration](cicd.html) pipelines to build your applications and run tests on every push/Pull Request/merge to catch problems early. Github Actions can also be used for Continuous Delivery to deploy your application to cloud services or binary repositories (such as Nuget or Maven central), either triggered manually or automatically when a release is created.  GitHub has action runners available supporting most commonly used programming languages on either Windows or Linux infrastructure.
 
 To get started, you can simply go to the "Actions" tab in your GitHub repository.
 GitHub has good documentation on [GitHub Actions](https://docs.github.com/en/actions), its [workflows](https://docs.github.com/en/actions/using-workflows/about-workflows) and their [syntax](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions).
@@ -31,6 +31,6 @@ A few additional notes:
 
 Two other recommended features of GitHub are Dependabot and code scanning.
 
-Dependabot can warn you of security vulnerabilities discovered in the libraries your project depends on.  It can also be used to periodically/automatically update your project's dependencies (when coupled with proper automated testing, auto-updates of dependencies is not as scary as it sounds).  Refer to [GitHub's Dependabot Documentation](https://docs.github.com/en/code-security/dependabot/) for details.
+Dependabot can warn you of security vulnerabilities discovered in the libraries your project depends on.  It can also be used to periodically/automatically update your project's dependencies (when coupled with proper automated testing, auto-updating of dependencies is not as scary as it sounds).  Refer to [GitHub's Dependabot Documentation](https://docs.github.com/en/code-security/dependabot/) for details.
 
 GitHub can also detect vulnerabilities in your own source code by setting up code scanning.  This, like dependabot alerts can be enabled in the "Security" tab of your repository.  Refer to [GitHub's Code Scanning Documentation](https://docs.github.com/code-security/secure-coding/about-code-scanning) for details.
