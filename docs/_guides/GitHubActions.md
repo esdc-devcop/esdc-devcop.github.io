@@ -10,12 +10,12 @@ date: 2022/11/04
 
 ## Background
 
-This page means to bring attention a few features available to projects on GitHub.com for our pipeline and code security needs.
+This page means to bring attention to a few features available to projects on GitHub.com for pipeline and code security needs.
 Where in the past we needed to rely on external tools (like travis-ci or circle-ci), since 2018 GitHub has been ramping up its own pipeline features such as GitHub Actions, Dependabot and Code Scanning.
 
 ## GitHub Actions/Pipelines
 
-Like Gitlab and Azure DevOps, you can have GitHub perform [Continuous Integration](cicd.html) pipelines to build your application and run tests on every push/Pull Request/merge to catch problems early. Github Actions can also be used for Continuous Delivery to deploy your applicationto cloud services or binary repositories (such as Nuget or Maven central), either triggered manually or automatically when a release is created.  GitHub action runners support most commonly used programming languages on either Windows or Linux infrastructure.
+Like Gitlab and Azure DevOps, you can have GitHub perform [Continuous Integration](cicd.html) pipelines to build your application and run tests on every push/Pull Request/merge to catch problems early. Github Actions can also be used for Continuous Delivery to deploy your applicationto cloud services or binary repositories (such as Nuget or Maven central), either triggered manually or automatically when a release is created.  GitHub has action runners available supporting most commonly used programming languages on either Windows or Linux infrastructure.
 
 To get started, you can simply go to the "Actions" tab in your GitHub repository.
 GitHub has good documentation on [GitHub Actions](https://docs.github.com/en/actions), its [workflows](https://docs.github.com/en/actions/using-workflows/about-workflows) and their [syntax](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions).
