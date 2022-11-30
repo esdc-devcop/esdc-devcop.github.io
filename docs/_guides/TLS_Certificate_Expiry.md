@@ -63,8 +63,11 @@ Pour soumettre un Ticket:
 * Entrer ‘Windows Server” dans la première zone de texte, et sélectionner “I have a windows server issue for Shared Services” dans la liste déroulante.
 ![NSD](../assets/TLSExpiration/NSD.PNG)
 
+* Votre URL de production est-elle hébergée sur l'_intranet_ ? Si tel est le cas, vous devrez attribuer votre ticket au groupe SSC Resolver : **DC000152**.
+* Votre URL de production est-elle hébergée sur _internet/WPAZ_ ? Si tel est le cas, vous devrez attribuer votre ticket au groupe F5 Resolver : **NW000430**.
+
 * Dans le champ “Service Request Details” spécifiez:
-  * Veuillez assigner au SSC Resolver du groupe DC000152.
+  * Veuillez attribuer le nom de groupe SSC Resolver approprié : (choisissez soit _intranet_ ou _internet/WPAZ_).
   * La date d’expiration de votre certificat TLS.
   * L’URL de votre site de production.
   * La liste des noms de serveur web de production associés.
@@ -73,7 +76,7 @@ Voici un modèle que vous pouvez utiliser pour soumettre votre ticket NSD. Rempl
 
 Bonjour,
 
-Veuillez assigner au groupe suivant: DC000152
+Veuillez assigner au groupe suivant: %intranet_or_internet/WPAZ%
 
 Le certificat TLS pour %production_url% expire le %expiration_date%.
 
@@ -140,17 +143,20 @@ To open a Ticket:
 * Enter 'Windows Server" on the first textbox and select "I have a windows server issue for Shared Services" from the drop down list.
 ![NSD](../assets/TLSExpiration/NSD.PNG)
 
+* Is your production Url hosted on the _intranet_? If so, you will need to assign your ticket to the SSC Resolver group: **DC000152**.
+* Is your production Url hosted on the _internet/WPAZ_? If so, you will need to assign your ticket to the F5 Resolver group: **NW000430**
+
 * In the "Service Request Details" field specify:
-  * Please assign to SSC Resolver group name DC000152
+  * Please assign to the appropriate SSC Resolver group name: (choose either _intranet_ or _internet/WPAZ_).
   * Your TLS certificate expirations date.
-  * Your production URL
-  * List of Producton web server names
+  * Your production URL.
+  * List of Producton web server names.
 
 Here is a template you can use to submit your NSD ticket. Simply replace the %variables% with your own values.
 
 Hello,
 
-Please assign to SSC Resolver group name DC000152
+Please assign to the following Resolver group: %intranet_or_internet/WPAZ%.
 
 Our TLS Certificates for the %production_url% will expire on %expiration_date%.
 
