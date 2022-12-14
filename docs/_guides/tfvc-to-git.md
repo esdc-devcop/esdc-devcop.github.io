@@ -90,7 +90,7 @@ versions of project names.
 
     > **IMPORTANT :** Keep in mind that GCcode is only accessible on the Government of
     > Canada network. Therefore, `Public` means available to other departments and
-    > agencies. For more information about visibility, see "[Public access - Visibility of projects](https://gccode.ssc-spc.gc.ca/help/public_access/public_access)".
+    > agencies. For more information about visibility, see "[Subgroups - internal organizations](https://gccode.ssc-spc.gc.ca/help/user/group/subgroups/index.md)".
 
 1. Finally, click `Create project`.
 

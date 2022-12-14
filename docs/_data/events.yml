@@ -1,4 +1,15 @@
 past:
+  - month: December 2022
+    topic: Blanket Cloud Release Approval Process - An overview
+    recording: https://web.microsoftstream.com/video/432f0635-d391-46d3-833e-bde6d30938f0?channelId=6abdc3bf-ef6b-4e54-bd9e-851a1d47e26e
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/2022dec12_CloudReleases.pptx
+    email: NC-PRE-CAB-GD@hrsdc-rhdcc.gc.ca 
+    resources:    
+      - title: Submitting a Software Request or Change Request Guidance
+        link: https://dialogue.spprod.service.gc.ca/grp/BU7209642/Guidance/home.aspx#How_to_request_a_Blanket_Approval_for_Cloud_Releases
+      - title: Fill out the DevOps Assessment Workbook
+        link: https://dialogue.spprod.service.gc.ca/grp/BU7209642/Guidance/Guide_BCRAR_en.aspx 
+        
   - month: October 2022
     topic: An overview of Amazon Web Services
     recording: https://web.microsoftstream.com/video/51fc1ee5-4b08-489b-bbc6-4bee957f1e0c

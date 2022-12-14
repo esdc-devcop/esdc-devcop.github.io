@@ -49,6 +49,9 @@ permalink: /events/
     {% if event.nopresentation %}
         <p>{{ event.nopresentation }}</p>
     {% endif %}
+    {% if event.email %}
+        <p><a href="mailto:{{ event.email }}">{{ event.email }}</a></p>
+    {% endif %}
     {% if event.resources %}
         <p>Resources:</p>
         <ul>
@@ -57,6 +60,7 @@ permalink: /events/
         {% endfor %}
         </ul>
     {% endif %}
+
     </div>
 </section>
 
