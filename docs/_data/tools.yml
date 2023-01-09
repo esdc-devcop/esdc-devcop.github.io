@@ -67,7 +67,7 @@ development:
     tools:
       - name: Artifactory
         application: https://jade-repos.intra.dev/artifactory/webapp/#/home
-        recommendation: https://esdc-devcop.github.io/recommendations/artifactory.html
+        recommendation: https://esdc-devcop.github.io/guides/artifactory.html
       - name: ADO Nuget Feed
         application: https://ado.intra.dmz/projectcollection/
         recommendation:  https://github.com/esdc-devcop/ESDC-Development-Setup/blob/master/nugetuserguide.md
