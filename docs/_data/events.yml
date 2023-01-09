@@ -153,7 +153,7 @@ past:
       - title: Troubleshooting presentation slides
         link:  https://github.com/esdc-devcop/presentations/blob/master/Troubleshooting.pptx
       - title: Application Logging
-        link:  https://esdc-devcop.github.io/recommendations/application-logging.html
+        link:  https://esdc-devcop.github.io/guides/application-logging.html
         
   - month: November 2020
     topic: Demo - How to Create a Release Pipeline in ADO
@@ -246,7 +246,7 @@ past:
     norecording: Unfortunately, this recording is no longer available
     resources:
       - title: Managing Merge Requests, Using Code Review
-        link: https://esdc-devcop.github.io/recommendations/merging-review.html
+        link: https://esdc-devcop.github.io/guides/merging-review.html
       - title: Continuous Integration / Continuous Delivery
         link: https://esdc-devcop.github.io/guides/cicd.html
 

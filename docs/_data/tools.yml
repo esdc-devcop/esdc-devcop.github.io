@@ -24,7 +24,6 @@ development:
     tools:
       - name: GCcode
         application: https://gccode.ssc-spc.gc.ca/iitb-dgiit/
-        recommendation: https://github.com/esdc-edsc/Welcome/blob/master/Recommendations/GCcode.md
       - name: Azure DevOps (on-prem)
         application: https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops&viewFallbackFrom=azdevops
       - name: GitHub
