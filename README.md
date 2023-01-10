@@ -3,7 +3,7 @@
 This repository is used as the main home for our community site.
 <https://esdc-devcop.github.io/>
 
-We publicize all our [recommendations](https://esdc-devcop.github.io/recommendations/) and [guides](https://esdc-devcop.github.io/guides/) on through separate repos, but are still available under the same site.
+We publicize all our [guides](https://esdc-devcop.github.io/guides/) on through separate repos, but are still available under the same site.
 Here we keep information about [upcoming sessions](https://esdc-devcop.github.io/strategy/dates.html), share [our goals](https://esdc-devcop.github.io/strategy/overview.html), and keep some [useful links](https://esdc-devcop.github.io#References) for developers.
 
 ## Help Out
