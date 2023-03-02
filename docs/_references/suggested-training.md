@@ -55,5 +55,3 @@ Add courses for these topics if you know of any.
 We have lots to offer at our monthly [ESDC Development Community - Dev CoP Sessions](/strategy/dates.md).
 
 If you're looking for good training on what is going on at the department you might find something useful here.
-
-
