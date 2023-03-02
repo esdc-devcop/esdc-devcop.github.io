@@ -237,7 +237,6 @@ the Repository
 ### Learn about Git
 
 * [Git documentation](https://git-scm.com/doc)
-* [PluralSight training - Mastering Git](https://app.pluralsight.com/library/courses/mastering-git/)
 * [Learn Git branching](https://learngitbranching.js.org/)
 
 ### Similar Guides

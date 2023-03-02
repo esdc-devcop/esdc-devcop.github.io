@@ -13,8 +13,6 @@ In this document:
 
 1. [Tool for training](#tool-for-training)
    * [Dev CoP sessions](#dev-cop-sessions)
-   * [Pluralsight](#pluralsight)
-   * [Linda.com](#lindacom)
 
 ## What to train on
 
@@ -25,7 +23,6 @@ Add courses for these topics if you know of any.
 * **Azure DevOps**
   * [Evolve your DevOps practices](https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices)
   * [Build applications with Azure DevOps](https://docs.microsoft.com/en-us/learn/paths/build-applications-with-azure-devops/)
-  * [Continuous Delivery and DevOps With Azure DevOps](https://www.pluralsight.com/courses/continuous-delivery-azure-devops-big-picture)
 
 * **DevOps**
   * Developing Security and Scanning for it
@@ -35,7 +32,6 @@ Add courses for these topics if you know of any.
 * **Cloud**
 
 * **Git**
-  * [Pluralsight - Mastering Git](https://app.pluralsight.com/library/courses/mastering-git/)
   * [GitLab University](https://docs.gitlab.com/ee/university/)
 
 * **.NET Core**
@@ -60,14 +56,4 @@ We have lots to offer at our monthly [ESDC Development Community - Dev CoP Sessi
 
 If you're looking for good training on what is going on at the department you might find something useful here.
 
-### Pluralsight
 
-Pluralsight can be used for online training. Check out the [ESDC wiki on GCCode](https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/PluralsightLicenses/wikis/making-a-request) on how to get access.
-
-You can [request access to Pluralsight on GCCode](https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/PluralsightLicenses)!
-
-The [wiki there](https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/PluralsightLicenses/wikis/home) has all the details on how to get access and check if you MSDN license will give you access.
-
-### Linda.com
-
-More details to come, but contact us if you are interested in using it.
