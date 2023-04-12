@@ -1,4 +1,19 @@
 past:
+  - month: April 2023
+    topic: React - An overview
+    recording: https://web.microsoftstream.com/video/6429145c-8f0b-4ffb-9b48-442d0c6a84fa
+    presentation: https://github.com/esdc-devcop/presentations/blob/master/2023apr12_devcop_React.pptx
+    resources:
+        - title: Source code from Kristopher Charbonneau's demo
+          link: https://github.com/krischarbonneau/devcop-demo
+        - title: React website
+          link: https://react.dev/
+        - title: Next.js website
+          link: https://nextjs.org/
+        - title: Gatsby website
+          link: https://www.gatsbyjs.com/
+        - title: Remix website
+          link: https://remix.run/ 
   - month: December 2022
     topic: Blanket Cloud Release Approval Process - An overview
     recording: https://web.microsoftstream.com/video/432f0635-d391-46d3-833e-bde6d30938f0?channelId=6abdc3bf-ef6b-4e54-bd9e-851a1d47e26e
