@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <title>GitFlow - Developer's Community of Practice</title>
+<!--
+
+H2: Lato, 36px, bold
+H3: Lato, 24px, bold
+H4: Lato, 22px, bold
+H5: Lato, 20px, bold
+H6: Lato, 19px, plain text
+Body: Noto sans, 20px, plain text 
+$wbGray: #e1e4e7;
+$button-blue: #284162;
+$wbGrayLight: #eaebed;
+$accent-blue: #335075;
+$border-red: #af3c43;
+$active-blue: #243850;
+$search-gray: #e0e0e0;
+$profile-gray: #eaebed;
+
+-->
+    <style>
+      @import 'https://fonts.googleapis.com/css?family=Lato|Noto+Sans&display=swap';
+
+      body { font-family: 'Lato', sans-serif; font-size: 20px;}
+      h1 {  font-family: 'Lato', sans-serif; border-bottom: 1px solid #af3c43; font-size: 38px; font-weight:bold }
+      h2 { font-family: 'Lato', sans-serif; font-size: 36px; font-weight: bold }
+      h3 { font-family: 'Lato', sans-serif; font-size: 24px; font-weight: bold }
+      .remark-slide-content { background-image: url(../assets/devcop-slides/background.jpg); background-size: cover; }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .whoah { color: #d3080c }
+      .okay { color: #278400 }
+      .note { color: blue}
+      /* .column:first-of-type {float:left}
+      .column:last-of-type {float:right} */
+      .column-first :nth-child(n), .column-last :nth-child(n) {margin-top: 0px;}
+      /* .column img {
+        max-width:50%;
+        height: auto;
+      } */
+      .split-6040 .column-first {width: 60%; float:left}
+      .split-6040 .column-last {width: 40%; float:right}
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: middle
+
+# Introducing GitFlow
+        
+## A branching model for Git
+        
+.right[![Right-aligned image](https://avatars2.githubusercontent.com/u/52010894?s=200&v=4)]
+
+---
+
+## What Is Git Workflow??
+
+--
+Short Answer...  
+
+A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a .note[**consistent and productive manner**]. Adopting the right workflow for your team so that you collaborate better and spend less time managing version control and more time developing code.  
+
+
+--
+What is the things to consider when it's the time to choose a workflow?
+
+--
+.answer[
+- Does this workflow scale with team size?
+- Is it easy to undo mistakes and errors with this workflow?
+- Is collaboration important to your workflow?
+- Does this workflow impose any unnecessary overhead to the team?
+]
+
+---
+
+## Comparison of the Workflows
+![Git Workflows](../assets/devcop-slides/GitWorkflows.JPG)
+
+---
+
+![Git Workflows](../assets/devcop-slides/Workflows.JPG)
+<h3>
+.whoah[But remember that these workflows are designed to be guidelines rather than concrete rules!]
+</h3>
+---
+
+## What Is GitFlow??
+
+--
+GitFlow is a branching model for Git, created by Vincent Driessen.
+It has attracted a lot of attention because it is well suited for collaboration and scaling projects.
+We have successful experiences using GitFlow cohesively with our existing release process at ESDC.  
+
+--
+### Why we recommand using GitFlow??  
+
+--
+- The workflow is great for a release-based software workflow as we do here in IITB.
+
+--
+- For large project as we have here, the workflow fits very well (Large Team).
+
+--
+- Branches segregated - each branch has clear purpose and flow how to work with it  
+
+--
+- Confidence - at any given point of time master and release branches are stable and ready for production  
+
+--
+- It enables a code freeze without preventing developers from working on the next release.
+
+--
+- Continuous processes - continuous integration and testing for develop branch, continuous deployment for master branch
+
+---
+
+## Standard Working Branch
+
+--
+In the diagram below, you can see the basic pattern of git flow, but while it looks like a bad subway map, it really is an easy pattern to follow.  
+
+![Git Flow](../assets/devcop-slides/Git-Flow.png)
+---
+               
+## The Branches
+
+
+Gitflow separates on isolated branches the code being developed and the code validated and tested. For this, it relies on the creation of several branches whose life cycle is well defined. Here is a list of branches :
+
+--
+- Master
+  - The master is always stable and release ready branch.
+  - Codebase residing in the master branch is considered to be .note[**production-ready**].
+
+--
+- Develop
+  - A develop branch contains latest features and fixes.
+  - A develop branch is always created from master and when the features are done then push it to release branch.
+
+--
+- Feature
+  - Feature branches are used to develop new features for the upcoming releases.
+  - Feature branches are created from develop and must merge into develop.
+
+--
+- Release
+  - Release branches support preparation of a new production release. 
+  - A new release branch is based off develop. 
+  - Once it's release into production, then it must be merged into master and develop.
+
+--
+- Hotfix
+  - hotfix branches are necessary to act immediately upon an undesired status of master
+  - hotfix branches are made in separate branches based off master.
+  - Once the hotfix is complete and released into production, then it must be merged to both develop and master
+---
+
+## Feature development
+
+Each new feature should reside in its own branch, which can be pushed to the central repository for backup/collaboration. But, instead of branching off master, feature branches use develop as their parent branch. When a feature is complete, it gets merged back into develop. Features should .whoah[**never**] interact directly with master.  
+
+
+--
+The Feature branch is always created off to the latest .note[**develop**] branch and when it's done then merged back to .note[**develop**] branch.  
+
+
+![Git Flow](../assets/devcop-slides/GitFlow-2.png)
+
+---
+
+## Releases
+
+Release branches support preparation of a new production release. Once develop has acquired enough features for a release, you fork a release branch off develop. At this point—only bug fixes, documentation generation, and other release-oriented tasks should go in this branch.  
+
+
+--
+The new release branch is created off .note[**develop**] and merged to .note[**master**] and then again to .note[**develop**] branch.  
+
+![Git Flow](../assets/devcop-slides/GitFlow-3.png)
+
+---
+
+## Emergency releases
+
+Maintenance or “hotfix” branches are used to quickly patch production releases. Hotfix branches are a lot like release branches and feature branches except they're based on master instead of develop. This is the only branch that should fork directly off of master. As soon as the fix is complete, it should be merged into both master and develop, and master should be tagged with an updated version number.  
+
+
+--
+Similar to Release branch, the new hotfix branch is created off .note[**master**] and then merged to .note[**master**] and .note[**develop**].  
+
+![Git Flow](../assets/devcop-slides/GitFlow-4.png)
+
+---
+
+## Now what's next!
+
+- Next steps...
+  - Defines your requirements that you need from your flow model that will best suit your app.
+  - When it’s done then pick the closest flow and start using it.
+  - As you start using it maybe you will find issues with your workflow so do not be afraid to adapt your flow to make it work better for your project and team (Continuous Improvement)
+  - Last important thing… .whoah[All] of this should be done with the team’s agreement!!
+
+---
+
+class: middle, center
+
+## We are here to help!
+
+---
+
+class: middle, center
+
+## Questions
+        
+    </textarea>
+    <script src="remark-latest.min.js" type="text/javascript">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: `16:9`,
+        countIncrementalSlides: false
+      });
+    </script>
+  </body>
+</html>

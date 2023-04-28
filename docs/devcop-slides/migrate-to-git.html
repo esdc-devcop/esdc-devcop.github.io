@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A New Beginning - Developer's Community of Practice</title>
+<!--
+
+H2: Lato, 36px, bold
+H3: Lato, 24px, bold
+H4: Lato, 22px, bold
+H5: Lato, 20px, bold
+H6: Lato, 19px, plain text
+Body: Noto sans, 20px, plain text 
+$wbGray: #e1e4e7;
+$button-blue: #284162;
+$wbGrayLight: #eaebed;
+$accent-blue: #335075;
+$border-red: #af3c43;
+$active-blue: #243850;
+$search-gray: #e0e0e0;
+$profile-gray: #eaebed;
+
+-->
+    <style>
+      @import 'https://fonts.googleapis.com/css?family=Lato|Noto+Sans&display=swap';
+
+      body { font-family: 'Noto Sans', sans-serif; font-size: 20px; }
+      h1 {  font-family: 'Lato', sans-serif; border-bottom: 1px solid #af3c43; font-size: 38px; font-weight:bold }
+      h2 { font-family: 'Lato', sans-serif; font-size: 36px; font-weight: bold }
+      h3 { font-family: 'Lato', sans-serif; font-size: 24px; font-weight: bold }
+      .remark-slide-content { background-image: url(../assets/devcop-slides/background.jpg); background-size: cover; }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .whoah { color: #d3080c }
+      .okay { color: #278400 }
+      /* .column:first-of-type {float:left}
+      .column:last-of-type {float:right} */
+      .column-first :nth-child(n), .column-last :nth-child(n) {margin-top: 0px;}
+      /* .column img {
+        max-width:50%;
+        height: auto;
+      } */
+      .split-6040 .column-first {width: 60%; float:left}
+      .split-6040 .column-last {width: 40%; float:right}
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: middle
+
+# Developer's Community of Practice
+
+## Building blocks towards modern software development.
+
+.right[![Right-aligned image](https://avatars2.githubusercontent.com/u/52010894?s=200&v=4)]
+
+---
+
+class: middle
+
+## What are we talking about?
+
+**Where are we at?**  
+--
+
+.whoah[Broken manual builds, poorly documented features, not user-focused, complicated intertwined systems]
+--
+
+
+**Where do we need to be?**  
+--
+
+Cloud-enabled, automated deployments, focused and isolated features
+--
+
+
+**What is practical right now?**  
+--
+
+.okay[All of it!]
+--
+
+
+**How do we get there?**  
+--
+
+Small incremental steps. 
+Breaking out of what we are comfortable with to do what is better.
+Collaborating to share what works.
+      
+---
+
+class: middle
+
+## A Starting Point
+
+### Platform
+
+Where and how do we develop code?   
+How do we enable ourselves to be the most effective at achieving our goals?
+
+--
+
+.okay[Move source control to Git]  
+https://git-scm.com/
+---
+
+class: middle
+
+## Why Git?
+
+It's not an arbitrary choice, and it's not one that was looked at lightly.
+- Globally accepted standard
+- Versatility of being distributed (DVCS)
+- Free & Open-Source!!
+- Enabling better development practices
+- Critical in taking further steps towards modern application development.
+- And finally, even Microsoft made the jump!!!
+
+There are tools to help the transition!
+
+---
+
+class: middle
+
+## About Git
+
+Free and open source version control system used for tracking changes in code during development
+
+Similar but at the same time, very different from other version control systems (ex. SVN)
+
+--
+
+Distributed 
+
+- every developer’s working copy of code has a full history of all changes
+
+--
+
+Advantages of using Git
+
+- available offline
+- efficient
+- no single point of failure
+
+???
+
+By far, the most widely used modern version control system in the world today is Git. 
+Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel.  
+
+Having a distributed architecture, Git is an example of a DVCS (hence Distributed Version Control System). 
+Rather than have only one single place for the full version history of the software as is common in once-popular version control systems like CVS or Subversion (also known as SVN).
+In Git, every developer's working copy of the code is also a repository that can contain the full history of all changes.  
+
+In addition to being distributed, Git has been designed with performance, security and flexibility in mind.
+        
+---
+
+class: middle
+
+## About Git
+
+The branching model has been made easy
+- Main branches:
+ - Master
+ - Develop
+
+- Supporting branches:
+ - Feature
+ - Release
+ - Hotfix
+
+--
+
+Stages of Git
+ - Working directory
+ - Staging area
+ - Git directory
+
+---
+
+class: middle, center
+
+## When can you start migrating to Git? 
+
+--
+
+### .okay[Right now!]
+---
+
+## Migrating to Git
+
+### How can you do it?
+
+--
+
+#### 1. Add a Git repository to your TFS Team Project.
+
+- TFS supports mixing Git and TFVC repos in the same project.
+- Integrated Git support in Visual Studio and Visual Studio Code.
+  - You will want to learn some basic commands.
+
+???
+- Git is the default version control provider in TFS and Azure DevOps.
+
+--
+
+#### 2. "Clone" your TFVC into a local Git repository.
+
+- There's a tool for that! .okay[**git-tfs**]
+  - Recommended by [Microsoft](https://learn.microsoft.com/en-us/devops/develop/git/migrate-from-tfvc-to-git), [GitLab](https://docs.gitlab.com/ee/user/project/import/tfvc.html) and Git-SCM's [Pro Git Book](https://git-scm.com/book/en/v2/Git-and-Other-Systems-Migrating-to-Git#_git_tfs).
+  - Tool takes a long time to process. (~30 mins for 1 GB TFVC repo)
+
+--
+
+#### 3. Push local Git repo to Git hosting service.
+
+- One basic command: `git push`
+---
+
+## Migration Tool
+
+### git-tfs - Sample Run
+
+```cs
+# Clone from existing TFS Team Project.
+
+
+# Push to remote repository. 
+
+```
+---
+
+class: middle, center
+
+## How do you deal with the history?
+---
+
+## Migrating to Git
+
+### Keep your history in the past!
+
+--
+
+#### Microsoft suggests doing *.okay[tip migrations]*.
+
+- Bring only a snapshot of the most recent version of a branch into Git.
+
+--
+
+#### Why?
+
+- Messy process, at best.
+- Possibly misleading.
+- High level of effort involved.
+- Relative rarity usage of the history.
+
+--
+
+#### Where *do* you keep the history then?
+
+- In your old TFS Team Project or TFVC repository.
+- Refer to your old repositories in your README.md files.
+---
+
+class: split-6040, middle, center
+
+.column-first[
+"For most development teams, the time spent trying to migrate history is typically better spent on other areas of the migration that have a higher return on investment, especially improving processes. [...] **.whoah[In almost all cases, we recommend the tip migration.]**"
+
+\- Microsoft, [Plan your migration to Git - Migrating history](https://learn.microsoft.com/en-us/devops/develop/git/centralized-to-git)
+]
+
+---
+
+class: middle, center
+
+## Moving day! But first, *the* choice...
+---
+
+## Hosting your Git Repositories
+
+### Pick a hosting service for your version control.
+
+  - **TFS or Azure DevOps** - *Status Quo*
+  - **GCcode** - *New Initiatives/Projects*
+  - **GitHub** - *End Goal*
+
+???
+Git Hosting Services are where your remote repositories will live.
+
+They all provide their own flavour of tools and methodologies around DevOps, Issue Tracking, etc.
+---
+
+class: split-6040
+
+## Hosting your Git Repositories
+
+### TFS or Azure DevOps *(Online and On-Premise)*
+
+.column-first[
+- Status Quo
+- Keep your old toys.
+  - Work Items
+  - Build/Release Definitions
+  - Test Plans
+  - etc.
+- Improved usability with Azure DevOps.
+]
+
+--
+
+.column-last[
+![Horse buggy fitted with lights and traffic signs.](../assets/devcop-slides/tech-horse-buggy.jpg)]
+      
+---
+
+class: split-6040
+
+## Hosting your Git Repositories
+
+### GCcode
+
+.column-first[
+- Shiny new toys!
+- Learning curve
+  - Work Items > Issues, Issue Boards
+  - Build/Release Definitions > Pipelines
+  - Labels
+  - Merge/Pull Requests (Code Reviews!)
+  - Branch Policies
+  - etc.
+- Recommended for new initiatives or projects.
+- Babystep towards sharing code publicly.
+  - *.whoah[Keep secrets out of your repos!]*
+]
+
+???
+*Shiny new toys, compared to existing TFS 2015.
+---
+
+## Hosting your Git Repositories
+
+### GitHub - End Goal
+
+- Contributing to Open-Source Software (OSS), not just consuming!
+---
+
+class: middle, center
+
+## We are here to help!
+
+---
+
+class: middle, center
+
+## Questions?
+
+
+    </textarea>
+    <script src="remark-latest.min.js" type="text/javascript">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: `16:9`,
+
+        // Enable or disable counting of incremental slides in the slide counting
+        countIncrementalSlides: false
+      });
+    </script>
+  </body>
+</html>

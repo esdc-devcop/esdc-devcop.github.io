@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitFlow - Developer's Community of Practice</title>
+    <meta charset="utf-8">
+<!--
+
+H2: Lato, 36px, bold
+H3: Lato, 24px, bold
+H4: Lato, 22px, bold
+H5: Lato, 20px, bold
+H6: Lato, 19px, plain text
+Body: Noto sans, 20px, plain text 
+$wbGray: #e1e4e7;
+$button-blue: #284162;
+$wbGrayLight: #eaebed;
+$accent-blue: #335075;
+$border-red: #af3c43;
+$active-blue: #243850;
+$search-gray: #e0e0e0;
+$profile-gray: #eaebed;
+
+-->
+    <style>
+      @import 'https://fonts.googleapis.com/css?family=Lato|Noto+Sans&display=swap';
+
+      body { font-family: 'Noto Sans', sans-serif; font-size: 20px;}
+      h1 {  font-family: 'Lato', sans-serif; border-bottom: 1px solid #af3c43; font-size: 38px; font-weight:bold }
+      h2 { font-family: 'Lato', sans-serif; font-size: 36px; font-weight: bold }
+      h3 { font-family: 'Lato', sans-serif; font-size: 24px; font-weight: bold }
+      .remark-slide-content { background-image: url(./assets/background.jpg); background-size: cover; }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      /* colour */
+      .whoah { color: #d3080c }
+      .okay { color: #278400 }
+      /* alignment */
+      .column-first :nth-child(n), .column-last :nth-child(n) {margin-top: 0px;}
+      .split-6040 .column-first {width: 60%; float:left}
+      .split-6040 .column-last {width: 40%; float:right}      
+      .split-33 { width: 33%; float:left; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: middle
+
+# Developer's Community of Practice
+        
+## Our Goals, and why it matters to you!
+
+https://esdc-devcop.github.io/strategy/
+        
+.right[![Right-aligned image](https://avatars2.githubusercontent.com/u/52010894?s=200&v=4)]
+        
+---
+
+class: middle, center
+
+## Why change at all?
+
+--
+
+### That's cool, but how do I do that with my app.
+
+???
+
+Fancy presentations show how cool things could be.
+They don't tell us how to do that ourselves, or how to get there.
+
+---
+
+class: middle, center
+               
+## The big endgame Goals!
+
+Deploying to cloud (those that can)
+
+### .okay[Delivery to PROD at a click of a button with confidence]
+
+**No more .whoah[failed] builds in PROD**
+
+.okay[Bugs in PROD could be fixed within a day]
+
+### Features are user focused
+
+---
+
+class: middle
+
+## How are we doing it?
+
+* Monthly Topics - micro goals / stepping stones
+* Hands on Help - Workshops, Hackathons, Collaborative sessions
+* Management support
+
+---
+
+class: middle
+
+## What about these "topics"?
+
+* Small incremental steps
+* Steps that can be actioned within .okay[**half a days work**]
+* Most steps will be building of the previous steps
+* Break the content into streams
+
+---
+
+## Streams
+
+### .split-33[Mirco-services]
+### .split-33[CI/CD]
+### .split-33[Cloud]
+
+--
+
+.split-33[
+* APIs
+  * Consuming
+  * Creating
+* Legacy Strangler methods
+* Dependency Injection
+]
+
+--
+
+.split-33[
+* Automation / Pipelines
+  * Testing
+      * Accessability
+      * Security
+      * End-to-End
+  * Analysis
+  * Deployments
+* Repository management
+]
+
+--
+
+.split-33[
+* Infrastructure as Code (IaC)
+* Containers
+* Azure
+* AWS
+]
+
+---
+
+class: middle
+
+### Where are we going?
+
+Started with Git
+
+- Enables us to do so much more later!
+  - Fully supported code reviews
+  - Feature change management
+  - Versioning management
+- It's recommended by everyone
+  - Microsoft
+  - TBS
+  - Us!
+- 3rd Party support
+  - Tools that will make your development life easier and better!
+
+Today we look at Git Branching Models
+
+---
+
+class: middle, center
+
+## Questions
+        
+    </textarea>
+    <script src="remark-latest.min.js" type="text/javascript">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: `16:9`,
+        countIncrementalSlides: false
+      });
+    </script>
+  </body>
+</html>
