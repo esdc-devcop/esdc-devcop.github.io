@@ -24,9 +24,8 @@ development:
     tools:
       - name: GCcode
         application: https://gccode.ssc-spc.gc.ca/iitb-dgiit/
-        recommendation: https://github.com/esdc-edsc/Welcome/blob/master/Recommendations/GCcode.md
       - name: Azure DevOps (on-prem)
-        application: https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops&viewFallbackFrom=azdevops
+        application: https://learn.microsoft.com/en-us/azure/devops/get-started/?view=azure-devops-2022
       - name: GitHub
         application: https://github.com/
     tags:
@@ -118,7 +117,7 @@ development:
     scope: SAST (Legacy & Cloud)
     tools:
       - name: Microfocus Fortify Static Code Analyzer
-        documentation: https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview
+        documentation: https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer
     description: SAST (Static Application Security Testing) designed to scan the code looking for vulnerabilities, helping enforce conformance to coding guidelines and standards. It is done without executing the code.
     tags:
       - Testing

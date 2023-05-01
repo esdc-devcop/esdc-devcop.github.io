@@ -117,4 +117,4 @@ Documenting the post-mortem will contribute to the knowledge base and allow us t
 
 [https://sre.google/workbook/postmortem-analysis/](https://sre.google/workbook/postmortem-analysis/)
 
-[https://www.infoq.com/articles/postmortems-etsy/](https://www.infoq.com/articles/postmortems-etsy/)
+[https://www.freecodecamp.org/news/what-is-a-software-post-mortem/](https://www.freecodecamp.org/news/what-is-a-software-post-mortem/)
