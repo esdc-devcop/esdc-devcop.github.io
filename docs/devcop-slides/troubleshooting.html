@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Troubleshooting - Developer's Community of Practice</title>
+    <meta charset="utf-8">
+<!--
+H2: Lato, 36px, bold
+H3: Lato, 24px, bold
+H4: Lato, 22px, bold
+H5: Lato, 20px, bold
+H6: Lato, 19px, plain text
+Body: Noto sans, 20px, plain text 
+$wbGray: #e1e4e7;
+$button-blue: #284162;
+$wbGrayLight: #eaebed;
+$accent-blue: #335075;
+$border-red: #af3c43;
+$active-blue: #243850;
+$search-gray: #e0e0e0;
+$profile-gray: #eaebed;
+-->
+    <style>
+      @import 'https://fonts.googleapis.com/css?family=Lato|Noto+Sans&display=swap';
+      body { font-family: 'Lato', sans-serif; font-size: 20px;}
+      h1 {  font-family: 'Lato', sans-serif; border-bottom: 1px solid #af3c43; font-size: 38px; font-weight:bold }
+      h2 { font-family: 'Lato', sans-serif; font-size: 36px; font-weight: bold }
+      h3 { font-family: 'Lato', sans-serif; font-size: 24px; font-weight: bold }
+      .remark-slide-content { background-image: url(./assets/background.jpg); background-size: cover; }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .whoah { color: #d3080c }
+      .okay { color: #278400 }
+      .note { color: blue}
+      /* .column:first-of-type {float:left}
+      .column:last-of-type {float:right} */
+      .column-first :nth-child(n), .column-last :nth-child(n) {margin-top: 0px;}
+      /* .column img {
+        max-width:50%;
+        height: auto;
+      } */
+      .split-6040 .column-first {width: 60%; float:left}
+      .split-6040 .column-last {width: 40%; float:right}
+      .title { margin-left: 40%; padding-top: 10%; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: middle
+background-image: url(./assets/background-title.jpg)
+
+.title[
+# Dev CoP Presentation: Troubleshooting
+]
+               
+.right[![DevCop logo](https://avatars2.githubusercontent.com/u/52010894?s=200&v=4)]
+
+---
+
+## Intro
+
+Troubleshooting and debugging are similar but have one major difference. When a developer is debugging he has access to the code in debug mode (break points, stack trace, query variables at run time. Developers spend most of their time debugging their code in what is usually referred to as the "DEV" environment. Once the code has been thouroughly tested the compiled version gets deployed to another environment. I refer to the term troubleshooting instead of debugging as soon as a developer loses accesss to track the source code during run time. I consider troubleshooting to be 
+
+---
+      
+      
+## What do I need to troubleshooting
+
+An error message accompanied by a stack trace is the starting point for most of all troubleshooting.*
+
+When you are asked to troubleshoot or are troubleshooting yourself, always start with:
+
+1. Error message (worst case an error code)
+2. Environment name (URL if possible)
+3. Steps to reproduce. I went to page "abc", I selected ID 1234 in the dashboard table, clicked on "Edit" button got a 500 error
+
+* You might still have an error but without an error message in certains cases. Example: Web page presentation is not displayes as intended, Data stored in the database is not as desired (dateis stored in the wrong format or data stored is not intended (html xode is being inserted, text is missing, etc.) etc. 
+      
+--
+
+When the issue is raised from an end user using a web browser, there is a possiblity that he will send you an status code instead of an error message.
+
+Status code meaning : https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+
+Can be trimed down to the following:
+
+100: Information
+200: Success* Even though the operation was succesfull might not mean it worked as intended
+300: Redirection
+400: Client Error *the error happens because of the data the client provided to the server. 
+500: Server Error 
+
+---
+
+### Error message
+
+An error message with a stack trace will usually give you all the clues needed to troubleshoot and fix a problem.
+
+The stack trace will usually indicate where the error happens in the source code.
+
+Look at log files:
+
+There are many log files that might hold possible clues.
+
+Hopefully your application handles exceptions and writes critical errors in a format that can be viewed and searched
+
+- Application logs (The ones that you write (and should)
+
+- Web Server logs (be carefull on load balanced environments), requires SSC in production - should have access to. Have a know process with SSC to obtain logs (Ask for readonly shared drive where log files are stored)
+
+!!! Investigate EDS !!!
+
+- Operating System Logs 
+
+
+---
+
+### Reproduce locally at run time.
+
+With an error message and stack trace in hand you can try and replicate the error while debugging and running the code locally.
+
+If you cannot reproduce the problem then investigate the following :
+
+- Is your source code the same version as the vertical in which the problem was reported ?
+
+- Can you point any dependancies to the vertical in question ? Example: the solution depends on web services or api from another group. Can you point your local code to the same dependancy on that same vertical from which the problem occured
+
+- Can you point to the verticals database
+
+- If your application is using access rights: Do you have the same access rights as the user that reported the error.
+
+Keep in mind that you might not be able t reproduce 100% (load balancer on a desktop, DNS names vs localhost)
+
+---
+
+## Add logging info	
+
+Since you cannot debug at run time on verticals; it is a must that logging be implemented in the solution (look at NLOG recommendation, Log4J for Java)
+
+!!! object not set to ... multiple varaibles on one line, check all variables that are not instanciated
+
+Identifiy all the functions that are cosumed by the process that generates an error. Add proper debugging info (Inlude class.method and add variable infromation in your log files.
+
+---
+
+### Look at configurations.
+
+If possible try and replicate the settings where the error happens.
+
+For instance, a Senior advisor once noticed that a database had a default date format that was different from vertical to vertical.
+
+Hopefully your application handles exceptions and writes critical errors in a format that can be viewed and searched
+
+Identify the differences, try all the different settings one by one. (Date format, Culture setting with server and client, timeout values, etc.)
+
+---
+
+## Intermittent problems
+
+Intermittent problems are in my opinion the hardest to troubleshoot. However, once you confirm that the source code running on the server is the same as your you can ask the following changes
+
+What recently changed ?
+
+- Is your application load balanced, if so does the error happen when the "web server gets switched" (IIS Logs) ? Are all web servers configured the same ? 
+- Was a new feature implemented ?
+- Was a dependency modified (SOAP or API service might chagne it's functions 'signature')
+- Was the web server configuration modified recently 
+- Was the database modified recently
+- Has the architecture changed.
+- Are there any cache, Application level variables, session timeout values, database connection pool, or any value that have a "limit". If so make sure the values set are as desired and thread safety is implemented (one variable being changed by two processes).
+
+---
+## Conclusion
+
+Always do your own research before asking any help (gather as much information as possible)
+When requesting assistance always provide the error message and the steps you did to solve the problem
+If you are out of options ask for a "second pair of eyes" to look at your code. 
+
+Don't assume it cannot be done by simply reading other peoples input on the internet (Stack Overflow). Try it yourself and see for yourself if something is doable or not. There is no better assurance than having it done yourself.
+
+There are options out there, try them !
+
+---
+
+class: middle, center
+background-image: url(./assets/background-image.jpg)
+
+## We are going to help!
+      
+.okay[If you want a more in-depth disscution on this, please contact us!]   
+
+---
+
+class: middle, center
+background-image: url(./assets/background-image.jpg)
+
+## Collaborate on GitHub
+
+---
+
+class: middle, center
+background-image: url(./assets/background-image.jpg)
+
+## Questions
+        
+    </textarea>
+    <script src="./remark-latest.min.js" type="text/javascript">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: `16:9`,
+        countIncrementalSlides: false
+      });
+    </script>
+  </body>
+</html>

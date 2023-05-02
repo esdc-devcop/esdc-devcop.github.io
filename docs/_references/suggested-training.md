@@ -32,7 +32,7 @@ Add courses for these topics if you know of any.
 * **Cloud**
 
 * **Git**
-  * [GitLab University](https://docs.gitlab.com/ee/university/)
+  * [GitLab ocs](https://docs.gitlab.com/ee/index.html)
 
 * **.NET Core**
 

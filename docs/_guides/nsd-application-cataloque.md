@@ -13,7 +13,7 @@ This page will answer some questions regarding common issues encountered with Gi
 
 ## Installation
 
-To install Git, you can request it from here: [National Service Desk (NSD) Application Catalogue](http://srmis-sigdi-iagent.prv/AppPortal/en/Home/Index/2).  
+To install Git, you can request it from the **National Service Desk (NSD) Application Catalogue** [NSD- internal site](http://srmis-sigdi-iagent.prv/AppPortal/en/Home/Index/2).  
 The installation should take approximately 2 days.  
 Please be patient. NSD usually has a high volume of service tickets to deal with, so it may take more than 2 days before it's installed on your workstation.  
 Unfortunately, the SDS support team does not have permission to install Git.  

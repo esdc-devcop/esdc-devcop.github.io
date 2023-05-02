@@ -227,7 +227,7 @@ repository to the remote one.
 
 ### Productivity tips for your repository.
 
-* Add Git [Templates files](https://github.com/esdc-edsc/template-gabarit) to
+* Add Git [Templates files](https://github.com/canada-ca/template-gabarit) to
 the Repository
 * Add labels with the [ESDC Label Generator](https://github.com/esdc-edsc/label-generator)
 (for GCcode & GitHub)
@@ -241,7 +241,7 @@ the Repository
 
 ### Similar Guides
 
-* [TFS to GCcode](tfs-to-gccode.md)
+* [TFS to GCcode](tfs-to-gccode)
 
 ## FAQ
 

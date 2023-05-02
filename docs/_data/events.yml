@@ -2,7 +2,7 @@ past:
   - month: April 2023
     topic: React - An overview
     recording: https://web.microsoftstream.com/video/6429145c-8f0b-4ffb-9b48-442d0c6a84fa
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/2023apr12_devcop_React.pptx
+    presentation: /devcop-slides/2023apr12_devcop_React.pptx
     resources:
         - title: Source code from Kristopher Charbonneau's demo
           link: https://github.com/krischarbonneau/devcop-demo
@@ -17,7 +17,7 @@ past:
   - month: December 2022
     topic: Blanket Cloud Release Approval Process - An overview
     recording: https://web.microsoftstream.com/video/432f0635-d391-46d3-833e-bde6d30938f0?channelId=6abdc3bf-ef6b-4e54-bd9e-851a1d47e26e
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/2022dec12_CloudReleases.pptx
+    presentation: /devcop-slides/2022dec12_CloudReleases.pptx
     email: NC-PRE-CAB-GD@hrsdc-rhdcc.gc.ca 
     resources:    
       - title: Submitting a Software Request or Change Request Guidance
@@ -28,7 +28,7 @@ past:
   - month: October 2022
     topic: An overview of Amazon Web Services
     recording: https://web.microsoftstream.com/video/51fc1ee5-4b08-489b-bbc6-4bee957f1e0c
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/2022oct03_AWS_Toolkit_for_Azure_DevOps.pdf
+    presentation: /devcop-slides/2022oct03_AWS_Toolkit_for_Azure_DevOps.pdf
     resources:
       - title: Cloud Hosting Request Form (IITB Cloud Center of Excellence)
         link: https://forms.office.com/Pages/ResponsePage.aspx?id=RljVnoGKRkKs2LGgGr_A0Zo6by_KdyFEncAI0YlGBIJUNUtTN0lSTjQ2TU40OFpLOVFKTElXUkhSNSQlQCN0PWcu
@@ -44,8 +44,8 @@ past:
   - month: May 2022 
     topic: An Introduction to end-to-end testing, using Selenium and Playwright
     recording: https://web.microsoftstream.com/video/2698984b-0604-4fb2-b979-9afd34c48461
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/2022may04_DevCoP_Selenium%20and%20Playwright.pptx
-    diapositives: https://github.com/esdc-devcop/presentations/blob/master/2022may4_DevCoP_Selenium%20and%20Playwright_FR.pptx
+    presentation: /devcop-slides/2022may04_DevCoP_Selenium%20and%20Playwright.pptx
+    diapositives: /devcop-slides/2022may4_DevCoP_Selenium%20and%20Playwright_FR.pptx
     resources:
       - title: Selenium 
         link: https://www.selenium.dev/
@@ -65,8 +65,8 @@ past:
   - month: February 2022 
     topic: An overview on the Accessibility Compliance Project (ACP) & Web Accessibility
     recording: https://web.microsoftstream.com/video/57e14fd0-5b0a-4e08-ad11-149d997bf1d9
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/2022feb07_ACP_and_Web_Accessibility_Overview.pdf
-    diapositives: https://github.com/esdc-devcop/presentations/blob/master/2022feb07_ACP_and_Web_Accessibility_Overview_FR.pdf
+    presentation: /devcop-slides/2022feb07_ACP_and_Web_Accessibility_Overview.pdf
+    diapositives: /devcop-slides/2022feb07_ACP_and_Web_Accessibility_Overview_FR.pdf
     resources:
       - title: ESDC Self-Paced Web Accessibility Course
         link: https://bati-itao.github.io/learning/esdc-self-paced-web-accessibility-course/index.html
@@ -91,13 +91,13 @@ past:
     recording: https://web.microsoftstream.com/video/01c039e9-8fb2-48f1-b3c7-01d69687baa2
     resources:
       - title: Azure DevOps Pipelines 
-        link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_AzurePipelines.pdf
+        link: /devcop-slides/2021nov10_AzurePipelines.pdf
       - title: Pipelines Azure DevOps
-        link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_AzurePipelines_FR.pdf  
+        link: /devcop-slides/2021nov10_AzurePipelines_FR.pdf  
       - title: Digital Dojo - Digital Technology Solutions  
-        link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_Devcop_Digital_Dojo.pptx
+        link: /devcop-slides/2021nov10_Devcop_Digital_Dojo.pptx
       - title: Dojo numérique 
-        link: https://github.com/esdc-devcop/presentations/blob/master/2021nov10_Devcop_Digital_Dojo_FR.pptx
+        link: /devcop-slides/2021nov10_Devcop_Digital_Dojo_FR.pptx
       - title: Digital Dojo web site 
         link: https://dts-stn.github.io/digital-dojo/home/    
 
@@ -108,8 +108,8 @@ past:
   - month: June 2021
     topic: Visual Studio Code
     recording: https://web.microsoftstream.com/video/bc16d7c7-90f9-4a36-beed-4b926d9b8aab
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/2021jun30_Devcop_VsCode.pptx
-    diapositives: https://github.com/esdc-devcop/presentations/blob/master/2021jun30_Devcop_VsCode_FR.pptx
+    presentation: /devcop-slides/2021jun30_Devcop_VsCode.pptx
+    diapositives: /devcop-slides/2021jun30_Devcop_VsCode_FR.pptx
     resources:
       - title: keyboard shortcuts
         link: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
@@ -117,8 +117,8 @@ past:
   - month: May 2021
     topic: Cloud Operations (Part 2)
     recording: https://web.microsoftstream.com/video/e2718ff0-e46e-432b-80b3-c4de03b8c2f2
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/2021may27_DevCOP%20deck2.pptx
-    diapositives: https://github.com/esdc-devcop/presentations/blob/master/2021may27_DevCOP%20deck2_FR.pptx
+    presentation: /devcop-slides/2021may27_DevCOP%20deck2.pptx
+    diapositives: /devcop-slides/2021may27_DevCOP%20deck2_FR.pptx
     resources:
       - title: SCED Connection SharePoint Page
         link: https://014gc.sharepoint.com/sites/OI-CO/SitePages/Spoke-SCED-Connection-Steps.aspx
@@ -128,8 +128,8 @@ past:
   - month: April 2021 (Part 1)
     topic: Cloud Operations
     recording: https://web.microsoftstream.com/video/eecc87c0-2078-45c2-be1c-bb6aeeb8d16d
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/2021apr22_DevCOP%20deck1.pptx
-    diapositives: https://github.com/esdc-devcop/presentations/blob/master/2021apr22_DevCOP%20deck1_FR.pptx
+    presentation: /devcop-slides/2021apr22_DevCOP%20deck1.pptx
+    diapositives: /devcop-slides/2021apr22_DevCOP%20deck1_FR.pptx
     resources:
       - title: Cloud intake forms (CCoE Sharepoint)
         link: https://dialogue/grp/BU6518687/SitePages/Request%20Cloud.aspx
@@ -145,28 +145,26 @@ past:
     recording: https://web.microsoftstream.com/video/0b8fa5db-c5ac-4302-9714-ffc4e0fb34e5
     resources:
       - title: CCoE Update on Cloud and Cloud Training
-        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation.pptx
+        link: /devcop-slides/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation.pptx
       - title: Centre d’excellence en infonuagique (CEI) - Le point sur l’infonuagique et la formation en infonuagique
-        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation_FR.pptx
+        link: /devcop-slides/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation_FR.pptx
       - title: ESDC DevOps CoE
-        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_DirkVieira_ESDC_DevOps_CoE.pptx
+        link: /devcop-slides/2021feb19_DirkVieira_ESDC_DevOps_CoE.pptx
       - title: CE de DevOps d’EDSC
-        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_DirkVieira_ESDC_DevOps_CoE_FR.pptx
-      - title: List of Free AWS courses
-        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_ListOfFreeCloudCourses.md
+        link: /devcop-slides/2021feb19_DirkVieira_ESDC_DevOps_CoE_FR.pptx
       - title: Microsoft Learner Experience Portal
-        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_Microsoft_LxP_How_To_AAD.pdf
+        link: /devcop-slides/2021feb19_Microsoft_LxP_How_To_AAD.pdf
       - title: Azure Courses
-        link: https://github.com/esdc-devcop/presentations/blob/master/2021feb19_AzureCourses.pptx
+        link: /devcop-slides/2021feb19_AzureCourses.pptx
         
   - month: January 2021
     topic: ADO Estimation Poker and Troubleshooting Best Practices
     norecording: Unfortunately, due to technical difficulties this recording is not available
     resources:
       - title: Estimation Poker presentation slides
-        link:  https://github.com/esdc-devcop/presentations/blob/master/EstimationPoker.pptx
+        link:  /devcop-slides/EstimationPoker.pptx
       - title: Troubleshooting presentation slides
-        link:  https://github.com/esdc-devcop/presentations/blob/master/Troubleshooting.pptx
+        link:  /devcop-slides/Troubleshooting.pptx
       - title: Application Logging
         link:  https://esdc-devcop.github.io/guides/application-logging.html
         
@@ -178,29 +176,27 @@ past:
     intro: Being pro active on TLS Certificates expirations
     topic: ADO Pipelines- Improving your current solution thru automation, Being pro active on TLS Certificates expirations
     recording: https://web.microsoftstream.com/video/52d0c18c-4567-479e-aa19-cd0a4a61b595  
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/DevCop%20Azure%20Pipeline%20with%20AERS-ROH.pptx
+    presentation: /devcop-slides/DevCop%20Azure%20Pipeline%20with%20AERS-ROH.pptx
     resources:
       - title: Expiration des certificats TLS - TLS Certificates expiry
         link: https://esdc-devcop.github.io/guides/TLS_Certificate_Expiry.html
-      - title: SADE Build Definition Setup Recommendations Azure DevOps
-        link: https://architecture/sade-edap/admin/Wiki/Build%20Definition%20Setup.aspx
       - title: MS Security Best Practices for Entity Framework 
         link: https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ef/security-considerations
     
   - month: September 2020
     topic: Azure Dev Ops using the Agile Approach (Part 3)
     norecording: Unfortunately, this recording is no longer available
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/DevCop%20-%20ADO%20-%20Part%202.pptx
+    presentation: /devcop-slides/DevCop%20-%20ADO%20-%20Part%202.pptx
     
   - month: September 2020
     topic: Azure Dev Ops using the Agile Approach (Part 2)
     recording: https://web.microsoftstream.com/video/91cf3af7-657e-428a-b813-476a1c1abbb5
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/DevCop%20-%20ADO%20-%20Part%202.pptx
+    presentation: /devcop-slides/DevCop%20-%20ADO%20-%20Part%202.pptx
     
   - month: September 2020
     topic: Azure Dev Ops using the Agile Approach (Part 1)
     recording: https://web.microsoftstream.com/video/835b203e-189b-4817-aec5-7aac11d32f84
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/DevCop%20-%20ADO.pptx
+    presentation: /devcop-slides/DevCop%20-%20ADO.pptx
     
   - month: March 2020
     topic: .NET & Java Web Templates Demo - Using CDTS
@@ -245,30 +241,30 @@ past:
   - month: January 2020
     topic: Creating & Using APIs from the store (using REST) - Part 2
     id: 34
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/REST%20Deep%20Dive.pptx
+    presentation: /devcop-slides/REST%20Deep%20Dive.pptx
     norecording: Unfortunately, this recording is no longer available
 
   - month: January 2020
     topic: Creating & Using APIs from the store (using REST) - Part 1
     id: 34
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/Managing%20APIs%20and%20Microservices.pptx
+    presentation: /devcop-slides/Managing%20APIs%20and%20Microservices.pptx
     norecording: Unfortunately, this recording is no longer available
   
   - month: December 2019
     topic: Managing Merge Requests - Using Code Review
     id: 3
-    presentation: https://esdc-devcop.github.io/presentations/mergerequest.html
+    presentation: /devcop-slides/mergerequest.html
     norecording: Unfortunately, this recording is no longer available
     resources:
       - title: Managing Merge Requests, Using Code Review
-        link: https://esdc-devcop.github.io/guides/merging-review.html
+        link: /guides/merging-review.html
       - title: Continuous Integration / Continuous Delivery
-        link: https://esdc-devcop.github.io/guides/cicd.html
+        link: /guides/cicd.html
 
   - month: November 2019
     topic: Recommend a branching model
     id: 10
-    presentation: https://esdc-devcop.github.io/presentations/gitflow.html
+    presentation: /devcop-slides/gitflow.html
     norecording: Unfortunately, this recording is no longer available
     resources:
       - title: Git Branching, Picking a Git Flow
@@ -276,16 +272,12 @@ past:
 
   - month: October 2019
     topic: Application Development Outcomes Map
-    presentation: http://dialogue/grp/PR6893344/OneNote/AppDevSA/03-Reference%20Material/Presentations/DevCop.one#SA%20and%20Outcomes%20Map%20-%20Oct%2015%202019&section-id={5EC98638-1A31-4AFE-941E-9AD50872138F}&page-id={66461AC0-9116-4364-B799-BD16D6C2CB70}&end
     norecording: Unfortunately, this recording is no longer available
-    resources:
-      - title: Outcomes Map
-        link: http://dialogue/grp/PR6893344/OneNote/AppDevSA/02-Development%20(In%20Progress)/AppDev%20Roadmap.one#Outcomes%20and%20Dependencies%20Overview&section-id={5E16E60C-310B-49EF-8451-88E0CE4DA968}&page-id={67E8C1D8-F39B-498E-A809-EEAAB9BDAC88}&object-id={00AD0F45-6E68-0BA5-1DE4-4D2E8D11601E}&A9
-          
+    
   - month: September 2019
     topic: Move source control to Git
     id: 1
-    presentation: https://esdc-devcop.github.io/presentations/migrate-to-git.html
+    presentation: /devcop-slides/migrate-to-git.html
     resources:
       - title: Migrate from TFVC to Git
-        link: https://esdc-devcop.github.io/guides/tfvc-to-git.html
+        link: /guides/tfvc-to-git.html

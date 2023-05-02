@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pull Requests - Developer's Community of Practice</title>
+<!--
+H2: Lato, 36px, bold
+H3: Lato, 24px, bold
+H4: Lato, 22px, bold
+H5: Lato, 20px, bold
+H6: Lato, 19px, plain text
+Body: Noto sans, 20px, plain text 
+$wbGray: #e1e4e7;
+$button-blue: #284162;
+$wbGrayLight: #eaebed;
+$accent-blue: #335075;
+$border-red: #af3c43;
+$active-blue: #243850;
+$search-gray: #e0e0e0;
+$profile-gray: #eaebed;
+-->
+    <style>
+      @import 'https://fonts.googleapis.com/css?family=Lato|Noto+Sans&display=swap';
+      body { font-family: 'Lato', sans-serif; font-size: 20px;}
+      h1 {  font-family: 'Lato', sans-serif; border-bottom: 1px solid #af3c43; font-size: 38px; font-weight:bold }
+      h2 { font-family: 'Lato', sans-serif; font-size: 36px; font-weight: bold }
+      h3 { font-family: 'Lato', sans-serif; font-size: 24px; font-weight: bold }
+      .remark-slide-content { background-image: url(/assets/devcop-slides/background.jpg); background-size: cover; }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .whoah { color: #d3080c }
+      .okay { color: #278400 }
+      .note { color: blue}
+      /* .column:first-of-type {float:left}
+      .column:last-of-type {float:right} */
+      .column-first :nth-child(n), .column-last :nth-child(n) {margin-top: 0px;}
+      /* .column img {
+        max-width:50%;
+        height: auto;
+      } */
+      .split-6040 .column-first {width: 60%; float:left}
+      .split-6040 .column-last {width: 40%; float:right}
+      .title { margin-left: 40%; padding-top: 10%; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: middle
+background-image: url(/assets/devcop-slides/background-title.jpg)
+
+.title[
+# Dev CoP Presentation: Pull Requests
+]
+               
+.right[![DevCop logo](https://avatars2.githubusercontent.com/u/52010894?s=200&v=4)]
+
+---
+
+## Intro
+
+In previous DevCoP sessions we talked about moving to Git, and the point of that is to leverage branching strategies (more light weight than a centralized repository TFVC). 
+
+The November DevCoP presentation was about branching strategies. 
+
+This presentation covers how to manage the merging of these branches in your workflow thru a process called “Pull Requests”. 
+
+NOTE: "Pull Request" are also known as "Merge Request"
+
+---
+      
+      
+## What is a Pull Request ?
+      
+--
+
+A “Pull Request” allows you to visualize and collaborate on the proposed changes to source code that exist as commits on a given branch. 
+
+They are a request to merge one branch into another. 
+
+They help a team establish, enforce and verify policies on all code changes. 
+
+Example: <https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates/merge_requests/230>
+
+---
+
+Example
+      
+![Pull Request Sample Content](/assets/devcop-slides/PR_RequestContent.png)
+
+![Pull Request Sample Changes](/assets/devcop-slides/PR_RequestChanges.png)
+
+---
+
+## CI-CD Pipeline
+
+The Pull Request process covers the: Execute Tests, Code Review, Approve Changes & Merge steps within the Senior Advisors recommended CI-CD pipeline flow.
+      
+[cicd](cicd.md)
+      
+![Pull Request Sample Changes](/assets/devcop-slides/PR_cicd.png)
+
+---
+
+## What is the goal of a Pull Request ?
+
+.answer[
+- Manage the merging of branches in your workflow.
+- Changes get verified thru automation and your colleagues.
+- A big part of the Pull Request is the code review. 
+]
+      
+---
+
+## What is the goal of a Code Review?
+
+The primary goal of a code review should be collaboration. 
+The collaboration allows the reviewer and author of the code change to learn more about the project, enabling them both to make better changes to the project in the moment and in the future.
+
+.answer[
+- Does the code make sense? 
+- Were multiple features combined?
+- Was debugging code removed?
+]
+
+Note: Remember to stay courteous, the code is being reviewed not the person.
+
+---
+
+## Roles and responsibilities of Author and reviewer
+
+### Author
+--
+    
+.answer[
+- The first reviewer of your code is you. 
+- Keep Code review short: Contains a single task. Don't mix features. [merging-review.html](/guides/merging-review.html)
+- Describe the changes in the Pull Request. Link to a task. 
+- New functions and conditions come with new unit tests. 
+- Changed functions and conditions don't affect existing unit tests.
+- Complex sections of code contains comments.
+]
+
+---
+
+### Reviewer
+--
+      
+.answer[
+- Review the code as soon as possible.
+- When approving a merge, you are just as responsible for the changes as the Author. 
+- Ask for clarifications if changes are ambiguous.
+- Be effective in comments, Recommend changes in a constructive manner.
+- Be aware of potential design flaws 
+- Be aware of alternate existing functionalities that could be suggested.
+]
+
+---
+
+## How do I keep reviews from taking up all my time?
+
+.answer[
+- Keep the changes small: If the change is too large and could have been broken apart, reject it.
+
+- Don’t validate code : Let the pipeline do that work for you. Focus on learning what it is the author is trying to do, and check that what they did makes sense.
+
+- Ask for more details : Don’t spend time trying to figure it out, it should be simple enough (or explained in comments) to understand in a minute or two.
+]
+
+![Pull Request Big Merge](/assets/devcop-slides/PR_BigMerge.png)
+
+---
+
+### Valid "big" pull request
+
+In some cases, “big pull requests” are inevitable but can still be time effective if the scope is limited to one goal.
+
+Here is an example of a manageable “big pull request”, it’s about refactoring the code. 
+
+![Pull Request Refactor](/assets/devcop-slides/PR_Refactor.png)
+
+---
+
+## Types of Merges
+
+Once the Reviewer has approved the code changes. Anyone with the appropriate rights can merge the changes into the parent branch.
+Note: Depending on the platform there might be variations.
+
+![Pull Request Refactor](/assets/devcop-slides/PR_Approved.png)
+
+---
+
+### Merge Commit
+
+Merge commits: Retains all of the commits in your branch and interleaves them with commits on the base branch.
+
+![Pull Request Merge Commit](/assets/devcop-slides/PR_MergeCommit.png)
+
+---
+
+### Squash and Merge
+
+Squash and Merge: Retains the changes but omits the individual commits from history.
+
+![Pull Request Squash Merge](/assets/devcop-slides/PR_SquashMerge.png)
+
+---
+
+### Rebase and Merge
+
+Rebase and Merge: This moves the entire feature branch to begin on the tip of the master branch, effectively incorporating all of the new commits in master
+
+![Pull Request Rebase Merge](/assets/devcop-slides/PR_RebaseMerge.png)
+
+If you want more in depth knowledge about merge types please let us know.
+
+You may get more details in the following link: [merging-review.html](/guides/merging-review.html)
+
+---
+## Conclusion
+
+The use of Pull requests increases: Quality, Collaboration and Knowledge
+
+---
+
+class: middle, center
+background-image: url(/assets/devcop-slides/background-image.jpg)
+
+## We are here to help!
+      
+.okay[If you want a more in-depth disscution on this, please contact us!]   
+
+---
+
+class: middle, center
+background-image: url(/assets/devcop-slides/background-image.jpg)
+
+---
+
+class: middle, center
+background-image: url(/assets/devcop-slides/background-image.jpg)
+
+## Questions
+        
+    </textarea>
+    <script src="./remark-latest.min.js" type="text/javascript">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: `16:9`,
+        countIncrementalSlides: false
+      });
+    </script>
+  </body>
+</html>

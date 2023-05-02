@@ -12,8 +12,6 @@ While a11y test automation does not remove the need to manually test our applica
 
 There are quite a few free or open source a11y tools out there that we can use to automate the testing of our work.
 
-The developer experience team reached out to some folks in the web a11y community in Ottawa and the GoC through Twitter [Calvin Rodo's thread link](https://twitter.com/CalvinR/status/1093265325041352722) and were provided with some tools to look into.
-
 ## Proof of Concept
 
 The DevX Team wrote a proof of concept (not completed) using Puppeteer and aXe Core.
@@ -36,13 +34,13 @@ aXe Core was selected due to it’s commitment to producing no-false positives a
 
 We decided to develop our proof of concept against the ROEWeb Demo site.
 
-The ROEWeb Demo Site is a site provided by ROEWeb that allows employers to train their staff and test out their tools against ROEWeb. The code base is identical to the production site, and more importantly it was designed to be testable and I (Calvin Rodo) spent several years working on it and so am fairly knowledgeable of the site.
+The ROEWeb Demo Site is a site provided by ROEWeb that allows employers to train their staff and test out their tools against ROEWeb. The code base is identical to the production site, and more importantly it was designed to be testable.
 
 ### Issues Encountered
 
 For most pages we didn’t encounter any issues with performing our a11y tests. We were also able to easily filter out an a11y issue that was identified in the menu for the Web Experience Toolkit.
 
-We did however run into issues when attempting to automate the ROEWeb Assistant functionality. For the most part it worked fine but it’s asynchronous nature and the fact that the developer who wrote it (Calvin Rodo) did not design it with an automated tool in mind, meant we ran into several issues with this page.
+We did however run into issues when attempting to automate the ROEWeb Assistant functionality. For the most part it worked fine but it’s asynchronous nature and the fact that it wasn't designed with an automated tool in mind, meant we ran into several issues with this page.
 
 This really highlights the need for developers to be involved in writing the test automation for their sites, when developers aren’t involved they have no real incentive to write testable applications. When they are are responsible for the automated tests they feel the pain in attempting to automate their applications and will thus write more testable code and will invest more effort into maintaining and fixing the tests.
 
@@ -66,13 +64,6 @@ Automated testing will also provide feedback on a11y issues earlier to developer
 
 ## Additional Tools
 
-CDS-SNC has some tools they are working on that are similar to puppeteer and axe-core, where they scan the front page of all Government of Canada Websites, something in the thousands.
-Here are some of the related projects from their GitHub:
+Here are some other related projects from the CDS-SNC GitHub:
 
-[https://github.com/cds-snc/domain-scan](https://github.com/cds-snc/domain-scan)
-
-[https://github.com/cds-snc/lighthouse-scanner](https://github.com/cds-snc/lighthouse-scanner)
-
-[https://github.com/cds-snc/lighthouse-scan-monitor](https://github.com/cds-snc/lighthouse-scan-monitor)
-
-[https://github.com/cds-snc/lighthouse-scanner-ui](https://github.com/cds-snc/lighthouse-scanner-ui)
+[Canadian Digital Service – Service numérique canadien](https://github.com/cds-snc)
