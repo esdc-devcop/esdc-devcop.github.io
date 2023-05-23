@@ -1,4 +1,15 @@
 past:
+  - month: May 2023
+    topic: TCoE - Test Automation Enabling Model
+    recording: https://web.microsoftstream.com/video/6429145c-8f0b-4ffb-9b48-442d0c6a84fa
+    presentation: /devcop-slides/2023may23_devcop_TCOE.pptx
+    email: NC-SYS-TCOE-CEME-AUTOMATION-GD@hrsdc-rhdcc.gc.ca
+    resources:
+        - title: Testing Centre of Expertise (TCoE) - Support Request for enabling and support services from TCoE
+          link: https://forms.office.com/pages/responsepage.aspx?id=RljVnoGKRkKs2LGgGr_A0XSn6hk-PyBBqXQILbTx0VBUN0pVWUtGWkZTTUNFMUYwSFRQWUtUR0kxTC4u
+        - title: Sharepoint - Testing Centre of Expertise (TCoE) 
+          link: https://014gc.sharepoint.com/sites/SME-CEME_TCOE-TS/
+
   - month: April 2023
     topic: React - An overview
     recording: https://web.microsoftstream.com/video/6429145c-8f0b-4ffb-9b48-442d0c6a84fa
@@ -14,6 +25,7 @@ past:
           link: https://www.gatsbyjs.com/
         - title: Remix website
           link: https://remix.run/ 
+
   - month: December 2022
     topic: Blanket Cloud Release Approval Process - An overview
     recording: https://web.microsoftstream.com/video/432f0635-d391-46d3-833e-bde6d30938f0?channelId=6abdc3bf-ef6b-4e54-bd9e-851a1d47e26e
