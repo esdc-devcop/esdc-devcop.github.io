@@ -11,7 +11,7 @@ SADE has made available the community version of [Artifactory](https://jfrog.com
 ## Recommendation
 
 It is recommended that Java/Maven development teams with on premise development and build environments make use of the SADE installation of Artifactory. Artifactory will also act as a proxy for official package repositories such as Oracle and Maven Central, keeping the maven configuration on each development environment relatively simple.
-Note that the current version of Artifactory currently does not support Nuget packages for .NET Framework/Core development. For .NET development, the recommendation is to use ADO's Nuget feed or, after properly making the binaries do not contain any sensitive information like encryption keys or passwords, can be hosted on nuget.org.  For more information: [ESDC nuget user Guide](https://github.com/esdc-devcop/ESDC-Development-Setup/blob/master/nugetuserguide.md)
+Note that the current version of Artifactory currently does not support Nuget packages for .NET Framework/Core development. For .NET development, the recommendation is to use ADO's Nuget feed or, after properly making the binaries do not contain any sensitive information like encryption keys or passwords, can be hosted on nuget.org.  For more information: [ESDC nuget user Guide](nugetuserguide.html)
 
 ## Benefits
 

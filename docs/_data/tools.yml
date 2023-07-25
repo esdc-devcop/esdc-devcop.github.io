@@ -66,10 +66,10 @@ development:
     tools:
       - name: Artifactory
         application: https://jade-repos.intra.dev/artifactory/webapp/#/home
-        recommendation: https://esdc-devcop.github.io/guides/artifactory.html
+        recommendation: ../guides/artifactory.html
       - name: ADO Nuget Feed
         application: https://ado.intra.dmz/projectcollection/
-        recommendation: [recommendation](/_guides/nugetuserguide.html)
+        recommendation: ../guides/nugetuserguide.html
         
   - focus: Programming Language
     tools:

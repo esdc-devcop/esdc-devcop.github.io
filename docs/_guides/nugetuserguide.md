@@ -3,8 +3,12 @@ title: Nuget User Guide
 layout: default
 category: Tools
 summary: How to configure your Nuget Source in Visual Studio 
-date: 2020-11-30
+date: 2020/11/30
 ---
+
+{{ page.summary }}
+
+## Recommendation
 
 **IMPORTANT: As of June 5th 2020, our (ESDC's) internal NuGet source (through JFrog Artifactory) has been removed.**
 
@@ -25,7 +29,7 @@ Packages can be stored and shared through other NuGet sources like:
 * Click the "+" button
 * Enter a name for the source to be added (ex: GoCSource)
 * Enter the url of the alternate source
-* Click "OK"*
+* Click "OK"
 
 ## How to view and install available packages
 
@@ -41,4 +45,4 @@ Packages can be stored and shared through other NuGet sources like:
   * If config changes included in the package, your config file will be modified to include to entries
   * If the package has dependencies to other packages, those packages will also be installed
 
-![Nuget Window](../assets/nugetcatalog.jpg)
+![Nuget Window](../assets/nugetuserguide/nugetcatalog.jpg)
