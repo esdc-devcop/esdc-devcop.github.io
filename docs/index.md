@@ -10,7 +10,7 @@ We want the developers at ESDC to be collaborating with each other and those fro
 
 ### DevCoP Presentations
 
-DevCoP presentations are currently our main point of contact with the Development Community where we bring updates on the [available tools]({{ '/' | absolute_url }}tools.html) and direction of development for the department. The main focus of the DevCoP presentations is a form of training where we highlight existing [best practices and guides]({{ '/' | absolute_url }}guides/) used by other teams, and demonstrate examples of using [tools]({{ '/' | absolute_url }}tools.html).
+DevCoP presentations are currently our main point of contact with the Development Community where we bring updates on the [available tools]({{ '/' | absolute_url }}tools) and direction of development for the department. The main focus of the DevCoP presentations is a form of training where we highlight existing [best practices and guides]({{ '/' | absolute_url }}guides/) used by other teams, and demonstrate examples of using [tools]({{ '/' | absolute_url }}tools).
 We host DevCoP presentations throughout the year (excluding July and August). You can also view our past [presentations]({{ '/' | absolute_url }}events/).  
 
 ## Get Involved

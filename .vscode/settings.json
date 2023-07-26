@@ -5,5 +5,7 @@
         "jemoji",
         "linkedin",
         "slugify"
-    ]
+    ],
+    "editor.tabCompletion": "on",
+    "emmet.triggerExpansionOnTab": true
 }
