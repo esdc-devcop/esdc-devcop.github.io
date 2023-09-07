@@ -20,7 +20,7 @@ The DevX Team wrote a proof of concept (not completed) using Puppeteer and aXe C
 
 ### Tools Selected
 
-The DevX team was committed to selecting best in class open source tools for this proof of concept and we are fairly confident that we made the right choice. We ultimately ended up selecting [Puppeteer](https://developers.google.com/web/tools/puppeteer/) and [aXe Core](https://www.deque.com/axe/) for this demo.
+The DevX team was committed to selecting best in class open source tools for this proof of concept and we are fairly confident that we made the right choice. We ultimately ended up selecting [Puppeteer](https://developers.google.com/web/tools/puppeteer/) and aXe Core for this demo.
 
 #### Puppeteer
 

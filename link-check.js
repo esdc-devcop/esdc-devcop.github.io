@@ -7,7 +7,8 @@ const directories = ["./docs"];
 //Exception lists: Urls listed are not validated
 //Includes partial Urls that need credentials
 //Included https://www.coalfire.com/ as an exception because axios 1.1.2 gives an error: incorrect header check
-const exceptionSyntax = ["https://014gc.sharepoint.com", "http://dialogue", "https://dialogue", "https://architecture/", "http://srmis-sigdi-iagent.prv/", "https://jade-repos.intra.dev/", "https://ado.intra.dmz/", "http://web-stats.prv/", "https://www.coalfire.com/"];
+//https://www.deque.com/axe only accessible thru the browser?
+const exceptionSyntax = ["https://014gc.sharepoint.com", "http://dialogue", "https://dialogue", "https://architecture/", "http://srmis-sigdi-iagent.prv/", "https://jade-repos.intra.dev/", "https://ado.intra.dmz/", "http://web-stats.prv/", "https://www.coalfire.com/", "https://www.deque.com/axe"];
 //Includes non-HTTPS Urls internal to the dept 
 const exceptionHTTP = ["http://dialogue", "https://dialogue", "http://srmis-sigdi-iagent.prv/", "http://web-stats.prv/"];
 //Includes Urls that need credentials
