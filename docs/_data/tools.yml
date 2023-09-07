@@ -163,7 +163,7 @@ development:
   - focus: A11y Testing
     tools:
       - name: Axe-Core
-        documentation: https://www.deque.com/axe/
+        documentation: https://www.deque.com/axe
     description: Axe-Core is a great tool to quickly test for most of the common accessability issues.
     tags:
       - Testing
