@@ -1,4 +1,4 @@
-([Français](#sécurité))
+([Français](#securite))
 
 # Security
 
@@ -6,6 +6,6 @@
 
 ______________________
 
-## Sécurité
+# Sécurité {#securite}
 
 **Ne publiez aucun problème de sécurité sur le dépôt publique!** Les vulnérabilités de sécurité doivent être signalées par courriel à <EDSC.DGIIT.SCS-SDS.IITB.ESDC@hrsdc-rhdcc.gc.ca>
