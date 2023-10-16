@@ -134,8 +134,6 @@ past:
     resources:
       - title: SCED Connection SharePoint Page
         link: https://014gc.sharepoint.com/sites/OI-CO/SitePages/Spoke-SCED-Connection-Steps.aspx
-      - title: BRD form
-        link: https://service.ssc-spc.gc.ca/sites/default/files/brd_v5_en_final_20190327.xlsm
 
   - month: April 2021
     topic: Cloud Operations (Part 1)
