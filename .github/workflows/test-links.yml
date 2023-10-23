@@ -1,0 +1,41 @@
+name: TESTLINKS
+
+on:
+  push:
+  schedule:
+    - cron: "0 0 * * *"
+      displayName: Daily midnight build
+      branches: 
+        include:
+        - "master"
+        exclude:
+        - "dependabot/*"
+
+jobs:
+  build:
+    # Avoid running for pushes comming from dependabot merges (as they wouldn't alter links)
+    # Determining this from commit message may not be ideal, but seems like the only way from the info available on push
+    # if: github.event_name == 'schedule' || !(startsWith(github.event.head_commit.message, 'Merge pull request') && contains(github.event.head_commit.message, 'wet-boew/dependabot/'))
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version:
+          - 18.x
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Test
+        run: npm run link-check
+        env:
+          DISABLE_PROXY: true
