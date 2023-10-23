@@ -1,4 +1,4 @@
-name: TESTLINKS
+name: CHECKLINKS
 
 on:
   push:
