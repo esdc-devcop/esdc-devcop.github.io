@@ -35,6 +35,3 @@ jobs:
       run: npm test
       env: 
         DISABLE_PROXY: true
-        # Disabling the "test-links" phase because it takes way too long to run as often as this CI workflow runs.
-        # "check-links" was moved to workflow `checkLinks.yml`.
-        DISABLE_CHECKLINKS: true
