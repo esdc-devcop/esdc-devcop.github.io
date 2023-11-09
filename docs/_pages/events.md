@@ -49,8 +49,13 @@ permalink: /events/
     {% if event.nopresentation %}
         <p>{{ event.nopresentation }}</p>
     {% endif %}
-    {% if event.email %}
-        <p><a href="mailto:{{ event.email }}">{{ event.email }}</a></p>
+    {% if event.emails %}
+        <p>Contacts:</p>
+        <ul>
+        {% for email in event.emails %}
+            <li><a href="mailto:{{ email.email }}">{{ email.title }}</a></li>
+        {% endfor %}
+        </ul>
     {% endif %}
     {% if event.resources %}
         <p>Resources:</p>
