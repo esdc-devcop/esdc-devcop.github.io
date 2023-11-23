@@ -2,10 +2,8 @@ past:
   - month: Nov 2023
     topic: Open Redirect Vulnerability in CDTS, GoC Web Templates (Java & .NET)
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2023_11_09_DevCoP.mp4?csf=1&web=1&e=dajbv7
-    presentation: /devcop-slides/2023_11_09_devcop_OpenRedirectVulnerability.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2023_11-09_devcop_OpenRedirectVulnerability.pptx?d=w8f952cb9020042a4bff4fb61c9764a74&csf=1&web=1&e=fKYqYf
     emails: 
-        - title: Questions about CDTS and GoC Web Templates (.NET, Java)
-          email: NC-SGDC-CDTS-GD@hrsdc-rhdcc.gc.ca
         - title: Questions about the Dev CoP presentation
           email: EDSC.DGIIT.SCS-SDS.IITB.ESDC@hrsdc-rhdcc.gc.ca
         - title: Contact IT Security if your application may be compromised
@@ -19,11 +17,13 @@ past:
           link: https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html
         - title: OWASP cheat sheet for Input Validation
           link: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
+        - title: Questions about CDTS and GoC Web Templates (.NET, Java)
+          link: https://cenw-wscoe.github.io/sgdc-cdts/docs/contact-en.html
 
   - month: May 2023
     topic: TCoE - Test Automation Enabling Model
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2023_05_23_DevCoP.mp4?csf=1&web=1&e=DwqdcF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
-    presentation: /devcop-slides/2023may23_devcop_TCOE.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2023may23_devcop_TCOE.pptx?d=w7d4937c00b0d4199a00356186b5d5e8f&csf=1&web=1&e=VCRj9Q
     email: NC-SYS-TCOE-CEME-AUTOMATION-GD@hrsdc-rhdcc.gc.ca
     resources:
         - title: Testing Centre of Expertise (TCoE) - Support Request for enabling and support services from TCoE
@@ -34,9 +34,9 @@ past:
   - month: April 2023
     topic: React - An overview
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2023_04_12_DevCoP.mp4?csf=1&web=1&e=8tJU68&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
-    presentation: /devcop-slides/2023apr12_devcop_React.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2023apr12_devcop_React.pptx?d=wd8c2095f62a5482abe719de5372aaa8a&csf=1&web=1&e=96jBma
     resources:
-        - title: Source code from Kristopher Charbonneau's demo
+        - title: Source code from demo
           link: https://github.com/krischarbonneau/devcop-demo
         - title: React website
           link: https://react.dev/
@@ -50,18 +50,18 @@ past:
   - month: December 2022
     topic: Blanket Cloud Release Approval Process - An overview
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2022_12_12_DevCoP.mp4?csf=1&web=1&e=W4P5Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
-    presentation: /devcop-slides/2022dec12_CloudReleases.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022dec12_CloudReleases.pptx?d=w8fb906c634144ed8af44633233a4cbcd&csf=1&web=1&e=heFY81
     email: NC-PRE-CAB-GD@hrsdc-rhdcc.gc.ca 
     resources:    
       - title: Submitting a Software Request or Change Request Guidance
-        link: https://dialogue.spprod.service.gc.ca/grp/BU7209642/Guidance/home.aspx#How_to_request_a_Blanket_Approval_for_Cloud_Releases
+        link: https://dialogue.spprod.service.gc.ca/grp/BU7209642/Guidance/home.aspx
       - title: Fill out the DevOps Assessment Workbook
         link: https://dialogue.spprod.service.gc.ca/grp/BU7209642/Guidance/Guide_BCRAR_en.aspx 
         
   - month: October 2022
     topic: An overview of Amazon Web Services
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2022_10_03_DevCoP.mp4?csf=1&web=1&e=NrTqe0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
-    presentation: /devcop-slides/2022oct03_AWS_Toolkit_for_Azure_DevOps.pdf
+    presentation: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022oct03_AWS_Toolkit_for_Azure_DevOps.pdf?csf=1&web=1&e=24fixz
     resources:
       - title: Cloud Hosting Request Form (IITB Cloud Center of Excellence)
         link: https://forms.office.com/Pages/ResponsePage.aspx?id=RljVnoGKRkKs2LGgGr_A0Zo6by_KdyFEncAI0YlGBIJUNUtTN0lSTjQ2TU40OFpLOVFKTElXUkhSNSQlQCN0PWcu
@@ -77,8 +77,8 @@ past:
   - month: May 2022 
     topic: An Introduction to end-to-end testing, using Selenium and Playwright
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2022_05_04_DevCoP.mp4?csf=1&web=1&e=DcNQXV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
-    presentation: /devcop-slides/2022may04_DevCoP_Selenium%20and%20Playwright.pptx
-    diapositives: /devcop-slides/2022may4_DevCoP_Selenium%20and%20Playwright_FR.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022may04_DevCoP_Selenium%20and%20Playwright.pptx?d=wa6d5facdbfd943f3ba4fbdcfc2de2879&csf=1&web=1&e=LJTLMe
+    diapositives: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022may4_DevCoP_Selenium%20and%20Playwright_FR.pptx?d=we1cce1ab52bd4005bcba1510ac33f195&csf=1&web=1&e=UWx0iJ
     resources:
       - title: Selenium 
         link: https://www.selenium.dev/
@@ -93,13 +93,13 @@ past:
       - title: Test Framework
         link: https://docs.nunit.org/articles/nunit/writing-tests/attributes.html 
       - title: Testing Services SharePoint site
-        link: https://014gc.sharepoint.com/sites/QAInnovation
+        link: https://014gc.sharepoint.com/sites/DGIIT-SME_IITB-TS/SitePages/Home.aspx
   
   - month: February 2022 
     topic: An overview on the Accessibility Compliance Project (ACP) & Web Accessibility
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2022_02_07_DevCoP.mp4?csf=1&web=1&e=thnsaf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
-    presentation: /devcop-slides/2022feb07_ACP_and_Web_Accessibility_Overview.pdf
-    diapositives: /devcop-slides/2022feb07_ACP_and_Web_Accessibility_Overview_FR.pdf
+    presentation: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022feb07_ACP_and_Web_Accessibility_Overview.pdf?csf=1&web=1&e=HWALzZ
+    diapositives: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022feb07_ACP_and_Web_Accessibility_Overview_FR.pdf?csf=1&web=1&e=Se5KRq
     resources:
       - title: ESDC Self-Paced Web Accessibility Course
         link: https://bati-itao.github.io/learning/esdc-self-paced-web-accessibility-course/index.html
@@ -115,22 +115,22 @@ past:
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2022_01_19_DevCoP.mp4?csf=1&web=1&e=SNNYMO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
     resources:
       - title: Testing Services
-        link: https://github.com/esdc-devcop/presentations/blob/master/2022jan19_DevCoP_TestAutomationEnablingTeam.pptx
+        link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022jan19_DevCoP_TestAutomationEnablingTeam.pptx?d=wf016d45546734ebaa9acf7cabf6e9d49&csf=1&web=1&e=5T4kKI
       - title: DevSecOps at CDS
-        link: https://github.com/esdc-devcop/presentations/blob/master/2022jan19_DevcoP_Cadets.pdf
+        link: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022jan19_DevcoP_Cadets.pdf?csf=1&web=1&e=87n6bJ
         
   - month: November 2021
     topic: Intro to The DevOps Dojo, Intro to Azure Pipelines
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2021_11_10_DevCoP.mp4?csf=1&web=1&e=29xAxN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
     resources:
       - title: Azure DevOps Pipelines 
-        link: /devcop-slides/2021nov10_AzurePipelines.pdf
+        link: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021nov10_AzurePipelines.pdf?csf=1&web=1&e=TzLZcO
       - title: Pipelines Azure DevOps
-        link: /devcop-slides/2021nov10_AzurePipelines_FR.pdf  
+        link: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021nov10_AzurePipelines_FR.pdf?csf=1&web=1&e=SMIiUT  
       - title: Digital Dojo - Digital Technology Solutions  
-        link: /devcop-slides/2021nov10_Devcop_Digital_Dojo.pptx
+        link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021nov10_Devcop_Digital_Dojo.pptx?d=wd549fabde0c644eda9b044512b96e02c&csf=1&web=1&e=B3yyMa
       - title: Dojo numérique 
-        link: /devcop-slides/2021nov10_Devcop_Digital_Dojo_FR.pptx
+        link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021nov10_Devcop_Digital_Dojo_FR.pptx?d=w4777c507ec2a429b90fcfefa3ef9c22a&csf=1&web=1&e=L1UH4D
       - title: Digital Dojo web site 
         link: https://dts-stn.github.io/digital-dojo/home/    
 
@@ -141,8 +141,8 @@ past:
   - month: June 2021
     topic: Visual Studio Code
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2021_06_30_DevCoP.mp4?csf=1&web=1&e=JqbeP2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
-    presentation: /devcop-slides/2021jun30_Devcop_VsCode.pptx
-    diapositives: /devcop-slides/2021jun30_Devcop_VsCode_FR.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021jun30_Devcop_VsCode.pptx?d=wff151d0febf745d8bcdb8166ccc441bc&csf=1&web=1&e=GPffgx
+    diapositives: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021jun30_Devcop_VsCode_FR.pptx?d=w972cc4578ea14ba99408dfa999de8cd5&csf=1&web=1&e=z0Qw5f
     resources:
       - title: keyboard shortcuts
         link: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
@@ -150,8 +150,8 @@ past:
   - month: May 2021
     topic: Cloud Operations (Part 2)
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2021_05_27_DevCoP.mp4?csf=1&web=1&e=4PskAJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
-    presentation: /devcop-slides/2021may27_DevCOP%20deck2.pptx
-    diapositives: /devcop-slides/2021may27_DevCOP%20deck2_FR.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021may27_DevCOP%20deck2.pptx?d=w3559bddc564842b492157db7f8160e02&csf=1&web=1&e=1oMV0x
+    diapositives: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021may27_DevCOP%20deck2_FR.pptx?d=wcb6436a4450a4868b9c58c47ad7fb7f0&csf=1&web=1&e=MdDO1r
     resources:
       - title: SCED Connection SharePoint Page
         link: https://014gc.sharepoint.com/sites/OI-CO/SitePages/Spoke-SCED-Connection-Steps.aspx
@@ -159,11 +159,11 @@ past:
   - month: April 2021
     topic: Cloud Operations (Part 1)
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2021_04_22_DevCoP.mp4?csf=1&web=1&e=99XIDZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
-    presentation: /devcop-slides/2021apr22_DevCOP%20deck1.pptx
-    diapositives: /devcop-slides/2021apr22_DevCOP%20deck1_FR.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021apr22_DevCOP%20deck1.pptx?d=w07791b573d4849af8d6c2d7217b039e5&csf=1&web=1&e=Usbw64
+    diapositives: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021apr22_DevCOP%20deck1_FR.pptx?d=wb5c9ad9430a4404db6cca3dedb23c740&csf=1&web=1&e=Cx0cQg
     resources:
       - title: Cloud intake forms (CCoE Sharepoint)
-        link: https://dialogue/grp/BU6518687/SitePages/Request%20Cloud.aspx
+        link: https://014gc.sharepoint.com/sites/OI-CO/SitePages/ESDC-Azure-Cloud-Intake-Process.aspx
       - title: Cloud Operations SharePoint
         link: https://014gc.sharepoint.com/sites/OI-CO/
       - title: Azure DevOps
@@ -174,26 +174,26 @@ past:
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2021_02_19_DevCoP.mp4?csf=1&web=1&e=rYpUDy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
     resources:
       - title: CCoE Update on Cloud and Cloud Training
-        link: /devcop-slides/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation.pptx
+        link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation.pptx?d=wf6cd3bac377a4cd1960c41feb1aea242&csf=1&web=1&e=zKSfTo
       - title: Centre d’excellence en infonuagique (CEI) - Le point sur l’infonuagique et la formation en infonuagique
-        link: /devcop-slides/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation_FR.pptx
+        link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation_FR.pptx?d=w7e0a687a9a02480a86af1a608e56ddee&csf=1&web=1&e=dhW3A6
       - title: ESDC DevOps CoE
-        link: /devcop-slides/2021feb19_DirkVieira_ESDC_DevOps_CoE.pptx
+        link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_DirkVieira_ESDC_DevOps_CoE.pptx?d=w1cf7c28344894a0e9601761e0bf2a91f&csf=1&web=1&e=nAekYv
       - title: CE de DevOps d’EDSC
-        link: /devcop-slides/2021feb19_DirkVieira_ESDC_DevOps_CoE_FR.pptx
+        link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_DirkVieira_ESDC_DevOps_CoE_FR.pptx?d=w5e476c8f104844539818aff0fbda8cb4&csf=1&web=1&e=ht1M9w
       - title: Microsoft Learner Experience Portal
-        link: /devcop-slides/2021feb19_Microsoft_LxP_How_To_AAD.pdf
+        link: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_Microsoft_LxP_How_To_AAD.pdf?csf=1&web=1&e=Axqp57
       - title: Azure Courses
-        link: /devcop-slides/2021feb19_AzureCourses.pptx
+        link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_AzureCourses.pptx?d=w2bf3543e136240bba1f48c31b5635e05&csf=1&web=1&e=9EGk7Z
         
   - month: January 2021
     topic: ADO Estimation Poker and Troubleshooting Best Practices
     norecording: Unfortunately, due to technical difficulties this recording is not available
     resources:
       - title: Estimation Poker presentation slides
-        link:  /devcop-slides/EstimationPoker.pptx
+        link:  https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/EstimationPoker.pptx?d=w838bd83deab343c183c2d000dbe8f54a&csf=1&web=1&e=OQI7Xc
       - title: Troubleshooting presentation slides
-        link:  /devcop-slides/Troubleshooting.pptx
+        link:  https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/Troubleshooting.pptx?d=web0341b52815493fbcc38c1ec7171b27&csf=1&web=1&e=9x8HBK
       - title: Application Logging
         link:  https://esdc-devcop.github.io/guides/application-logging.html
         
@@ -205,7 +205,7 @@ past:
     intro: Being pro active on TLS Certificates expirations
     topic: ADO Pipelines- Improving your current solution thru automation, Being pro active on TLS Certificates expirations
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2020_10_29_DevCoP.mp4?csf=1&web=1&e=LO9F79&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19  
-    presentation: /devcop-slides/DevCop%20Azure%20Pipeline%20with%20AERS-ROH.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/DevCop%20Azure%20Pipeline%20with%20AERS-ROH.pptx?d=wae5c66ef0e0e45968100d5b0e78299cc&csf=1&web=1&e=CII7Ca
     resources:
       - title: Expiration des certificats TLS - TLS Certificates expiry
         link: https://esdc-devcop.github.io/guides/TLS_Certificate_Expiry.html
@@ -215,17 +215,16 @@ past:
   - month: September 2020
     topic: Azure Dev Ops using the Agile Approach (Part 3)
     norecording: Unfortunately, this recording is no longer available
-    presentation: /devcop-slides/DevCop%20-%20ADO%20-%20Part%202.pptx
     
   - month: September 2020
     topic: Azure Dev Ops using the Agile Approach (Part 2)
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2020_09_22_DevCoP_2.mp4?csf=1&web=1&e=95hq4t&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
-    presentation: /devcop-slides/DevCop%20-%20ADO%20-%20Part%202.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/DevCop%20-%20ADO%20-%20Part%202.pptx?d=w20b0350113b24a25a45b40fb4bae41d6&csf=1&web=1&e=pzn94e
     
   - month: September 2020
     topic: Azure Dev Ops using the Agile Approach (Part 1)
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/Videos/2020_09_16_DevCoP_1.mp4?csf=1&web=1&e=naUtXb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
-    presentation: /devcop-slides/DevCop%20-%20ADO.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/DevCop%20-%20ADO.pptx?d=wa0449d0be8014b089ab2fe0334313e2e&csf=1&web=1&e=tLGI4Y
     
   - month: March 2020
     topic: .NET & Java Web Templates Demo - Using CDTS
@@ -270,13 +269,13 @@ past:
   - month: January 2020
     topic: Creating & Using APIs from the store (using REST) - Part 2
     id: 34
-    presentation: /devcop-slides/REST%20Deep%20Dive.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/REST%20Deep%20Dive.pptx?d=w911ff0dc7ef54f7e9f6317d3dfd8b0ec&csf=1&web=1&e=R4nKkU
     norecording: Unfortunately, this recording is no longer available
 
   - month: January 2020
     topic: Creating & Using APIs from the store (using REST) - Part 1
     id: 34
-    presentation: /devcop-slides/Managing%20APIs%20and%20Microservices.pptx
+    presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/Managing%20APIs%20and%20Microservices.pptx?d=w502d6edff10c49138aba7770dc0b5d7d&csf=1&web=1&e=l0PrMG
     norecording: Unfortunately, this recording is no longer available
   
   - month: December 2019
@@ -298,10 +297,6 @@ past:
     resources:
       - title: Git Branching, Picking a Git Flow
         link: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
-
-  - month: October 2019
-    topic: Application Development Outcomes Map
-    norecording: Unfortunately, this recording is no longer available
     
   - month: September 2019
     topic: Move source control to Git
