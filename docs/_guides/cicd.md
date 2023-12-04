@@ -161,4 +161,4 @@ If required, the notification is triggered by the successful deployment and exec
 
 [Continuous Integration vs Delivery vs Deployment](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 
-[Introduction to GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html#introduction-to-gitlab-flow)
+[Introduction to GitLab Flow](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/)
