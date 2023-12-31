@@ -18,7 +18,7 @@
     "glob": "^10.3.10",
     "markdown-link-check": "^3.11.2",
     "markdownlint-cli": "^0.38.0",
-    "axios": "^1.6.2",
+    "axios": "^1.6.3",
     "https-proxy-agent": "^7.0.2",
     "isbinaryfile": "^5.0.0"
   }
