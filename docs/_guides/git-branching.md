@@ -32,7 +32,7 @@ We have extracted a few requirements from our typical ESDC release process.
 
 #### Popular Flows Comparison
 
-| Key Features | [GitFlow](https://datasift.github.io/gitflow/IntroducingGitFlow.html) | [OneFlow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow) | [Microsoft Release Flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow) | [GitHub Flow](https://githubflow.github.io/) | [GitLab Flow](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/) |
+| Key Features | [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) | [OneFlow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow) | [Microsoft Release Flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow) | [GitHub Flow](https://githubflow.github.io/) | [GitLab Flow](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/) |
 | :--- | --- | --- | --- | --- | --- |
 | Production and Development branches segregated * | :heavy_check_mark: | :grey_question: (Optional) | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |
 | Manages Staging/Release branches * | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: |
@@ -51,7 +51,7 @@ We have extracted a few requirements from our typical ESDC release process.
 
 ### Our Recommendation
 
-Use [GitFlow](https://datasift.github.io/gitflow/IntroducingGitFlow.html) branching model.
+Use [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) branching model.
 It is great for managing releases and parallel development in large applications.
 
 This model has two _primary_ branches, `master` & `dev`, that always exist.
