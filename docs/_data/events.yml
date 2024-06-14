@@ -112,8 +112,8 @@ past:
     resources:
       - title: ESDC Self-Paced Web Accessibility Course
         link: https://bati-itao.github.io/learning/esdc-self-paced-web-accessibility-course/index.html
-      - title: Coaching Guidance - select *Accessibility coaching / session*, then select *ACP - Application development coaching* 
-        link: https://a11yrmt.ca/openrequest-en.php
+      - title: Accessibility Coaching
+        link: https://bati-itao.github.io/learning/coaching/accessibility-en.html
       - title: IT Accessibility Office iService page
         link: https://iservice.prv/eng/imit/A11Y/index.shtml
       - title: ITAO GitHub page
