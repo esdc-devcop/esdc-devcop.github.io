@@ -283,7 +283,6 @@ If you are not using a Wiki, any client or user documentation should be publishe
 > What are the real benefit in short term and long term?
 
 Even if Git is hard to start with at the begining, there is so much pro in short and long term.
-Here is a very interesting  [article](https://www.continuousimprover.com/2015/06/why-you-should-abandon-tfs-source.html) about that subject.
 
 #### The branching model
 
