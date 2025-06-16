@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "cspell": "^9.1.1",
-    "glob": "^11.0.2",
+    "glob": "^11.0.3",
     "markdown-link-check": "^3.13.7",
     "markdownlint-cli": "^0.45.0",
     "axios": "^1.10.0",
