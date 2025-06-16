@@ -20,10 +20,12 @@ Voici quelques moyens vous permettant de vérifier la date d’expiration de vot
 
 Pour Edge et Chrome:
 
-* Ouvrir le navigateur, afficher une page de votre site web.
-* Cliquer sur l’icône représentant un cadenas, et sélectionner “Certificat”.
+* Ouvrez le navigateur, afficher une page de votre site web.
+* Ouvrez les outils de développement (généralement en appuyant sur F12), puis sélectionnez l'onglet « Security ».
+* Dans la section « Connection », vous trouverez la version du protocole TLS utilisée.
+* Cliquer sur « View certificate » pour obtenir des informations plus détaillées sur le certificat.
 
-![Edge](../assets/TLSExpiration/MSEdge_Licence_FR.jpg)
+![Edge](../assets/TLSExpiration/MSEdge_License_FR.jpg)
 
 * Relever la date d’expiration du Certificat.
 
@@ -99,9 +101,11 @@ Here are some methods to monitor your TLS certification expiry date.
 For Edge and Chrome:
 
 * Open web browser, navigate to your production hosted web site.
-* Click on the "padlock" icon and select "certificate"
+* Open the developer tools (usually by pressing F12), and then select the "Security" tab.
+* Under the "Connection" section, you'll find the TLS protocol version being used.
+* Click on "View certificate" to see more detailed information about the certificate.
 
-![Edge](../assets/TLSExpiration/MSEdge_Licence.jpg)
+![Edge](../assets/TLSExpiration/MSEdge_License.jpg)
 
 * Note the Certificate expiration date
 
