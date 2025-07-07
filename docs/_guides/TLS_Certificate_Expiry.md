@@ -3,7 +3,7 @@ title: Expiration des certificats TLS - TLS Certificates expiry
 layout: default
 category: Practices
 summary: Demonstrate how to monitor TLS Certificates expiration date.
-date: 2025-06-17
+date: 2025-07-02
 ---
 
 ## Pour les solutions hébergées par Services Partagés Canada (SPC), les pratiques suivantes devraient être mises en oeuvre.
@@ -12,18 +12,19 @@ Les licences TLS sont renouvelées par SPC automatiquement, sans que l’utilisa
 
 Veuillez ouvrir un ticket NSD si votre certificat TLS expire dans les 14 jours ou moins.
 
-## Obtenir la date d’expiration de votre certificat TLS
+### Obtenir la date d’expiration de votre certificat TLS
 
 Voici quelques moyens vous permettant de vérifier la date d’expiration de votre certificat TLS.
 
-### À l’aide d’un navigateur Web:
+#### À l’aide d’un navigateur Web:
 
-Pour Edge et Chrome:
+##### Pour Edge et Chrome:
 
 * Ouvrez le navigateur, afficher une page de votre site web.
 * Ouvrez les outils de développement (généralement en appuyant sur F12), puis sélectionnez l'onglet « Privacy and Security ».
 * Dans la section « Connection », vous trouverez la version du protocole TLS utilisée.
 * Cliquer sur « View certificate » pour obtenir des informations plus détaillées sur le certificat.
+* Assurez-vous que le certificat client a une correspondance avec l'autorité de certification principale de la chaîne de confiance.
 
 ![Edge](../assets/TLSExpiration/MSEdge_License_FR.jpg)
 
@@ -31,7 +32,7 @@ Pour Edge et Chrome:
 
 ![CertificateInfo](../assets/TLSExpiration/Browser_LicenceInfo.jpg)
 
-Pour FireFox:
+##### Pour FireFox:
 
 * Ouvrir le navigateur, afficher une page de votre site web.
 * Cliquer sur l’icône représentant un cadenas, et sélectionner la flèche à droite de la fenêtre d’informations.
@@ -43,25 +44,26 @@ Pour FireFox:
 ![FireFox2](../assets/TLSExpiration/Firefox_Licence_2.jpg)
 
 * Relever la date d’expiration du Certificat.
+
 ![FireFox3](../assets/TLSExpiration/Firefox_Licence_3.jpg)
 
 **Lorsque la date d’expiration du certificat TLS est connue, créer un rappel 14 jours avant cette date d’expiration dans le calendrier d’Outlook. Inclure les développeurs, les conseillers techniques et l’équipe de support 24-7.**
 
-### À l’aide du code source:
+#### À l’aide du code source:
 
 Vous pouvez implémenter une procédure de surveillance de la date d’expiration d’un certificat TLS avec quelques lignes de code. Votre équipe peut inclure cette vérification dans votre solution personnalisée effectuant la surveillance des certificats TLS.
 
 SDS propose plusieurs exemples de code que vous pouvez utiliser dans votre solution (Java, C# & .Net). La fonction utilisée dans ces exemples requiert l’URL qui doit être vérifiée, représentée par une chaîne, et retourne le nombre de jours restants avant l’expiration du certificat TLS. Dans votre solution de surveillance, vous pouvez notamment utiliser l’exemple que vous préférez pour afficher un message, ou encore envoyer une notification lorsque le nombre de jours avant expiration est inférieur à 14.
 
-Voici le lien vers les [exemples de code.](https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/devcop-code-snippets/-/snippets "exemples de code").
+Voici le lien vers les [exemples de code](https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/devcop-code-snippets/-/snippets "exemples de code").
 
-## Ticket NSD pour le renouvellement d’un certificat TLS
+### Ticket NSD pour le renouvellement d’un certificat TLS
 
 **REMARQUE: Ouvrez un ticket NSD seulement si votre certificat TLS expire dans 14 jours ou moins. Vérifiez toujours que le certificat n’a pas déjà été renouvelé avant de soumettre un ticket NSD.**
 
 Pour soumettre un Ticket:
 
-* Aller dans [NSD](http://srmis-sigdi-iagent.prv/ "NSD")
+* Aller dans [NSD](https://iservice.prv/eng/imit/nsd/index.shtml "NSD")
 * Entrer ‘Windows Server” dans la première zone de texte, et sélectionner “I have a windows server issue for Shared Services” dans la liste déroulante.
 ![NSD](../assets/TLSExpiration/NSD.PNG)
 
@@ -74,17 +76,17 @@ Pour soumettre un Ticket:
   * L’URL de votre site de production.
   * La liste des noms de serveur web de production associés.
 
-Voici un modèle que vous pouvez utiliser pour soumettre votre ticket NSD. Remplacez simplement dans ce modèle les %variables% par la valeur pertinente dans votre cas.
+Voici un modèle que vous pouvez utiliser pour soumettre votre ticket NSD. Remplacez simplement dans ce modèle les %_variables_% par la valeur pertinente dans votre cas.
 
-Bonjour,
-
-Veuillez assigner au groupe suivant: %intranet_or_internet/WPAZ%
-
-Le certificat TLS pour %production_url% expire le %expiration_date%.
-
-SVP renouveller le certificats sur les serveurs suivants:
-
-%server_name_1%, %server_name_2%, %server_name_3%, %server_name_4%
+>Bonjour,
+>
+>Veuillez assigner au groupe suivant: %_intranet_or_internet/WPAZ_%
+>
+>Le certificat TLS pour %_production_url_% expire le %_expiration_date_%.
+>
+>SVP renouveller le certificats sur les serveurs suivants:
+>
+>%_server_name_1_%, %_server_name_2_%, %_server_name_3_%, %_server_name_4_%.
 
 ## For solutions hosted in Shared Services Canada (SSC) the following practice should be implemented.
 
@@ -92,18 +94,19 @@ TLS licences are renewed by SSC without the need for any client intervention. SS
 
 Open a NSD ticket if your TLS certificate is expiring in 14 days or less.
 
-## Get your TLS Expiration date
+### Get your TLS Expiration date
 
 Here are some methods to monitor your TLS certification expiry date.
 
-### Using a web browser:
+#### Using a web browser:
 
-For Edge and Chrome:
+##### For Edge and Chrome:
 
 * Open web browser, navigate to your production hosted web site.
 * Open the developer tools (usually by pressing F12), and then select the "Privacy and Security" tab.
 * Under the "Connection" section, you'll find the TLS protocol version being used.
 * Click on "View certificate" to see more detailed information about the certificate.
+* Make sure the client certificate links back to the root Certificate Authority in the chain of trust.
 
 ![Edge](../assets/TLSExpiration/MSEdge_License.jpg)
 
@@ -111,7 +114,7 @@ For Edge and Chrome:
 
 ![CertificateInfo](../assets/TLSExpiration/Browser_LicenceInfo.jpg)
 
-For FireFox:
+##### For FireFox:
 
 * Open web browser, navigate to your production hosted web site.
 * Click on the "padlock" icon and select the arrow next to the certificate info (secure)
@@ -127,7 +130,7 @@ For FireFox:
 
 **Once the TLS certification expiry date is known, create a reminder 14 days before the TLS expiry using Outlook Calendar or your desired tool. Include Developers, Technical Advisors and 24-7 support staff.**
 
-### Using Source code:
+#### Using Source code:
 
 You can implement TLS expiration verification using code. Your team can include TLS verification in your custom monitor solution.
 
@@ -137,13 +140,13 @@ In your monitoring solution, you can implement the desired code snippet to displ
 
 Here is the link to the [code snippets](https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/devcop-code-snippets/-/snippets "code snippets").
 
-## NSD ticket for TLS certificate renewal
+### NSD ticket for TLS certificate renewal
 
 **NOTE: Open a NSD ticket only if your TLS certificate is expiring in 14 days or less. Always verify if a certificate has been renewed before submitting an NSD ticket.**
 
 To open a Ticket:
 
-* Navigate to [NSD](http://srmis-sigdi-iagent.prv/ "NSD")
+* Navigate to [NSD](https://iservice.prv/eng/imit/nsd/index.shtml "NSD")
 * Enter 'Windows Server" on the first textbox and select "I have a windows server issue for Shared Services" from the drop down list.
 ![NSD](../assets/TLSExpiration/NSD.PNG)
 
@@ -156,14 +159,14 @@ To open a Ticket:
   * Your production URL.
   * List of Producton web server names.
 
-Here is a template you can use to submit your NSD ticket. Simply replace the %variables% with your own values.
+Here is a template you can use to submit your NSD ticket. Simply replace the %_variables_% with your own values.
 
-Hello,
-
-Please assign to the following Resolver group: %intranet_or_internet/WPAZ%.
-
-Our TLS Certificates for the %production_url% will expire on %expiration_date%.
-
-Please renew our TLS certificates for the following web servers:
-
-%server_name_1%, %server_name_2%, %server_name_3%, %server_name_4%
+>Hello,
+>
+>Please assign to the following Resolver group: %_intranet_or_internet/WPAZ_%.
+>
+>Our TLS Certificates for the %_production_url_% will expire on %expiration_date%.
+>
+>Please renew our TLS certificates for the following web servers:
+>
+>%_server_name_1_%, %_server_name_2_%, %_server_name_3_%, %_server_name_4_%
