@@ -66,7 +66,7 @@ Pour soumettre un Ticket:
 * Aller dans [NSD](https://iservice.prv/eng/imit/nsd/index.shtml "NSD")
 * Entrer ‘Submit a Service Request or Report an Incident to Shared Services Canada (SSC)” dans la première zone de texte, et sélectionner les options comme dans l'image ci-dessous.
 
-[<img src="../assets/TLSExpiration/NSD.png" width="100%"/>](../assets/TLSExpiration/NSD.png)
+[<img src="../assets/TLSExpiration/NSD.png" width="100%"/> alt="NSD"](../assets/TLSExpiration/NSD.png)
 
 * Dans le champ “Service Request Details” spécifiez:
   * Si votre application est Intranet ou Internet
@@ -146,7 +146,7 @@ To open a Ticket:
 
 * Navigate to [NSD](https://iservice.prv/eng/imit/nsd/index.shtml "NSD")
 * Enter "Submit a Service Request or Report an Incident to Shared Services Canada (SSC)" from the drop down list. Select the options in the image below.
-[<img src="../assets/TLSExpiration/NSD.png" width="100%"/>](../assets/TLSExpiration/NSD.png)
+[<img src="../assets/TLSExpiration/NSD.png" width="100%" alt="NSD"/>](../assets/TLSExpiration/NSD.png)
 
 * In the "Service Request Details" field specify:
   * Specify whether your application is Intranet or Internet.
