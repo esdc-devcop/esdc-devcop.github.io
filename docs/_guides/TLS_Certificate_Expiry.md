@@ -77,7 +77,7 @@ Voici un modèle que vous pouvez utiliser pour soumettre votre ticket NSD. Rempl
 
 >Bonjour,
 >
->Veuillez assigner au groupe suivant: %_intranet_or_internet/WPAZ_%
+>Notre application est: %_intranet_or_internet_%
 >
 >Le certificat TLS pour %_production_url_% expire le %_expiration_date_%.
 >
@@ -157,7 +157,7 @@ Here is a template you can use to submit your NSD ticket. Simply replace the %_v
 
 >Hello,
 >
->Please assign to the following Resolver group: %_intranet_or_internet/WPAZ_%.
+>Our application is: %_intranet_or_internet_%.
 >
 >Our TLS Certificates for the %_production_url_% will expire on %expiration_date%.
 >
