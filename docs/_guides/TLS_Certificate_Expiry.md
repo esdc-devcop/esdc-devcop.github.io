@@ -64,14 +64,12 @@ Voici le lien vers les [exemples de code](https://gccode.ssc-spc.gc.ca/iitb-dgii
 Pour soumettre un Ticket:
 
 * Aller dans [NSD](https://iservice.prv/eng/imit/nsd/index.shtml "NSD")
-* Entrer ‘Windows Server” dans la première zone de texte, et sélectionner “I have a windows server issue for Shared Services” dans la liste déroulante.
-![NSD](../assets/TLSExpiration/NSD.PNG)
+* Entrer ‘Submit a Service Request or Report an Incident to Shared Services Canada (SSC)” dans la première zone de texte, et sélectionner les options comme dans l'image ci-dessous.
 
-* Votre URL de production est-elle hébergée sur l'_intranet_ ? Si tel est le cas, vous devrez attribuer votre ticket au groupe SSC Resolver : **DC000152**.
-* Votre URL de production est-elle hébergée sur _internet/WPAZ_ ? Si tel est le cas, vous devrez attribuer votre ticket au groupe F5 Resolver : **NW000430**.
+[<img src="../assets/TLSExpiration/NSD.png" width="100%" alt="NSD"/>](../assets/TLSExpiration/NSD.png)
 
 * Dans le champ “Service Request Details” spécifiez:
-  * Veuillez attribuer le nom de groupe SSC Resolver approprié : (choisissez soit _intranet_ ou _internet/WPAZ_).
+  * Si votre application est Intranet ou Internet
   * La date d’expiration de votre certificat TLS.
   * L’URL de votre site de production.
   * La liste des noms de serveur web de production associés.
@@ -80,7 +78,7 @@ Voici un modèle que vous pouvez utiliser pour soumettre votre ticket NSD. Rempl
 
 >Bonjour,
 >
->Veuillez assigner au groupe suivant: %_intranet_or_internet/WPAZ_%
+>Notre application est: %_intranet_or_internet_%
 >
 >Le certificat TLS pour %_production_url_% expire le %_expiration_date_%.
 >
@@ -147,14 +145,11 @@ Here is the link to the [code snippets](https://gccode.ssc-spc.gc.ca/iitb-dgiit/
 To open a Ticket:
 
 * Navigate to [NSD](https://iservice.prv/eng/imit/nsd/index.shtml "NSD")
-* Enter 'Windows Server" on the first textbox and select "I have a windows server issue for Shared Services" from the drop down list.
-![NSD](../assets/TLSExpiration/NSD.PNG)
-
-* Is your production Url hosted on the _intranet_? If so, you will need to assign your ticket to the SSC Resolver group: **DC000152**.
-* Is your production Url hosted on the _internet/WPAZ_? If so, you will need to assign your ticket to the F5 Resolver group: **NW000430**
+* Enter "Submit a Service Request or Report an Incident to Shared Services Canada (SSC)" from the drop down list. Select the options in the image below.
+[<img src="../assets/TLSExpiration/NSD.png" width="100%" alt="NSD"/>](../assets/TLSExpiration/NSD.png)
 
 * In the "Service Request Details" field specify:
-  * Please assign to the appropriate SSC Resolver group name: (choose either _intranet_ or _internet/WPAZ_).
+  * Specify whether your application is Intranet or Internet.
   * Your TLS certificate expirations date.
   * Your production URL.
   * List of Producton web server names.
@@ -163,7 +158,7 @@ Here is a template you can use to submit your NSD ticket. Simply replace the %_v
 
 >Hello,
 >
->Please assign to the following Resolver group: %_intranet_or_internet/WPAZ_%.
+>Our application is: %_intranet_or_internet_%.
 >
 >Our TLS Certificates for the %_production_url_% will expire on %expiration_date%.
 >
