@@ -97,4 +97,4 @@ Please use the latest ESDC PowerPoint template - Check [this](https://esdc.prv/e
 
 ### Should I give a demo of the Product?
 
-If you're presenting a new product/best practices/mandatory instructions for all developers, then ABSOLUTELY! Check out [The Art of Live Coding](https://medium.com/@azamsharp/the-art-of-live-coding-459f0c5910c1 )
+If you're presenting a new product/best practices/mandatory instructions for all developers, then ABSOLUTELY!

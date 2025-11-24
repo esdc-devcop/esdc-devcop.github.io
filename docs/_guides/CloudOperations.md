@@ -8,7 +8,7 @@ date: 2022-09-13
 
 *Le texte français est donné à la suite.*
 
-### Cloud Operations Sharepoint site
+## Cloud Operations Sharepoint site
 
 The Cloud Operation team is responsible for administration of enterprise resources in ESDC’s cloud environments.
 

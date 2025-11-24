@@ -43,7 +43,7 @@ We have extracted a few requirements from our typical ESDC release process.
 | Designed for Continuous Deployment | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
 | Designed for Continuous Delivery | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |
 | Can handle Continuous Delivery | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Can handle Continuous Integration | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Can handle Continuous Integration | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Deploys to Production from "Main/Master/Default" branch | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |
 
 > Legend: `*` from **ESDC Projects Requirements**; `**` Subjective analysis.

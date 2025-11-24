@@ -8,7 +8,7 @@ date: 2020-12-30
 
 *Le texte français est donné à la suite.*
 
-### Create a new Estimation Game
+## Create a new Estimation Game
 
 * Opt 1: From a board, click the “…” beside your work item, select “Estimate work item(s)”
 * Opt 2: From the left menu, select “Boards/Estimation Poker”, and then “+Start your Game here”
