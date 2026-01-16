@@ -37,9 +37,11 @@ The prerequisites stay the same regardless of where you choose to host your Git 
 
 In order to migrate your TFVC repository into a Git repository you will need:
 
-* **Git for Windows**:
-  * If you don't have it installed, request it from the [Application Catalogue *(ESDC intranet only)*](http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/en) or download it directly
-  from [Git for Windows](https://gitforwindows.org/).
+* **Install Git for Windows**:
+  * Navigate to [NSD](https://iservice.prv/eng/imit/nsd/index.shtml "NSD")
+  * From the **Application Catalogue**, click the **Commercial Software** tab, then select the *GIT* link and click *Install*.  
+  * The installation should take approximately 2 days.  
+  * or download it directly from [Git for Windows](https://gitforwindows.org/).
 * **git-tfs**:
   * If you don't have it installed, download it from their [GitHub repository](https://github.com/git-tfs/git-tfs). ([direct link](https://github.com/git-tfs/git-tfs/releases/download/v0.30/GitTfs-0.30.0.zip))
   * To install `git-tfs`, extract the content of the ZIP file to a folder
