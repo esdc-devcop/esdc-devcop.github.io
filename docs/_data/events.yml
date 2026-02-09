@@ -17,21 +17,15 @@ past:
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2025_10_30_devcop_GC_DesignSystem.pptx?d=w75d1a9d18b8f4052a46935ae8bbc81f8&csf=1&web=1&e=KDKKwr
     resources:
         - title: GC Design System website
-          link: https://design-system.alpha.canada.ca/en/
+          link: https://design-system.alpha.canada.ca/
         - title: GC Notify
           link: https://notification.canada.ca/
         - title: GC Forms
           link: https://forms-formulaires.alpha.canada.ca/
-        - title: GC Design System Server-Side Rendering package
-          link: https://github.com/cds-snc/gcds-components/tree/main/packages/react-ssr
-        - title: GC Design System Starter app (Vue, other frameworks to come)
-          link: https://github.com/cds-snc/gcds-examples/tree/main/starter-apps/vue
-        - title: GC Xchange (page for videos and presentations from Demos and the GC Design System Forum)
+        - title: GC Design System Components
+          link: https://github.com/cds-snc/gcds-components/
+        - title: GC Design System Updates
           link: https://gcxgce.sharepoint.com/teams/10002765/SitePages/crisisCommunicationHome.aspx
-        - title: How to Contribute to GC Design System
-          link: https://gcxgce.sharepoint.com/:v:/t/10002765/Eefe5ZxD9S5MnmdpvxSEHngB57p7ff0BGeYE1KCnlZWrSA?e=NDDAAC
-        - title: Register for upcoming GC Design System Forums
-          link: https://events.teams.microsoft.com/event/455bc416-9bc1-453b-8d88-8f08a459b760@9ed55846-8a81-4246-acd8-b1a01abfc0d1
 
   - month: Feb 2025
     topic: Canadian Centre for Cybersecurity - DevSecOps courses
