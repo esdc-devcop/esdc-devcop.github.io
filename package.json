@@ -17,7 +17,7 @@
     "cspell": "^9.7.0",
     "glob": "^13.0.6",
     "markdown-link-check": "^3.14.1",
-    "markdownlint-cli": "^0.47.0",
+    "markdownlint-cli": "^0.48.0",
     "axios": "^1.13.6",
     "https-proxy-agent": "^7.0.6",
     "isbinaryfile": "^6.0.0"
