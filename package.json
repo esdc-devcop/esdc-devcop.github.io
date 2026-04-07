@@ -19,7 +19,7 @@
     "markdown-link-check": "^3.14.1",
     "markdownlint-cli": "^0.48.0",
     "axios": "^1.14.0",
-    "https-proxy-agent": "^8.0.0",
+    "https-proxy-agent": "^9.0.0",
     "isbinaryfile": "^6.0.0"
   }
 }
