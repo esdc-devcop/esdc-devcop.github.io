@@ -1,0 +1,41 @@
+- title: Poker Estimation
+  layout: default
+  category: Guides
+  summary: Demonstrate how to use Poker Estimation in ADO.
+  date: 2020-12-30
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Poker%20Estimation.html?csf=1&web=1&e=fJ7TaY"
+
+- title: Cloud specific requests
+  layout: default
+  category: ESDC Process
+  summary: The Cloud Operation team is responsible for administration of enterprise resources in ESDC’s cloud environments.
+  date: 2022-09-13
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Cloud%20specific%20requests.html?csf=1&web=1&e=rSEC1j"
+
+- title: GitHub Actions
+  layout: default
+  category: Pipelines
+  summary: A few notes on the GitHub Actions features
+  date: 2022-11-04
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/GitHub%20Actions.html?csf=1&web=1&e=R7zqUU"
+
+- title: Expiration des certificats TLS - TLS Certificates expiry
+  layout: default
+  category: Practices
+  summary: Demonstrate how to monitor TLS Certificates expiration date.
+  date: 2025-07-02
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Expiration%20des%20certificats%20TLS%20-%20TLS%20Certificates%20expiry.html?csf=1&web=1&e=GjvT3L"
+
+- title: Accessibility Browser Extensions
+  layout: default
+  category: Testing
+  summary: How to download Accessibility web browser extensions
+  date: 2026-01-15
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Accessibility%20Browser%20Extensions.html?csf=1&web=1&e=fUfeEk"
+
+- title: Application Logging
+  layout: default
+  category: Coding Practices
+  summary: Defining the best practices of what, when and where to log in an application.
+  date: 2011-01-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Application%20Logging.html?csf=1&web=1&e=WH4kjk"
