@@ -6,7 +6,7 @@ permalink: /guides/
 
 We produce guides to help developers at ESDC walk-though some complex procedures related to development.
 
-{% assign guides-grouped = site.guides | group_by: 'category' %}
+{% assign guides-grouped = site.data.guides | group_by: 'category' | sort: 'name' %}
 {% for group in guides-grouped %}
 
 ## {{ group.name }}
@@ -16,7 +16,7 @@ We produce guides to help developers at ESDC walk-though some complex procedures
 ### {{ item.title }}
 
 {{ item.summary }}  
-[See the guide]({{ item.url | relative_url }})
+[See the guide]({{ item.url }})
 
 {% endfor %}
 {% endfor %}
