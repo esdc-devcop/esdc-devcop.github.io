@@ -3,39 +3,123 @@
   category: Guides
   summary: Demonstrate how to use Poker Estimation in ADO.
   date: 2020-12-30
-  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Poker%20Estimation.html?csf=1&web=1&e=fJ7TaY"
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Poker%20Estimation.pdf?csf=1&web=1&e=fJ7TaY"
 
 - title: Cloud specific requests
   layout: default
   category: ESDC Process
   summary: The Cloud Operation team is responsible for administration of enterprise resources in ESDC’s cloud environments.
   date: 2022-09-13
-  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Cloud%20specific%20requests.html?csf=1&web=1&e=rSEC1j"
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Cloud%20specific%20requests.pdf?csf=1&web=1&e=rSEC1j"
 
 - title: GitHub Actions
   layout: default
   category: Pipelines
   summary: A few notes on the GitHub Actions features
   date: 2022-11-04
-  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/GitHub%20Actions.html?csf=1&web=1&e=R7zqUU"
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/GitHub%20Actions.pdf?csf=1&web=1&e=R7zqUU"
 
 - title: Expiration des certificats TLS - TLS Certificates expiry
   layout: default
   category: Practices
   summary: Demonstrate how to monitor TLS Certificates expiration date.
   date: 2025-07-02
-  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Expiration%20des%20certificats%20TLS%20-%20TLS%20Certificates%20expiry.html?csf=1&web=1&e=GjvT3L"
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Expiration%20des%20certificats%20TLS%20-%20TLS%20Certificates%20expiry.pdf?csf=1&web=1&e=GjvT3L"
 
 - title: Accessibility Browser Extensions
   layout: default
   category: Testing
   summary: How to download Accessibility web browser extensions
   date: 2026-01-15
-  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Accessibility%20Browser%20Extensions.html?csf=1&web=1&e=fUfeEk"
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Accessibility%20Browser%20Extensions.pdf?csf=1&web=1&e=fUfeEk"
 
 - title: Application Logging
   layout: default
   category: Coding Practices
   summary: Defining the best practices of what, when and where to log in an application.
   date: 2011-01-01
-  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Application%20Logging.html?csf=1&web=1&e=WH4kjk"
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Application%20Logging.pdf?csf=1&web=1&e=WH4kjk"
+
+- title: Artifactory as an Asset Management and Vulnerability Management Process
+  layout: default
+  category: Tools
+  summary: Demonstrating rational for the use of Artifactory to improve security and compliance of our applications
+  date: 2019-01-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Artifactory%20as%20an%20Asset%20Management%20and%20Vulnerability%20Management%20Process.pdf?csf=1&web=1&e=yl3nUF"
+
+- title: Check for Broken Links on your Website
+  layout: default
+  category: Development
+  summary: Best Practices on how to prevent and detect broken links.
+  date: 2022-10-21
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Check%20for%20Broken%20Links%20on%20your%20Website.pdf?csf=1&web=1&e=27fY2a"
+
+- title: Writing Good Change Logs
+  layout: default
+  category: Documentation
+  summary: A layout for how to write consistent and informative change logs that are meaningful to those reading them.
+  date: 2020-03-04
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Writing%20Good%20Change%20Logs.pdf?csf=1&web=1&e=18zlJA"
+
+- title: Continuous Integration / Continuous Delivery
+  layout: default
+  category: Pipelines
+  summary: Demonstrate at a high level the steps involved in a CI/CD pipeline.
+  date: 2019-01-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Continuous%20Integration%20_%20Continuous%20Delivery.pdf?csf=1&web=1&e=1Q90yK"
+
+- title: Git Branching, Picking a Git Flow
+  layout: default
+  category: Source Code Management
+  summary: Detailing the differences between branching models in Git, advising on the best to pick for your application.
+  date: 2019-09-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Git%20Branching,%20Picking%20a%20Git%20Flow.pdf?csf=1&web=1&e=nNbPbW"
+
+- title: Managing Merge Requests, Using Code Review
+  layout: default
+  category: Source Code Management
+  summary: Describing the best methods to manage code reviews and merges.
+  date: 2019-09-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Managing%20Merge%20Requests,%20Using%20Code%20Review.pdf?csf=1&web=1&e=B4iRmB"
+
+- title: Git Support Questions - NSD Application Catalogue
+  layout: default
+  category: ESDC Process
+  summary: How to request a Git installation from the NSD Application catalogue
+  date: 2023-02-03
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Git%20Support%20Questions%20-%20NSD%20Application%20Catalogue.pdf?csf=1&web=1&e=pesLsW"
+
+- title: Nuget User Guide
+  layout: default
+  category: Tools
+  summary: How to configure your Nuget Source in Visual Studio
+  date: 2020-11-30
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Nuget%20User%20Guide.pdf?csf=1&web=1&e=rv3pXU"
+
+- title: Blameless Postmorterm Guideline
+  layout: default
+  category: Practices
+  summary: Detailing what would be expected when running and recording a postmorterm.
+  date: 2019-01-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Blameless%20Postmorterm%20Guideline.pdf?csf=1&web=1&e=LlLD4x"
+
+- title: Present at our Dev CoP
+  layout: default
+  category: Practices
+  summary: A walk though of important things to consider when preparing a presentation.
+  date: 2017-01-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Present%20at%20our%20Dev%20CoP.pdf?csf=1&web=1&e=Zt4mD3"
+
+- title: TFS to GCcode (or GitHub)
+  layout: default
+  category: Source Control
+  summary: A walk though of steps to follow to move ALM tools from TFS to GCcode or GitHub.
+  date: 2019-09-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/TFS%20to%20GCcode%20(or%20GitHub).pdf?csf=1&web=1&e=l4s05w"
+
+- title: Migrate from TFVC to Git
+  layout: default
+  category: Source Control
+  summary: A walk though of steps to follow to move source control systems from TFVC to Git.
+  date: 2019-09-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Migrate%20from%20TFVC%20to%20Git.pdf?csf=1&web=1&e=oVtYvz"
