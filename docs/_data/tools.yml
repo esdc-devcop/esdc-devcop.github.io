@@ -12,15 +12,21 @@
 
 development:
   - focus: Source Control
+    focus_fr: Contrôle du code source
     scope: Technology
+    scope_fr: Technologie
     tools:
       - name: Git
         documentation: https://git-scm.com/
     tags:
       - Branching
+    tags_fr:
+      - Ramification
 
   - focus: Source Control
+    focus_fr: Contrôle du code source
     scope: Management
+    scope_fr: Gestion
     tools:
       - name: GCcode
         application: https://gccode.ssc-spc.gc.ca/iitb-dgiit/
@@ -30,9 +36,13 @@ development:
         application: https://github.com/
     tags:
       - ALM
+    tags_fr:
+      - ALM
 
   - focus: Unit Testing Frameworks
+    focus_fr: Cadres de tests unitaires
     scope: .NET
+    scope_fr: .NET
     tools:
       - name: NSubstitute
         documentation: https://nsubstitute.github.io/
@@ -43,26 +53,38 @@ development:
       - name: FluentAssertions
         documentation: https://fluentassertions.com/
     description: All the recommended tools can be used in combination with each other to create a very cohesive testing framework. NSubstitue works inside AutoFixture giving you the ability to mock classes. xUnit is a cleaner way to execute tests over the default Microsoft framework while FluentAssertions makes your coded tests more human readable.
+    description_fr: Tous les outils recommandés peuvent être utilisés en combinaison les uns avec les autres pour créer un cadre de test très cohérent. NSubstitute fonctionne à l'intérieur d'AutoFixture en vous donnant la possibilité de simuler des classes. xUnit est une façon plus propre d'exécuter des tests par rapport au framework Microsoft par défaut, tandis que FluentAssertions rend vos tests codés plus lisibles pour l'homme.
     tags:
       - Testing
+    tags_fr:
+      - Tests
 
   - focus: Unit Testing Frameworks
+    focus_fr: Cadres de tests unitaires
     scope: JS / TypeScript
+    scope_fr: JS / TypeScript
     tools:
       - name: Jest
         documentation: https://jestjs.io/
     tags:
       - Testing
+    tags_fr:
+      - Tests
 
   - focus: Logging
+    focus_fr: Journalisation
     scope: .NET
+    scope_fr: .NET
     tools:
       - name: NLog
         documentation: https://nlog-project.org/
     tags:
       - Operations
+    tags_fr:
+      - Opérations
   
   - focus: Asset Management
+    focus_fr: Gestion des actifs
     tools:
       - name: Artifactory
         application: https://jade-repos.intra.dev/artifactory/webapp/#/home
@@ -72,6 +94,7 @@ development:
         recommendation: ../guides/nugetuserguide.html
         
   - focus: Programming Language
+    focus_fr: Langage de programmation
     tools:
       - name: TypeScript
         documentation: https://www.typescriptlang.org/
@@ -85,7 +108,9 @@ development:
         documentation: https://docs.microsoft.com/en-us/dotnet/visual-basic/
   
   - focus: Programming Frameworks
+    focus_fr: Cadres de programmation
     scope: .NET
+    scope_fr: .NET
     tools:
       - name: ASP.NET Core
         documentation: https://docs.microsoft.com/en-ca/dotnet/
@@ -93,18 +118,23 @@ development:
         documentation: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates
   
   - focus: Programming Frameworks
+    focus_fr: Cadres de programmation
     scope: Java
+    scope_fr: Java
     tools:
       - name: JavaTemplates - Spring Boot
         documentation: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/JavaTemplates
   
   - focus: Programming Frameworks
+    focus_fr: Cadres de programmation
     scope: JS / TypeScript
+    scope_fr: JS / TypeScript
     tools:
       - name: Vue.js CLI
         documentation: https://cli.vuejs.org/
   
   - focus: Smoke Testing
+    focus_fr: Tests de vérification
     tools:
       - name: Selenium
         documentation: https://github.com/SeleniumHQ/selenium
@@ -112,59 +142,93 @@ development:
         documentation: https://github.com/puppeteer/puppeteer
     tags:
       - Testing
+    tags_fr:
+      - Tests
     
   - focus: Security Testing
+    focus_fr: Tests de sécurité
     scope: SAST (Legacy & Cloud)
+    scope_fr: SAST (Héritage et Cloud)
     tools:
       - name: Microfocus Fortify Static Code Analyzer
         documentation: https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer
     description: SAST (Static Application Security Testing) designed to scan the code looking for vulnerabilities, helping enforce conformance to coding guidelines and standards. It is done without executing the code.
+    description_fr: SAST (Static Application Security Testing) est conçu pour analyser le code à la recherche de vulnérabilités, aidant à faire respecter la conformité aux directives et normes de codage. Il est fait sans exécuter le code.
     tags:
       - Testing
       - Security
+    tags_fr:
+      - Tests
+      - Sécurité
 
   - focus: Security Testing
+    focus_fr: Tests de sécurité
     scope: DAST (Legacy & Cloud)
+    scope_fr: DAST (Héritage et Cloud)
     tools:
       - name: Microfocus Fortify WebInspect
         documentation: https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/overview
     description: DAST (Dynamic Application Security Testing) executes against the running code attempting to inject malicious data against the software looking for vulnerabilities. This can help identify runtime problems.
+    description_fr: DAST (Dynamic Application Security Testing) s'exécute contre le code en cours d'exécution en tentant d'injecter des données malveillantes contre le logiciel à la recherche de vulnérabilités. Cela peut aider à identifier les problèmes d'exécution.
     tags:
       - Testing
       - Security
+    tags_fr:
+      - Tests
+      - Sécurité
 
   - focus: Security Testing
+    focus_fr: Tests de sécurité
     scope: SCA (Cloud only)
+    scope_fr: SCA (Cloud uniquement)
     tools:
       - name: Sonatype Nexus Lifecycle
         documentation: https://www.sonatype.com/product-nexus-lifecycle
     tags:
       - Testing
       - Security
+    tags_fr:
+      - Tests
+      - Sécurité
 
   - focus: Security Testing
+    focus_fr: Tests de sécurité
     scope: AVM (Cloud only)
+    scope_fr: AVM (Cloud uniquement)
     tools:
       - name: Denim Group Threadfix
         documentation: https://www.coalfire.com/solutions/threadfix
     tags:
       - Testing
       - Security 
+    tags_fr:
+      - Tests
+      - Sécurité
 
   - focus: Security Testing
+    focus_fr: Tests de sécurité
     scope: Container Security (Cloud only)
+    scope_fr: Sécurité des conteneurs (Cloud uniquement)
     tools:
       - name: Aqua
         documentation: https://www.aquasec.com/
     tags:
       - Testing
       - Security
+    tags_fr:
+      - Tests
+      - Sécurité
 
   - focus: A11y Testing
+    focus_fr: Tests d'accessibilité
     tools:
       - name: Axe-Core
         documentation: https://www.deque.com/axe
     description: Axe-Core is a great tool to quickly test for most of the common accessability issues.
+    description_fr: Axe-Core est un excellent outil pour tester rapidement la plupart des problèmes d'accessibilité courants.
     tags:
       - Testing
       - Accessability
+    tags_fr:
+      - Tests
+      - Accessibilité

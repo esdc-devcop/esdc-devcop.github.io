@@ -2,6 +2,7 @@
 layout: default
 title: Best Practices, ESDC Processes and Guides
 permalink: /guides/
+lang: en
 ---
 
 We produce guides to help developers at ESDC walk-though some complex procedures related to development.
