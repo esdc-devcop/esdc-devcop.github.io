@@ -1,0 +1,20 @@
+en:
+  menu:
+    home: "Home"
+    tools: "Recommended tools"
+    guides: "Best Practices and Guides"
+    events: "Presentations"
+    questions: "Questions / Collaborate"
+  langToggle:
+    text: "Français"
+    lang: "fr"
+fr:
+  menu:
+    home: "Accueil"
+    tools: "Outils recommandés"
+    guides: "Meilleures pratiques et guides"
+    events: "Présentations"
+    questions: "Questions / Collaborer"
+  langToggle:
+    text: "English"
+    lang: "en"

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Welcome to the DevCoP!
+lang: en
 ---
 
 ## Our Goal
