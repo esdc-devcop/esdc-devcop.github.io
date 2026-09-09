@@ -16,4 +16,4 @@ We host DevCoP presentations throughout the year (excluding July and August). Yo
 
 ## Get Involved
 
-Use this form to submit a DevCoP topic idea or offer to present at an upcoming DevCoP [link](https://forms.office.com/r/kutUxZqfLx)
+Use this [form](https://forms.office.com/r/kutUxZqfLx) to submit a DevCoP topic idea or offer to present at an upcoming DevCoP
