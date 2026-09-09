@@ -15,4 +15,3 @@ const exceptionHTTP = ["http://dialogue", "https://dialogue", "http://srmis-sigd
 const exceptionIntranet = ["https://jade-repos.intra.dev/", "https://web.microsoftstream.com/", "https://ado.intra.dmz/", "https://service.ssc-spc.gc.ca/", "https://gccode.ssc-spc.gc.ca/"];
 
 testFileLinks(directories, exceptionSyntax, exceptionHTTP, exceptionIntranet);
-
