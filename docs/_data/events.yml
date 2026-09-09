@@ -1,364 +1,529 @@
 past:
+  - month: June 2026
+    month_fr: Juin 2026
+    topic: "Prototyping with AI"
+    topic_fr: "Prototypage avec l'IA"
+    recording: https://014gc.sharepoint.com/:v:/s/DEVCommunity/IQA-tYcrONfvRatkCJ6Pnnx8AfgbfyemrJn246MbVsM61-4?e=s4faeF
+    
   - month: Apr 2026
+    month_fr: Avr 2026
     topic: "The IT Cyber security team: evaluation of your solution thru a pipeline"
+    topic_fr: "L'équipe de cybersécurité informatique : évaluation de votre solution via un pipeline"
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/CdpDev%20Avril%202026%20-%20L%E2%80%99%C3%A9quipe%20TI%20de%20Cyber%20s%C3%A9curit%C3%A9%20L%27%C3%A9valuation%20de%20s%C3%A9curit%C3%A9%20de%20votre%20solution%20dans%20un%20pipeline%20%20DevCop%20April%202026%20-%20The%20IT%20Cyber%20security%20team%20-20260429_132942-Meeting%20Recording.mp4?csf=1&web=1&e=hNCXqj
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/Application%20Security%20Testing%20Tools%20-%20DevCoP%20April%202026.pptx?d=we9e244e39dc747c8b6c2525e15880a71&csf=1&web=1&e=1hetBC
   
   - month: Feb 2026
+    month_fr: Fév 2026
     topic: ITAO - How to manually test your applications for accessibility
+    topic_fr: BATI - Comment tester manuellement l'accessibilité de vos applications
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2026_02_10_DevCoP.mp4?csf=1&web=1&e=xhYIBx
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2026_02_10_devcop_ITAO_Manual_A11y_Testing_Part1.pptx?d=w8733edb9ea8f4b1681d7d4149a214226&csf=1&web=1&e=Hos5PA
   
   - month: Jan 2026
+    month_fr: Jan 2026
     topic: ITAO Accessibility Extensions Demonstration
+    topic_fr: Démonstration des extensions d'accessibilité du BATI
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2026_01_14_DevCoP.mp4?csf=1&web=1&e=lz2FRQ
     resources:
       - title: How to download Accessibility web browser extensions
+        title_fr: Comment télécharger les extensions de navigateur web pour l'accessibilité
         link: /guides/a11y-web-extensions.html
 
   - month: Nov 2025
+    month_fr: Nov 2025
     topic: Exchange Online (EXO) Project Team
+    topic_fr: Équipe du projet Exchange Online (EXO)
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2025_11_26_DevCoP.mp4?csf=1&web=1&e=9w0Fj6
     presentation: https://014gc.sharepoint.com/:p:/r/sites/ExchangeMigration/_layouts/15/Doc.aspx?sourcedoc=%7BE4B173FD-3D29-4C7C-94D6-5440B7589DF4%7D&file=ESDC%20Email%20Domain%20Change%20(Working%20Level%20Presentation).pptx&action=edit&mobileredirect=true
 
   - month: Oct 2025
+    month_fr: Oct 2025
     topic: The GC Design System
+    topic_fr: Le système de design du GC
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2025_10_30_DevCoP.mp4?csf=1&web=1&e=PPTWfh
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2025_10_30_devcop_GC_DesignSystem.pptx?d=w75d1a9d18b8f4052a46935ae8bbc81f8&csf=1&web=1&e=KDKKwr
     resources:
         - title: GC Design System website
+          title_fr: Site web du système de design du GC
           link: https://design-system.alpha.canada.ca/
         - title: GC Notify
+          title_fr: GC Notification
           link: https://notification.canada.ca/
         - title: GC Forms
+          title_fr: GC Formulaires
           link: https://forms-formulaires.alpha.canada.ca/
         - title: GC Design System Components
+          title_fr: Composants du système de design du GC
           link: https://github.com/cds-snc/gcds-components/
         - title: GC Design System Updates
+          title_fr: Mises à jour du système de design du GC
           link: https://gcxgce.sharepoint.com/teams/10002765/SitePages/crisisCommunicationHome.aspx
 
   - month: Feb 2025
+    month_fr: Fév 2025
     topic: Canadian Centre for Cybersecurity - DevSecOps courses
+    topic_fr: Centre canadien pour la cybersécurité - Cours DevSecOps
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2025_02_26_DevCoP.mp4?csf=1&web=1&e=dBBZXi
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2025_02_26_devcop_cyberCentreLearningHub.pptx?d=w801b425bd307442b818e2bd1a70cde06&csf=1&web=1&e=OfkbqW
 
   - month: Oct 2024
+    month_fr: Oct 2024
     topic: New feature in WSAddress - WSWildcard API
+    topic_fr: Nouvelle fonctionnalité dans WSAddress - API WSWildcard
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2024_10_22_DevCoP.mp4?csf=1&web=1&e=1JWxh7
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2024_10_22_devcop_wsaddress_autocomplete.pptx?d=wb03a75c7d23c4f63b6a379881e27c333&csf=1&web=1&e=0cT2QD
     
   - month: Mar 2024
+    month_fr: Mar 2024
     topic: GitHub Advanced Security and GitHub Copilot
+    topic_fr: GitHub Advanced Security et GitHub Copilot
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2024_03_20_DevCoP.mp4?csf=1&web=1&e=hXmfKZ
     resources:
         - title: GitHub Advanced Security
+          title_fr: GitHub Advanced Security
           link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2024_03_20_devcop_advancedSecurityAzureDevOps.pptx?d=w6e71c599138a4ba09cecabbdda54412f&csf=1&web=1&e=Wpre6s
         - title: GitHub Copilot
+          title_fr: GitHub Copilot
           link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2024_03_20_devcop_copilotGC.pptx?d=wc09364d28da845f1aa905a5d5469c5d9&csf=1&web=1&e=5S3D8D
 
   - month: Nov 2023
+    month_fr: Nov 2023
     topic: Open Redirect Vulnerability in CDTS, GoC Web Templates (Java & .NET)
+    topic_fr: Vulnérabilité de redirection ouverte dans CDTS, modèles Web du GC (Java & .NET)
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2023_11_09_DevCoP.mp4?csf=1&web=1&e=Rms3vk
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2023_11-09_devcop_OpenRedirectVulnerability.pptx?d=w8f952cb9020042a4bff4fb61c9764a74&csf=1&web=1&e=fKYqYf
     emails: 
         - title: Questions about the Dev CoP presentation
+          title_fr: Questions concernant la présentation de la CdP de développement
           email: EDSC.DGIIT.SCS-SDS.IITB.ESDC@hrsdc-rhdcc.gc.ca
         - title: Contact IT Security if your application may be compromised
+          title_fr: Contactez la sécurité des TI si votre application peut être compromise
           email: EDSC.SECTI-ITSEC.ESDC@hrsdc-rhdcc.gc.ca
     resources:
         - title: Details of open redirect vulnerability issue
+          title_fr: Détails du problème de vulnérabilité de redirection ouverte
           link: https://cenw-wscoe.github.io/sgdc-cdts/docs/open-redirect-en.html
         - title: DotNetTemplates Redirect Page wiki
+          title_fr: Wiki de la page de redirection DotNetTemplates
           link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates/-/wikis/Redirect-Page
         - title: OWASP cheat sheet for Unvalidated Redirects
+          title_fr: Aide-mémoire OWASP pour les redirections non validées
           link: https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html
         - title: OWASP cheat sheet for Input Validation
+          title_fr: Aide-mémoire OWASP pour la validation des entrées
           link: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
         - title: Questions about CDTS and GoC Web Templates (.NET, Java)
+          title_fr: Questions sur CDTS et les modèles Web du GC (.NET, Java)
           link: https://cenw-wscoe.github.io/sgdc-cdts/docs/contact-en.html
 
   - month: May 2023
+    month_fr: Mai 2023
     topic: TCoE - Test Automation Enabling Model
+    topic_fr: CExT - Modèle d'habilitation de l'automatisation des tests
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2023_05_23_DevCoP.mp4?csf=1&web=1&e=HWnAgM
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2023may23_devcop_TCOE.pptx?d=w7d4937c00b0d4199a00356186b5d5e8f&csf=1&web=1&e=VCRj9Q
     email: NC-SYS-TCOE-CEME-AUTOMATION-GD@hrsdc-rhdcc.gc.ca
     resources:
         - title: Testing Centre of Expertise (TCoE) - Support Request for enabling and support services from TCoE
+          title_fr: Centre d'expertise en tests (CExT) - Demande de soutien pour les services d'habilitation et de soutien du CExT
           link: https://forms.office.com/pages/responsepage.aspx?id=RljVnoGKRkKs2LGgGr_A0XSn6hk-PyBBqXQILbTx0VBUN0pVWUtGWkZTTUNFMUYwSFRQWUtUR0kxTC4u
         - title: Sharepoint - Testing Centre of Expertise (TCoE) 
+          title_fr: Sharepoint - Centre d'expertise en tests (CExT)
           link: https://014gc.sharepoint.com/sites/SME-CEME_TCOE-TS/
 
   - month: April 2023
+    month_fr: Avril 2023
     topic: React - An overview
+    topic_fr: React - Un aperçu
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2023_04_12_DevCoP.mp4?csf=1&web=1&e=dGgGti
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2023apr12_devcop_React.pptx?d=wd8c2095f62a5482abe719de5372aaa8a&csf=1&web=1&e=96jBma
     resources:
         - title: Source code from demo
+          title_fr: Code source de la démo
           link: https://github.com/krischarbonneau/devcop-demo
         - title: React website
+          title_fr: Site web de React
           link: https://react.dev/
         - title: Next.js website
+          title_fr: Site web de Next.js
           link: https://nextjs.org/
         - title: Gatsby website
+          title_fr: Site web de Gatsby
           link: https://www.gatsbyjs.com/
         - title: Remix website
+          title_fr: Site web de Remix
           link: https://remix.run/ 
 
   - month: December 2022
+    month_fr: Décembre 2022
     topic: Blanket Cloud Release Approval Process - An overview
+    topic_fr: Processus d'approbation des versions Cloud globales - Un aperçu
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022_12_12_DevCoP.mp4?csf=1&web=1&e=1bHMOh
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022dec12_CloudReleases.pptx?d=w8fb906c634144ed8af44633233a4cbcd&csf=1&web=1&e=heFY81
     email: NC-PRE-CAB-GD@hrsdc-rhdcc.gc.ca 
     resources:    
       - title: Submitting a Software Request or Change Request Guidance
+        title_fr: Directives pour la soumission d'une demande de logiciel ou d'une demande de modification
         link: https://dialogue.spprod.service.gc.ca/grp/BU7209642/Guidance/home.aspx
       - title: Fill out the DevOps Assessment Workbook
+        title_fr: Remplir le classeur d'évaluation DevOps
         link: https://dialogue.spprod.service.gc.ca/grp/BU7209642/Guidance/Guide_BCRAR_en.aspx 
         
   - month: October 2022
+    month_fr: Octobre 2022
     topic: An overview of Amazon Web Services
+    topic_fr: Un aperçu d'Amazon Web Services
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022_10_03_DevCoP.mp4?csf=1&web=1&e=lJeB8K
     presentation: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022oct03_AWS_Toolkit_for_Azure_DevOps.pdf?csf=1&web=1&e=24fixz
     resources:
       - title: Cloud Hosting Request Form (IITB Cloud Center of Excellence)
+        title_fr: Formulaire de demande d'hébergement Cloud (Centre d'excellence Cloud de la DGIIT)
         link: https://forms.office.com/Pages/ResponsePage.aspx?id=RljVnoGKRkKs2LGgGr_A0Zo6by_KdyFEncAI0YlGBIJUNUtTN0lSTjQ2TU40OFpLOVFKTElXUkhSNSQlQCN0PWcu
       - title: AWS Training and Certification
+        title_fr: Formation et certification AWS
         link: https://aws.amazon.com/training/
       - title: AWS Toolkit for Azure DevOps Home Page
+        title_fr: Page d'accueil de la boîte à outils AWS pour Azure DevOps
         link: https://aws.amazon.com/vsts/
       - title: AWS Toolkit for Azure DevOps User Guide
+        title_fr: Guide de l'utilisateur de la boîte à outils AWS pour Azure DevOps
         link: https://docs.aws.amazon.com/vsts/latest/userguide/welcome.html
       - title: AWS Toolkit for Azure DevOps Github EasyRepo
+        title_fr: EasyRepo Github de la boîte à outils AWS pour Azure DevOps
         link: https://github.com/aws/aws-toolkit-azure-devops
         
   - month: May 2022 
+    month_fr: Mai 2022
     topic: An Introduction to end-to-end testing, using Selenium and Playwright
+    topic_fr: Une introduction aux tests de bout en bout, avec Selenium et Playwright
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022_05_04_DevCoP.mp4?csf=1&web=1&e=rLDbMI
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022may04_DevCoP_Selenium%20and%20Playwright.pptx?d=wa6d5facdbfd943f3ba4fbdcfc2de2879&csf=1&web=1&e=LJTLMe
     diapositives: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022may4_DevCoP_Selenium%20and%20Playwright_FR.pptx?d=we1cce1ab52bd4005bcba1510ac33f195&csf=1&web=1&e=UWx0iJ
     resources:
       - title: Selenium 
+        title_fr: Selenium
         link: https://www.selenium.dev/
       - title: Selenium - Introduction to Page Object Models
+        title_fr: Selenium - Introduction aux modèles d'objets de page
         link: https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/
       - title: Playwright
+        title_fr: Playwright
         link: https://playwright.dev/dotnet/docs/intro
       - title: EasyRepro with Selenium, for Microsoft Dynamics 365 applications
+        title_fr: EasyRepro avec Selenium, pour les applications Microsoft Dynamics 365
         link: https://github.com/microsoft/EasyRepro
       - title: Practical Test Pyramid
+        title_fr: Pyramide de tests pratiques
         link: https://martinfowler.com/articles/practical-test-pyramid.html
       - title: Test Framework
+        title_fr: Cadre de test
         link: https://docs.nunit.org/articles/nunit/writing-tests/attributes.html 
       - title: Testing Services SharePoint site
+        title_fr: Site SharePoint des services de test
         link: https://014gc.sharepoint.com/sites/DGIIT-SME_IITB-TS/SitePages/Home.aspx
   
   - month: February 2022 
+    month_fr: Février 2022
     topic: An overview on the Accessibility Compliance Project (ACP) & Web Accessibility
+    topic_fr: Un aperçu du Projet de conformité à l'accessibilité (PCA) et de l'accessibilité du Web
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022_02_07_DevCoP.mp4?csf=1&web=1&e=jRtuOP
     presentation: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022feb07_ACP_and_Web_Accessibility_Overview.pdf?csf=1&web=1&e=HWALzZ
     diapositives: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022feb07_ACP_and_Web_Accessibility_Overview_FR.pdf?csf=1&web=1&e=Se5KRq
     resources:
       - title: ESDC Self-Paced Web Accessibility Course
+        title_fr: Cours en ligne à rythme libre sur l'accessibilité du Web d'EDSC
         link: https://bati-itao.github.io/learning/esdc-self-paced-web-accessibility-course/index.html
       - title: Accessibility Coaching
+        title_fr: Encadrement en accessibilité
         link: https://bati-itao.github.io/learning/coaching/accessibility-en.html
       - title: IT Accessibility Office iService page
+        title_fr: Page iService du Bureau de l'accessibilité des TI
         link: https://iservice.prv/eng/imit/A11Y/index.shtml
       - title: ITAO GitHub page
+        title_fr: Page GitHub du BATI
         link: https://bati-itao.github.io/index.html   
     
   - month: January 2022
+    month_fr: Janvier 2022
     topic: From the Testing Automation Enabling Team, Canadian Digital Service (CDS) and the Launch of Covid Alert
+    topic_fr: De l'équipe d'habilitation de l'automatisation des tests, le Service numérique canadien (SNC) et le lancement d'Alerte COVID
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022_01_19_DevCoP.mp4?csf=1&web=1&e=gU7nZD
     resources:
       - title: Testing Services
+        title_fr: Services de test
         link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022jan19_DevCoP_TestAutomationEnablingTeam.pptx?d=wf016d45546734ebaa9acf7cabf6e9d49&csf=1&web=1&e=5T4kKI
       - title: DevSecOps at CDS
+        title_fr: DevSecOps au SNC
         link: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2022jan19_DevcoP_Cadets.pdf?csf=1&web=1&e=87n6bJ
         
   - month: November 2021
+    month_fr: Novembre 2021
     topic: Intro to The DevOps Dojo, Intro to Azure Pipelines
+    topic_fr: Intro au Dojo DevOps, Intro aux Pipelines Azure
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021_11_10_DevCoP.mp4?csf=1&web=1&e=cMAZCg
     resources:
       - title: Azure DevOps Pipelines 
+        title_fr: Pipelines Azure DevOps
         link: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021nov10_AzurePipelines.pdf?csf=1&web=1&e=TzLZcO
       - title: Pipelines Azure DevOps
+        title_fr: Pipelines Azure DevOps (FR)
         link: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021nov10_AzurePipelines_FR.pdf?csf=1&web=1&e=SMIiUT  
       - title: Digital Dojo - Digital Technology Solutions  
+        title_fr: Dojo numérique - Solutions technologiques numériques
         link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021nov10_Devcop_Digital_Dojo.pptx?d=wd549fabde0c644eda9b044512b96e02c&csf=1&web=1&e=B3yyMa
       - title: Dojo numérique 
+        title_fr: Dojo numérique (FR)
         link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021nov10_Devcop_Digital_Dojo_FR.pptx?d=w4777c507ec2a429b90fcfefa3ef9c22a&csf=1&web=1&e=L1UH4D
       - title: Digital Dojo web site 
+        title_fr: Site web du Dojo numérique
         link: https://dts-stn.github.io/digital-dojo/home/    
 
   - month: September 2021
+    month_fr: Septembre 2021
     topic: Introduction to Azure DevOps Boards
+    topic_fr: Introduction aux Tableaux Azure DevOps
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021_09_15_DevCoP.mp4?csf=1&web=1&e=iDuwTu
     
   - month: June 2021
+    month_fr: Juin 2021
     topic: Visual Studio Code
+    topic_fr: Visual Studio Code
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021_06_30_DevCoP.mp4?csf=1&web=1&e=pe13ex
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021jun30_Devcop_VsCode.pptx?d=wff151d0febf745d8bcdb8166ccc441bc&csf=1&web=1&e=GPffgx
     diapositives: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021jun30_Devcop_VsCode_FR.pptx?d=w972cc4578ea14ba99408dfa999de8cd5&csf=1&web=1&e=z0Qw5f
     resources:
       - title: keyboard shortcuts
+        title_fr: raccourcis clavier
         link: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
     
   - month: May 2021
+    month_fr: Mai 2021
     topic: Cloud Operations (Part 2)
+    topic_fr: Opérations Cloud (Partie 2)
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021_05_27_DevCoP.mp4?csf=1&web=1&e=X7m2SI
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021may27_DevCOP%20deck2.pptx?d=w3559bddc564842b492157db7f8160e02&csf=1&web=1&e=1oMV0x
     diapositives: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021may27_DevCOP%20deck2_FR.pptx?d=wcb6436a4450a4868b9c58c47ad7fb7f0&csf=1&web=1&e=MdDO1r
     resources:
       - title: SCED Connection SharePoint Page
+        title_fr: Page SharePoint de connexion SCED
         link: https://014gc.sharepoint.com/sites/OI-CO/SitePages/Spoke-SCED-Connection-Steps.aspx
 
   - month: April 2021
+    month_fr: Avril 2021
     topic: Cloud Operations (Part 1)
+    topic_fr: Opérations Cloud (Partie 1)
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021_04_22_DevCoP.mp4?csf=1&web=1&e=9qdwch
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021apr22_DevCOP%20deck1.pptx?d=w07791b573d4849af8d6c2d7217b039e5&csf=1&web=1&e=Usbw64
     diapositives: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021apr22_DevCOP%20deck1_FR.pptx?d=wb5c9ad9430a4404db6cca3dedb23c740&csf=1&web=1&e=Cx0cQg
     resources:
       - title: Cloud intake forms (CCoE Sharepoint)
+        title_fr: Formulaires d'admission Cloud (Sharepoint CCoE)
         link: https://014gc.sharepoint.com/sites/OI-CO/SitePages/ESDC-Azure-Cloud-Intake-Process.aspx
       - title: Cloud Operations SharePoint
+        title_fr: SharePoint des opérations Cloud
         link: https://014gc.sharepoint.com/sites/OI-CO/
       - title: Azure DevOps
+        title_fr: Azure DevOps
         link: https://azure.microsoft.com/en-ca/products/devops
   
   - month: February 2021
+    month_fr: Février 2021
     topic: Cloud Training Opportunities and DevOps CoE
+    topic_fr: Opportunités de formation Cloud et CE DevOps
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021_02_19_DevCoP.mp4?csf=1&web=1&e=eLZ3IW
     resources:
       - title: CCoE Update on Cloud and Cloud Training
+        title_fr: Le point sur l'infonuagique et la formation en infonuagique du CCoE
         link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation.pptx?d=wf6cd3bac377a4cd1960c41feb1aea242&csf=1&web=1&e=zKSfTo
       - title: Centre d’excellence en infonuagique (CEI) - Le point sur l’infonuagique et la formation en infonuagique
+        title_fr: Centre d’excellence en infonuagique (CEI) - Le point sur l’infonuagique et la formation en infonuagique
         link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_LeighGardner_DevCop%20Cloud%20Update%20and%20Training%20Presentation_FR.pptx?d=w7e0a687a9a02480a86af1a608e56ddee&csf=1&web=1&e=dhW3A6
       - title: ESDC DevOps CoE
+        title_fr: CE DevOps d'EDSC
         link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_DirkVieira_ESDC_DevOps_CoE.pptx?d=w1cf7c28344894a0e9601761e0bf2a91f&csf=1&web=1&e=nAekYv
       - title: CE de DevOps d’EDSC
+        title_fr: CE de DevOps d’EDSC
         link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_DirkVieira_ESDC_DevOps_CoE_FR.pptx?d=w5e476c8f104844539818aff0fbda8cb4&csf=1&web=1&e=ht1M9w
       - title: Microsoft Learner Experience Portal
+        title_fr: Portail de l'expérience d'apprentissage Microsoft
         link: https://014gc.sharepoint.com/:b:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_Microsoft_LxP_How_To_AAD.pdf?csf=1&web=1&e=Axqp57
       - title: Azure Courses
+        title_fr: Cours Azure
         link: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2021feb19_AzureCourses.pptx?d=w2bf3543e136240bba1f48c31b5635e05&csf=1&web=1&e=9EGk7Z
         
   - month: January 2021
+    month_fr: Janvier 2021
     topic: ADO Estimation Poker and Troubleshooting Best Practices
+    topic_fr: Poker d'estimation ADO et meilleures pratiques de dépannage
     norecording: Unfortunately, due to technical difficulties this recording is not available
+    norecording_fr: Malheureusement, en raison de difficultés techniques, cet enregistrement n'est pas disponible
     resources:
       - title: Estimation Poker presentation slides
+        title_fr: Diapositives de présentation du poker d'estimation
         link:  https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/EstimationPoker.pptx?d=w838bd83deab343c183c2d000dbe8f54a&csf=1&web=1&e=OQI7Xc
       - title: Troubleshooting presentation slides
+        title_fr: Diapositives de présentation du dépannage
         link:  https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/Troubleshooting.pptx?d=web0341b52815493fbcc38c1ec7171b27&csf=1&web=1&e=9x8HBK
       - title: Application Logging
+        title_fr: Journalisation des applications
         link:  https://esdc-devcop.github.io/guides/application-logging.html
         
   - month: November 2020
+    month_fr: Novembre 2020
     topic: Demo - How to Create a Release Pipeline in ADO
+    topic_fr: Démo - Comment créer un pipeline de version dans ADO
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2020_11_12_DevCoP.mp4?csf=1&web=1&e=iFbtIg
     
   - month: October 2020
+    month_fr: Octobre 2020
     intro: Being pro active on TLS Certificates expirations
     topic: ADO Pipelines- Improving your current solution thru automation, Being pro active on TLS Certificates expirations
+    topic_fr: Pipelines ADO - Améliorer votre solution actuelle grâce à l'automatisation, être proactif sur l'expiration des certificats TLS
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2020_10_29_DevCoP.mp4?csf=1&web=1&e=En5uUn  
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/DevCop%20Azure%20Pipeline%20with%20AERS-ROH.pptx?d=wae5c66ef0e0e45968100d5b0e78299cc&csf=1&web=1&e=CII7Ca
     resources:
       - title: Expiration des certificats TLS - TLS Certificates expiry
+        title_fr: Expiration des certificats TLS - Expiration des certificats TLS
         link: https://esdc-devcop.github.io/guides/TLS_Certificate_Expiry.html
       - title: MS Security Best Practices for Entity Framework 
+        title_fr: Meilleures pratiques de sécurité MS pour Entity Framework
         link: https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ef/security-considerations
     
   - month: September 2020
+    month_fr: Septembre 2020
     topic: Azure Dev Ops using the Agile Approach (Part 3)
+    topic_fr: Azure Dev Ops en utilisant l'approche Agile (Partie 3)
     norecording: Unfortunately, this recording is no longer available
+    norecording_fr: Malheureusement, cet enregistrement n'est plus disponible
     
   - month: September 2020
+    month_fr: Septembre 2020
     topic: Azure Dev Ops using the Agile Approach (Part 2)
+    topic_fr: Azure Dev Ops en utilisant l'approche Agile (Partie 2)
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2020_09_22_DevCoP_2.mp4?csf=1&web=1&e=tKa8Na
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/DevCop%20-%20ADO%20-%20Part%202.pptx?d=w20b0350113b24a25a45b40fb4bae41d6&csf=1&web=1&e=pzn94e
     
   - month: September 2020
+    month_fr: Septembre 2020
     topic: Azure Dev Ops using the Agile Approach (Part 1)
+    topic_fr: Azure Dev Ops en utilisant l'approche Agile (Partie 1)
     recording: https://014gc.sharepoint.com/:v:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/2020_09_16_DevCoP_1.mp4?csf=1&web=1&e=NMVzZh
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/DevCop%20-%20ADO.pptx?d=wa0449d0be8014b089ab2fe0334313e2e&csf=1&web=1&e=tLGI4Y
     
   - month: March 2020
+    month_fr: Mars 2020
     topic: .NET & Java Web Templates Demo - Using CDTS
+    topic_fr: Démo des modèles web .NET et Java - Utilisation de CDTS
     id: 84
     norecording: Unfortunately, this recording is no longer available
+    norecording_fr: Malheureusement, cet enregistrement n'est plus disponible
     presentation: https://esdc-devcop.github.io/templates-presentation/#/
     resources:
       - title: Centrally Deployed Templates Solution (CDTS) presentation
+        title_fr: Présentation de la solution de modèles déployés centralement (CDTS)
         link: https://cenw-wscoe.github.io/sgdc-cdts-dev-cop/#/
       - title: CDTS project on GitHub
+        title_fr: Projet CDTS sur GitHub
         link: https://github.com/wet-boew/cdts-sgdc
       - title: CDTS Documentation
+        title_fr: Documentation CDTS
         link: https://cenw-wscoe.github.io/sgdc-cdts/index.html
       - title: DotNet Templates project on GCcode
+        title_fr: Projet DotNet Templates sur GCcode
         link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates
       - title: DotNet Templates Demo on GitHub
+        title_fr: Démo DotNet Templates sur GitHub
         link: https://github.com/esdc-devcop/templates-netcore-example
       - title: Java Templates project on GCcode
+        title_fr: Projet Java Templates sur GCcode
         link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/JavaTemplates
       - title: Java Templates Installation Instructions on GCcode
+        title_fr: Instructions d'installation de Java Templates sur GCcode
         link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/JavaTemplates/-/wikis/Documentation/Installation
     
   - month: February 2020
+    month_fr: Février 2020
     topic: Azure DevOps Server features overview - Part 2
+    topic_fr: Aperçu des fonctionnalités du serveur Azure DevOps - Partie 2
     id: 87
     norecording: Unfortunately, this recording is no longer available
+    norecording_fr: Malheureusement, cet enregistrement n'est plus disponible
     
   - month: February 2020
+    month_fr: Février 2020
     topic: Azure DevOps Server features overview - Part 1
+    topic_fr: Aperçu des fonctionnalités du serveur Azure DevOps - Partie 1
     id: 87
     norecording: Unfortunately, this recording is no longer available
+    norecording_fr: Malheureusement, cet enregistrement n'est plus disponible
     resources:
       - title: Azure DevOps User Guide
+        title_fr: Guide de l'utilisateur Azure DevOps
         link: https://docs.microsoft.com/en-us/azure/devops/user-guide/
       - title: Permissions/Security Overview
+        title_fr: Aperçu des autorisations / de la sécurité
         link: https://docs.microsoft.com/en-us/azure/devops/organizations/security/permissions?view=azure-devops&amp;tabs=preview-page
       - title: Area and iteration paths
+        title_fr: Chemins de zone et d'itération
         link: https://docs.microsoft.com/en-us/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops
       - title: Teams and Area Paths
+        title_fr: Équipes et chemins de zone
         link: https://docs.microsoft.com/en-us/azure/devops/organizations/settings/set-area-paths?view=azure-devops&amp%3Btabs=preview-page&tabs=preview-page
 
   - month: January 2020
+    month_fr: Janvier 2020
     topic: Creating & Using APIs from the store (using REST) - Part 2
+    topic_fr: Création et utilisation d'API depuis la boutique (avec REST) - Partie 2
     id: 34
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/REST%20Deep%20Dive.pptx?d=w911ff0dc7ef54f7e9f6317d3dfd8b0ec&csf=1&web=1&e=R4nKkU
     norecording: Unfortunately, this recording is no longer available
+    norecording_fr: Malheureusement, cet enregistrement n'est plus disponible
 
   - month: January 2020
+    month_fr: Janvier 2020
     topic: Creating & Using APIs from the store (using REST) - Part 1
+    topic_fr: Création et utilisation d'API depuis la boutique (avec REST) - Partie 1
     id: 34
     presentation: https://014gc.sharepoint.com/:p:/r/sites/DEVCommunity/Shared%20Documents/DevCoP%20-%20Past%20Events/Managing%20APIs%20and%20Microservices.pptx?d=w502d6edff10c49138aba7770dc0b5d7d&csf=1&web=1&e=l0PrMG
     norecording: Unfortunately, this recording is no longer available
+    norecording_fr: Malheureusement, cet enregistrement n'est plus disponible
   
   - month: December 2019
+    month_fr: Décembre 2019
     topic: Managing Merge Requests - Using Code Review
+    topic_fr: Gérer les demandes de fusion - Utiliser la révision de code
     id: 3
     presentation: /devcop-slides/mergerequest.html
     norecording: Unfortunately, this recording is no longer available
+    norecording_fr: Malheureusement, cet enregistrement n'est plus disponible
     resources:
       - title: Managing Merge Requests, Using Code Review
+        title_fr: Gérer les demandes de fusion, utiliser la révision de code
         link: /guides/merging-review.html
       - title: Continuous Integration / Continuous Delivery
+        title_fr: Intégration continue / Livraison continue
         link: /guides/cicd.html
 
   - month: November 2019
+    month_fr: Novembre 2019
     topic: Recommend a branching model
+    topic_fr: Recommander un modèle de ramification
     id: 10
     presentation: /devcop-slides/gitflow.html
     norecording: Unfortunately, this recording is no longer available
+    norecording_fr: Malheureusement, cet enregistrement n'est plus disponible
     resources:
       - title: Git Branching, Picking a Git Flow
+        title_fr: Ramification Git, choix d'un flux Git
         link: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
     
   - month: September 2019
+    month_fr: Septembre 2019
     topic: Move source control to Git
+    topic_fr: Déplacer le contrôle du code source vers Git
     id: 1
     presentation: /devcop-slides/migrate-to-git.html
     resources:
       - title: Migrate from TFVC to Git
+        title_fr: Migrer de TFVC à Git
         link: /guides/tfvc-to-git.html

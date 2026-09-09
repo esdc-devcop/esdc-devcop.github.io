@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Welcome to the DevCoP!
+lang: en
 ---
 
 ## Our Goal
@@ -15,9 +16,4 @@ We host DevCoP presentations throughout the year (excluding July and August). Yo
 
 ## Get Involved
 
-Feel free to create a [GitHub issue](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/new/choose) if you want to:
-
-- Collaborate and add content to our pages.
-- Ask a question about one of our DevCoP presentations. Simply create an issue and reference the presentation title in the description.
-
-For more info, see [CONTRIBUTING.md](https://github.com/esdc-devcop/esdc-devcop.github.io/blob/master/CONTRIBUTING.md)
+[Use this form to submit a DevCoP topic idea or offer to present at an upcoming DevCoP](https://forms.office.com/r/kutUxZqfLx)
