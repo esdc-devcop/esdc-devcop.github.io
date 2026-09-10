@@ -52,8 +52,8 @@ development:
         documentation: https://github.com/AutoFixture/AutoFixture
       - name: FluentAssertions
         documentation: https://fluentassertions.com/
-    description: All the recommended tools can be used in combination with each other to create a very cohesive testing framework. NSubstitue works inside AutoFixture giving you the ability to mock classes. xUnit is a cleaner way to execute tests over the default Microsoft framework while FluentAssertions makes your coded tests more human readable.
-    description_fr: Tous les outils recommandés peuvent être utilisés en combinaison les uns avec les autres pour créer un cadre de test très cohérent. NSubstitute fonctionne à l'intérieur d'AutoFixture en vous donnant la possibilité de simuler des classes. xUnit est une façon plus propre d'exécuter des tests par rapport au framework Microsoft par défaut, tandis que FluentAssertions rend vos tests codés plus lisibles pour l'homme.
+    description: All the recommended tools can be used in combination with each other to create a very cohesive testing framework. NSubstitue works inside AutoFixture giving you the ability to mock dependencies and validate assertions in a very fluent API.
+    description_fr: Tous les outils recommandés peuvent être utilisés en combinaison les uns avec les autres pour créer un cadre de test très cohérent. NSubstitute fonctionne à l'intérieur d'AutoFixture vous donnant la possibilité de simuler les dépendances et valider les assertions dans une API très fluide.
     tags:
       - Testing
     tags_fr:
@@ -151,7 +151,7 @@ development:
     scope_fr: SAST (Héritage et Cloud)
     tools:
       - name: Microfocus Fortify Static Code Analyzer
-        documentation: https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer
+        documentation: https://www.microfocus.com/en-us/solutions/application-security
     description: SAST (Static Application Security Testing) designed to scan the code looking for vulnerabilities, helping enforce conformance to coding guidelines and standards. It is done without executing the code.
     description_fr: SAST (Static Application Security Testing) est conçu pour analyser le code à la recherche de vulnérabilités, aidant à faire respecter la conformité aux directives et normes de codage. Il est fait sans exécuter le code.
     tags:
@@ -167,7 +167,7 @@ development:
     scope_fr: DAST (Héritage et Cloud)
     tools:
       - name: Microfocus Fortify WebInspect
-        documentation: https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/overview
+        documentation: https://www.microfocus.com/en-us/solutions/application-security
     description: DAST (Dynamic Application Security Testing) executes against the running code attempting to inject malicious data against the software looking for vulnerabilities. This can help identify runtime problems.
     description_fr: DAST (Dynamic Application Security Testing) s'exécute contre le code en cours d'exécution en tentant d'injecter des données malveillantes contre le logiciel à la recherche de vulnérabilités. Cela peut aider à identifier les problèmes d'exécution.
     tags:
