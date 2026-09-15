@@ -1,0 +1,179 @@
+- title: Poker Estimation
+  title_fr: Estimation au poker
+  layout: default
+  category: Guides
+  category_fr: Guides
+  summary: Demonstrate how to use Poker Estimation in ADO.
+  summary_fr: Démontrer comment utiliser l'estimation au poker dans ADO.
+  date: 2020-12-30
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Poker%20Estimation.pdf?csf=1&web=1&e=fJ7TaY"
+
+- title: Cloud specific requests
+  title_fr: Demandes spécifiques au cloud
+  layout: default
+  category: ESDC Process
+  category_fr: Processus EDSC
+  summary: The Cloud Operation team is responsible for administration of enterprise resources in ESDC’s cloud environments.
+  summary_fr: L'équipe des opérations cloud est responsable de l'administration des ressources d'entreprise dans les environnements cloud d'EDSC.
+  date: 2022-09-13
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Cloud%20specific%20requests.pdf?csf=1&web=1&e=rSEC1j"
+
+- title: GitHub Actions
+  title_fr: Actions GitHub
+  layout: default
+  category: Pipelines
+  category_fr: Pipelines
+  summary: A few notes on the GitHub Actions features
+  summary_fr: Quelques notes sur les fonctionnalités des actions GitHub
+  date: 2022-11-04
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/GitHub%20Actions.pdf?csf=1&web=1&e=R7zqUU"
+
+- title: Expiration des certificats TLS - TLS Certificates expiry
+  title_fr: Expiration des certificats TLS
+  layout: default
+  category: Practices
+  category_fr: Pratiques
+  summary: Demonstrate how to monitor TLS Certificates expiration date.
+  summary_fr: Démontrer comment surveiller la date d'expiration des certificats TLS.
+  date: 2025-07-02
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Expiration%20des%20certificats%20TLS%20-%20TLS%20Certificates%20expiry.pdf?csf=1&web=1&e=GjvT3L"
+
+- title: Accessibility Browser Extensions
+  title_fr: Extensions de navigateur pour l'accessibilité
+  layout: default
+  category: Testing
+  category_fr: Tests
+  summary: How to download Accessibility web browser extensions
+  summary_fr: Comment télécharger les extensions de navigateur web pour l'accessibilité
+  date: 2026-01-15
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Accessibility%20Browser%20Extensions.pdf?csf=1&web=1&e=fUfeEk"
+
+- title: Application Logging
+  title_fr: Journalisation des applications
+  layout: default
+  category: Coding Practices
+  category_fr: Pratiques de codage
+  summary: Defining the best practices of what, when and where to log in an application.
+  summary_fr: Définir les meilleures pratiques sur quoi, quand et où journaliser dans une application.
+  date: 2011-01-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Application%20Logging.pdf?csf=1&web=1&e=WH4kjk"
+
+- title: Artifactory as an Asset Management and Vulnerability Management Process
+  title_fr: Artifactory comme processus de gestion des actifs et des vulnérabilités
+  layout: default
+  category: Tools
+  category_fr: Outils
+  summary: Demonstrating rational for the use of Artifactory to improve security and compliance of our applications
+  summary_fr: Démontrer la justification de l'utilisation d'Artifactory pour améliorer la sécurité et la conformité de nos applications
+  date: 2019-01-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Artifactory%20as%20an%20Asset%20Management%20and%20Vulnerability%20Management%20Process.pdf?csf=1&web=1&e=yl3nUF"
+
+- title: Check for Broken Links on your Website
+  title_fr: Vérifier les liens rompus sur votre site web
+  layout: default
+  category: Development
+  category_fr: Développement
+  summary: Best Practices on how to prevent and detect broken links.
+  summary_fr: Meilleures pratiques sur la façon de prévenir et de détecter les liens rompus.
+  date: 2022-10-21
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Check%20for%20Broken%20Links%20on%20your%20Website.pdf?csf=1&web=1&e=27fY2a"
+
+- title: Writing Good Change Logs
+  title_fr: Rédiger de bons journaux de modifications
+  layout: default
+  category: Documentation
+  category_fr: Documentation
+  summary: A layout for how to write consistent and informative change logs that are meaningful to those reading them.
+  summary_fr: Une mise en page pour rédiger des journaux de modifications cohérents et informatifs, significatifs pour ceux qui les lisent.
+  date: 2020-03-04
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Writing%20Good%20Change%20Logs.pdf?csf=1&web=1&e=18zlJA"
+
+- title: Continuous Integration / Continuous Delivery
+  title_fr: Intégration continue / Livraison continue
+  layout: default
+  category: Pipelines
+  category_fr: Pipelines
+  summary: Demonstrate at a high level the steps involved in a CI/CD pipeline.
+  summary_fr: Démontrer à haut niveau les étapes impliquées dans un pipeline CI/CD.
+  date: 2019-01-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Continuous%20Integration%20_%20Continuous%20Delivery.pdf?csf=1&web=1&e=1Q90yK"
+
+- title: Git Branching, Picking a Git Flow
+  title_fr: Ramification Git, choix d'un flux Git
+  layout: default
+  category: Source Code Management
+  category_fr: Gestion du code source
+  summary: Detailing the differences between branching models in Git, advising on the best to pick for your application.
+  summary_fr: Détailler les différences entre les modèles de ramification dans Git, conseiller sur le meilleur choix pour votre application.
+  date: 2019-09-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Git%20Branching,%20Picking%20a%20Git%20Flow.pdf?csf=1&web=1&e=nNbPbW"
+
+- title: Managing Merge Requests, Using Code Review
+  title_fr: Gérer les demandes de fusion, utiliser la révision de code
+  layout: default
+  category: Source Code Management
+  category_fr: Gestion du code source
+  summary: Describing the best methods to manage code reviews and merges.
+  summary_fr: Décrire les meilleures méthodes pour gérer les révisions de code et les fusions.
+  date: 2019-09-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Managing%20Merge%20Requests,%20Using%20Code%20Review.pdf?csf=1&web=1&e=B4iRmB"
+
+- title: Git Support Questions - NSD Application Catalogue
+  title_fr: Questions d'assistance Git - Catalogue d'applications NSD
+  layout: default
+  category: ESDC Process
+  category_fr: Processus EDSC
+  summary: How to request a Git installation from the NSD Application catalogue
+  summary_fr: Comment demander une installation Git depuis le catalogue d'applications NSD
+  date: 2023-02-03
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Git%20Support%20Questions%20-%20NSD%20Application%20Catalogue.pdf?csf=1&web=1&e=pesLsW"
+
+- title: Nuget User Guide
+  title_fr: Guide d'utilisation Nuget
+  layout: default
+  category: Tools
+  category_fr: Outils
+  summary: How to configure your Nuget Source in Visual Studio
+  summary_fr: Comment configurer votre source Nuget dans Visual Studio
+  date: 2020-11-30
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Nuget%20User%20Guide.pdf?csf=1&web=1&e=rv3pXU"
+
+- title: Blameless Postmorterm Guideline
+  title_fr: Lignes directrices pour une autopsie sans blâme
+  layout: default
+  category: Practices
+  category_fr: Pratiques
+  summary: Detailing what would be expected when running and recording a postmorterm.
+  summary_fr: Détailler ce qui serait attendu lors de l'exécution et de l'enregistrement d'une autopsie.
+  date: 2019-01-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Blameless%20Postmorterm%20Guideline.pdf?csf=1&web=1&e=LlLD4x"
+
+- title: Present at our Dev CoP
+  title_fr: Présenter à notre CdP de développement
+  layout: default
+  category: Practices
+  category_fr: Pratiques
+  summary: A walk though of important things to consider when preparing a presentation.
+  summary_fr: Une présentation des éléments importants à considérer lors de la préparation d'une présentation.
+  date: 2017-01-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Present%20at%20our%20Dev%20CoP.pdf?csf=1&web=1&e=Zt4mD3"
+
+- title: TFS to GCcode (or GitHub)
+  title_fr: De TFS à GCcode (ou GitHub)
+  layout: default
+  category: Source Control
+  category_fr: Contrôle du code source
+  summary: A walk though of steps to follow to move ALM tools from TFS to GCcode or GitHub.
+  summary_fr: Une présentation des étapes à suivre pour déplacer les outils ALM de TFS vers GCcode ou GitHub.
+  date: 2019-09-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/TFS%20to%20GCcode%20(or%20GitHub).pdf?csf=1&web=1&e=l4s05w"
+
+- title: Migrate from TFVC to Git
+  title_fr: Migrer de TFVC à Git
+  layout: default
+  category: Source Control
+  category_fr: Contrôle du code source
+  summary: A walk though of steps to follow to move source control systems from TFVC to Git.
+  summary_fr: Une présentation des étapes à suivre pour déplacer les systèmes de contrôle du code source de TFVC vers Git.
+  date: 2019-09-01
+  url: "https://014gc.sharepoint.com/:u:/r/sites/BU6345229/DevelopmentCommunity/guides/Migrate%20from%20TFVC%20to%20Git.pdf?csf=1&web=1&e=oVtYvz"

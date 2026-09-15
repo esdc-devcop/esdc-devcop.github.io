@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en' }}" xmlns="https://www.w3.org/1999/xhtml/" class="no-js" dir="ltr">
+{% assign current_lang = page.lang | default: 'en' %}
+<html lang="{{ current_lang }}" xmlns="https://www.w3.org/1999/xhtml/" class="no-js" dir="ltr">
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script>
-    <script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-en.js"></script>
+    <script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-{{ current_lang }}.js"></script>
 
 {% seo %}
     
@@ -32,7 +33,11 @@
         </div>
       {% elsif site.data.events.next %}
         <div class="well well-sm text-center">
+          {% if current_lang == 'fr' %}
+          <p class="lead mrgn-bttm-0">Joignez-vous à nous le <strong>{{ site.data.events.next.date }}</strong> pour <a href="{{ '/' | absolute_url }}fr/events/#next-event">{{ site.data.events.next.topic_fr }}</a></p>
+          {% else %}
           <p class="lead mrgn-bttm-0">Join us on <strong>{{ site.data.events.next.date }}</strong> for <a href="{{ '/' | absolute_url }}events/#next-event">{{ site.data.events.next.topic }}</a></p>
+          {% endif %}
         </div>
       {% endif %}
       

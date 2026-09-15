@@ -1,27 +1,44 @@
+{% assign current_lang = page.lang | default: 'en' %}
+{% assign t = site.data.locales[current_lang] %}
+{% if current_lang == 'en' %}
+{% assign alt_lang = 'fr' %}
+{% assign alt_url = page.url | prepend: '/fr' | absolute_url %}
+{% assign app_name = site.title %}
+{% else %}
+{% assign alt_lang = 'en' %}
+{% assign alt_url = page.url | remove_first: '/fr' | absolute_url %}
+{% assign app_name = "Communauté de développement d'EDSC" %}
+{% endif %}
+
 <script>
-    document.write(wet.builder.appTop({
-      "appName": [{
-        "text": "{{ site.title }}",
-        "href": "{{ '/' | absolute_url }}"
-      }],
-      "search": false,
-      "siteMenu": false,
-      "topSecMenu": false,
-      "menuLinks": [{
-          "text": "Home",
-          "href": "{{ '/' | absolute_url }}"
-        },{
-          "text": "Recommended tools",
-          "href": "{{ '/' | absolute_url }}tools/"
-        },{
-          "text": "Best Practices and Guides",
-          "href": "{{ '/' | absolute_url }}guides/"
-        },{
-          "text": "Presentations",
-          "href": "{{ '/' | absolute_url }}events/"
-        },{
-          "text": "Questions / Collaborate",
-          "href": "https://github.com/esdc-devcop/esdc-devcop.github.io/issues/new/choose"
-        }]
-    }));
-  </script>
+  document.write(wet.builder.appTop({
+    "appName": [{
+      "text": "{{ app_name }}",
+      "href": "{{ '/' | absolute_url }}{% if current_lang == 'fr' %}fr/{% endif %}"
+    }],
+    "lngLinks": [{
+      "lang": "{{ alt_lang }}",
+      "href": "{{ alt_url }}",
+      "text": "{{ site.data.locales[current_lang].langToggle.text }}"
+    }],
+    "search": false,
+    "siteMenu": false,
+    "topSecMenu": false,
+    "menuLinks": [{
+      "text": "{{ t.menu.home }}",
+      "href": "{{ '/' | absolute_url }}{% if current_lang == 'fr' %}fr/{% endif %}"
+    }, {
+      "text": "{{ t.menu.tools }}",
+      "href": "{{ '/' | absolute_url }}{% if current_lang == 'fr' %}fr/{% endif %}tools/"
+    }, {
+      "text": "{{ t.menu.guides }}",
+      "href": "{{ '/' | absolute_url }}{% if current_lang == 'fr' %}fr/{% endif %}guides/"
+    }, {
+      "text": "{{ t.menu.events }}",
+      "href": "{{ '/' | absolute_url }}{% if current_lang == 'fr' %}fr/{% endif %}events/"
+    }, {
+      "text": "{{ t.menu.questions }}",
+      "href": "https://github.com/esdc-devcop/esdc-devcop.github.io/issues/new/choose"
+    }]
+  }));
+</script>
