@@ -1,4 +1,5 @@
-([Français](#securite))
+<!-- markdownlint-disable MD051 -->
+([Fran�ais](#securite))
 
 # Security
 
@@ -6,6 +7,6 @@
 
 ______________________
 
-# Sécurité {#securite}
+# S�curit� {#securite}
 
-**Ne publiez aucun problème de sécurité sur le dépôt publique!** Les vulnérabilités de sécurité doivent être signalées par courriel à <EDSC.DGIIT.SCS-SDS.IITB.ESDC@hrsdc-rhdcc.gc.ca>
+**Ne publiez aucun probl�me de s�curit� sur le d�p�t publique!** Les vuln�rabilit�s de s�curit� doivent �tre signal�es par courriel � <EDSC.DGIIT.SCS-SDS.IITB.ESDC@hrsdc-rhdcc.gc.ca>

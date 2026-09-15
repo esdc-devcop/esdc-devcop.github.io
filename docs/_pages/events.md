@@ -2,6 +2,7 @@
 title: Events
 layout: no-banner
 permalink: /events/
+lang: en
 ---
 
 {% if site.data.events.next %}
