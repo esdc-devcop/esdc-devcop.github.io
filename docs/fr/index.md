@@ -13,7 +13,9 @@ Nous souhaitons que les développeurs d'EDSC collaborent entre eux et avec ceux 
 ### Présentations de la CdP de développement
 
 Les présentations de la CdP de développement sont actuellement notre principal point de contact avec la communauté de développement, où nous présentons des mises à jour sur les [outils disponibles]({{ '/' | absolute_url }}fr/tools/) et l'orientation du développement pour le ministère. L'objectif principal des présentations de la CdP de développement est une forme de formation où nous mettons en évidence les [meilleures pratiques et guides existants]({{ '/' | absolute_url }}fr/guides/) utilisés par d'autres équipes, et démontrons des exemples d'utilisation d'[outils]({{ '/' | absolute_url }}fr/tools/).
-Nous organisons des présentations de la CdP de développement tout au long de l'année (à l'exception de juillet et août). Vous pouvez également consulter nos [présentations antérieures]({{ '/' | absolute_url }}fr/events/).  
+Nous organisons des présentations de la CdP de développement tout au long de l'année (à l'exception de juillet et août). Vous pouvez également consulter nos [présentations antérieures]({{ '/' | absolute_url }}fr/events/).
+
+Vous ne recevez pas les invitations aux présentations DevCdp ? Envoyez un courriel à <EDSC.DGIIT.SCS-SDS.IITB.ESDC@hrsdc-rhdcc.gc.ca> et demandez d'être ajouter à notre liste de distribution.
 
 ## Participer
 
