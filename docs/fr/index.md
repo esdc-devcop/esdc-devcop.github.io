@@ -17,9 +17,4 @@ Nous organisons des présentations de la CdP de développement tout au long de l
 
 ## Participer
 
-N'hésitez pas à créer une [issue GitHub](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/new/choose) si vous souhaitez :
-
-- Collaborer et ajouter du contenu à nos pages.
-- Poser une question sur l'une de nos présentations de la CdP de développement. Il suffit de créer une issue et de faire référence au titre de la présentation dans la description.
-
-Pour plus d'informations, consultez [CONTRIBUTING.md](https://github.com/esdc-devcop/esdc-devcop.github.io/blob/master/CONTRIBUTING.md)
+Utilisez ce [formulaire pour faire une présentation](https://forms.office.com/r/kutUxZqfLx) lors d'un prochain événement DevCdP ou pour soumettre une idée de présentation.
