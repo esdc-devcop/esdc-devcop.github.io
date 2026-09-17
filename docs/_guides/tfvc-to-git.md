@@ -6,6 +6,8 @@ summary: A walk though of steps to follow to move source control systems from TF
 date: 2019-09-01
 ---
 
+*Le texte français est donné à la suite.*
+
 ## Background
 
 This guide outlines the steps required to migrate your repositories from
@@ -302,3 +304,255 @@ Even if Git is hard to start with at the begining, there is so much pro in short
 * All the new popular third party tools are designed based on Git.
 * Even **Microsoft** made the switch. Git is now the default source control system in TFS/Azure DevOps. They also maintain the entire .NET framework on [GitHub](https://github.com/dotnet) as an open source project.
 * Even if you are using TFS(or Azure DevOps), GitHub, GitLab, Jira, etc. You can use Git as official source code version control system.
+
+---
+
+*Texte français:*
+
+### Contexte
+
+Ce guide décrit les étapes requises pour migrer vos référentiels depuis TFVC de Microsoft vers des référentiels Git.
+
+> **IMPORTANT :** Étant donné que TFS 2015 et Azure DevOps prennent tous deux en charge les référentiels Git, vos équipes ne sont pas obligées de quitter ces plateformes !
+
+Voici les services d'hébergement Git disponibles :
+
+* TFS 2015
+* GCcode
+* GitHub
+
+### Dans ce guide
+
+1. [Prérequis](#prérequis)
+1. [Créer un référentiel Git distant](#créer-un-référentiel-git-distant)
+1. [Cloner TFVC vers un référentiel Git local](#cloner-tfvc-vers-un-référentiel-git-local)
+1. [Connecter le référentiel Git local au distant](#connecter-le-référentiel-git-local-au-distant)
+1. [Pousser vers le référentiel Git distant](#pousser-vers-le-référentiel-git-distant)
+1. [Améliorations supplémentaires](#améliorations-supplémentaires)
+1. [Lectures complémentaires](#lectures-complémentaires)
+1. [FAQ](#faq-fr)
+
+### Prérequis
+
+Les prérequis demeurent les mêmes, peu importe où vous choisissez d'héberger vos référentiels Git (TFS, GCcode ou GitHub).
+
+Pour migrer votre référentiel TFVC vers un référentiel Git, vous aurez besoin de :
+
+* **Installer Git pour Windows** :
+  * Accédez à [NSD](https://iservice.prv/eng/imit/nsd/index.shtml "NSD")
+  * Dans le **Catalogue d'applications**, cliquez sur l'onglet **Logiciels commerciaux**, sélectionnez le lien *GIT* et cliquez sur *Installer*.  
+  * L'installation devrait prendre environ 2 jours.  
+  * ou téléchargez-le directement depuis [Git for Windows](https://gitforwindows.org/).
+* **git-tfs** :
+  * Si vous ne l'avez pas installé, téléchargez-le depuis leur [référentiel GitHub](https://github.com/git-tfs/git-tfs). ([lien direct](https://github.com/git-tfs/git-tfs/releases/download/v0.30/GitTfs-0.30.0.zip))
+  * Pour installer `git-tfs`, extrayez le contenu du fichier ZIP dans un dossier (ex. `C:\git-tfs`) et ajoutez cet emplacement aux variables d'environnement système `PATH`.
+* **Autorisations pour créer des référentiels sur le service Git cible** :
+  * Si vous n'avez pas les autorisations appropriées, demandez-les à l'administrateur du contrôle de code source de votre équipe ou demandez la création d'un nouveau dépôt Git.
+
+### Créer un référentiel Git distant
+
+Vous devez d'abord créer un nouveau référentiel Git dans votre service d'hébergement Git (TFS 2015, GCcode ou GitHub).
+
+Le processus diffère selon le service choisi par votre équipe, mais demeure simple tant que vous disposez des droits nécessaires.
+
+#### Créer un référentiel Git distant dans TFS
+
+1. Ouvrez le portail Web de votre projet d'équipe TFS dans un navigateur.
+1. Accédez à la section `CODE` via la barre de navigation.
+1. Ouvrez la liste des référentiels en cliquant sur la petite *flèche vers le bas* ↓ à côté de votre référentiel TFVC.
+1. Cliquez sur `+ New repository...`.
+
+    ![Créer un dépôt dans TFS - Étape 4](../assets/tfvc-to-git/tfvc-to-git-create-repo-tfs1.jpg)
+
+1. Par défaut, Git devrait être sélectionné comme `Type`. Si ce n'est pas le cas, choisissez `Git` dans la liste.
+1. Entrez le nom de votre nouveau référentiel Git (ex. : `my-git-repo`).
+
+    ![Créer un dépôt dans TFS - Étape 5](../assets/tfvc-to-git/tfvc-to-git-create-repo-tfs2.jpg)
+
+1. Enfin, cliquez sur `Create`.
+
+#### Créer un projet dans GCcode
+
+1. Ouvrez [GCcode](https://gccode.ssc-spc.gc.ca/) dans un navigateur.
+1. Sur le côté droit de la barre de navigation, cliquez sur le menu `+ (New)` et sélectionnez `New project`.
+
+    ![Créer un dépôt dans GCcode - Étape 2](../assets/tfvc-to-git/tfvc-to-git-create-repo-gccode1.jpg)
+
+1. Entrez le nom de votre nouveau projet (ex. : `Git Playground`). Cela remplira automatiquement le champ `Project slug` (version compatible URL du nom du projet).
+1. Choisissez le projet GCcode de votre équipe pour le champ `Project URL`.
+1. Sélectionnez le niveau de visibilité approprié pour le projet.
+
+    > **IMPORTANT :** Gardez à l'esprit que GCcode n'est accessible que sur le réseau du gouvernement du Canada. Par conséquent, `Public` signifie accessible aux autres ministères et organismes. Pour plus d'informations, consultez « [Sous-groupes - organisations internes](https://gccode.ssc-spc.gc.ca/help/user/group/subgroups/index.md) ».
+
+1. Enfin, cliquez sur `Create project`.
+
+#### Créer un projet dans GitHub
+
+*Les étapes seront ajoutées prochainement.*
+
+### Cloner TFVC vers un référentiel Git local
+
+1. Ouvrez un terminal `PowerShell`.
+1. Créez un dossier pour vos référentiels locaux (ex. : `C:\sources`) et placez-vous dans ce dossier.
+
+    ```batch
+    mkdir c:\sources
+    cd c:\sources
+    ```
+
+1. Téléchargez le modèle `.gitignore` pour Visual Studio le plus récent depuis GitHub dans ce dossier. Un fichier `.gitignore` spécifie les fichiers intentionnellement non suivis que Git doit ignorer. Pour en savoir plus, consultez la section [Ignorer des fichiers](https://git-scm.com/book/fr/v2/Les-bases-de-Git-Enregistrer-des-modifications-dans-le-d%C3%A9p%C3%B4t#_ignoring) du livre [Pro Git](https://git-scm.com/book/fr/v2).
+
+    ```bash
+    Invoke-WebRequest -Uri https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
+    -UseBasicParsing -OutFile .gitignore
+    ```
+
+1. Ajoutez des motifs pour exclure les fichiers, dossiers ou branches de votre référentiel TFVC qui doivent être ignorés lors de la migration (ex. : programmes d'installation, branches d'anciennes versions archivées). Consultez les modèles d'exclusion Git d'Atlassian pour plus de détails.
+
+    ```bash
+    dev-tools-installers/
+    releases/
+    ```
+
+1. Créez un dossier pour y cloner votre référentiel Git (ex. : `C:\sources\my-git-repo`) et placez-vous dedans.
+
+    ```batch
+    mkdir c:\sources\my-git-repo
+    cd c:\sources\my-git-repo
+    ```
+
+1. Clonez votre référentiel TFVC depuis TFS vers un référentiel Git local. N'oubliez pas de spécifier le fichier `.gitignore` préparé précédemment !
+
+    ```bash
+    git tfs quick-clone "https://ado.intra.dmz/ProjectCollection/" "$/DevCoP-CdpDev" . --gitignore="c:\sources\.gitignore"
+    ```
+
+    > **IMPORTANT :** Un bogue existe dans la version de la bibliothèque `libgit2/libgit2sharp` utilisée par `git-tfs`, rapportant une exception non gérée `System.AccessViolationException`. Cependant, cette exception survient durant la phase de nettoyage après la migration et n'affecte en rien l'intégrité du clonage. Consultez la [page d'anomalie](https://github.com/git-tfs/git-tfs/issues/1281) pour plus de détails.
+
+1. Ajoutez un fichier `.gitignore` à la racine de votre solution.
+
+    ```bash
+    Invoke-WebRequest -Uri https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
+    -UseBasicParsing -OutFile .gitignore
+    ```
+
+1. Supprimez ou chiffrez les secrets si nécessaire.
+
+### Connecter le référentiel Git local au distant
+
+Afin de pousser votre référentiel local vers le service d'hébergement distant sélectionné, Git doit connaître son emplacement. Cela s'effectue en ajoutant un `remote`. Pour en savoir plus, consultez [Travailler avec des dépôts distants](https://git-scm.com/book/fr/v2/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants) dans [Pro Git](https://git-scm.com/book/fr/v2).
+
+#### Copier l'URL du référentiel distant dans TFS
+
+1. Ouvrez le portail Web de votre projet TFS dans un navigateur.
+1. Accédez à la section `CODE` dans la barre de navigation.
+1. Ouvrez la liste des référentiels en cliquant sur la flèche ↓ à côté de votre référentiel TFVC.
+1. Accédez à la page de votre projet en cliquant sur son nom.
+
+    ![Trouver l'URL dans TFS - Étape 4](../assets/tfvc-to-git/tfvc-to-git-find-url-tfs1.jpg)
+
+1. Cliquez sur le bouton `Copy to clipboard`.
+
+    ![Trouver l'URL dans TFS - Étape 5](../assets/tfvc-to-git/tfvc-to-git-find-url-tfs2.jpg)
+
+#### Copier l'URL du référentiel distant dans GCcode
+
+1. Ouvrez [GCcode](https://gccode.ssc-spc.gc.ca/) dans un navigateur.
+1. Recherchez votre projet dans la liste.
+1. Accédez à la page de votre projet en cliquant sur son nom.
+
+    ![Trouver l'URL dans GCcode - Étape 3](../assets/tfvc-to-git/tfvc-to-git-find-url-gccode1.jpg)
+
+1. Cliquez sur le bouton `Clone` à droite de l'écran.
+1. Cliquez sur le bouton `Copy URL to clipboard`.
+
+    ![Trouver l'URL dans GCcode - Étape 5](../assets/tfvc-to-git/tfvc-to-git-find-url-gccode2.jpg)
+
+#### Copier l'URL du référentiel distant dans GitHub
+
+*Les étapes seront ajoutées prochainement.*
+
+#### Lier le dépôt local au dépôt distant
+
+1. Utilisez l'URL copiée pour connecter votre référentiel local au référentiel distant.
+
+    ```bash
+    git remote add origin "https://ado.intra.dmz/ProjectCollection/DevCoP-CdpDev/_versionControl"
+    ```
+
+### Pousser vers le référentiel Git distant
+
+1. Poussez le référentiel local vers le référentiel distant.
+
+    ```bash
+    git push --all origin
+    ```
+
+1. Entrez vos identifiants Windows demandés. En cas d'erreur de frappe, appuyez sur `CTRL + C` pour annuler et recommencer.
+
+    ![Pousser vers Git - Étape 2](../assets/tfvc-to-git/tfvc-to-git-push-to-remote.jpg)
+
+    > **ASTUCE :** Appuyez sur la *flèche vers le haut* ↑ pour rappeler la dernière commande de l'historique du terminal.
+
+### Améliorations supplémentaires
+
+#### Conseils de productivité pour votre référentiel
+
+* Ajoutez des [fichiers de modèles Git](https://github.com/canada-ca/template-gabarit) au référentiel.
+* Ajoutez des étiquettes avec le [générateur d'étiquettes d'EDSC](https://github.com/esdc-edsc/label-generator) (pour GCcode et GitHub).
+
+### Lectures complémentaires
+
+#### Apprendre Git
+
+* [Documentation Git (en français)](https://git-scm.com/book/fr/v2)
+* [Learn Git Branching (interactif)](https://learngitbranching.js.org/?locale=fr_FR)
+
+#### Guides similaires
+
+* [De TFS à GCcode](tfs-to-gccode)
+
+<a id="faq-fr"></a>
+
+<!-- markdownlint-disable MD024 -->
+### FAQ
+<!-- markdownlint-enable MD024 -->
+
+#### Est-il possible de migrer l'historique des modifications (changesets) de TFVC vers Git ?
+
+> Avez-vous réussi ? Devrions-nous le faire ?
+
+C'est possible, et nous l'avons fait avec succès à quelques reprises à l'aide de l'outil [GitTFS](https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/migrate_tfs_to_git.md).
+
+Il n'y a aucune obligation légale de conserver l'historique du code source, nous ne recommandons donc pas de le transférer lors de la conversion. L'état actuel du code constitue la seule vérité de son fonctionnement. Si l'équipe tient absolument à préserver un historique, nous suggérons de ne conserver que celui de la version la plus récente afin d'éviter une conversion excessivement longue.
+
+#### Recommanderiez-vous d'utiliser la fonctionnalité Wiki pour remplacer nos spécifications sous MS Word ?
+
+> J'ai vu de nombreuses fonctionnalités comme le ReadMe.md et la section Wiki en Markdown. GitLab permet-il de tout centraliser au même endroit ?
+
+**Absolument !!**
+
+Toute la documentation devrait, au minimum, être intégrée dans le contrôle de version. Cela permet de versionner la documentation directement avec le code qu'elle documente. Utiliser Markdown permet en outre de suivre les changements et d'automatiser la publication.
+
+Les wikis devraient documenter les informations destinées aux clients ou utilisateurs, tandis que la documentation liée au développement ou aux déploiements devrait rester avec le code source. Si vous n'utilisez pas de wiki, [GitLab Pages](https://about.gitlab.com/product/pages/) et [GitHub Pages](https://pages.github.com/) sont d'excellentes plateformes pour héberger vos sites de documentation.
+
+#### Quels sont les avantages réels de Git à long terme ?
+
+> Nous travaillons actuellement avec TFS et tout va bien. Quels sont les gains concrets à court et à long terme ?
+
+Même si la courbe d'apprentissage de Git peut paraître abrupte au début, les avantages sont immenses :
+
+##### Le modèle de branches
+
+* Créer ou basculer d'une branche dans Git prend quelques millisecondes plutôt que plusieurs minutes sous TFVC.
+* Le référentiel complet réside localement sur votre ordinateur, supprimant toute dépendance réseau pour vos opérations courantes.
+* La légèreté des branches permet d'isoler facilement chaque fonctionnalité ou correctif.
+* Le moteur de fusion de Git à 3 voies (3-way merge) est nettement plus robuste et réduit les conflits.
+* Les plateformes Git offrent des mécanismes de revues de code (Pull / Merge Requests) favorisant le partage de connaissances.
+* Aucune opération de verrouillage (checkout) explicite n'est nécessaire; tout est suivi automatiquement.
+
+##### Écosystème et communauté
+
+* Git est le système de gestion de versions le plus utilisé au monde.
+* Vous bénéficiez d'une immense communauté et d'un vaste écosystème d'outils modernes.
+* Même **Microsoft** a migré vers Git par défaut dans TFS et Azure DevOps et gère l'ensemble du cadriciel .NET sur [GitHub](https://github.com/dotnet) en code source libre.

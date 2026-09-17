@@ -6,6 +6,8 @@ summary: Best Practices on how to prevent and detect broken links.
 date: 2022-10-21
 ---
 
+*Le texte français est donné à la suite.*
+
 ## Background
 
 Broken links on your website can create a bad user experience and can also lower the ranking of your web site in search engine optimization (SEO).  
@@ -48,3 +50,50 @@ You can validate your internal and external links manually by using an online li
 You can add an existing library to your project to check for broken links on your site automatically, either from Nuget(.NET) or NPM(Javascript).
 
 You can also refactor your code to automatically check your website for broken links.
+
+---
+
+*Texte français:*
+
+### Contexte
+
+Les liens rompus sur votre site web peuvent créer une mauvaise expérience utilisateur et réduire le classement de votre site dans l'optimisation pour les moteurs de recherche (SEO).  
+Vous pouvez éviter cela grâce à la prévention et à la détection.
+
+### Qu'est-ce qu'un lien rompu ?
+
+Voici quelques exemples de liens rompus :
+
+* un site web ou une page qui n'existe plus
+* un site web ou une page dont l'URL a été déplacée sans redirection
+* un site web dont certains éléments de page sont brisés
+
+### Comment y remédier
+
+#### Prévention
+
+Vous pouvez améliorer la qualité de votre site web en choisissant des références réputées et bien établies.
+
+##### Liens externes :
+
+Il s'agit de liens pointant vers un site web externe. En tant que propriétaire, vous devriez choisir des liens fiables et informatifs pour améliorer la qualité et le classement de votre site web.
+
+##### Rétroliens (Backlinks) :
+
+Il s'agit de sites web externes qui pointent vers votre site. Vous n'avez que peu de contrôle sur la manière dont ils créent ces liens. Cependant, en publiant du contenu utile sur votre site, vous pouvez améliorer votre visibilité dans les résultats de recherche.
+
+##### Créer une page 404 personnalisée pour votre site :
+
+Une bonne page d'erreur 404 personnalisée peut réduire la frustration de l'utilisateur en lui expliquant la situation avec tact et en l'aidant à retourner sur votre page d'accueil ou à signaler facilement le problème. Ajouter un peu de créativité et d'humour est également bénéfique.
+
+* indiquer clairement que la page n'est pas disponible (**Erreur 404 : Page introuvable**)
+* ajouter des instructions claires sur la façon de revenir à votre site web (ex. : page d'accueil, page de contact)
+* si votre site ne dispose pas d'une fonctionnalité intégrée pour les pages d'erreur 404, vous devez configurer votre serveur web pour afficher le contenu de la page d'erreur personnalisée
+
+#### Détection
+
+Vous pouvez valider vos liens internes et externes manuellement en utilisant un vérificateur de liens en ligne, tel que le [vérificateur de liens W3C](https://dev.w3.org/perl/modules/W3C/LinkChecker/docs/checklink).
+
+Vous pouvez ajouter une bibliothèque existante à votre projet pour vérifier automatiquement les liens rompus sur votre site, à partir de Nuget (.NET) ou de NPM (Javascript).
+
+Vous pouvez également adapter votre code pour vérifier automatiquement la présence de liens rompus sur votre site web.
