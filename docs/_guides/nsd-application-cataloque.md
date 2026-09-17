@@ -6,6 +6,7 @@ summary: How to request a Git installation from the NSD Application catalogue
 date: 2023-02-03
 ---
 
+*Le texte français est donné à la suite.*
 
 ## Background
 
@@ -38,3 +39,39 @@ This will bypass proxy as long as your Git session stays open. Once you close yo
 
 `git config --global http.proxy <your-local-proxy>:80`  
 This will bypass proxy for all of your local repositories. Your settings will be saved and applied every time you open your Git session/window.  
+
+---
+
+*Texte français:*
+
+### Contexte
+
+Cette page répond à certaines questions concernant les problèmes courants rencontrés lors de l'installation de Git et les erreurs lors de son utilisation.
+
+### Installation
+
+Pour demander l'installation de GIT sur votre poste de travail à partir du catalogue d'applications NSD :
+
+- Accédez à [NSD](https://iservice.prv/eng/imit/nsd/index.shtml "NSD")
+- Dans le **Catalogue d'applications**, cliquez sur l'onglet **Logiciels commerciaux**, puis sélectionnez le lien *GIT* et cliquez sur *Installer*.  
+- L'installation devrait prendre environ 2 jours.  
+- Veuillez faire preuve de patience. Le NSD gère généralement un volume élevé de billets de service, le délai d'installation sur votre poste de travail peut donc dépasser 2 jours.  
+
+### Utiliser Git derrière le proxy
+
+Si vous obtenez l'erreur suivante lors de l'utilisation de Git avec votre référentiel (ex. : git clone, git push) :
+
+`Fatal: unable to access '<your-remote-branch-url>':  Failed to connect to github.com port 443: Timed out`  
+Cela signifie que votre référentiel n'est pas configuré pour traverser le proxy réseau.  
+Vous devrez mettre à jour votre configuration Git avec les paramètres du proxy réseau.  
+Pour https : `https_proxy=<your-local-proxy>:80`
+
+#### Pour contourner le proxy réseau par session Git
+
+`git config --local http.proxy <your-local-proxy>:80`  
+Cela contournera le proxy tant que votre session Git restera ouverte. Dès que vous fermerez votre session/fenêtre Git, vos paramètres disparaîtront.
+
+#### Pour contourner le proxy réseau de manière globale sur votre PC
+
+`git config --global http.proxy <your-local-proxy>:80`  
+Cela contournera le proxy pour tous vos référentiels locaux. Vos paramètres seront enregistrés et appliqués chaque fois que vous ouvrirez votre session/fenêtre Git.

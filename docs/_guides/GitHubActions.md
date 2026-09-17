@@ -6,6 +6,8 @@ summary: A few notes on the GitHub Actions features
 date: 2022/11/04
 ---
 
+*Le texte français est donné à la suite.*
+
 {{ page.summary }}
 
 ## Background
@@ -34,3 +36,36 @@ Two other recommended features of GitHub are Dependabot and code scanning.
 Dependabot can warn you of security vulnerabilities discovered in the libraries your project depends on.  It can also be used to periodically/automatically update your project's dependencies (when coupled with proper automated testing, auto-updating of dependencies is not as scary as it sounds).  Refer to [GitHub's Dependabot Documentation](https://docs.github.com/en/code-security/dependabot/) for details.
 
 GitHub can also detect vulnerabilities in your own source code by setting up code scanning.  This, like dependabot alerts can be enabled in the "Security" tab of your repository.  Refer to [GitHub's Code Scanning Documentation](https://docs.github.com/code-security/secure-coding/about-code-scanning) for details.
+
+---
+
+*Texte français:*
+
+Quelques notes sur les fonctionnalités des actions GitHub
+
+### Contexte
+
+Cette page vise à attirer l'attention sur certaines fonctionnalités offertes aux projets sur GitHub.com pour répondre aux besoins de pipelines et de sécurité du code.
+Alors qu'auparavant nous devions nous appuyer sur des outils externes (tels que Travis-CI ou CircleCI), GitHub a développé ses propres fonctionnalités de pipeline depuis 2018, comme GitHub Actions, Dependabot et l'analyse de code (Code Scanning).
+
+### GitHub Actions / Pipelines
+
+Tout comme GitLab et Azure DevOps, vous pouvez utiliser GitHub pour exécuter des pipelines d'[intégration continue](cicd.html) afin de compiler vos applications et d'exécuter des tests à chaque push/Pull Request/fusion pour détecter les problèmes au plus tôt. GitHub Actions peut également être utilisé pour la livraison continue afin de déployer votre application sur des services infonuagiques ou des référentiels de binaires (comme NuGet ou Maven Central), soit manuellement, soit automatiquement lors de la création d'une version. GitHub fournit des exécuteurs (runners) prenant en charge la plupart des langages de programmation courants sur les infrastructures Windows ou Linux.
+
+Pour commencer, accédez simplement à l'onglet « Actions » de votre référentiel GitHub.
+GitHub offre une excellente documentation sur [GitHub Actions](https://docs.github.com/fr/actions), ses [flux de travail (workflows)](https://docs.github.com/fr/actions/using-workflows/about-workflows) et leur [syntaxe](https://docs.github.com/fr/actions/using-workflows/workflow-syntax-for-github-actions).
+
+Quelques remarques supplémentaires :
+
+* Si votre pipeline requiert des secrets (clés API, mots de passe, etc.), il est crucial qu'ils ne soient pas codés directement dans vos scripts de workflow ou dans votre code source Git.
+  * Au besoin pour le déploiement, vous pouvez configurer des « environnements » dans GitHub et y stocker des secrets. Les environnements permettent également d'ajouter une étape d'approbation préalable au déploiement.
+  * Si les secrets sont nécessaires pour la CI ou des compilations génériques, ils peuvent être stockés sous forme de « repository secrets ».
+* L'hébergement de votre propre exécuteur (self-hosted runner) **n'est pas** recommandé. Les scripts de pipeline s'exécutent sur les branches avant l'approbation de la PR, ce qui signifie que toute personne autorisée à ouvrir une Pull Request dans votre référentiel peut modifier le script pour exécuter du code arbitraire sur l'exécuteur, ce qui constitue un risque de sécurité. Si cela est absolument nécessaire, les exécuteurs auto-hébergés doivent s'exécuter dans un environnement sécurisé et/ou jetable (comme un conteneur Docker réinitialisé à chaque exécution).
+
+### Dependabot et analyse de code (Code Scanning)
+
+Deux autres fonctionnalités recommandées de GitHub sont Dependabot et l'analyse de code.
+
+Dependabot peut vous alerter sur les vulnérabilités de sécurité découvertes dans les bibliothèques dont dépend votre projet. Il peut également mettre à jour automatiquement et périodiquement vos dépendances (combiné à des tests automatisés rigoureux, la mise à jour automatique des dépendances est une approche très efficace). Consultez la [documentation de Dependabot](https://docs.github.com/fr/code-security/dependabot/) pour plus de détails.
+
+GitHub peut également détecter les vulnérabilités dans votre propre code source en activant l'analyse de code (Code Scanning). Cette fonctionnalité, tout comme les alertes Dependabot, peut être activée dans l'onglet « Security » de votre référentiel. Consultez la [documentation sur l'analyse du code](https://docs.github.com/fr/code-security/secure-coding/about-code-scanning) pour plus de détails.

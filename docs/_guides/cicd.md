@@ -6,6 +6,8 @@ summary: Demonstrate at a high level the steps involved in a CI/CD pipeline.
 date: 2019-01-01
 ---
 
+*Le texte français est donné à la suite.*
+
 ## What is Continuous Integration and Continuous Delivery
 
 The diagram is meant to show at a high level the flow of a CI (Continuous Integration) / CD (Continuous Deployment) pipeline and provide guidance for your implementation.
@@ -162,3 +164,164 @@ If required, the notification is triggered by the successful deployment and exec
 [Continuous Integration vs Delivery vs Deployment](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 
 [Introduction to GitLab Flow](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/)
+
+---
+
+*Texte français:*
+
+### Qu'est-ce que l'intégration continue et la livraison continue
+
+Le diagramme vise à présenter à un niveau général le déroulement d'un pipeline CI (Intégration continue) / CD (Déploiement continu) et à guider votre mise en œuvre.
+
+![Pipeline CI/CD](../assets/cicd/pipeline-drawing.png)
+
+**L'intégration continue** établit une méthode cohérente et automatisée pour appliquer les modifications au code, tester et packager les applications. Les équipes qui pratiquent l'intégration continue fusionnent leurs modifications dans la branche principale le plus souvent possible, et les changements sont validés par l'exécution de tests automatisés lors de la compilation. Grâce à l'automatisation et à la cohérence du processus, les équipes publient des modifications de code plus fréquemment, ce qui améliore la collaboration, la qualité logicielle et évite les problèmes d'intégration. L'intégration continue met un accent particulier sur l'automatisation des tests pour s'assurer que l'application ne subit pas de régression lors de l'intégration de nouveaux commits dans la branche principale.
+
+**La livraison continue** est une extension de l'intégration continue qui garantit la mise à disposition rapide et durable de nouveaux changements (c'est-à-dire l'artefact produit lors de la CI) aux utilisateurs. Cela signifie qu'en plus d'avoir automatisé vos tests, vous avez également automatisé votre processus de publication, et vous pouvez déployer votre application à tout moment en cliquant sur un bouton vers vos environnements, y compris la production.
+
+**Le déploiement continu** va un cran plus loin que la livraison continue en supprimant toute intervention humaine du processus. Avec cette pratique, chaque modification réussissant toutes les étapes de votre pipeline de production est automatiquement mise à la disposition de vos utilisateurs; sa mise en œuvre exige donc maturité, rigueur et discipline.
+
+Les outils modernes tels qu'Azure DevOps et GitLab prennent en charge les pipelines CI/CD avec de légères variations dans leur mise en œuvre et leur terminologie, et peuvent combiner certaines des étapes décrites dans ce document. Ces outils vous aident à implémenter et gérer votre pipeline ainsi qu'à automatiser nombre de ces étapes. Le pipeline est exécuté de manière séquentielle; chaque étape doit donc être validée avant de passer à la suivante.
+
+Le diagramme illustre 3 occasions de tests qui peuvent inclure (sans s'y limiter) les types suivants : • Qualité du code • Tests unitaires • Intégration • Régression • Tests de bout en bout • Accessibilité • Sécurité • Performance • Normes de formatage • Analyse statique de code (Linting) • Portée des variables • Gestion des secrets • Vulnérabilités courantes (CVE) • Conformité des licences • Connectivité
+
+Le pipeline comprend 2 étapes d'approbation définies par votre équipe et vos partenaires.
+
+Le succès de votre pipeline dépendra de la mise en œuvre et de la maturité de chacune de ces étapes. Chaque étape devrait être une occasion pour votre équipe de réévaluer les pratiques courantes, de les optimiser et de privilégier l'automatisation.
+
+### Étapes du pipeline
+
+#### Créer un élément de travail
+
+* Première étape de la CI
+* Toute modification du code doit débuter par un élément de travail (work item)
+* Les éléments de travail peuvent représenter une anomalie ou une demande d'amélioration
+* Avoir une justification pour chaque modification informe le reste de l'équipe, clarifie l'objectif et permet de restreindre la portée du changement
+
+#### Créer une branche
+
+* Toute modification de code doit être effectuée de manière isolée dans une branche distincte de votre branche « Master »
+* Les branches doivent être de courte durée et fusionnées dans la branche « Master » le plus tôt possible
+* *Notes :*
+  * La branche « Master » fait référence à votre branche principale où réside le code validé le plus récent. Dans une mise en œuvre mature de CI/CD, le code de cette branche est identique à celui exécuté en production.
+  * Ce document n'a pas pour but de prescrire des stratégies de branches, mais de souligner que toute modification doit être réalisée sur une branche autre que « Master » et qu'une compilation ne doit être effectuée qu'à partir de la branche « Master », obligeant ainsi la fusion vers celle-ci.
+
+#### Modifier les tests
+
+* Tous les tests doivent être automatisés
+* Toute modification de code doit s'accompagner d'une mise à jour des tests existants et éventuellement de la création de nouveaux tests
+* Les données de test et les simulations (mocks) peuvent devoir être adaptées ou créées
+* En suivant le développement piloté par les tests (TDD), les tests sont créés en premier (initialement en échec) pour valider le résultat attendu. Des modifications minimales de code sont ensuite apportées pour satisfaire les tests.
+* Les tests à modifier ou créer comprennent notamment : tests unitaires, tests de sécurité, tests d'intégration, etc.
+
+#### Modifier le code
+
+* Les modifications apportées au code source visent à produire le résultat escompté
+* Les modifications doivent respecter vos meilleures pratiques
+* La création d'objets simulés (mocks) peut faire partie de cette étape
+
+#### Exécuter les tests
+
+* Les tests s'exécutent automatiquement lors de chaque commit
+* Tous les tests modifiés ou créés sont exécutés
+* Tous les autres tests jugés nécessaires sont exécutés
+* Les ajustements au code ou aux tests peuvent être apportés à ce moment
+* Les tests à cette étape se concentrent entre autres sur :
+  * La qualité du code
+  * La fonctionnalité (existante et nouvellement introduite)
+  * La sécurité
+
+#### Révision de code
+
+* Étape d'assurance qualité où un ou plusieurs pairs examinent les modifications
+* L'auteur des modifications ne doit pas être un réviseur, mais le destinataire des commentaires/rétroactions afin d'apprendre et de s'améliorer
+* Toute modification suggérée peut être effectuée soit par l'auteur, soit par les réviseurs
+
+#### Approuver les changements
+
+* Point de contrôle pour garantir la qualité de chaque étape avant que les modifications ne soient intégrées à la branche « Master »
+* Le processus d'approbation est défini par votre équipe
+
+#### Fusionner
+
+* La fusion est déclenchée par l'approbation des changements
+* Une fois tous les points de contrôle satisfaits, les modifications de code sont fusionnées dans la branche « Master » en vue de la compilation
+* La branche créée pour réaliser les modifications peut être supprimée
+* Tout conflit de fusion est résolu à cette étape
+
+#### Fermer l'élément de travail
+
+* L'élément de travail créé au début du pipeline peut désormais être fermé
+* Assurez-vous d'inclure les informations et commentaires nécessaires
+
+#### Compiler (Build)
+
+* La compilation est déclenchée par la fusion dans la branche « Master »
+* Les compilations doivent uniquement être effectuées à partir de la branche principale
+* Le processus récupère la version la plus récente du code source depuis la branche principale et le compile
+* Le résultat est un artefact
+
+#### Compiler - Exécuter les tests
+
+* La création réussie de l'artefact déclenche l'exécution des tests
+* Tous les tests requis doivent être exécutés
+* L'étape est terminée dès que tous les tests réussissent
+* Les tests à cette étape ciblent notamment :
+  * La fonctionnalité (existante et nouvellement introduite)
+  * La sécurité
+  * L'intégration
+* Les ajustements au code ou aux tests peuvent être effectués à cette étape au besoin
+
+#### Compiler - Étiqueter / Versionner le code source
+
+* L'exécution réussie des tests déclenche l'étiquetage (tagging/labeling) pour figer un instantané du code source à un moment précis
+* Cela permet de :
+  * Comparer les versions antérieures
+  * Revenir à un état précis du code source
+
+#### Compiler - Publier dans le référentiel d'artefacts
+
+* Dernière étape de la CI
+* Après l'étiquetage, l'artefact compilé est publié dans le référentiel d'artefacts
+* Le résultat est un artefact prêt pour le déploiement
+
+#### Approuver le déploiement (Optionnel)
+
+* Première étape de la CD
+* Ce point de contrôle est facultatif et offre une flexibilité aux équipes pour décider si une approbation est requise pour un environnement donné. Par exemple : les environnements hors production peuvent ne pas exiger d'approbation, tandis que la production peut nécessiter l'approbation du partenaire d'affaires.
+* Le processus d'approbation est défini par votre équipe et votre partenaire d'affaires
+
+#### Déployer
+
+* En livraison continue, le déploiement est déclenché soit par le processus d'approbation optionnel, soit par intervention humaine. En déploiement continu, le déploiement est déclenché automatiquement dès la fin de la compilation.
+* Une fois lancé, le déploiement doit être automatisé sans nécessiter d'intervention humaine
+* Cette étape consiste à récupérer un artefact du référentiel et à le déployer sur un environnement précis
+* Le déploiement peut comprendre l'installation de l'artefact, de ses dépendances et de la configuration requise
+* Le processus de déploiement est défini par votre équipe et peut viser 1 environnement ou plusieurs environnements séquentiellement (INT, TST, UAT, PERF, Staging...)
+
+#### Exécuter les tests (*de nouveau*)
+
+* Le déploiement réussi déclenche l'exécution des tests
+* Les tests vérifient que l'artefact déployé fonctionne comme prévu
+* Les tests à cette étape ciblent principalement :
+  * La sécurité
+  * L'intégration
+  * La connectivité
+
+#### Informer les parties prenantes
+
+Au besoin, une notification est transmise automatiquement à la suite du déploiement et de l'exécution réussie des tests.
+
+#### Surveillance et soutien
+
+* Dernière étape de la CD
+* Surveiller l'état de santé de la solution
+* Fournir le soutien nécessaire
+
+### Références
+
+[Continuous Integration and Continuous Delivery Explained (en anglais)](https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html)
+
+[Continuous Integration vs Delivery vs Deployment (en anglais)](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+
+[Introduction to GitLab Flow (en anglais)](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/)
