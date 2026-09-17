@@ -6,6 +6,8 @@ summary: Describing the best methods to manage code reviews and merges.
 date: 2019-09-01
 ---
 
+*Le texte français est donné à la suite.*
+
 ## Overall best practices
 
 - Be kind.
@@ -96,3 +98,95 @@ The collaberation allows the _reivewer_ and _author_ of the code change to learn
 ## Attribution
 
 Some content copied from [GitLab Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-merge-request-author)
+
+---
+
+*Texte français:*
+
+### Bonnes pratiques générales
+
+- Soyez bienveillant.
+- Acceptez que de nombreuses décisions de programmation relèvent d'opinions. Discutez des compromis et trouvez rapidement une solution.
+- Posez des questions au lieu d'imposer des exigences. (« Que penses-tu de nommer ceci :user_id ? »)
+- Demandez des éclaircissements. (« Je n'ai pas compris. Peux-tu préciser ? »)
+- Évitez le sentiment d'appropriation exclusive du code. (« mon code », « ton code »)
+- Évitez les termes pouvant être perçus comme visant des traits personnels (« idiot », « stupide »). Partez du principe que tout le monde est compétent et bien intentionné.
+- Soyez explicite. N'oubliez pas que vos intentions ne sont pas toujours évidentes par écrit.
+- Restez humble. (« Je n'en suis pas certain - vérifions ensemble. »)
+- Évitez les hyperboles (« toujours », « jamais », « rien »).
+- Soyez prudent avec le sarcasme. Nos échanges sont publics; une plaisanterie amicale envers un collègue de longue date peut paraître blessante pour un nouveau venu.
+- Envisagez un échange direct ou un appel vidéo s'il y a trop de commentaires d'incompréhension. Publiez ensuite un commentaire résumant la discussion.
+- Si vous posez une question à une personne précise, mentionnez-la au début du commentaire afin qu'elle reçoive la notification et que les autres sachent qu'ils n'ont pas à répondre.
+
+### Responsabilités de l'*auteur*
+
+- Gardez vos changements de taille réduite avec une portée bien définie.
+- Décrivez les modifications dans la Pull Request / Merge Request. Liez-la à une tâche.
+- Les nouvelles fonctions et conditions doivent s'accompagner de nouveaux tests unitaires. Les fonctions modifiées ne doivent pas briser les tests existants.
+- Les sections de code complexes doivent être commentées.
+
+#### Faire réviser son code
+
+Gardez à l'esprit que la révision de code est un processus itératif et que les réviseurs peuvent relever des éléments plus tard qu'ils n'avaient pas vus au premier abord.
+
+- Vous êtes le premier réviseur de votre code. Avant de pousser votre nouvelle branche, examinez l'ensemble du diff. Est-ce cohérent ? Y a-t-il du code superflu ou du code de débogage oublié ?
+- Accueillez favorablement les suggestions des réviseurs. (« Bonne remarque, je fais la modification. »)
+- Ne prenez pas les remarques personnellement. La révision porte sur le code, pas sur votre personne.
+- Expliquez la raison d'être du code. (« C'est ainsi pour telle raison. Serait-ce plus clair si je renomme cette classe/méthode/variable ? »)
+- Isolez les changements non reliés et les refactorisations dans de futures demandes de fusion ou tickets.
+- Cherchez à comprendre la perspective du réviseur.
+- Efforcez-vous de répondre à chaque commentaire.
+- L'auteur ne résout que les fils de discussion qu'il a entièrement traités. En cas de question ou suggestion ouverte, le fil doit être laissé à la résolution du réviseur.
+- Poussez les commits de rétroaction de manière isolée sans les écraser (squash) immédiatement, afin que les réviseurs puissent voir l'évolution.
+- Réassignez la demande de fusion au réviseur lorsque vous êtes prêt pour un nouvel examen, ou mentionnez-le (@mention).
+
+### Responsabilités du *réviseur*
+
+- En approuvant une fusion, vous partagez la responsabilité du code avec son auteur. Vous devez donc le comprendre tout aussi bien.
+- Ne révisez que les lignes modifiées.
+- Tout intervenant du projet peut soulever des points bloquants sur une PR/MR, même s'il n'y est pas formellement assigné.
+- L'objectif ultime d'une PR/MR doit être le transfert de connaissances.
+
+#### Réviser le code
+
+Comprenez pourquoi le changement est nécessaire (correction de bogue, amélioration UX, refactorisation). Ensuite :
+
+- Soyez rigoureux pour limiter le nombre d'itérations.
+- Exprimez clairement les points qui vous tiennent à cœur et ceux qui sont secondaires.
+- Cherchez à simplifier le code tout en répondant au besoin.
+- Proposez des implémentations alternatives avec bienveillance.
+- Tentez de comprendre le point de vue de l'auteur.
+- Si un extrait de code vous paraît obscur, dites-le.
+- Préfixez vos remarques non bloquantes par « Non bloquant : » pour indiquer qu'il s'agit d'une suggestion facultative.
+- Après vos commentaires détaillés, publiez une note de synthèse comme « LGTM :thumbsup: » ou « Juste quelques points à revoir ».
+- Réassignez la demande à l'auteur si des corrections sont requises.
+- Utilisez l'option d'écrasement de commits (*Squash and merge*) si l'historique de la branche est chargé et désordonné.
+
+#### Trouver le juste équilibre
+
+L'un des aspects les plus délicats de la révision de code consiste à doser le niveau d'intervention sur le travail d'autrui.
+
+- Détecter les bogues et soigner le style est crucial, mais concevoir une architecture propre l'est tout autant. Les bonnes abstractions facilitent les évolutions futures.
+- Demander une refonte de conception peut signifier réécrire le code soumis. Discutez-en au préalable avec un autre pair, mais ayez le courage de le proposer si c'est pertinent.
+- Faire les choses parfaitement et répondre à l'urgence sont deux impératifs distincts. Pour un correctif de sécurité urgent, évitez d'exiger une refactorisation majeure.
+- Une solution satisfaisante livrée aujourd'hui vaut souvent mieux qu'une solution parfaite livrée trop tard. En cas de doute, sollicitez l'avis de vos pairs.
+
+### FAQ
+
+#### En quoi les petits changements aident-ils mon projet ?
+
+Les petites modifications permettent d'évaluer et de valider chaque changement de manière isolée. Elles accélèrent considérablement le travail de révision et l'intégration continue. Lors de l'analyse rétrospective de l'historique Git, les commits ciblés facilitent grandement la compréhension des intentions passées.
+
+#### Pourquoi la révision de code est-elle essentielle ?
+
+Le but premier de la révision de code est la collaboration et le partage de connaissances au sein de l'équipe, assurant ainsi une qualité logicielle durable.
+
+#### Comment éviter que les révisions ne monopolisent tout mon temps ?
+
+- **Gardez les changements petits !** Si une PR est trop volumineuse et divisible, demandez à la scinder.
+- **Ne validez pas l'exécution manuellement.** Laissez le pipeline de tests automatisés faire son travail. Concentrez-vous sur la logique et la cohérence métier.
+- Si le code n'est pas clair, **demandez des explications**. Ne perdez pas de temps à deviner; le code ou les commentaires doivent être compréhensibles en quelques minutes.
+
+### Attribution
+
+Certains éléments sont adaptés des [GitLab Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-merge-request-author).
