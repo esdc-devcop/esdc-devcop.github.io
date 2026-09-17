@@ -23,7 +23,7 @@ date: 2019-09-01
 - Consider one-on-one chats or video calls if there are too many “I didn’t understand” or “Alternative solution:” comments. Post a follow-up comment summarizing one-on-one discussion.
 - If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is set to “mentioned” and other people will understand they don’t have to respond.
 
-## Responsibility of the _author_
+## Responsibility of the *author*
 
 - Keep your changes small with a clear scope.
 - Describe the changes in the Pull Request. Link it to a task.
@@ -45,7 +45,7 @@ Please keep in mind that code review is a process that can take multiple iterati
 - Push commits based on earlier rounds of feedback as isolated commits to the branch. Do not squash until the branch is ready to merge. - Reviewers should be able to read individual updates based on their earlier feedback.
 - Assign the merge request back to the reviewer once you are ready for another round of review. If you do not have the ability to assign merge requests, @ mention the reviewer instead.
 
-## Responsibility of the _reviewer_
+## Responsibility of the *reviewer*
 
 - When approving a merge, you are just as responsible for the changes as the person who made them. So you should understand them just as well.
 - Only review changed lines.
@@ -87,12 +87,12 @@ Later when going though history trying to identify issues, the smaller changes w
 ### Why do code reviews matter?
 
 The primary goal of a code reivew should be collaberation.
-The collaberation allows the _reivewer_ and _author_ of the code change to learn more about the project, enabling them both to make better changes to the project in the moment and in the future.
+The collaberation allows the *reivewer* and *author* of the code change to learn more about the project, enabling them both to make better changes to the project in the moment and in the future.
 
 ### How do I keep reviews from taking up all my time?
 
 - **Keep the changes small!** If the change is too large and could have been broken appart, reject it.
-- **Don't validate the code** in your reivew. Let the pipeline do that work for you. Focus on learning what it is the _author_ is trying to do, and check that what they did makes sense.
+- **Don't validate the code** in your reivew. Let the pipeline do that work for you. Focus on learning what it is the *author* is trying to do, and check that what they did makes sense.
 - If you don't understand the change, **ask for more details**. Don't spend time trying to figgure it out, it should be simple enough (or explained in comments) to understand in a minute or two.
 
 ## Attribution
@@ -171,7 +171,9 @@ L'un des aspects les plus délicats de la révision de code consiste à doser le
 - Faire les choses parfaitement et répondre à l'urgence sont deux impératifs distincts. Pour un correctif de sécurité urgent, évitez d'exiger une refactorisation majeure.
 - Une solution satisfaisante livrée aujourd'hui vaut souvent mieux qu'une solution parfaite livrée trop tard. En cas de doute, sollicitez l'avis de vos pairs.
 
+<!-- markdownlint-disable MD024 -->
 ### FAQ
+<!-- markdownlint-enable MD024 -->
 
 #### En quoi les petits changements aident-ils mon projet ?
 
@@ -187,6 +189,8 @@ Le but premier de la révision de code est la collaboration et le partage de con
 - **Ne validez pas l'exécution manuellement.** Laissez le pipeline de tests automatisés faire son travail. Concentrez-vous sur la logique et la cohérence métier.
 - Si le code n'est pas clair, **demandez des explications**. Ne perdez pas de temps à deviner; le code ou les commentaires doivent être compréhensibles en quelques minutes.
 
+<!-- markdownlint-disable MD024 -->
 ### Attribution
+<!-- markdownlint-enable MD024 -->
 
 Certains éléments sont adaptés des [GitLab Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-merge-request-author).

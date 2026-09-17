@@ -48,7 +48,9 @@ This will bypass proxy for all of your local repositories. Your settings will be
 
 Cette page répond à certaines questions concernant les problèmes courants rencontrés lors de l'installation de Git et les erreurs lors de son utilisation.
 
+<!-- markdownlint-disable MD024 -->
 ### Installation
+<!-- markdownlint-enable MD024 -->
 
 Pour demander l'installation de GIT sur votre poste de travail à partir du catalogue d'applications NSD :
 

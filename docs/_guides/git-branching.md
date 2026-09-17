@@ -16,7 +16,7 @@ The Branching Model helps provide a common practice that everyone can openly kno
 
 ### Picking a Branching Model
 
-Picking the right branching model for your project can be difficult because there are a lot of models out there and they all advocate they are the _best_.
+Picking the right branching model for your project can be difficult because there are a lot of models out there and they all advocate they are the *best*.
 When picking a model look at your project first.
 Define some requirements that you need your model to meet based on your release cycles to all the different environments you support and what kind of project it is.
 An API or Web Service might need a different model than a Web App.
@@ -36,11 +36,11 @@ We have extracted a few requirements from our typical ESDC release process.
 
 | Key Features | [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) | [OneFlow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow) | [Microsoft Release Flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow) | [GitHub Flow](https://githubflow.github.io/) | [GitLab Flow](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/) |
 | :--- | --- | --- | --- | --- | --- | --- |
-| Production and Development branches segregated * | :heavy_check_mark: | :grey_question: (Optional) | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |
-| Manages Staging/Release branches * | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: |
+| Production and Development branches segregated *| :heavy_check_mark: | :grey_question: (Optional) | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |
+| Manages Staging/Release branches* | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: |
 | ER branching similar to "regular" * | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
-| Easy to follow history ** | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
-| Easy to learn when new to Git ** | :heavy_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
+| Easy to follow history **| :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
+| Easy to learn when new to Git** | :heavy_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
 | Maintains all main branches (reduced chances of code loss) | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_check_mark: |
 | Designed for Continuous Deployment | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
 | Designed for Continuous Delivery | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |
@@ -55,11 +55,11 @@ We have extracted a few requirements from our typical ESDC release process.
 Use [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) branching model.
 It is great for managing releases and parallel development in large applications.
 
-This model has two _primary_ branches, `master` & `dev`, that always exist.
-All other branches only exist as long as they are active (until merged into a _primary_ or _secondary_ branch).
-The _secondary_ branches include _`release`_, _`feature`_ and _`hotfix`_.
-Both the _primary_ and _secondary_ branches should be protected to only accept changes via a pull or merge request.
-The last branch is a _`working`_ branch.
+This model has two *primary* branches, `master` & `dev`, that always exist.
+All other branches only exist as long as they are active (until merged into a *primary* or *secondary* branch).
+The *secondary* branches include *`release`*, *`feature`* and *`hotfix`*.
+Both the *primary* and *secondary* branches should be protected to only accept changes via a pull or merge request.
+The last branch is a *`working`* branch.
 This branch is the only place you should be committing code against.
 
 GitFlow can be fairly simplistic but also get very complex.
@@ -97,11 +97,11 @@ Nous avons dégagé quelques exigences issues du processus de livraison typique 
 
 | Fonctionnalités clés | [GitFlow](https://www.atlassian.com/fr/git/tutorials/comparing-workflows/gitflow-workflow) | [OneFlow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow) | [Microsoft Release Flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow) | [GitHub Flow](https://githubflow.github.io/) | [GitLab Flow](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/) |
 | :--- | --- | --- | --- | --- | --- | --- |
-| Branches de production et de développement séparées * | :heavy_check_mark: | :grey_question: (Optionnel) | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |
-| Gestion des branches de staging / release * | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: |
+| Branches de production et de développement séparées *| :heavy_check_mark: | :grey_question: (Optionnel) | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |
+| Gestion des branches de staging / release* | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: |
 | Ramification d'urgence similaire au flux régulier * | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
-| Historique facile à suivre ** | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
-| Facile à apprendre pour les débutants Git ** | :heavy_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
+| Historique facile à suivre **| :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
+| Facile à apprendre pour les débutants Git** | :heavy_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
 | Maintient toutes les branches principales (risque réduit de perte de code) | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_check_mark: |
 | Conçu pour le déploiement continu | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
 | Conçu pour la livraison continue | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |

@@ -14,7 +14,7 @@ date: 2019-09-01
 
 ## Steps
 
-1. _(Optional)_ Decouple projects and services
+1. *(Optional)* Decouple projects and services
 1. Scan & Remove secrets (encrypt where necessary)
 1. Migrate TFS Tasks to Issues (manual, overtime, after a release)
 1. Migrate the Code
@@ -29,7 +29,7 @@ date: 2019-09-01
 > 1. Clone and copy the files from the [template-gabarit](https://github.com/canada-ca/template-gabarit) project
 > 1. Use the [label-generator](https://github.com/esdc-edsc/label-generator) to add default starter labels to your project
 >
-> _Note: You may need to configure your repository to bypass the network proxy to be able to clone from GitHub._
+> *Note: You may need to configure your repository to bypass the network proxy to be able to clone from GitHub.*
 
 ### Setting up a GitHub repository for your team
 
@@ -37,11 +37,11 @@ date: 2019-09-01
 > 1. Create a new Organization for your team
 > 1. Create an issue in the [ESDC Welcome](https://github.com/esdc-edsc/Welcome/issues/new?assignees=&labels=team&template=list-team-group.md&title=) project and fill out the `List Team Group` template
 > 1. Fork the [template-gabarit](https://github.com/canada-ca/template-gabarit) project into your new ogranization.
-> 1. Change the _Settings_ of that forked project to be a _Template repository_ (under _Repository name_)
+> 1. Change the *Settings* of that forked project to be a *Template repository* (under *Repository name*)
 > 1. Create a new repository using the forked template project as the template
 > 1. Use the [label-generator](https://github.com/esdc-edsc/label-generator) to add default starter labels to your project
 >
-> _Note: You may need to configure your repository to bypass the network proxy to be able to clone from GitHub._
+> *Note: You may need to configure your repository to bypass the network proxy to be able to clone from GitHub.*
 
 ## FAQ
 
@@ -50,11 +50,11 @@ date: 2019-09-01
 > It looks very similar in GitLab.
 
 **Labels & Issue Templates!!!**  
-_Labels_ are critical to organizing _Issues_ (or _WorkItems_). _Bugs_ are given a `bug` label. Things like _UserStory_ are given an `enhancement` or `feature request` label.  
-_Issue Templates_ help users creating new _Issues_ to fill out all of the necessary details for a standard _Issue_.
-You can copy `bug` and `feature` _Issue templates_ from the [ESDC Template](https://github.com/canada-ca/template-gabarit/tree/main/.github/ISSUE_TEMPLATE) project.
+*Labels* are critical to organizing *Issues* (or *WorkItems*). *Bugs* are given a `bug` label. Things like *UserStory* are given an `enhancement` or `feature request` label.  
+*Issue Templates* help users creating new *Issues* to fill out all of the necessary details for a standard *Issue*.
+You can copy `bug` and `feature` *Issue templates* from the [ESDC Template](https://github.com/canada-ca/template-gabarit/tree/main/.github/ISSUE_TEMPLATE) project.
 
-We recommend that you start with the _key_ labels from [ESDC Label Generator](https://github.com/esdc-edsc/label-generator) project to add default labels to your project or group and add more as it helps you organize your project.
+We recommend that you start with the *key* labels from [ESDC Label Generator](https://github.com/esdc-edsc/label-generator) project to add default labels to your project or group and add more as it helps you organize your project.
 You should have labels that identify key parts of your application.
 You should also add labels to help with the flow of your team’s processes.
 
@@ -133,7 +133,9 @@ If GCcode is the development platform (which it has been recommended to be) the 
 >
 > *Remarque : Vous pourriez devoir configurer votre référentiel pour contourner le proxy réseau afin de pouvoir cloner depuis GitHub.*
 
+<!-- markdownlint-disable MD024 -->
 ### FAQ
+<!-- markdownlint-enable MD024 -->
 
 #### Comment gérer les éléments de type UserStory, WorkItem, bogues dans GitLab ?
 

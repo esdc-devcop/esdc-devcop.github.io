@@ -109,7 +109,9 @@ Ce guide s'adresse aux personnes qui n'ont jamais présenté lors de nos séance
 
 ### Structurer votre présentation
 
+<!-- markdownlint-disable MD024 -->
 #### Introduction
+<!-- markdownlint-enable MD024 -->
 
 Présentez-vous. Expliquez ce que vous présentez et pourquoi cela compte pour VOUS ! C'est le moment de valoriser votre sujet et de montrer comment il simplifiera le travail quotidien de vos collègues.
 

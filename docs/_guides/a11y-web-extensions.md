@@ -64,7 +64,9 @@ Add your HTML source code directly to the **Validate by Direct Input** field in 
 
 ### Liens pour les extensions de navigateur de test d'accessibilité
 
+<!-- markdownlint-disable MD024 -->
 #### Accessibility Insights
+<!-- markdownlint-enable MD024 -->
 
 Pour demander l'installation d'Insights pour **Windows** sur votre poste de travail à partir du catalogue d'applications NSD :
 
@@ -82,7 +84,9 @@ Ajoutez l'[extension de navigateur Accessibility Insights](https://accessibility
 
 [<img src="../assets/a11y-web-extensions/Insights_4.png" width="40%" alt="Extension web Accessibility Insights - Installation réussie"/>](../assets/a11y-web-extensions/Insights_4.png)
 
+<!-- markdownlint-disable MD024 -->
 #### WAVE
+<!-- markdownlint-enable MD024 -->
 
 Ajoutez l'[extension de navigateur WAVE](https://wave.webaim.org/extension/ "Extension de navigateur WAVE") directement dans votre navigateur (pour Chrome, Edge, Firefox) :
 
@@ -94,7 +98,9 @@ Ajoutez l'[extension de navigateur WAVE](https://wave.webaim.org/extension/ "Ext
 
 [<img src="../assets/a11y-web-extensions/WAVE_5.png" width="40%" alt="Extension web WAVE - Installation réussie"/>](../assets/a11y-web-extensions/WAVE_5.png)
 
+<!-- markdownlint-disable MD024 -->
 #### Axe Dev Tools
+<!-- markdownlint-enable MD024 -->
 
 Ajoutez l'[extension de navigateur Axe DevTools](https://www.deque.com/axe/devtools/extension/ "Extension de navigateur Axe DevTools") directement dans votre navigateur (pour Chrome, Edge, Firefox) :
 

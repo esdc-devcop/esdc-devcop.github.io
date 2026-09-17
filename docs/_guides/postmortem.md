@@ -194,7 +194,9 @@ La documentation de l'incident enrichit la base de connaissances et permet de pa
 
 * Les équipes partagent la première version en interne et invitent les groupes participants à en valider l'exhaustivité
 
+<!-- markdownlint-disable MD024 -->
 #### Publication
+<!-- markdownlint-enable MD024 -->
 
 * Une fois révisée, l'analyse post-mortem peut être publiée ouvertement.
 * L'objectif est de la diffuser auprès du public le plus large possible pour maximiser le partage des connaissances acquises

@@ -513,7 +513,10 @@ Afin de pousser votre référentiel local vers le service d'hébergement distant
 * [De TFS à GCcode](tfs-to-gccode)
 
 <a id="faq-fr"></a>
+
+<!-- markdownlint-disable MD024 -->
 ### FAQ
+<!-- markdownlint-enable MD024 -->
 
 #### Est-il possible de migrer l'historique des modifications (changesets) de TFVC vers Git ?
 

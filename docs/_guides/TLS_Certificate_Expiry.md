@@ -76,17 +76,17 @@ To open a Ticket:
   * Your production URL.
   * List of Producton web server names.
 
-Here is a template you can use to submit your NSD ticket. Simply replace the %_variables_% with your own values.
+Here is a template you can use to submit your NSD ticket. Simply replace the %*variables*% with your own values.
 
 >Hello,
 >
->Our application is: %_intranet_or_internet_%.
+>Our application is: %*intranet_or_internet*%.
 >
->Our TLS Certificates for the %_production_url_% will expire on %expiration_date%.
+>Our TLS Certificates for the %*production_url*% will expire on %expiration_date%.
 >
 >Please renew our TLS certificates for the following web servers:
 >
->%_server_name_1_%, %_server_name_2_%, %_server_name_3_%, %_server_name_4_%
+>%*server_name_1*%, %*server_name_2*%, %*server_name_3*%, %*server_name_4*%
 
 ---
 
@@ -160,14 +160,14 @@ Pour soumettre un Ticket:
   * L’URL de votre site de production.
   * La liste des noms de serveur web de production associés.
 
-Voici un modèle que vous pouvez utiliser pour soumettre votre ticket NSD. Remplacez simplement dans ce modèle les %_variables_% par la valeur pertinente dans votre cas.
+Voici un modèle que vous pouvez utiliser pour soumettre votre ticket NSD. Remplacez simplement dans ce modèle les %*variables*% par la valeur pertinente dans votre cas.
 
 >Bonjour,
 >
->Notre application est: %_intranet_or_internet_%
+>Notre application est: %*intranet_or_internet*%
 >
->Le certificat TLS pour %_production_url_% expire le %_expiration_date_%.
+>Le certificat TLS pour %*production_url*% expire le %*expiration_date*%.
 >
 >SVP renouveller le certificats sur les serveurs suivants:
 >
->%_server_name_1_%, %_server_name_2_%, %_server_name_3_%, %_server_name_4_%.
+>%*server_name_1*%, %*server_name_2*%, %*server_name_3*%, %*server_name_4*%.
