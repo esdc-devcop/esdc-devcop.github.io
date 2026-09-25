@@ -1,4 +1,22 @@
 past:
+  - month: Sept 2026
+    month_fr: Sept 2026
+    topic: "Season Opener: CoP Framework 2026-2027 & DevOps"
+    topic_fr: "Ouverture de saison : Cadre des CdP 2026-2027 et DevOps"
+    resources:
+      - title: CoP Framework 2026-2027 for Season Opener (Presentation)
+        title_fr: Cadre des CdP 2026-2027 pour ouverture de saison (Présentation)
+        link: https://014gc.sharepoint.com/:p:/s/DEVCommunity/IQBnRtdbvshaTZooAQmiOaRkAdZPDENwGczgLQK6p4tHTR0?e=W3HXBz
+      - title: Cadre des CdP 2026-2027 pour ouverture de saison (Présentation FR)
+        title_fr: Cadre des CdP 2026-2027 pour ouverture de saison (Présentation)
+        link: https://014gc.sharepoint.com/:p:/s/DEVCommunity/IQDtviVpodgsTbavvYdRu0CuAafc584jtIG5QBNKtaovMTo?e=myqFX6
+      - title: DevOps Presentation
+        title_fr: Présentation DevOps (EN)
+        link: https://014gc.sharepoint.com/:p:/s/DEVCommunity/IQB2rWhaYi7MSqWNxxvF_FHgAZ4h9Ax0DtBQ6V6Ul34Wno4?e=31y3UO
+      - title: Présentation DevOps (FR)
+        title_fr: Présentation DevOps
+        link: https://014gc.sharepoint.com/:p:/s/DEVCommunity/IQAjNJAg0s9-R5Ur8qHCK6YlATc6u2j8WqmB2e1gKT7VwDc?e=EQL9vW
+
   - month: June 2026
     month_fr: Juin 2026
     topic: "Prototyping with AI"
