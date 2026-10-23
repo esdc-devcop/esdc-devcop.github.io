@@ -1,4 +1,14 @@
 past:
+  - month: Oct 2026
+    month_fr: Oct 2026
+    topic: "October Session IITB Developers and Resource Center Business Analysts CoPs"
+    topic_fr: "Séance d'octobre des CoPs des développeurs de la DGIIT et des analystes d'affaire du Centre de ressourcess"
+    recording: https://014gc.sharepoint.com/:v:/s/DEVCommunity/IQDvIPDt_j7ST6Oj8_P-SGKbAUz5kIi-aBNGgtURZZ6qjIM
+    resources:
+      - title: CoP Guidebook (Presentation)
+        title_fr: CdP Livraison de produits (Présentation)
+        link: https://014gc.sharepoint.com/:p:/s/DEVCommunity/IQC512Pf1yBGT4eYXSJ-mP5oAbEIpD5A0nange0zIgJ1iv4
+
   - month: Sept 2026
     month_fr: Sept 2026
     topic: "Season Opener: CoP Framework 2026-2027 & DevOps"
