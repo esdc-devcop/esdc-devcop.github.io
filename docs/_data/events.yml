@@ -1,4 +1,17 @@
 past:
+  - month: Nov 2026
+    month_fr: Nov 2026
+    topic: "Generating unit tests with Copilot and enforcing client- and server-side session timeouts"
+    topic_fr: "Génération de tests unitaires avec Copilot et application des délais d'expiration de session côté client et côté serveur"
+    recording: https://014gc.sharepoint.com/:v:/s/DEVCommunity/IQCl8YKy9IoQTY5lS_louiW3Ae6OWq0TYiwr4HDSFTpu670?e=kULtZD
+    resources:
+      - title: Server session timeout (Presentation)
+        title_fr: Délai d'expiration de session serveur (Présentation)
+        link: https://014gc.sharepoint.com/:p:/s/DEVCommunity/IQAU8CW9O0wUTbTmth27dbhIAdeEdNmRKdWFoHuQJdrHRGc?e=nt69c4
+      - title: Generating unit tests with Copilot (Presentation)
+        title_fr: Génération de tests unitaires avec Copilot (Présentation)
+        link: https://014gc.sharepoint.com/:p:/s/DEVCommunity/IQAnCa9sEXJZTp25BzgjdwtxAepLE9TJMjC7V9-t9-eCZEM?e=sufViO
+
   - month: Oct 2026
     month_fr: Oct 2026
     topic: "October Session IITB Developers and Resource Center Business Analysts CoPs"
